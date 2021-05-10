@@ -6,6 +6,8 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+app.get('/get_datas', require("./controllers/get_datas_api.js"))
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })

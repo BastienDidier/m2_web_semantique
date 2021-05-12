@@ -3,7 +3,6 @@
 
 // NPM Modules
 var async 			= require("async");
-var unirest 		= require("unirest");
 var request 		= require("request");
 
 // Init

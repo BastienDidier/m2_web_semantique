@@ -1,6 +1,6 @@
 var async=require('async');
 var request=require('request');
-var papa = require("papaparse").papa ;
+var papaparse = require("papaparse");
 const csvtojson=require('csvtojson')
 var fs = require("fs");
 
@@ -21,7 +21,7 @@ async.waterfall([
 
         parse_json,
         each_row,
-        build_new_file,
+        build_new_file
 
     ],
     function(error,result){
@@ -62,7 +62,6 @@ var  parse_json = function(wdatas, wcb)
 		else
 		{
 			wdatas.json_datas = jsonObj;
-			console.log(jsonObj[0]);
 			return wcb(null, wdatas);
 		}
 	})
@@ -76,18 +75,18 @@ var each_row = function(wdatas, wcb)
 
 	if(json_datas.length > 10)
 	{
-		async.eachLimit(json_datas, 10, function(row, cb)
+		async.eachLimit(json_datas.slice(0, 2), 1, function(row, cb)
 		{
 		    waterfall_row(row, function(err, result)
 		    {
 		    	if(err)
 		    	{
 		    		console.log(err);
-		    		return cb(err, null);
+		    		return cb(null, null);
 		    	}
 		    	else
 		    	{
-		    		formated_json_datas.push(result.data);
+		    		formated_json_datas.push(result.datas);
 		    		return cb(null, result.data);
 		    	}
 		    });
@@ -129,8 +128,7 @@ var waterfall_row = function(datas, callback)
 	        },
 	
 	        get_id_imdb,
-	        call_api,
-	
+			call_api
 	    ],
 	    function(error,result){
 	
@@ -139,7 +137,6 @@ var waterfall_row = function(datas, callback)
 	           return callback("[waterfall_row]"+error, );
 	
 	        }else{
-				
 				return callback(null, result)
 	        }
 	    });
@@ -150,7 +147,8 @@ var waterfall_row = function(datas, callback)
 var get_id_imdb = function(wdatas, wcb)
 {
 	console.log("get_id_imdb")
-	var title = wdatas.row["nom_tournage"];
+	var title = wdatas.row["nom_tournage"].replace(" ", "%20");
+	console.log(title)
 
 	var options = {
 	  method: 'GET',
@@ -168,8 +166,26 @@ var get_id_imdb = function(wdatas, wcb)
 		}
 		else
 		{
-			wdatas.id = JSON.parse(body).titles[0].id;
-			return wcb(null, wdatas)
+			try{ 
+
+			  	var datas_api = JSON.parse(body);
+				if( datas_api && datas_api.titles && datas_api.titles.length > 0)
+				{
+					wdatas.id = datas_api.titles[0].id;
+				}
+
+			} catch(e) { 
+			 	return wcb("[get_id_imdb] error parse", wdatas);
+			}
+			if(wdatas.id)
+			{
+				console.log(wdatas.id);
+				return wcb(null, wdatas)
+			}
+			else
+			{
+				return wcb("err", wdatas);
+			}
 		}
 
 	});
@@ -181,6 +197,7 @@ var call_api = function(wdatas, wcb)
 	var row = wdatas.row;
 	var api_key = "3f9452cb";
 	var id = wdatas.id;
+
 	var url = "http://www.omdbapi.com/?apikey=" + api_key + "&i=" + id.toString()
 	var options = {
 	  method: 'GET',
@@ -194,16 +211,24 @@ var call_api = function(wdatas, wcb)
 			console.log(error)
 			return wcb("[get_datas_per_id]", wdatas);
 		}
-		var datas = JSON.parse(body)
 
-		row["actors"] = datas["Actors"];
-		row["runtime"] = datas["runtime"];
-		row["Genre"] = datas["Genre"];
-		row["Metascore"] = datas["Metascore"];
-		row["Released"] = datas["Released"];
+		try{ 
+		  	var datas = JSON.parse(body);
 
-		wdatas.datas = row;
-		return wcb(null, wdatas)
+		  	row["actors"] = datas["Actors"];
+		  	row["runtime"] = datas["Runtime"];
+		  	row["Genre"] = datas["Genre"];
+		  	row["Metascore"] = datas["Metascore"];
+		  	row["Released"] = datas["Released"];
+
+		  	wdatas.datas = row;
+		
+		} catch(e) { 
+		 	return wcb("[call_api] error parse", wdatas);
+		}
+
+	  	return wcb(null, wdatas)
+		
 	});
 	
 }
@@ -212,8 +237,8 @@ var call_api = function(wdatas, wcb)
 var build_new_file = function(wdatas, wcb)
 {
 	console.log("build_new_file")
-	var datas = wdatas.datas;
-	var csv = Papa.unparse(datas, {
+	var datas = JSON.stringify(wdatas.json_datas);
+	var csv = papaparse.unparse(datas, {
 		quotes: false, //or array of booleans
 		quoteChar: '"',
 		escapeChar: '"',

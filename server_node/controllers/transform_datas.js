@@ -75,7 +75,7 @@ var each_row = function(wdatas, wcb)
 
 	if(json_datas.length > 10)
 	{
-		async.eachLimit(json_datas.slice(0, 2), 1, function(row, cb)
+		async.eachLimit(json_datas.slice(0, 100), 1, function(row, cb)
 		{
 		    waterfall_row(row, function(err, result)
 		    {
@@ -147,9 +147,8 @@ var waterfall_row = function(datas, callback)
 var get_id_imdb = function(wdatas, wcb)
 {
 	console.log("get_id_imdb")
-	var title = wdatas.row["nom_tournage"].replace(" ", "%20");
+	var title = wdatas.row["nom_tournage"].replaceAll(" ", "%20")
 	console.log(title)
-
 	var options = {
 	  method: 'GET',
 	  url: 'https://imdb-internet-movie-database-unofficial.p.rapidapi.com/search/'+ title,
@@ -220,6 +219,8 @@ var call_api = function(wdatas, wcb)
 		  	row["Genre"] = datas["Genre"];
 		  	row["Metascore"] = datas["Metascore"];
 		  	row["Released"] = datas["Released"];
+		  	row["Rating"] = datas["imdbRating"];
+		  	row["nb_votes"] = datas["imdbVotes"];
 
 		  	wdatas.datas = row;
 		
@@ -249,7 +250,7 @@ var build_new_file = function(wdatas, wcb)
 		columns: null //or array of strings
 	});
 
-	fs.writeFile("transformed_datas.csv", csv, function(err, result)
+	fs.writeFile("transformeds_datas.csv", csv, function(err, result)
 	{
 	  if (err)
 	    console.log(err);

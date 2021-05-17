@@ -53,3 +53,9 @@ SELECT ?c WHERE {
   ?a rdfs:label ?c
   FILTER( contains( str(?b), "Night"))
 }
+
+
+SELECT * WHERE {
+ 	:réalisateur rdfs:label ?name .
+   	:réalisateur :aRealise ?film .
+}

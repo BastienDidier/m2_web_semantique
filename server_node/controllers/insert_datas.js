@@ -1,11 +1,12 @@
 var async=require('async');
 var request=require('request');
 const csvtojson=require('csvtojson')
+var fs = require("fs");
 
 module.exports = function (req, res, next) {
 
 
-async.waterfall([
+	async.waterfall([
 
         function (wcb) {
             var wdatas= {
@@ -17,7 +18,10 @@ async.waterfall([
             return wcb(null,wdatas);
         },
 
+        clear_file,
         parse_json,
+        each_row,
+        build_query_file,
 
     ],
     function(error,result){
@@ -40,6 +44,25 @@ async.waterfall([
 
     });
 };
+
+
+var clear_file = function(wdatas, wcb)
+{
+	var file_name = "query_str.txt";
+
+	fs.unlink(file_name, function(err, result)
+	{
+		if(err)
+		{
+			return wcb("[clear_file]"+err, wdatas);
+		}
+		else
+		{
+			return wcb(null, wdatas);
+		}
+	});
+
+}
 
 
 var  parse_json = function(wdatas, wcb)
@@ -196,4 +219,21 @@ function insert_actors(row)
 function insert_acteur(acteur_name, film_name)
 {
 	return "";
+}
+
+
+var build_query_file = function(wdatas, wcb)
+{
+	var query_str = wdatas.query;
+
+	fs.writeFile("query_str.txt", query, function(err, result)
+	{
+	  if (err)
+	    console.log(err);
+	  else {
+	    return wcb(null, wdatas);
+	  }
+
+	})
+
 }

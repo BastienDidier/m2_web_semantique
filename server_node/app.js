@@ -7,6 +7,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/get_datas', require("./controllers/get_datas_api.js"))
+app.get('/insert', require("./controllers/insert_datas.js"))
 app.get('/transform', require("./controllers/transform_datas.js"))
 
 app.listen(port, () => {

@@ -10,7 +10,7 @@ async.waterfall([
         function (wcb) {
             var wdatas= {
 
-            		csv_file : "csv_file : "../data/Paris-Propre.csv""
+            		csv_file : "transformeds_datas.csv"
 
             	};
 

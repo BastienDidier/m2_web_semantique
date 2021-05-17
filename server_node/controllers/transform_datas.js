@@ -6,7 +6,6 @@ var fs = require("fs");
 
 module.exports = function (req, res, next) {
 
-console.log("begin")
 async.waterfall([
 
         function (wcb) {
@@ -48,7 +47,6 @@ async.waterfall([
 
 var  parse_json = function(wdatas, wcb)
 {
-	console.log("parse_json")
 	var csv_file = wdatas.csv_file;
 	csvtojson({delimiter : ";"})
 	.fromFile(csv_file)
@@ -69,13 +67,12 @@ var  parse_json = function(wdatas, wcb)
 
 var each_row = function(wdatas, wcb)
 {
-	console.log("each_row")
 	var json_datas = wdatas.json_datas;
 	var formated_json_datas = [];
 
-	if(json_datas.length > 10)
+	if(json_datas.length > 900)
 	{
-		async.eachLimit(json_datas.slice(0, 100), 1, function(row, cb)
+		async.eachLimit(json_datas.slice(0, 900), 1, function(row, cb)
 		{
 		    waterfall_row(row, function(err, result)
 		    {
@@ -117,7 +114,6 @@ var each_row = function(wdatas, wcb)
 
 var waterfall_row = function(datas, callback)
 {
-	console.log("waterfall_row")
 	async.waterfall([
 	
 	        function (wcb) {
@@ -146,9 +142,7 @@ var waterfall_row = function(datas, callback)
 
 var get_id_imdb = function(wdatas, wcb)
 {
-	console.log("get_id_imdb")
-	var title = wdatas.row["nom_tournage"].replaceAll(" ", "%20")
-	console.log(title)
+	var title = wdatas.row["nom_tournage"].replace(/ /g, '%20');
 	var options = {
 	  method: 'GET',
 	  url: 'https://imdb-internet-movie-database-unofficial.p.rapidapi.com/search/'+ title,
@@ -192,9 +186,8 @@ var get_id_imdb = function(wdatas, wcb)
 
 var call_api = function(wdatas, wcb)
 {
-	console.log("call_api")
 	var row = wdatas.row;
-	var api_key = "3f9452cb";
+	var api_key = "4aeb8abc";
 	var id = wdatas.id;
 
 	var url = "http://www.omdbapi.com/?apikey=" + api_key + "&i=" + id.toString()
@@ -237,7 +230,6 @@ var call_api = function(wdatas, wcb)
 
 var build_new_file = function(wdatas, wcb)
 {
-	console.log("build_new_file")
 	var datas = JSON.stringify(wdatas.json_datas);
 	var csv = papaparse.unparse(datas, {
 		quotes: false, //or array of booleans

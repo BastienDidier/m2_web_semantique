@@ -2,2995 +2,5216 @@ PREFIX : <http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontolog
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 INSERT DATA {
  :realisateur0 rdfs:label "jeanne herry".
+:realisateur0 a :realisateur .
  :realisateur1 rdfs:label "sylvie verheyde".
+:realisateur1 a :realisateur .
  :realisateur2 rdfs:label "lise akoka".
+:realisateur2 a :realisateur .
  :realisateur3 rdfs:label "romane gueret".
+:realisateur3 a :realisateur .
  :realisateur4 rdfs:label "jeanne balibar".
+:realisateur4 a :realisateur .
  :realisateur5 rdfs:label "katia lewkowicz".
+:realisateur5 a :realisateur .
  :realisateur6 rdfs:label "julien rambaldi".
+:realisateur6 a :realisateur .
  :realisateur7 rdfs:label "frederic farrucci".
+:realisateur7 a :realisateur .
  :realisateur8 rdfs:label "herve hadmar".
+:realisateur8 a :realisateur .
  :realisateur9 rdfs:label "simon bouisson".
+:realisateur9 a :realisateur .
  :realisateur10 rdfs:label "nicolas bedos".
+:realisateur10 a :realisateur .
  :realisateur11 rdfs:label "cedric klapisch".
+:realisateur11 a :realisateur .
  :realisateur12 rdfs:label "claus drexler".
+:realisateur12 a :realisateur .
  :realisateur13 rdfs:label "philippe garrel".
+:realisateur13 a :realisateur .
  :realisateur14 rdfs:label "damien chazelle".
+:realisateur14 a :realisateur .
  :realisateur15 rdfs:label "christopher thompson".
+:realisateur15 a :realisateur .
  :realisateur16 rdfs:label "maïmouna doucoure".
+:realisateur16 a :realisateur .
  :realisateur17 rdfs:label "tristan seguela".
+:realisateur17 a :realisateur .
  :realisateur18 rdfs:label "danielle arbid".
+:realisateur18 a :realisateur .
  :realisateur19 rdfs:label "christophe honore".
+:realisateur19 a :realisateur .
  :realisateur20 rdfs:label "bernard stora".
+:realisateur20 a :realisateur .
  :realisateur21 rdfs:label "leo zhang".
+:realisateur21 a :realisateur .
  :realisateur22 rdfs:label "jim bagdonas".
+:realisateur22 a :realisateur .
  :realisateur23 rdfs:label "julien zidi".
+:realisateur23 a :realisateur .
  :realisateur24 rdfs:label "frankie wallach".
+:realisateur24 a :realisateur .
  :realisateur25 rdfs:label "cecilia rouaud".
+:realisateur25 a :realisateur .
  :realisateur26 rdfs:label "alexandra leclere".
+:realisateur26 a :realisateur .
  :realisateur27 rdfs:label "geraldine de margerie".
+:realisateur27 a :realisateur .
  :realisateur28 rdfs:label "alain chabat".
+:realisateur28 a :realisateur .
  :realisateur29 rdfs:label "zabou breitman".
+:realisateur29 a :realisateur .
  :realisateur30 rdfs:label "sergi portabella".
+:realisateur30 a :realisateur .
  :realisateur31 rdfs:label "".
+:realisateur31 a :realisateur .
  :realisateur32 rdfs:label "stephane".
+:realisateur32 a :realisateur .
  :realisateur33 rdfs:label "david foenkinos".
+:realisateur33 a :realisateur .
  :realisateur34 rdfs:label "pape amadou sy".
+:realisateur34 a :realisateur .
  :realisateur35 rdfs:label "eleonore pourriat".
+:realisateur35 a :realisateur .
  :realisateur36 rdfs:label "mikhael hers".
+:realisateur36 a :realisateur .
  :realisateur37 rdfs:label "philippe harel".
+:realisateur37 a :realisateur .
  :realisateur38 rdfs:label "matthew weiner".
+:realisateur38 a :realisateur .
  :realisateur39 rdfs:label "virginie sauveur".
+:realisateur39 a :realisateur .
  :realisateur40 rdfs:label "rachid bouchareb".
+:realisateur40 a :realisateur .
  :realisateur41 rdfs:label "marie-castille mention-schaar".
+:realisateur41 a :realisateur .
  :realisateur42 rdfs:label "mathieu sapin".
+:realisateur42 a :realisateur .
  :realisateur43 rdfs:label "mabrouk el mechri".
+:realisateur43 a :realisateur .
  :realisateur44 rdfs:label "antoine chevrollier".
+:realisateur44 a :realisateur .
  :realisateur45 rdfs:label "ziad doueiri".
+:realisateur45 a :realisateur .
  :realisateur46 rdfs:label "jonathan".
+:realisateur46 a :realisateur .
  :realisateur47 rdfs:label "patrick cassir".
+:realisateur47 a :realisateur .
  :realisateur48 rdfs:label "jeffrey chiang".
+:realisateur48 a :realisateur .
  :realisateur49 rdfs:label "gabor reisz".
+:realisateur49 a :realisateur .
  :realisateur50 rdfs:label "kheiron".
+:realisateur50 a :realisateur .
  :realisateur51 rdfs:label "david hourregue".
+:realisateur51 a :realisateur .
  :realisateur52 rdfs:label "zhou gao wu".
+:realisateur52 a :realisateur .
  :realisateur53 rdfs:label "marion laine".
+:realisateur53 a :realisateur .
  :realisateur54 rdfs:label "m. choy ching shing clement".
+:realisateur54 a :realisateur .
  :realisateur55 rdfs:label "nadav lapid".
+:realisateur55 a :realisateur .
  :realisateur56 rdfs:label "david oelhoffen".
+:realisateur56 a :realisateur .
  :realisateur57 rdfs:label "stephen woolfenden".
+:realisateur57 a :realisateur .
  :realisateur58 rdfs:label "eva ionesco".
+:realisateur58 a :realisateur .
  :realisateur59 rdfs:label "peter cattaneo".
+:realisateur59 a :realisateur .
  :realisateur60 rdfs:label "lea fredeval".
+:realisateur60 a :realisateur .
  :realisateur61 rdfs:label "sophie marceau".
+:realisateur61 a :realisateur .
  :realisateur62 rdfs:label "cheyenne carron".
+:realisateur62 a :realisateur .
  :realisateur63 rdfs:label "pawel pawlikowski".
+:realisateur63 a :realisateur .
  :realisateur64 rdfs:label "archie borders".
+:realisateur64 a :realisateur .
  :realisateur65 rdfs:label "stephan kopecky".
+:realisateur65 a :realisateur .
  :realisateur66 rdfs:label "rizal mantovani".
+:realisateur66 a :realisateur .
  :realisateur67 rdfs:label "maxime taris".
+:realisateur67 a :realisateur .
  :realisateur68 rdfs:label "ken scott".
+:realisateur68 a :realisateur .
  :realisateur69 rdfs:label "ludovic colbeau-justin".
+:realisateur69 a :realisateur .
  :realisateur70 rdfs:label "sophie fillieres".
+:realisateur70 a :realisateur .
  :realisateur71 rdfs:label "isabelle doval".
+:realisateur71 a :realisateur .
  :realisateur72 rdfs:label "pierre dudan".
+:realisateur72 a :realisateur .
  :realisateur73 rdfs:label "steven conrad".
+:realisateur73 a :realisateur .
  :realisateur74 rdfs:label "sarah marx".
+:realisateur74 a :realisateur .
  :realisateur75 rdfs:label "byun hyuk".
+:realisateur75 a :realisateur .
  :realisateur76 rdfs:label "olivier doran".
+:realisateur76 a :realisateur .
  :realisateur77 rdfs:label "michel leclerc".
+:realisateur77 a :realisateur .
  :realisateur78 rdfs:label "hugo gelin".
+:realisateur78 a :realisateur .
  :realisateur79 rdfs:label "noemie saglio".
+:realisateur79 a :realisateur .
  :realisateur80 rdfs:label "renaud bertrand".
+:realisateur80 a :realisateur .
  :realisateur81 rdfs:label "romuald boulanger".
+:realisateur81 a :realisateur .
  :realisateur82 rdfs:label "marie jardillier".
+:realisateur82 a :realisateur .
  :realisateur83 rdfs:label "mathieu oullion".
+:realisateur83 a :realisateur .
  :realisateur84 rdfs:label "audrey diwan".
+:realisateur84 a :realisateur .
  :realisateur85 rdfs:label "amy sherman-palladino".
+:realisateur85 a :realisateur .
  :realisateur86 rdfs:label "dan palladino".
+:realisateur86 a :realisateur .
  :realisateur87 rdfs:label "frederic jardin".
+:realisateur87 a :realisateur .
  :realisateur88 rdfs:label "monsieur mohamed hamidi".
+:realisateur88 a :realisateur .
  :realisateur89 rdfs:label "david weill".
+:realisateur89 a :realisateur .
  :realisateur90 rdfs:label "peter atencio".
+:realisateur90 a :realisateur .
  :realisateur91 rdfs:label "lisa azuelos".
+:realisateur91 a :realisateur .
  :realisateur92 rdfs:label "anthony marciano".
+:realisateur92 a :realisateur .
  :realisateur93 rdfs:label "julien weill".
+:realisateur93 a :realisateur .
  :realisateur94 rdfs:label "cathy verney".
+:realisateur94 a :realisateur .
  :realisateur95 rdfs:label "gabriel aghion".
+:realisateur95 a :realisateur .
  :realisateur96 rdfs:label "flo ber".
+:realisateur96 a :realisateur .
  :realisateur97 rdfs:label "hector cabell reyes".
+:realisateur97 a :realisateur .
  :realisateur98 rdfs:label "julia rezende".
+:realisateur98 a :realisateur .
  :realisateur99 rdfs:label "tuva novotny".
+:realisateur99 a :realisateur .
  :realisateur100 rdfs:label "vincent giovanni".
+:realisateur100 a :realisateur .
  :realisateur101 rdfs:label "vipul shah".
+:realisateur101 a :realisateur .
  :realisateur102 rdfs:label "pierre-françois martin-laval".
+:realisateur102 a :realisateur .
  :realisateur103 rdfs:label "walter veltroni".
+:realisateur103 a :realisateur .
  :realisateur104 rdfs:label "elia suleiman".
+:realisateur104 a :realisateur .
  :realisateur105 rdfs:label "josee dayan".
+:realisateur105 a :realisateur .
  :realisateur106 rdfs:label "claus drexel".
+:realisateur106 a :realisateur .
  :realisateur107 rdfs:label "jeremy minui".
+:realisateur107 a :realisateur .
  :realisateur108 rdfs:label "gabriel le bomin".
+:realisateur108 a :realisateur .
  :realisateur109 rdfs:label "david lanzmann".
+:realisateur109 a :realisateur .
  :realisateur110 rdfs:label "john wax".
+:realisateur110 a :realisateur .
  :realisateur111 rdfs:label "jean-pascal zadi".
+:realisateur111 a :realisateur .
  :realisateur112 rdfs:label "david hugonot petit".
+:realisateur112 a :realisateur .
  :realisateur113 rdfs:label "stanley woodward".
+:realisateur113 a :realisateur .
  :realisateur114 rdfs:label "marion desseigne ravel".
+:realisateur114 a :realisateur .
  :realisateur115 rdfs:label "vladimir de fontenay".
+:realisateur115 a :realisateur .
  :realisateur116 rdfs:label "marie monge".
+:realisateur116 a :realisateur .
  :realisateur117 rdfs:label "will koopman".
+:realisateur117 a :realisateur .
  :realisateur118 rdfs:label "elsa bennett".
+:realisateur118 a :realisateur .
  :realisateur119 rdfs:label "hippolyte dard".
+:realisateur119 a :realisateur .
  :realisateur120 rdfs:label "frederic berthe".
+:realisateur120 a :realisateur .
  :realisateur121 rdfs:label "andre erkau".
+:realisateur121 a :realisateur .
  :realisateur122 rdfs:label "samuel bodin".
+:realisateur122 a :realisateur .
  :realisateur123 rdfs:label "adeline picault".
+:realisateur123 a :realisateur .
  :realisateur124 rdfs:label "franck gastambide".
+:realisateur124 a :realisateur .
  :realisateur125 rdfs:label "jerôme bonnell".
+:realisateur125 a :realisateur .
  :realisateur126 rdfs:label "igor gotesman".
+:realisateur126 a :realisateur .
  :realisateur127 rdfs:label "lucie borleteau".
+:realisateur127 a :realisateur .
  :realisateur128 rdfs:label "gabriel julien laferriere".
+:realisateur128 a :realisateur .
  :realisateur129 rdfs:label "bruno podalydes".
+:realisateur129 a :realisateur .
  :realisateur130 rdfs:label "myriam aziza".
+:realisateur130 a :realisateur .
  :realisateur131 rdfs:label "aditya chopra".
+:realisateur131 a :realisateur .
  :realisateur132 rdfs:label "dominic savage".
+:realisateur132 a :realisateur .
  :realisateur133 rdfs:label "nadir mokneche".
+:realisateur133 a :realisateur .
  :realisateur134 rdfs:label "dominique farrugia".
+:realisateur134 a :realisateur .
  :realisateur135 rdfs:label "lea fazer".
+:realisateur135 a :realisateur .
  :realisateur136 rdfs:label "nicolas herdt".
+:realisateur136 a :realisateur .
  :realisateur137 rdfs:label "robin sykes".
+:realisateur137 a :realisateur .
  :realisateur138 rdfs:label "aurelie saada".
+:realisateur138 a :realisateur .
  :realisateur139 rdfs:label "maxime govare".
+:realisateur139 a :realisateur .
  :realisateur140 rdfs:label "stephane malhuret".
+:realisateur140 a :realisateur .
  :realisateur141 rdfs:label "yuki saito".
+:realisateur141 a :realisateur .
  :realisateur142 rdfs:label "anne fontaine".
+:realisateur142 a :realisateur .
  :realisateur143 rdfs:label "dan zeff".
+:realisateur143 a :realisateur .
  :realisateur144 rdfs:label "vincent jamain".
+:realisateur144 a :realisateur .
  :realisateur145 rdfs:label "darren star".
+:realisateur145 a :realisateur .
  :realisateur146 rdfs:label "dominique rocher".
+:realisateur146 a :realisateur .
  :realisateur147 rdfs:label "fabrice eboue".
+:realisateur147 a :realisateur .
  :realisateur148 rdfs:label "nicolas guicheteau".
+:realisateur148 a :realisateur .
  :realisateur149 rdfs:label "fabrice gobert".
+:realisateur149 a :realisateur .
  :realisateur150 rdfs:label "marilou berry".
+:realisateur150 a :realisateur .
  :realisateur151 rdfs:label "olivier marchal".
+:realisateur151 a :realisateur .
  :realisateur152 rdfs:label "trivikram srinivas".
+:realisateur152 a :realisateur .
  :realisateur153 rdfs:label "fred garson".
+:realisateur153 a :realisateur .
  :realisateur154 rdfs:label "valerie urrea".
+:realisateur154 a :realisateur .
  :realisateur155 rdfs:label "nathalie masduraud".
+:realisateur155 a :realisateur .
  :realisateur156 rdfs:label "julien hallard".
+:realisateur156 a :realisateur .
  :realisateur157 rdfs:label "liu chun-chien".
+:realisateur157 a :realisateur .
  :realisateur158 rdfs:label "saphia azzeddine".
+:realisateur158 a :realisateur .
  :realisateur159 rdfs:label "françois-regis jeanne".
+:realisateur159 a :realisateur .
  :realisateur160 rdfs:label "audrey dana".
+:realisateur160 a :realisateur .
  :realisateur161 rdfs:label "clement pillet".
+:realisateur161 a :realisateur .
  :realisateur162 rdfs:label "julien arnardi".
+:realisateur162 a :realisateur .
  :realisateur163 rdfs:label "valerie lemercier".
+:realisateur163 a :realisateur .
  :realisateur164 rdfs:label "clint eastwood".
+:realisateur164 a :realisateur .
  :realisateur165 rdfs:label "tarek boudali".
+:realisateur165 a :realisateur .
  :realisateur166 rdfs:label "martin provost".
+:realisateur166 a :realisateur .
  :realisateur167 rdfs:label "chang keun chun".
+:realisateur167 a :realisateur .
  :realisateur168 rdfs:label "elodie faure boulue".
+:realisateur168 a :realisateur .
  :realisateur169 rdfs:label "leonor serraille".
+:realisateur169 a :realisateur .
  :realisateur170 rdfs:label "etienne comar".
+:realisateur170 a :realisateur .
  :realisateur171 rdfs:label "emmanuel finkiel".
+:realisateur171 a :realisateur .
  :realisateur172 rdfs:label "frederic forestier".
+:realisateur172 a :realisateur .
  :realisateur173 rdfs:label "hall hartley".
+:realisateur173 a :realisateur .
  :realisateur174 rdfs:label "christophe campos".
+:realisateur174 a :realisateur .
  :realisateur175 rdfs:label "michel blanc".
+:realisateur175 a :realisateur .
  :realisateur176 rdfs:label "jean-philippe gaud".
+:realisateur176 a :realisateur .
  :realisateur177 rdfs:label "franchin dom".
+:realisateur177 a :realisateur .
  :realisateur178 rdfs:label "laurent perreau".
+:realisateur178 a :realisateur .
  :realisateur179 rdfs:label "christopher mac-quarrie".
+:realisateur179 a :realisateur .
  :realisateur180 rdfs:label "vincent primault".
+:realisateur180 a :realisateur .
  :realisateur181 rdfs:label "lucien jean baptiste".
+:realisateur181 a :realisateur .
  :realisateur182 rdfs:label "philippe mechelen".
+:realisateur182 a :realisateur .
  :realisateur183 rdfs:label "julien herve".
+:realisateur183 a :realisateur .
  :realisateur184 rdfs:label "arnauld mercadier".
+:realisateur184 a :realisateur .
  :realisateur185 rdfs:label "guillaume canet".
+:realisateur185 a :realisateur .
  :realisateur186 rdfs:label "arnaud despleschin".
+:realisateur186 a :realisateur .
  :realisateur187 rdfs:label "alexandre da silva".
+:realisateur187 a :realisateur .
  :realisateur188 rdfs:label "maurice barthelemy".
+:realisateur188 a :realisateur .
  :realisateur189 rdfs:label "hugo blick".
+:realisateur189 a :realisateur .
  :realisateur190 rdfs:label "manuel boursinhac".
+:realisateur190 a :realisateur .
  :realisateur191 rdfs:label "ludovic bernard".
+:realisateur191 a :realisateur .
  :realisateur192 rdfs:label "novemie lvovsky".
+:realisateur192 a :realisateur .
  :realisateur193 rdfs:label "matt bloom".
+:realisateur193 a :realisateur .
  :realisateur194 rdfs:label "randall thorn".
+:realisateur194 a :realisateur .
  :realisateur195 rdfs:label "mathieu amalric".
+:realisateur195 a :realisateur .
  :realisateur196 rdfs:label "mahamat-saleh haroun".
+:realisateur196 a :realisateur .
  :realisateur197 rdfs:label "shujaat saudagar".
+:realisateur197 a :realisateur .
  :realisateur198 rdfs:label "nathan silver".
+:realisateur198 a :realisateur .
  :realisateur199 rdfs:label "jonathan desoindre".
+:realisateur199 a :realisateur .
  :realisateur200 rdfs:label "elie wajeman".
+:realisateur200 a :realisateur .
  :realisateur201 rdfs:label "nicolas saada".
+:realisateur201 a :realisateur .
  :realisateur202 rdfs:label "arnaud selignac,".
+:realisateur202 a :realisateur .
  :realisateur203 rdfs:label "nicole palo".
+:realisateur203 a :realisateur .
  :realisateur204 rdfs:label "guillaume gallienne".
+:realisateur204 a :realisateur .
  :realisateur205 rdfs:label "julien abraham".
+:realisateur205 a :realisateur .
  :realisateur206 rdfs:label "melanie laurent".
+:realisateur206 a :realisateur .
  :realisateur207 rdfs:label "fred cavaye".
+:realisateur207 a :realisateur .
  :realisateur208 rdfs:label "frederic balekdjian".
+:realisateur208 a :realisateur .
  :realisateur209 rdfs:label "fabien nury".
+:realisateur209 a :realisateur .
  :realisateur210 rdfs:label "sophie levy".
+:realisateur210 a :realisateur .
  :realisateur211 rdfs:label "dany boon".
+:realisateur211 a :realisateur .
  :realisateur212 rdfs:label "franck dubosc".
+:realisateur212 a :realisateur .
  :realisateur213 rdfs:label "christian schwochow".
+:realisateur213 a :realisateur .
  :realisateur214 rdfs:label "e.tolenado".
+:realisateur214 a :realisateur .
  :realisateur215 rdfs:label "o.nakache".
+:realisateur215 a :realisateur .
  :realisateur216 rdfs:label "sou abadi".
+:realisateur216 a :realisateur .
  :realisateur217 rdfs:label "marie noëlle sehr".
+:realisateur217 a :realisateur .
  :realisateur218 rdfs:label "lea mazer".
+:realisateur218 a :realisateur .
  :realisateur219 rdfs:label "laurent tuel".
+:realisateur219 a :realisateur .
  :realisateur220 rdfs:label "laurent rochette".
+:realisateur220 a :realisateur .
  :realisateur221 rdfs:label "louis garrel".
+:realisateur221 a :realisateur .
  :realisateur222 rdfs:label "raphael marriq".
+:realisateur222 a :realisateur .
  :realisateur223 rdfs:label "herve mimran".
+:realisateur223 a :realisateur .
  :realisateur224 rdfs:label "audrey estrougo".
+:realisateur224 a :realisateur .
  :realisateur225 rdfs:label "christopher mac quarrie".
+:realisateur225 a :realisateur .
  :realisateur226 rdfs:label "jeffrey reiner".
+:realisateur226 a :realisateur .
  :realisateur227 rdfs:label "emmanuelle bercot".
+:realisateur227 a :realisateur .
  :realisateur228 rdfs:label "robin campillo".
+:realisateur228 a :realisateur .
  :realisateur229 rdfs:label "jean-pierre ameris".
+:realisateur229 a :realisateur .
  :realisateur230 rdfs:label "lidia terki".
+:realisateur230 a :realisateur .
  :realisateur231 rdfs:label "victor saint macary".
+:realisateur231 a :realisateur .
  :realisateur232 rdfs:label "erick zonca".
+:realisateur232 a :realisateur .
  :realisateur233 rdfs:label "charlotte schiøler".
+:realisateur233 a :realisateur .
  :realisateur234 rdfs:label "paul lapierre".
+:realisateur234 a :realisateur .
  :realisateur235 rdfs:label "juliette tresanini".
+:realisateur235 a :realisateur .
  :realisateur236 rdfs:label "anne de clercq".
+:realisateur236 a :realisateur .
  :realisateur237 rdfs:label "harry bradbeer".
+:realisateur237 a :realisateur .
  :realisateur238 rdfs:label "david michod".
+:realisateur238 a :realisateur .
  :realisateur239 rdfs:label "hector cabello reyes".
+:realisateur239 a :realisateur .
  :realisateur240 rdfs:label "agnes obdia".
+:realisateur240 a :realisateur .
  :realisateur241 rdfs:label "david moreau".
+:realisateur241 a :realisateur .
  :realisateur242 rdfs:label "yvan attal".
+:realisateur242 a :realisateur .
  :realisateur243 rdfs:label "safy nebbou".
+:realisateur243 a :realisateur .
  :realisateur244 rdfs:label "sandrine kiberlain".
+:realisateur244 a :realisateur .
  :realisateur245 rdfs:label "françois ozon".
+:realisateur245 a :realisateur .
  :realisateur246 rdfs:label "ladislas chollat".
+:realisateur246 a :realisateur .
  :realisateur247 rdfs:label "azazel jacobs".
+:realisateur247 a :realisateur .
  :realisateur248 rdfs:label "leila sy".
+:realisateur248 a :realisateur .
  :realisateur249 rdfs:label "kery james".
+:realisateur249 a :realisateur .
  :realisateur250 rdfs:label "naidra ayadi".
+:realisateur250 a :realisateur .
  :realisateur251 rdfs:label "alfred lot".
+:realisateur251 a :realisateur .
  :realisateur252 rdfs:label "cyril mennegun".
+:realisateur252 a :realisateur .
  :realisateur253 rdfs:label "gilles legrand".
+:realisateur253 a :realisateur .
  :realisateur254 rdfs:label "nessim chikhaoui".
+:realisateur254 a :realisateur .
  :realisateur255 rdfs:label "jean luc ayach".
+:realisateur255 a :realisateur .
  :realisateur256 rdfs:label "frederic hazan".
+:realisateur256 a :realisateur .
  :realisateur257 rdfs:label "benedicte delmas".
+:realisateur257 a :realisateur .
  :realisateur258 rdfs:label "andy mogel".
+:realisateur258 a :realisateur .
  :realisateur259 rdfs:label "jarrad paul".
+:realisateur259 a :realisateur .
  :realisateur260 rdfs:label "l. colbeau justin".
+:realisateur260 a :realisateur .
  :realisateur261 rdfs:label "pierre aknine".
+:realisateur261 a :realisateur .
  :realisateur262 rdfs:label "roman polanski".
+:realisateur262 a :realisateur .
  :realisateur263 rdfs:label "eric delavaine".
+:realisateur263 a :realisateur .
  :realisateur264 rdfs:label "adrien piquet-gauthier".
+:realisateur264 a :realisateur .
  :realisateur265 rdfs:label "simon istolainen".
+:realisateur265 a :realisateur .
  :realisateur266 rdfs:label "julius berg".
+:realisateur266 a :realisateur .
  :realisateur267 rdfs:label "carine tardieu".
+:realisateur267 a :realisateur .
  :realisateur268 rdfs:label "niels arden oplev".
+:realisateur268 a :realisateur .
  :realisateur269 rdfs:label "michel munz".
+:realisateur269 a :realisateur .
  :realisateur270 rdfs:label "gerard bitton".
+:realisateur270 a :realisateur .
  :realisateur271 rdfs:label "xavier giannoli".
+:realisateur271 a :realisateur .
  :realisateur272 rdfs:label "nine antico".
+:realisateur272 a :realisateur .
  :realisateur273 rdfs:label "tien-jen huang".
+:realisateur273 a :realisateur .
  :realisateur274 rdfs:label "marie garel weiss".
+:realisateur274 a :realisateur .
  :realisateur275 rdfs:label "ludovik".
+:realisateur275 a :realisateur .
  :realisateur276 rdfs:label "teddy lussi modeste".
+:realisateur276 a :realisateur .
  :realisateur277 rdfs:label "nicolas silhol".
+:realisateur277 a :realisateur .
  :realisateur278 rdfs:label "valerie donzelli".
+:realisateur278 a :realisateur .
  :realisateur279 rdfs:label "michel denisot".
+:realisateur279 a :realisateur .
  :realisateur280 rdfs:label "maxime charden".
+:realisateur280 a :realisateur .
  :realisateur281 rdfs:label "laurene dervieux".
+:realisateur281 a :realisateur .
  :realisateur282 rdfs:label "ignacio clemente mateos".
+:realisateur282 a :realisateur .
  :realisateur283 rdfs:label "jan kounen".
+:realisateur283 a :realisateur .
  :realisateur284 rdfs:label "martin bourboulon".
+:realisateur284 a :realisateur .
  :realisateur285 rdfs:label "maïwenn".
+:realisateur285 a :realisateur .
  :realisateur286 rdfs:label "leila bouzid".
+:realisateur286 a :realisateur .
  :realisateur287 rdfs:label "emily mortimer".
+:realisateur287 a :realisateur .
  :realisateur288 rdfs:label "julien despaux".
+:realisateur288 a :realisateur .
  :realisateur289 rdfs:label "matthieu longatte".
+:realisateur289 a :realisateur .
  :realisateur290 rdfs:label "xavier durringer".
+:realisateur290 a :realisateur .
  :realisateur291 rdfs:label "didier bivel".
+:realisateur291 a :realisateur .
  :realisateur292 rdfs:label "laurent lafitte".
+:realisateur292 a :realisateur .
  :realisateur293 rdfs:label "edouard deluc".
+:realisateur293 a :realisateur .
  :realisateur294 rdfs:label "olivier ayache vidal".
+:realisateur294 a :realisateur .
  :realisateur295 rdfs:label "virgine scswartz".
+:realisateur295 a :realisateur .
  :realisateur296 rdfs:label "amanda sthers".
+:realisateur296 a :realisateur .
  :realisateur297 rdfs:label "michel hazanavicius".
+:realisateur297 a :realisateur .
  :realisateur298 rdfs:label "marc fitoussi".
+:realisateur298 a :realisateur .
  :realisateur299 rdfs:label "gabriel laferriere".
+:realisateur299 a :realisateur .
  :realisateur300 rdfs:label "flora lau".
+:realisateur300 a :realisateur .
  :realisateur301 rdfs:label "jean paul salome".
+:realisateur301 a :realisateur .
  :realisateur302 rdfs:label "didier le pêcheurs".
+:realisateur302 a :realisateur .
  :realisateur303 rdfs:label "stephane kazandjian".
+:realisateur303 a :realisateur .
  :realisateur304 rdfs:label "antoine garceau".
+:realisateur304 a :realisateur .
  :realisateur305 rdfs:label "octave raspail".
+:realisateur305 a :realisateur .
  :realisateur306 rdfs:label "colombe savignac".
+:realisateur306 a :realisateur .
  :realisateur307 rdfs:label "blandine lenoir".
+:realisateur307 a :realisateur .
  :realisateur308 rdfs:label "kilian riedhof".
+:realisateur308 a :realisateur .
  :realisateur309 rdfs:label "anna cazanave-cambet".
+:realisateur309 a :realisateur .
  :realisateur310 rdfs:label "cedric ido".
+:realisateur310 a :realisateur .
  :realisateur311 rdfs:label "suzanne lindon".
+:realisateur311 a :realisateur .
  :realisateur312 rdfs:label "emmanuel mouret".
+:realisateur312 a :realisateur .
  :realisateur313 rdfs:label "tristan aurouet".
+:realisateur313 a :realisateur .
  :realisateur314 rdfs:label "thomas bidegain".
+:realisateur314 a :realisateur .
  :realisateur315 rdfs:label "cyril gelblat".
+:realisateur315 a :realisateur .
  :realisateur316 rdfs:label "vianney lebasque".
+:realisateur316 a :realisateur .
  :realisateur317 rdfs:label "etienne chatiliez".
+:realisateur317 a :realisateur .
  :realisateur318 rdfs:label "yoann guillouzouic".
+:realisateur318 a :realisateur .
  :realisateur319 rdfs:label "dominik moll".
+:realisateur319 a :realisateur .
  :realisateur320 rdfs:label "ruben alves".
+:realisateur320 a :realisateur .
  :realisateur321 rdfs:label "claire denis".
+:realisateur321 a :realisateur .
  :realisateur322 rdfs:label "olivier meys".
+:realisateur322 a :realisateur .
  :realisateur323 rdfs:label "gilles bourdos".
+:realisateur323 a :realisateur .
  :realisateur324 rdfs:label "andre techine".
+:realisateur324 a :realisateur .
  :realisateur325 rdfs:label "kim nguyen".
+:realisateur325 a :realisateur .
  :realisateur326 rdfs:label "bruno chiche".
+:realisateur326 a :realisateur .
  :realisateur327 rdfs:label "tonie marshall".
+:realisateur327 a :realisateur .
  :realisateur328 rdfs:label "stephane marelli".
+:realisateur328 a :realisateur .
  :realisateur329 rdfs:label "jean pierre ameris".
+:realisateur329 a :realisateur .
  :realisateur330 rdfs:label "eric lavaine".
+:realisateur330 a :realisateur .
  :realisateur331 rdfs:label "louis leterrier".
+:realisateur331 a :realisateur .
  :realisateur332 rdfs:label "anne depetrini".
+:realisateur332 a :realisateur .
  :realisateur333 rdfs:label "yishu yang".
+:realisateur333 a :realisateur .
  :realisateur334 rdfs:label "olivier nakache".
+:realisateur334 a :realisateur .
  :realisateur335 rdfs:label "eric toledano".
+:realisateur335 a :realisateur .
  :realisateur336 rdfs:label "pierre salvadori".
+:realisateur336 a :realisateur .
  :realisateur337 rdfs:label "mathieu vadepied".
+:realisateur337 a :realisateur .
  :realisateur338 rdfs:label "nicolas parisier".
+:realisateur338 a :realisateur .
  :realisateur339 rdfs:label "cyprien vial".
+:realisateur339 a :realisateur .
  :realisateur340 rdfs:label "james foley".
+:realisateur340 a :realisateur .
  :realisateur341 rdfs:label "vladimir rodionoff".
+:realisateur341 a :realisateur .
  :realisateur342 rdfs:label "july hygreck".
+:realisateur342 a :realisateur .
  :realisateur343 rdfs:label "stephane robelin".
+:realisateur343 a :realisateur .
  :realisateur344 rdfs:label "nolwenn lemesle".
+:realisateur344 a :realisateur .
  :realisateur345 rdfs:label "guillaume cremonese".
+:realisateur345 a :realisateur .
  :realisateur346 rdfs:label "frederic tellier".
+:realisateur346 a :realisateur .
  :realisateur347 rdfs:label "charline bourgeois tacquet".
+:realisateur347 a :realisateur .
  :realisateur348 rdfs:label "prentice penny".
+:realisateur348 a :realisateur .
  :realisateur349 rdfs:label "thierry de perreti".
+:realisateur349 a :realisateur .
  :realisateur350 rdfs:label "rachid hami".
+:realisateur350 a :realisateur .
  :realisateur351 rdfs:label "jacques audiard".
+:realisateur351 a :realisateur .
  :realisateur352 rdfs:label "fanny sidney".
+:realisateur352 a :realisateur .
  :realisateur353 rdfs:label "fabien dufils".
+:realisateur353 a :realisateur .
  :realisateur354 rdfs:label "anne gaëlle daval".
+:realisateur354 a :realisateur .
  :realisateur355 rdfs:label "stevan lee mraovitch".
+:realisateur355 a :realisateur .
  :realisateur356 rdfs:label "arnaud viard".
+:realisateur356 a :realisateur .
  :realisateur357 rdfs:label "avril besson".
+:realisateur357 a :realisateur .
  :realisateur358 rdfs:label "claude lelouch".
+:realisateur358 a :realisateur .
  :realisateur359 rdfs:label "stephane demoustier".
+:realisateur359 a :realisateur .
  :realisateur360 rdfs:label "clovis cornillac".
+:realisateur360 a :realisateur .
  :realisateur361 rdfs:label "nicole garcia".
+:realisateur361 a :realisateur .
  :realisateur362 rdfs:label "romain levy".
+:realisateur362 a :realisateur .
  :realisateur363 rdfs:label "philippe le guay".
+:realisateur363 a :realisateur .
 
  :genre0 rdfs:label "comedy".
+:genre0 a :genre .
  :genre1 rdfs:label "drama".
+:genre1 a :genre .
  :genre2 rdfs:label "biography".
+:genre2 a :genre .
  :genre3 rdfs:label "crime".
+:genre3 a :genre .
  :genre4 rdfs:label "romance".
+:genre4 a :genre .
  :genre5 rdfs:label "short".
+:genre5 a :genre .
  :genre6 rdfs:label "fantasy".
+:genre6 a :genre .
  :genre7 rdfs:label "musical".
+:genre7 a :genre .
  :genre8 rdfs:label "action".
+:genre8 a :genre .
  :genre9 rdfs:label "adventure".
+:genre9 a :genre .
  :genre10 rdfs:label "thriller".
+:genre10 a :genre .
  :genre11 rdfs:label "".
+:genre11 a :genre .
  :genre12 rdfs:label "family".
+:genre12 a :genre .
  :genre13 rdfs:label "history".
+:genre13 a :genre .
  :genre14 rdfs:label "n/a".
+:genre14 a :genre .
  :genre15 rdfs:label "talk-show".
+:genre15 a :genre .
  :genre16 rdfs:label "music".
+:genre16 a :genre .
  :genre17 rdfs:label "film-noir".
+:genre17 a :genre .
  :genre18 rdfs:label "mystery".
+:genre18 a :genre .
  :genre19 rdfs:label "sci-fi".
+:genre19 a :genre .
  :genre20 rdfs:label "sport".
+:genre20 a :genre .
  :genre21 rdfs:label "horror".
+:genre21 a :genre .
  :genre22 rdfs:label "reality-tv".
+:genre22 a :genre .
  :genre23 rdfs:label "documentary".
+:genre23 a :genre .
  :genre24 rdfs:label "animation".
+:genre24 a :genre .
  :genre25 rdfs:label "war".
+:genre25 a :genre .
 
  :acteur0 rdfs:label "phoebe waller-bridge".
+:genre0 a :acteur .
  :acteur1 rdfs:label "sian clifford".
+:genre1 a :acteur .
  :acteur2 rdfs:label "olivia colman".
+:genre2 a :acteur .
  :acteur3 rdfs:label "jenny rainsford".
+:genre3 a :acteur .
  :acteur4 rdfs:label "karole rocher".
+:genre4 a :acteur .
  :acteur5 rdfs:label "garance marillier".
+:genre5 a :acteur .
  :acteur6 rdfs:label "roschdy zem".
+:genre6 a :acteur .
  :acteur7 rdfs:label "pierre deladonchamps".
+:genre7 a :acteur .
  :acteur8 rdfs:label "gringe".
+:genre8 a :acteur .
  :acteur9 rdfs:label "orelsan".
+:genre9 a :acteur .
  :acteur10 rdfs:label "jeanne balibar".
+:genre10 a :acteur .
  :acteur11 rdfs:label "ramzy bedia".
+:genre11 a :acteur .
  :acteur12 rdfs:label "emmanuelle beart".
+:genre12 a :acteur .
  :acteur13 rdfs:label "mathieu amalric".
+:genre13 a :acteur .
  :acteur14 rdfs:label "melha bedia".
+:genre14 a :acteur .
  :acteur15 rdfs:label "valerie lemercier".
+:genre15 a :acteur .
  :acteur16 rdfs:label "alison wheeler".
+:genre16 a :acteur .
  :acteur17 rdfs:label "bastien ughetto".
+:genre17 a :acteur .
  :acteur18 rdfs:label "jean-pierre bacri".
+:genre18 a :acteur .
  :acteur19 rdfs:label "jean-paul rouve".
+:genre19 a :acteur .
  :acteur20 rdfs:label "gilles lellouche".
+:genre20 a :acteur .
  :acteur21 rdfs:label "vincent macaigne".
+:genre21 a :acteur .
  :acteur22 rdfs:label "guang huo".
+:genre22 a :acteur .
  :acteur23 rdfs:label "camelia jordana".
+:genre23 a :acteur .
  :acteur24 rdfs:label "xun liang".
+:genre24 a :acteur .
  :acteur25 rdfs:label "maurice cheng".
+:genre25 a :acteur .
  :acteur26 rdfs:label "caroline ducey".
+:genre26 a :acteur .
  :acteur27 rdfs:label "sagamore stevenin".
+:genre27 a :acteur .
  :acteur28 rdfs:label "françois berleand".
+:genre28 a :acteur .
  :acteur29 rdfs:label "rocco siffredi".
+:genre29 a :acteur .
  :acteur30 rdfs:label "thomas chabrol".
+:genre30 a :acteur .
  :acteur31 rdfs:label "alain libolt".
+:genre31 a :acteur .
  :acteur32 rdfs:label "gwenaëlle simon".
+:genre32 a :acteur .
  :acteur33 rdfs:label "vanessa larre".
+:genre33 a :acteur .
  :acteur34 rdfs:label "daniel auteuil".
+:genre34 a :acteur .
  :acteur35 rdfs:label "guillaume canet".
+:genre35 a :acteur .
  :acteur36 rdfs:label "doria tillier".
+:genre36 a :acteur .
  :acteur37 rdfs:label "fanny ardant".
+:genre37 a :acteur .
  :acteur38 rdfs:label "françois civil".
+:genre38 a :acteur .
  :acteur39 rdfs:label "ana girardot".
+:genre39 a :acteur .
  :acteur40 rdfs:label "camille cottin".
+:genre40 a :acteur .
  :acteur41 rdfs:label "baptiste amann".
+:genre41 a :acteur .
  :acteur42 rdfs:label "emilie favre bertin".
+:genre42 a :acteur .
  :acteur43 rdfs:label "jean-henri compere".
+:genre43 a :acteur .
  :acteur44 rdfs:label "catherine frot".
+:genre44 a :acteur .
  :acteur45 rdfs:label "logann antuofermo".
+:genre45 a :acteur .
  :acteur46 rdfs:label "oulaya amamra".
+:genre46 a :acteur .
  :acteur47 rdfs:label "andre wilms".
+:genre47 a :acteur .
  :acteur48 rdfs:label "louise chevillotte".
+:genre48 a :acteur .
  :acteur49 rdfs:label "andre holland".
+:genre49 a :acteur .
  :acteur50 rdfs:label "joanna kulig".
+:genre50 a :acteur .
  :acteur51 rdfs:label "leïla bekhti".
+:genre51 a :acteur .
  :acteur52 rdfs:label "adil dehbi".
+:genre52 a :acteur .
  :acteur53 rdfs:label "geraldine pailhas".
+:genre53 a :acteur .
  :acteur54 rdfs:label "arnaud ducret".
+:genre54 a :acteur .
  :acteur55 rdfs:label "stephane de groodt".
+:genre55 a :acteur .
  :acteur56 rdfs:label "eddie constantine".
+:genre56 a :acteur .
  :acteur57 rdfs:label "diana lorys".
+:genre57 a :acteur .
  :acteur58 rdfs:label "anita höfer".
+:genre58 a :acteur .
  :acteur59 rdfs:label "mary paz pondal".
+:genre59 a :acteur .
  :acteur60 rdfs:label "".
+:genre60 a :acteur .
  :acteur61 rdfs:label "laetitia dosch".
+:genre61 a :acteur .
  :acteur62 rdfs:label "sergei polunin".
+:genre62 a :acteur .
  :acteur63 rdfs:label "lou-teymour thion".
+:genre63 a :acteur .
  :acteur64 rdfs:label "chiara mastroianni".
+:genre64 a :acteur .
  :acteur65 rdfs:label "benjamin biolay".
+:genre65 a :acteur .
  :acteur66 rdfs:label "vincent lacoste".
+:genre66 a :acteur .
  :acteur67 rdfs:label "kolia abiteboul".
+:genre67 a :acteur .
  :acteur68 rdfs:label "irene jacob".
+:genre68 a :acteur .
  :acteur69 rdfs:label "niels arestrup".
+:genre69 a :acteur .
  :acteur70 rdfs:label "patrick bruel".
+:genre70 a :acteur .
  :acteur71 rdfs:label "alaa safi".
+:genre71 a :acteur .
  :acteur72 rdfs:label "sam reid".
+:genre72 a :acteur .
  :acteur73 rdfs:label "jessica de gouw".
+:genre73 a :acteur .
  :acteur74 rdfs:label "kavitha anandasivam".
+:genre74 a :acteur .
  :acteur75 rdfs:label "luca asta sardelis".
+:genre75 a :acteur .
  :acteur76 rdfs:label "ed o'neill".
+:genre76 a :acteur .
  :acteur77 rdfs:label "sofía vergara".
+:genre77 a :acteur .
  :acteur78 rdfs:label "julie bowen".
+:genre78 a :acteur .
  :acteur79 rdfs:label "ty burrell".
+:genre79 a :acteur .
  :acteur80 rdfs:label "marine delterme".
+:genre80 a :acteur .
  :acteur81 rdfs:label "jean-michel tinivelli".
+:genre81 a :acteur .
  :acteur82 rdfs:label "guillaume carcaud".
+:genre82 a :acteur .
  :acteur83 rdfs:label "daniel-jean colloredo".
+:genre83 a :acteur .
  :acteur84 rdfs:label "bastien bouillon".
+:genre84 a :acteur .
  :acteur85 rdfs:label "idit cebula".
+:genre85 a :acteur .
  :acteur86 rdfs:label "agnes hurstel".
+:genre86 a :acteur .
  :acteur87 rdfs:label "hamza meziani".
+:genre87 a :acteur .
  :acteur88 rdfs:label "johnny galecki".
+:genre88 a :acteur .
  :acteur89 rdfs:label "jim parsons".
+:genre89 a :acteur .
  :acteur90 rdfs:label "kaley cuoco".
+:genre90 a :acteur .
  :acteur91 rdfs:label "simon helberg".
+:genre91 a :acteur .
  :acteur92 rdfs:label "didier bourdon".
+:genre92 a :acteur .
  :acteur93 rdfs:label "valerie bonneton".
+:genre93 a :acteur .
  :acteur94 rdfs:label "isabelle carre".
+:genre94 a :acteur .
  :acteur95 rdfs:label "helene vincent".
+:genre95 a :acteur .
  :acteur96 rdfs:label "louise brooks".
+:genre96 a :acteur .
  :acteur97 rdfs:label "fritz kortner".
+:genre97 a :acteur .
  :acteur98 rdfs:label "francis lederer".
+:genre98 a :acteur .
  :acteur99 rdfs:label "carl goetz".
+:genre99 a :acteur .
  :acteur100 rdfs:label "alain chabat".
+:genre100 a :acteur .
  :acteur101 rdfs:label "golshifteh farahani".
+:genre101 a :acteur .
  :acteur102 rdfs:label "pio marmaï".
+:genre102 a :acteur .
  :acteur103 rdfs:label "bruno sanches".
+:genre103 a :acteur .
  :acteur104 rdfs:label "n/a".
+:genre104 a :acteur .
  :acteur105 rdfs:label "catherine allegret".
+:genre105 a :acteur .
  :acteur106 rdfs:label "nicolaï arutene".
+:genre106 a :acteur .
  :acteur107 rdfs:label "pauline badal".
+:genre107 a :acteur .
  :acteur108 rdfs:label "thierry beaufour".
+:genre108 a :acteur .
  :acteur109 rdfs:label "nicolas avinee".
+:genre109 a :acteur .
  :acteur110 rdfs:label "naidra ayadi".
+:genre110 a :acteur .
  :acteur111 rdfs:label "zabou breitman".
+:genre111 a :acteur .
  :acteur112 rdfs:label "valeria bruni tedeschi".
+:genre112 a :acteur .
  :acteur113 rdfs:label "karin viard".
+:genre113 a :acteur .
  :acteur114 rdfs:label "dara tombroff".
+:genre114 a :acteur .
  :acteur115 rdfs:label "anne dorval".
+:genre115 a :acteur .
  :acteur116 rdfs:label "thibault de montalembert".
+:genre116 a :acteur .
  :acteur117 rdfs:label "vincent elbaz".
+:genre117 a :acteur .
  :acteur118 rdfs:label "marie-sophie ferdane".
+:genre118 a :acteur .
  :acteur119 rdfs:label "pierre benezit".
+:genre119 a :acteur .
  :acteur120 rdfs:label "blanche gardin".
+:genre120 a :acteur .
  :acteur121 rdfs:label "fred astaire".
+:genre121 a :acteur .
  :acteur122 rdfs:label "ginger rogers".
+:genre122 a :acteur .
  :acteur123 rdfs:label "ralph bellamy".
+:genre123 a :acteur .
  :acteur124 rdfs:label "luella gear".
+:genre124 a :acteur .
  :acteur125 rdfs:label "xavier lemaître".
+:genre125 a :acteur .
  :acteur126 rdfs:label "roxane arnal".
+:genre126 a :acteur .
  :acteur127 rdfs:label "david stone".
+:genre127 a :acteur .
  :acteur128 rdfs:label "diane lane".
+:genre128 a :acteur .
  :acteur129 rdfs:label "jj feild".
+:genre129 a :acteur .
  :acteur130 rdfs:label "aaron eckhart".
+:genre130 a :acteur .
  :acteur131 rdfs:label "louise bourgoin".
+:genre131 a :acteur .
  :acteur132 rdfs:label "claudia tagbo".
+:genre132 a :acteur .
  :acteur133 rdfs:label "hadja traore".
+:genre133 a :acteur .
  :acteur134 rdfs:label "amer alwan".
+:genre134 a :acteur .
  :acteur135 rdfs:label "biyouna".
+:genre135 a :acteur .
  :acteur136 rdfs:label "omar sy".
+:genre136 a :acteur .
  :acteur137 rdfs:label "luis guzman".
+:genre137 a :acteur .
  :acteur138 rdfs:label "diem nguyen".
+:genre138 a :acteur .
  :acteur139 rdfs:label "jennifer aniston".
+:genre139 a :acteur .
  :acteur140 rdfs:label "timothy olyphant".
+:genre140 a :acteur .
  :acteur141 rdfs:label "shay mitchell".
+:genre141 a :acteur .
  :acteur142 rdfs:label "caleb brown".
+:genre142 a :acteur .
  :acteur143 rdfs:label "alexandra lamy".
+:genre143 a :acteur .
  :acteur144 rdfs:label "finnegan oldfield".
+:genre144 a :acteur .
  :acteur145 rdfs:label "gilles cohen".
+:genre145 a :acteur .
  :acteur146 rdfs:label "valerie karsenti".
+:genre146 a :acteur .
  :acteur147 rdfs:label "nathalie baye".
+:genre147 a :acteur .
  :acteur148 rdfs:label "malik zidi".
+:genre148 a :acteur .
  :acteur149 rdfs:label "maïwenn".
+:genre149 a :acteur .
  :acteur150 rdfs:label "frederic pierrot".
+:genre150 a :acteur .
  :acteur151 rdfs:label "jean-claude bouillon".
+:genre151 a :acteur .
  :acteur152 rdfs:label "jean-paul tribout".
+:genre152 a :acteur .
  :acteur153 rdfs:label "pierre maguelon".
+:genre153 a :acteur .
  :acteur154 rdfs:label "catherine allary".
+:genre154 a :acteur .
  :acteur155 rdfs:label "kad merad".
+:genre155 a :acteur .
  :acteur156 rdfs:label "anna mouglalis".
+:genre156 a :acteur .
  :acteur157 rdfs:label "astrid whettnall".
+:genre157 a :acteur .
  :acteur158 rdfs:label "lubna gourion".
+:genre158 a :acteur .
  :acteur159 rdfs:label "issei ogata".
+:genre159 a :acteur .
  :acteur160 rdfs:label "robert dawson".
+:genre160 a :acteur .
  :acteur161 rdfs:label "kaori momoi".
+:genre161 a :acteur .
  :acteur162 rdfs:label "shirô sano".
+:genre162 a :acteur .
  :acteur163 rdfs:label "jonathan cohen".
+:genre163 a :acteur .
  :acteur164 rdfs:label "camille chamoux".
+:genre164 a :acteur .
  :acteur165 rdfs:label "jeremie elkaïm".
+:genre165 a :acteur .
  :acteur166 rdfs:label "gabor reisz".
+:genre166 a :acteur .
  :acteur167 rdfs:label "katica nagy".
+:genre167 a :acteur .
  :acteur168 rdfs:label "zsolt kovacs".
+:genre168 a :acteur .
  :acteur169 rdfs:label "katalin takacs".
+:genre169 a :acteur .
  :acteur170 rdfs:label "kheiron".
+:genre170 a :acteur .
  :acteur171 rdfs:label "catherine deneuve".
+:genre171 a :acteur .
  :acteur172 rdfs:label "andre dussollier".
+:genre172 a :acteur .
  :acteur173 rdfs:label "louison blivet".
+:genre173 a :acteur .
  :acteur174 rdfs:label "josefine frida pettersen".
+:genre174 a :acteur .
  :acteur175 rdfs:label "iman meskini".
+:genre175 a :acteur .
  :acteur176 rdfs:label "ulrikke falch".
+:genre176 a :acteur .
  :acteur177 rdfs:label "lisa teige".
+:genre177 a :acteur .
  :acteur178 rdfs:label "ophelie meunier".
+:genre178 a :acteur .
  :acteur179 rdfs:label "mila savic".
+:genre179 a :acteur .
  :acteur180 rdfs:label "yasna zivanovic".
+:genre180 a :acteur .
  :acteur181 rdfs:label "mathilde wambergue".
+:genre181 a :acteur .
  :acteur182 rdfs:label "philippe dormoy".
+:genre182 a :acteur .
  :acteur183 rdfs:label "johnnie brannon".
+:genre183 a :acteur .
  :acteur184 rdfs:label "austin brown".
+:genre184 a :acteur .
  :acteur185 rdfs:label "caroline brown".
+:genre185 a :acteur .
  :acteur186 rdfs:label "cecil dowdle".
+:genre186 a :acteur .
  :acteur187 rdfs:label "tom mercier".
+:genre187 a :acteur .
  :acteur188 rdfs:label "quentin dolmaire".
+:genre188 a :acteur .
  :acteur189 rdfs:label "uria hayik".
+:genre189 a :acteur .
  :acteur190 rdfs:label "matthias schoenaerts".
+:genre190 a :acteur .
  :acteur191 rdfs:label "reda kateb".
+:genre191 a :acteur .
  :acteur192 rdfs:label "adel bencherif".
+:genre192 a :acteur .
  :acteur193 rdfs:label "sofiane zermani".
+:genre193 a :acteur .
  :acteur194 rdfs:label "thomas soliveres".
+:genre194 a :acteur .
  :acteur195 rdfs:label "victor meutelet".
+:genre195 a :acteur .
  :acteur196 rdfs:label "eric caravaca".
+:genre196 a :acteur .
  :acteur197 rdfs:label "hippolyte girardot".
+:genre197 a :acteur .
  :acteur198 rdfs:label "alexandra jeudon".
+:genre198 a :acteur .
  :acteur199 rdfs:label "alexandra laflandre".
+:genre199 a :acteur .
  :acteur200 rdfs:label "loïc augoyard".
+:genre200 a :acteur .
  :acteur201 rdfs:label "violette bermestre".
+:genre201 a :acteur .
  :acteur202 rdfs:label "dany boon".
+:genre202 a :acteur .
  :acteur203 rdfs:label "line renaud".
+:genre203 a :acteur .
  :acteur204 rdfs:label "laurence arne".
+:genre204 a :acteur .
  :acteur205 rdfs:label "ben abell".
+:genre205 a :acteur .
  :acteur206 rdfs:label "zoe aldrich".
+:genre206 a :acteur .
  :acteur207 rdfs:label "lisa allen".
+:genre207 a :acteur .
  :acteur208 rdfs:label "kelva barrett".
+:genre208 a :acteur .
  :acteur209 rdfs:label "louane emera".
+:genre209 a :acteur .
  :acteur210 rdfs:label "françois deblock".
+:genre210 a :acteur .
  :acteur211 rdfs:label "nina melo".
+:genre211 a :acteur .
  :acteur212 rdfs:label "rabah nait oufella".
+:genre212 a :acteur .
  :acteur213 rdfs:label "pierre richard".
+:genre213 a :acteur .
  :acteur214 rdfs:label "sophie marceau".
+:genre214 a :acteur .
  :acteur215 rdfs:label "nicolas vaude".
+:genre215 a :acteur .
  :acteur216 rdfs:label "jean-luc delarue".
+:genre216 a :acteur .
  :acteur217 rdfs:label "tomasz kot".
+:genre217 a :acteur .
  :acteur218 rdfs:label "borys szyc".
+:genre218 a :acteur .
  :acteur219 rdfs:label "agata kulesza".
+:genre219 a :acteur .
  :acteur220 rdfs:label "matt walsh".
+:genre220 a :acteur .
  :acteur221 rdfs:label "judith godreche".
+:genre221 a :acteur .
  :acteur222 rdfs:label "reid scott".
+:genre222 a :acteur .
  :acteur223 rdfs:label "michaela watkins".
+:genre223 a :acteur .
  :acteur224 rdfs:label "shandy aulia".
+:genre224 a :acteur .
  :acteur225 rdfs:label "samuel rizal".
+:genre225 a :acteur .
  :acteur226 rdfs:label "saphira indah".
+:genre226 a :acteur .
  :acteur227 rdfs:label "tommy kurniawan".
+:genre227 a :acteur .
  :acteur228 rdfs:label "alan ladd".
+:genre228 a :acteur .
  :acteur229 rdfs:label "donna reed".
+:genre229 a :acteur .
  :acteur230 rdfs:label "june havoc".
+:genre230 a :acteur .
  :acteur231 rdfs:label "irene hervey".
+:genre231 a :acteur .
  :acteur232 rdfs:label "dhanush".
+:genre232 a :acteur .
  :acteur233 rdfs:label "berenice bejo".
+:genre233 a :acteur .
  :acteur234 rdfs:label "erin moriarty".
+:genre234 a :acteur .
  :acteur235 rdfs:label "barkhad abdi".
+:genre235 a :acteur .
  :acteur236 rdfs:label "virginie ledoyen".
+:genre236 a :acteur .
  :acteur237 rdfs:label "thierry neuvic".
+:genre237 a :acteur .
  :acteur238 rdfs:label "thierry fremont".
+:genre238 a :acteur .
  :acteur239 rdfs:label "jimmy jean-louis".
+:genre239 a :acteur .
  :acteur240 rdfs:label "sandrine kiberlain".
+:genre240 a :acteur .
  :acteur241 rdfs:label "agathe bonitzer".
+:genre241 a :acteur .
  :acteur242 rdfs:label "melvil poupaud".
+:genre242 a :acteur .
  :acteur243 rdfs:label "lucie desclozeaux".
+:genre243 a :acteur .
  :acteur244 rdfs:label "françois-xavier demaison".
+:genre244 a :acteur .
  :acteur245 rdfs:label "alix poisson".
+:genre245 a :acteur .
  :acteur246 rdfs:label "jean-philippe ricci".
+:genre246 a :acteur .
  :acteur247 rdfs:label "sarah le picard".
+:genre247 a :acteur .
  :acteur248 rdfs:label "michaël youn".
+:genre248 a :acteur .
  :acteur249 rdfs:label "lucien jean-baptiste".
+:genre249 a :acteur .
  :acteur250 rdfs:label "victoria bedos".
+:genre250 a :acteur .
  :acteur251 rdfs:label "bernard le coq".
+:genre251 a :acteur .
  :acteur252 rdfs:label "the new england patriots".
+:genre252 a :acteur .
  :acteur253 rdfs:label "sandor funtek".
+:genre253 a :acteur .
  :acteur254 rdfs:label "alexis manenti".
+:genre254 a :acteur .
  :acteur255 rdfs:label "sandrine bonnaire".
+:genre255 a :acteur .
  :acteur256 rdfs:label "virginie acaries".
+:genre256 a :acteur .
  :acteur257 rdfs:label "constance bennett".
+:genre257 a :acteur .
  :acteur258 rdfs:label "violet kemble cooper".
+:genre258 a :acteur .
  :acteur259 rdfs:label "phoebe foster".
+:genre259 a :acteur .
  :acteur260 rdfs:label "grant mitchell".
+:genre260 a :acteur .
  :acteur261 rdfs:label "donia eden".
+:genre261 a :acteur .
  :acteur262 rdfs:label "pauline parigot".
+:genre262 a :acteur .
  :acteur263 rdfs:label "lorry hardel".
+:genre263 a :acteur .
  :acteur264 rdfs:label "nicolas briançon".
+:genre264 a :acteur .
  :acteur265 rdfs:label "edouard baer".
+:genre265 a :acteur .
  :acteur266 rdfs:label "tom levy".
+:genre266 a :acteur .
  :acteur267 rdfs:label "alain delon".
+:genre267 a :acteur .
  :acteur268 rdfs:label "mireille darc".
+:genre268 a :acteur .
  :acteur269 rdfs:label "monica guerritore".
+:genre269 a :acteur .
  :acteur270 rdfs:label "marie dea".
+:genre270 a :acteur .
  :acteur271 rdfs:label "josephine japy".
+:genre271 a :acteur .
  :acteur272 rdfs:label "benjamin lavernhe".
+:genre272 a :acteur .
  :acteur273 rdfs:label "camille lellouche".
+:genre273 a :acteur .
  :acteur274 rdfs:label "patrick dempsey".
+:genre274 a :acteur .
  :acteur275 rdfs:label "amanda peterson".
+:genre275 a :acteur .
  :acteur276 rdfs:label "courtney gains".
+:genre276 a :acteur .
  :acteur277 rdfs:label "tina caspary".
+:genre277 a :acteur .
  :acteur278 rdfs:label "addison timlin".
+:genre278 a :acteur .
  :acteur279 rdfs:label "ian nelson".
+:genre279 a :acteur .
  :acteur280 rdfs:label "larry fessenden".
+:genre280 a :acteur .
  :acteur281 rdfs:label "jeremy gardner".
+:genre281 a :acteur .
  :acteur282 rdfs:label "owen wilson".
+:genre282 a :acteur .
  :acteur283 rdfs:label "salma hayek".
+:genre283 a :acteur .
  :acteur284 rdfs:label "nesta cooper".
+:genre284 a :acteur .
  :acteur285 rdfs:label "jorge lendeborg jr.".
+:genre285 a :acteur .
  :acteur286 rdfs:label "celine sallette".
+:genre286 a :acteur .
  :acteur287 rdfs:label "carole franck".
+:genre287 a :acteur .
  :acteur288 rdfs:label "jean-marie winling".
+:genre288 a :acteur .
  :acteur289 rdfs:label "rachel brosnahan".
+:genre289 a :acteur .
  :acteur290 rdfs:label "alex borstein".
+:genre290 a :acteur .
  :acteur291 rdfs:label "michael zegen".
+:genre291 a :acteur .
  :acteur292 rdfs:label "marin hinkle".
+:genre292 a :acteur .
  :acteur293 rdfs:label "fatou n'diaye".
+:genre293 a :acteur .
  :acteur294 rdfs:label "gilbert melki".
+:genre294 a :acteur .
  :acteur295 rdfs:label "pascal elso".
+:genre295 a :acteur .
  :acteur296 rdfs:label "clementine poidatz".
+:genre296 a :acteur .
  :acteur297 rdfs:label "andy griffith".
+:genre297 a :acteur .
  :acteur298 rdfs:label "ron howard".
+:genre298 a :acteur .
  :acteur299 rdfs:label "frances bavier".
+:genre299 a :acteur .
  :acteur300 rdfs:label "don knotts".
+:genre300 a :acteur .
  :acteur301 rdfs:label "scott foley".
+:genre301 a :acteur .
  :acteur302 rdfs:label "lauren cohan".
+:genre302 a :acteur .
  :acteur303 rdfs:label "ana ortiz".
+:genre303 a :acteur .
  :acteur304 rdfs:label "tyler james williams".
+:genre304 a :acteur .
  :acteur305 rdfs:label "thaïs alessandrin".
+:genre305 a :acteur .
  :acteur306 rdfs:label "victor belmondo".
+:genre306 a :acteur .
  :acteur307 rdfs:label "mickaël lumiere".
+:genre307 a :acteur .
  :acteur308 rdfs:label "max boublil".
+:genre308 a :acteur .
  :acteur309 rdfs:label "alice isaaz".
+:genre309 a :acteur .
  :acteur310 rdfs:label "arthur perier".
+:genre310 a :acteur .
  :acteur311 rdfs:label "romain duris".
+:genre311 a :acteur .
  :acteur312 rdfs:label "laurent lucas".
+:genre312 a :acteur .
  :acteur313 rdfs:label "flora fischbach".
+:genre313 a :acteur .
  :acteur314 rdfs:label "cecile bois".
+:genre314 a :acteur .
  :acteur315 rdfs:label "arie elmaleh".
+:genre315 a :acteur .
  :acteur316 rdfs:label "hugo becker".
+:genre316 a :acteur .
  :acteur317 rdfs:label "lolita chammah".
+:genre317 a :acteur .
  :acteur318 rdfs:label "john larroquette".
+:genre318 a :acteur .
  :acteur319 rdfs:label "markie post".
+:genre319 a :acteur .
  :acteur320 rdfs:label "emily holmes".
+:genre320 a :acteur .
  :acteur321 rdfs:label "jonathan cherry".
+:genre321 a :acteur .
  :acteur322 rdfs:label "ingrid guimaraes".
+:genre322 a :acteur .
  :acteur323 rdfs:label "bruno garcia".
+:genre323 a :acteur .
  :acteur324 rdfs:label "denise weinberg".
+:genre324 a :acteur .
  :acteur325 rdfs:label "cristina pereira".
+:genre325 a :acteur .
  :acteur326 rdfs:label "pernilla august".
+:genre326 a :acteur .
  :acteur327 rdfs:label "olle sarri".
+:genre327 a :acteur .
  :acteur328 rdfs:label "peter haber".
+:genre328 a :acteur .
  :acteur329 rdfs:label "vera vitali".
+:genre329 a :acteur .
  :acteur330 rdfs:label "parineeti chopra".
+:genre330 a :acteur .
  :acteur331 rdfs:label "arjun kapoor".
+:genre331 a :acteur .
  :acteur332 rdfs:label "hiten patel".
+:genre332 a :acteur .
  :acteur333 rdfs:label "satish kaushik".
+:genre333 a :acteur .
  :acteur334 rdfs:label "assad ahmed".
+:genre334 a :acteur .
  :acteur335 rdfs:label "gerard depardieu".
+:genre335 a :acteur .
  :acteur336 rdfs:label "mizanur rahaman".
+:genre336 a :acteur .
  :acteur337 rdfs:label "isabelle nanty".
+:genre337 a :acteur .
  :acteur338 rdfs:label "stefano fresi".
+:genre338 a :acteur .
  :acteur339 rdfs:label "simona molinari".
+:genre339 a :acteur .
  :acteur340 rdfs:label "giovanni fuoco".
+:genre340 a :acteur .
  :acteur341 rdfs:label "francesca zezza".
+:genre341 a :acteur .
  :acteur342 rdfs:label "elia suleiman".
+:genre342 a :acteur .
  :acteur343 rdfs:label "tarik kopty".
+:genre343 a :acteur .
  :acteur344 rdfs:label "kareem ghneim".
+:genre344 a :acteur .
  :acteur345 rdfs:label "george khleifi".
+:genre345 a :acteur .
  :acteur346 rdfs:label "jean-hugues anglade".
+:genre346 a :acteur .
  :acteur347 rdfs:label "jacques spiesser".
+:genre347 a :acteur .
  :acteur348 rdfs:label "sylvie testud".
+:genre348 a :acteur .
  :acteur349 rdfs:label "elisabeth depardieu".
+:genre349 a :acteur .
  :acteur350 rdfs:label "victor artus solaro".
+:genre350 a :acteur .
  :acteur351 rdfs:label "tomer sisley".
+:genre351 a :acteur .
  :acteur352 rdfs:label "helene de fougerolles".
+:genre352 a :acteur .
  :acteur353 rdfs:label "yannig samot".
+:genre353 a :acteur .
  :acteur354 rdfs:label "philypa phoenix".
+:genre354 a :acteur .
  :acteur355 rdfs:label "lambert wilson".
+:genre355 a :acteur .
  :acteur356 rdfs:label "olivier gourmet".
+:genre356 a :acteur .
  :acteur357 rdfs:label "catherine mouchet".
+:genre357 a :acteur .
  :acteur358 rdfs:label "damien boisseau".
+:genre358 a :acteur .
  :acteur359 rdfs:label "jean-pascal zadi".
+:genre359 a :acteur .
  :acteur360 rdfs:label "caroline anglade".
+:genre360 a :acteur .
  :acteur361 rdfs:label "fary".
+:genre361 a :acteur .
  :acteur362 rdfs:label "tonton marcel".
+:genre362 a :acteur .
  :acteur363 rdfs:label "brigitte roüan".
+:genre363 a :acteur .
  :acteur364 rdfs:label "aure atika".
+:genre364 a :acteur .
  :acteur365 rdfs:label "sarah stern".
+:genre365 a :acteur .
  :acteur366 rdfs:label "vincent dedienne".
+:genre366 a :acteur .
  :acteur367 rdfs:label "oscar pauleau".
+:genre367 a :acteur .
  :acteur368 rdfs:label "lina el arabi".
+:genre368 a :acteur .
  :acteur369 rdfs:label "mahia zrouki".
+:genre369 a :acteur .
  :acteur370 rdfs:label "tasnim jamlaoui".
+:genre370 a :acteur .
  :acteur371 rdfs:label "james woods".
+:genre371 a :acteur .
  :acteur372 rdfs:label "daniel baldwin".
+:genre372 a :acteur .
  :acteur373 rdfs:label "sheryl lee".
+:genre373 a :acteur .
  :acteur374 rdfs:label "thomas ian griffith".
+:genre374 a :acteur .
  :acteur375 rdfs:label "bracha van doesburgh".
+:genre375 a :acteur .
  :acteur376 rdfs:label "ramsey nasr".
+:genre376 a :acteur .
  :acteur377 rdfs:label "malou gorter".
+:genre377 a :acteur .
  :acteur378 rdfs:label "jeroen spitzenberger".
+:genre378 a :acteur .
  :acteur379 rdfs:label "sara mortensen".
+:genre379 a :acteur .
  :acteur380 rdfs:label "lola dewaere".
+:genre380 a :acteur .
  :acteur381 rdfs:label "benoît michel".
+:genre381 a :acteur .
  :acteur382 rdfs:label "husky kihal".
+:genre382 a :acteur .
  :acteur383 rdfs:label "sinje irslinger".
+:genre383 a :acteur .
  :acteur384 rdfs:label "max hubacher".
+:genre384 a :acteur .
  :acteur385 rdfs:label "til schweiger".
+:genre385 a :acteur .
  :acteur386 rdfs:label "heike makatsch".
+:genre386 a :acteur .
  :acteur387 rdfs:label "victoire du bois".
+:genre387 a :acteur .
  :acteur388 rdfs:label "lucie boujenah".
+:genre388 a :acteur .
  :acteur389 rdfs:label "tiphaine daviot".
+:genre389 a :acteur .
  :acteur390 rdfs:label "ralph amoussou".
+:genre390 a :acteur .
  :acteur391 rdfs:label "hatik".
+:genre391 a :acteur .
  :acteur392 rdfs:label "brahim bouhlel".
+:genre392 a :acteur .
  :acteur393 rdfs:label "saïdou camara".
+:genre393 a :acteur .
  :acteur394 rdfs:label "sabrina ouazani".
+:genre394 a :acteur .
  :acteur395 rdfs:label "lisaraye mccoy".
+:genre395 a :acteur .
  :acteur396 rdfs:label "antoine holmes sr.".
+:genre396 a :acteur .
  :acteur397 rdfs:label "spencer holmes".
+:genre397 a :acteur .
  :acteur398 rdfs:label "valarie pettiford".
+:genre398 a :acteur .
  :acteur399 rdfs:label "antoine reinartz".
+:genre399 a :acteur .
  :acteur400 rdfs:label "assya da silva".
+:genre400 a :acteur .
  :acteur401 rdfs:label "julie gayet".
+:genre401 a :acteur .
  :acteur402 rdfs:label "julie depardieu".
+:genre402 a :acteur .
  :acteur403 rdfs:label "denis podalydes".
+:genre403 a :acteur .
  :acteur404 rdfs:label "bruno podalydes".
+:genre404 a :acteur .
  :acteur405 rdfs:label "yann frisch".
+:genre405 a :acteur .
  :acteur406 rdfs:label "jean-christophe folly".
+:genre406 a :acteur .
  :acteur407 rdfs:label "julia piaton".
+:genre407 a :acteur .
  :acteur408 rdfs:label "catherine jacob".
+:genre408 a :acteur .
  :acteur409 rdfs:label "armaan ralhan".
+:genre409 a :acteur .
  :acteur410 rdfs:label "ranveer singh".
+:genre410 a :acteur .
  :acteur411 rdfs:label "vaani kapoor".
+:genre411 a :acteur .
  :acteur412 rdfs:label "akarsh khurana".
+:genre412 a :acteur .
  :acteur413 rdfs:label "gemma arterton".
+:genre413 a :acteur .
  :acteur414 rdfs:label "dominic cooper".
+:genre414 a :acteur .
  :acteur415 rdfs:label "frances barber".
+:genre415 a :acteur .
  :acteur416 rdfs:label "marthe keller".
+:genre416 a :acteur .
  :acteur417 rdfs:label "tewfik jallab".
+:genre417 a :acteur .
  :acteur418 rdfs:label "nadia kaci".
+:genre418 a :acteur .
  :acteur419 rdfs:label "veronique dumont".
+:genre419 a :acteur .
  :acteur420 rdfs:label "manu payet".
+:genre420 a :acteur .
  :acteur421 rdfs:label "marilou berry".
+:genre421 a :acteur .
  :acteur422 rdfs:label "melissa leo".
+:genre422 a :acteur .
  :acteur423 rdfs:label "zachary quinto".
+:genre423 a :acteur .
  :acteur424 rdfs:label "joseph gordon-levitt".
+:genre424 a :acteur .
  :acteur425 rdfs:label "jaymes butler".
+:genre425 a :acteur .
  :acteur426 rdfs:label "anny duperey".
+:genre426 a :acteur .
  :acteur427 rdfs:label "alexandre thibault".
+:genre427 a :acteur .
  :acteur428 rdfs:label "jennifer lauret".
+:genre428 a :acteur .
  :acteur429 rdfs:label "andrea otalvaro".
+:genre429 a :acteur .
  :acteur430 rdfs:label "lana baric".
+:genre430 a :acteur .
  :acteur431 rdfs:label "andrzej chyra".
+:genre431 a :acteur .
  :acteur432 rdfs:label "mirjana karanovic".
+:genre432 a :acteur .
  :acteur433 rdfs:label "april bogenschutz".
+:genre433 a :acteur .
  :acteur434 rdfs:label "lucie lucas".
+:genre434 a :acteur .
  :acteur435 rdfs:label "carole richert".
+:genre435 a :acteur .
  :acteur436 rdfs:label "jean dell".
+:genre436 a :acteur .
  :acteur437 rdfs:label "elodie fontan".
+:genre437 a :acteur .
  :acteur438 rdfs:label "momoe yamaguchi".
+:genre438 a :acteur .
  :acteur439 rdfs:label "tomokazu miura".
+:genre439 a :acteur .
  :acteur440 rdfs:label "keiko kishi".
+:genre440 a :acteur .
  :acteur441 rdfs:label "jun izumi".
+:genre441 a :acteur .
  :acteur442 rdfs:label "virginie efira".
+:genre442 a :acteur .
  :acteur443 rdfs:label "gregory gadebois".
+:genre443 a :acteur .
  :acteur444 rdfs:label "payman maadi".
+:genre444 a :acteur .
  :acteur445 rdfs:label "josh stewart".
+:genre445 a :acteur .
  :acteur446 rdfs:label "emma fitzpatrick".
+:genre446 a :acteur .
  :acteur447 rdfs:label "christopher mcdonald".
+:genre447 a :acteur .
  :acteur448 rdfs:label "lee tergesen".
+:genre448 a :acteur .
  :acteur449 rdfs:label "lily collins".
+:genre449 a :acteur .
  :acteur450 rdfs:label "philippine leroy-beaulieu".
+:genre450 a :acteur .
  :acteur451 rdfs:label "ashley park".
+:genre451 a :acteur .
  :acteur452 rdfs:label "lucas bravo".
+:genre452 a :acteur .
  :acteur453 rdfs:label "anders danielsen lie".
+:genre453 a :acteur .
  :acteur454 rdfs:label "denis lavant".
+:genre454 a :acteur .
  :acteur455 rdfs:label "sigrid bouaziz".
+:genre455 a :acteur .
  :acteur456 rdfs:label "fabrice eboue".
+:genre456 a :acteur .
  :acteur457 rdfs:label "guillaume de tonquedec".
+:genre457 a :acteur .
  :acteur458 rdfs:label "audrey lamy".
+:genre458 a :acteur .
  :acteur459 rdfs:label "aurelien wiik".
+:genre459 a :acteur .
  :acteur460 rdfs:label "tom villa".
+:genre460 a :acteur .
  :acteur461 rdfs:label "paloma coquant".
+:genre461 a :acteur .
  :acteur462 rdfs:label "johnny huang".
+:genre462 a :acteur .
  :acteur463 rdfs:label "gang wu".
+:genre463 a :acteur .
  :acteur464 rdfs:label "jinsong wang".
+:genre464 a :acteur .
  :acteur465 rdfs:label "simon yam".
+:genre465 a :acteur .
  :acteur466 rdfs:label "jiiva".
+:genre466 a :acteur .
  :acteur467 rdfs:label "ajmal ameer".
+:genre467 a :acteur .
  :acteur468 rdfs:label "karthika nair".
+:genre468 a :acteur .
  :acteur469 rdfs:label "piaa bajpai".
+:genre469 a :acteur .
  :acteur470 rdfs:label "gerard jugnot".
+:genre470 a :acteur .
  :acteur471 rdfs:label "berengere krief".
+:genre471 a :acteur .
  :acteur472 rdfs:label "nicolas wanczycki".
+:genre472 a :acteur .
  :acteur473 rdfs:label "benoît magimel".
+:genre473 a :acteur .
  :acteur474 rdfs:label "idir chender".
+:genre474 a :acteur .
  :acteur475 rdfs:label "laura smet".
+:genre475 a :acteur .
  :acteur476 rdfs:label "allu arjun".
+:genre476 a :acteur .
  :acteur477 rdfs:label "pooja hegde".
+:genre477 a :acteur .
  :acteur478 rdfs:label "tabu".
+:genre478 a :acteur .
  :acteur479 rdfs:label "jayaram".
+:genre479 a :acteur .
  :acteur480 rdfs:label "anne parillaud".
+:genre480 a :acteur .
  :acteur481 rdfs:label "frederique bel".
+:genre481 a :acteur .
  :acteur482 rdfs:label "barbara cabrita".
+:genre482 a :acteur .
  :acteur483 rdfs:label "florence coste".
+:genre483 a :acteur .
  :acteur484 rdfs:label "vanessa guide".
+:genre484 a :acteur .
  :acteur485 rdfs:label "bruno lochet".
+:genre485 a :acteur .
  :acteur486 rdfs:label "chung-kuang pai".
+:genre486 a :acteur .
  :acteur487 rdfs:label "alice david".
+:genre487 a :acteur .
  :acteur488 rdfs:label "charlotte gabris".
+:genre488 a :acteur .
  :acteur489 rdfs:label "barbara probst".
+:genre489 a :acteur .
  :acteur490 rdfs:label "audrey dana".
+:genre490 a :acteur .
  :acteur491 rdfs:label "christian clavier".
+:genre491 a :acteur .
  :acteur492 rdfs:label "eric elmosnino".
+:genre492 a :acteur .
  :acteur493 rdfs:label "alice belaïdi".
+:genre493 a :acteur .
  :acteur494 rdfs:label "don johnson".
+:genre494 a :acteur .
  :acteur495 rdfs:label "philip michael thomas".
+:genre495 a :acteur .
  :acteur496 rdfs:label "saundra santiago".
+:genre496 a :acteur .
  :acteur497 rdfs:label "olivia brown".
+:genre497 a :acteur .
  :acteur498 rdfs:label "patrick timsit".
+:genre498 a :acteur .
  :acteur499 rdfs:label "philippe laudenbach".
+:genre499 a :acteur .
  :acteur500 rdfs:label "ray corasani".
+:genre500 a :acteur .
  :acteur501 rdfs:label "alek skarlatos".
+:genre501 a :acteur .
  :acteur502 rdfs:label "anthony sadler".
+:genre502 a :acteur .
  :acteur503 rdfs:label "spencer stone".
+:genre503 a :acteur .
  :acteur504 rdfs:label "gary kemp".
+:genre504 a :acteur .
  :acteur505 rdfs:label "joanna trzepiecinska".
+:genre505 a :acteur .
  :acteur506 rdfs:label "david horovitch".
+:genre506 a :acteur .
  :acteur507 rdfs:label "ann mitchell".
+:genre507 a :acteur .
  :acteur508 rdfs:label "daniel doheny".
+:genre508 a :acteur .
  :acteur509 rdfs:label "geraldine viswanathan".
+:genre509 a :acteur .
  :acteur510 rdfs:label "sadie calvano".
+:genre510 a :acteur .
  :acteur511 rdfs:label "luke spencer roberts".
+:genre511 a :acteur .
  :acteur512 rdfs:label "souleymane seye ndiaye".
+:genre512 a :acteur .
  :acteur513 rdfs:label "gregoire monsaingeon".
+:genre513 a :acteur .
  :acteur514 rdfs:label "cecile de france".
+:genre514 a :acteur .
  :acteur515 rdfs:label "bea palya".
+:genre515 a :acteur .
  :acteur516 rdfs:label "bimbam merstein".
+:genre516 a :acteur .
  :acteur517 rdfs:label "melanie thierry".
+:genre517 a :acteur .
  :acteur518 rdfs:label "gregoire leprince-ringuet".
+:genre518 a :acteur .
  :acteur519 rdfs:label "pierre-françois martin-laval".
+:genre519 a :acteur .
  :acteur520 rdfs:label "manon valentin".
+:genre520 a :acteur .
  :acteur521 rdfs:label "craig roberts".
+:genre521 a :acteur .
  :acteur522 rdfs:label "ennis esmer".
+:genre522 a :acteur .
  :acteur523 rdfs:label "oliver cooper".
+:genre523 a :acteur .
  :acteur524 rdfs:label "richard kind".
+:genre524 a :acteur .
  :acteur525 rdfs:label "victoria moroles".
+:genre525 a :acteur .
  :acteur526 rdfs:label "mason cook".
+:genre526 a :acteur .
  :acteur527 rdfs:label "michael provost".
+:genre527 a :acteur .
  :acteur528 rdfs:label "hana hayes".
+:genre528 a :acteur .
  :acteur529 rdfs:label "carole bouquet".
+:genre529 a :acteur .
  :acteur530 rdfs:label "charlotte rampling".
+:genre530 a :acteur .
  :acteur531 rdfs:label "mahdi belemlih".
+:genre531 a :acteur .
  :acteur532 rdfs:label "ouidad elma".
+:genre532 a :acteur .
  :acteur533 rdfs:label "olivier sitruk".
+:genre533 a :acteur .
  :acteur534 rdfs:label "abbes zahmani".
+:genre534 a :acteur .
  :acteur535 rdfs:label "samir guesmi".
+:genre535 a :acteur .
  :acteur536 rdfs:label "laurent poitrenaux".
+:genre536 a :acteur .
  :acteur537 rdfs:label "marie bunel".
+:genre537 a :acteur .
  :acteur538 rdfs:label "will smith".
+:genre538 a :acteur .
  :acteur539 rdfs:label "mary elizabeth winstead".
+:genre539 a :acteur .
  :acteur540 rdfs:label "clive owen".
+:genre540 a :acteur .
  :acteur541 rdfs:label "benedict wong".
+:genre541 a :acteur .
  :acteur542 rdfs:label "paddy considine".
+:genre542 a :acteur .
  :acteur543 rdfs:label "samantha morton".
+:genre543 a :acteur .
  :acteur544 rdfs:label "sarah bolger".
+:genre544 a :acteur .
  :acteur545 rdfs:label "emma bolger".
+:genre545 a :acteur .
  :acteur546 rdfs:label "catherine salee".
+:genre546 a :acteur .
  :acteur547 rdfs:label "aïssa maïga".
+:genre547 a :acteur .
  :acteur548 rdfs:label "malik bentalha".
+:genre548 a :acteur .
  :acteur549 rdfs:label "romain lancry".
+:genre549 a :acteur .
  :acteur550 rdfs:label "david salles".
+:genre550 a :acteur .
  :acteur551 rdfs:label "emile azouri".
+:genre551 a :acteur .
  :acteur552 rdfs:label "rayane bensetti".
+:genre552 a :acteur .
  :acteur553 rdfs:label "cecile rebboah".
+:genre553 a :acteur .
  :acteur554 rdfs:label "marion cotillard".
+:genre554 a :acteur .
  :acteur555 rdfs:label "charlotte gainsbourg".
+:genre555 a :acteur .
  :acteur556 rdfs:label "louis garrel".
+:genre556 a :acteur .
  :acteur557 rdfs:label "anaïs parello".
+:genre557 a :acteur .
  :acteur558 rdfs:label "joy esther".
+:genre558 a :acteur .
  :acteur559 rdfs:label "marc arnaud".
+:genre559 a :acteur .
  :acteur560 rdfs:label "marco horanieh".
+:genre560 a :acteur .
  :acteur561 rdfs:label "patrick chesnais".
+:genre561 a :acteur .
  :acteur562 rdfs:label "baptiste lecaplain".
+:genre562 a :acteur .
  :acteur563 rdfs:label "cate blanchett".
+:genre563 a :acteur .
  :acteur564 rdfs:label "lily james".
+:genre564 a :acteur .
  :acteur565 rdfs:label "richard madden".
+:genre565 a :acteur .
  :acteur566 rdfs:label "helena bonham carter".
+:genre566 a :acteur .
  :acteur567 rdfs:label "camille panonacle".
+:genre567 a :acteur .
  :acteur568 rdfs:label "andrea ferreol".
+:genre568 a :acteur .
  :acteur569 rdfs:label "rufus".
+:genre569 a :acteur .
  :acteur570 rdfs:label "ahmed sylla".
+:genre570 a :acteur .
  :acteur571 rdfs:label "kevin razy".
+:genre571 a :acteur .
  :acteur572 rdfs:label "helene fillieres".
+:genre572 a :acteur .
  :acteur573 rdfs:label "bakary sangare".
+:genre573 a :acteur .
  :acteur574 rdfs:label "liliane rovere".
+:genre574 a :acteur .
  :acteur575 rdfs:label "jessica lord".
+:genre575 a :acteur .
  :acteur576 rdfs:label "rik young".
+:genre576 a :acteur .
  :acteur577 rdfs:label "caitlin-rose lacey".
+:genre577 a :acteur .
  :acteur578 rdfs:label "eubha akilade".
+:genre578 a :acteur .
  :acteur579 rdfs:label "nina hoss".
+:genre579 a :acteur .
  :acteur580 rdfs:label "ronald zehrfeld".
+:genre580 a :acteur .
  :acteur581 rdfs:label "rainer bock".
+:genre581 a :acteur .
  :acteur582 rdfs:label "christina hecke".
+:genre582 a :acteur .
  :acteur583 rdfs:label "eriq ebouaney".
+:genre583 a :acteur .
  :acteur584 rdfs:label "aalayna lys".
+:genre584 a :acteur .
  :acteur585 rdfs:label "ibrahim burama darboe".
+:genre585 a :acteur .
  :acteur586 rdfs:label "farhan akhtar".
+:genre586 a :acteur .
  :acteur587 rdfs:label "shraddha kapoor".
+:genre587 a :acteur .
  :acteur588 rdfs:label "arjun rampal".
+:genre588 a :acteur .
  :acteur589 rdfs:label "purab kohli".
+:genre589 a :acteur .
  :acteur590 rdfs:label "anjelica huston".
+:genre590 a :acteur .
  :acteur591 rdfs:label "lindsay burdge".
+:genre591 a :acteur .
  :acteur592 rdfs:label "damien bonnard".
+:genre592 a :acteur .
  :acteur593 rdfs:label "esther garrel".
+:genre593 a :acteur .
  :acteur594 rdfs:label "nick nolte".
+:genre594 a :acteur .
  :acteur595 rdfs:label "melanie griffith".
+:genre595 a :acteur .
  :acteur596 rdfs:label "chazz palminteri".
+:genre596 a :acteur .
  :acteur597 rdfs:label "michael madsen".
+:genre597 a :acteur .
  :acteur598 rdfs:label "daniel san pedro".
+:genre598 a :acteur .
  :acteur599 rdfs:label "maria cristina mastrangeli".
+:genre599 a :acteur .
  :acteur600 rdfs:label "jean-marc avocat".
+:genre600 a :acteur .
  :acteur601 rdfs:label "marc-antoine frederic".
+:genre601 a :acteur .
  :acteur602 rdfs:label "mark bakunas".
+:genre602 a :acteur .
  :acteur603 rdfs:label "vendula bednarova".
+:genre603 a :acteur .
  :acteur604 rdfs:label "chris briggs".
+:genre604 a :acteur .
  :acteur605 rdfs:label "daniel frisch".
+:genre605 a :acteur .
  :acteur606 rdfs:label "rachel mcadams".
+:genre606 a :acteur .
  :acteur607 rdfs:label "channing tatum".
+:genre607 a :acteur .
  :acteur608 rdfs:label "jessica lange".
+:genre608 a :acteur .
  :acteur609 rdfs:label "sam neill".
+:genre609 a :acteur .
  :acteur610 rdfs:label "monia chokri".
+:genre610 a :acteur .
  :acteur611 rdfs:label "fabrice adde".
+:genre611 a :acteur .
  :acteur612 rdfs:label "stephanie crayencour".
+:genre612 a :acteur .
  :acteur613 rdfs:label "paul toucang".
+:genre613 a :acteur .
  :acteur614 rdfs:label "adeline d'hermy".
+:genre614 a :acteur .
  :acteur615 rdfs:label "vanessa paradis".
+:genre615 a :acteur .
  :acteur616 rdfs:label "alice pol".
+:genre616 a :acteur .
  :acteur617 rdfs:label "eric ruf".
+:genre617 a :acteur .
  :acteur618 rdfs:label "rajkummar rao".
+:genre618 a :acteur .
  :acteur619 rdfs:label "boman irani".
+:genre619 a :acteur .
  :acteur620 rdfs:label "mouni roy".
+:genre620 a :acteur .
  :acteur621 rdfs:label "paresh rawal".
+:genre621 a :acteur .
  :acteur622 rdfs:label "maría valverde".
+:genre622 a :acteur .
  :acteur623 rdfs:label "ibrahim ahmed".
+:genre623 a :acteur .
  :acteur624 rdfs:label "marie denarnaud".
+:genre624 a :acteur .
  :acteur625 rdfs:label "john diresta".
+:genre625 a :acteur .
  :acteur626 rdfs:label "ryan holihan".
+:genre626 a :acteur .
  :acteur627 rdfs:label "jennifer robertson".
+:genre627 a :acteur .
  :acteur628 rdfs:label "timothy starks".
+:genre628 a :acteur .
  :acteur629 rdfs:label "nikolai kinski".
+:genre629 a :acteur .
  :acteur630 rdfs:label "sara giraudeau".
+:genre630 a :acteur .
  :acteur631 rdfs:label "jeremie laheurte".
+:genre631 a :acteur .
  :acteur632 rdfs:label "evelyne brochu".
+:genre632 a :acteur .
  :acteur633 rdfs:label "thibaut evrard".
+:genre633 a :acteur .
  :acteur634 rdfs:label "marc barbe".
+:genre634 a :acteur .
  :acteur635 rdfs:label "franck dubosc".
+:genre635 a :acteur .
  :acteur636 rdfs:label "elsa zylberstein".
+:genre636 a :acteur .
  :acteur637 rdfs:label "gerard darmon".
+:genre637 a :acteur .
  :acteur638 rdfs:label "denise gough".
+:genre638 a :acteur .
  :acteur639 rdfs:label "tom hughes".
+:genre639 a :acteur .
  :acteur640 rdfs:label "siobhan cullen".
+:genre640 a :acteur .
  :acteur641 rdfs:label "sean mcginley".
+:genre641 a :acteur .
  :acteur642 rdfs:label "noemie merlant".
+:genre642 a :acteur .
  :acteur643 rdfs:label "niels schneider".
+:genre643 a :acteur .
  :acteur644 rdfs:label "tim robbins".
+:genre644 a :acteur .
  :acteur645 rdfs:label "jennifer jason leigh".
+:genre645 a :acteur .
  :acteur646 rdfs:label "paul newman".
+:genre646 a :acteur .
  :acteur647 rdfs:label "charles durning".
+:genre647 a :acteur .
  :acteur648 rdfs:label "victor mature".
+:genre648 a :acteur .
  :acteur649 rdfs:label "lucille ball".
+:genre649 a :acteur .
  :acteur650 rdfs:label "lizabeth scott".
+:genre650 a :acteur .
  :acteur651 rdfs:label "sonny tufts".
+:genre651 a :acteur .
  :acteur652 rdfs:label "tahar rahim".
+:genre652 a :acteur .
  :acteur653 rdfs:label "stacy martin".
+:genre653 a :acteur .
  :acteur654 rdfs:label "bruno wolkowitch".
+:genre654 a :acteur .
  :acteur655 rdfs:label "karim leklou".
+:genre655 a :acteur .
  :acteur656 rdfs:label "florian lukas".
+:genre656 a :acteur .
  :acteur657 rdfs:label "naomi achternbusch".
+:genre657 a :acteur .
  :acteur658 rdfs:label "nicole kidman".
+:genre658 a :acteur .
  :acteur659 rdfs:label "ben chaplin".
+:genre659 a :acteur .
  :acteur660 rdfs:label "vincent cassel".
+:genre660 a :acteur .
  :acteur661 rdfs:label "mathieu kassovitz".
+:genre661 a :acteur .
  :acteur662 rdfs:label "marie gillain".
+:genre662 a :acteur .
  :acteur663 rdfs:label "christiane millet".
+:genre663 a :acteur .
  :acteur664 rdfs:label "patrick stewart".
+:genre664 a :acteur .
  :acteur665 rdfs:label "jonathan frakes".
+:genre665 a :acteur .
  :acteur666 rdfs:label "levar burton".
+:genre666 a :acteur .
  :acteur667 rdfs:label "marina sirtis".
+:genre667 a :acteur .
  :acteur668 rdfs:label "dominic west".
+:genre668 a :acteur .
  :acteur669 rdfs:label "maura tierney".
+:genre669 a :acteur .
  :acteur670 rdfs:label "julia goldani telles".
+:genre670 a :acteur .
  :acteur671 rdfs:label "jadon sand".
+:genre671 a :acteur .
  :acteur672 rdfs:label "sidse babett knudsen".
+:genre672 a :acteur .
  :acteur673 rdfs:label "charlotte laemmel".
+:genre673 a :acteur .
  :acteur674 rdfs:label "isabelle de hertogh".
+:genre674 a :acteur .
  :acteur675 rdfs:label "nahuel perez biscayart".
+:genre675 a :acteur .
  :acteur676 rdfs:label "arnaud valois".
+:genre676 a :acteur .
  :acteur677 rdfs:label "adele haenel".
+:genre677 a :acteur .
  :acteur678 rdfs:label "ary abittan".
+:genre678 a :acteur .
  :acteur679 rdfs:label "judith el zein".
+:genre679 a :acteur .
  :acteur680 rdfs:label "tassadit mandi".
+:genre680 a :acteur .
  :acteur681 rdfs:label "zahir bouzerar".
+:genre681 a :acteur .
  :acteur682 rdfs:label "amy winehouse".
+:genre682 a :acteur .
  :acteur683 rdfs:label "lauren gilbert".
+:genre683 a :acteur .
  :acteur684 rdfs:label "juliette ashby".
+:genre684 a :acteur .
  :acteur685 rdfs:label "nick shymansky".
+:genre685 a :acteur .
  :acteur686 rdfs:label "elodie bouchez".
+:genre686 a :acteur .
  :acteur687 rdfs:label "paul lapierre".
+:genre687 a :acteur .
  :acteur688 rdfs:label "juliette tresanini".
+:genre688 a :acteur .
  :acteur689 rdfs:label "lies visschedijk".
+:genre689 a :acteur .
  :acteur690 rdfs:label "fedja van huêt".
+:genre690 a :acteur .
  :acteur691 rdfs:label "anneke blok".
+:genre691 a :acteur .
  :acteur692 rdfs:label "roos dickmann".
+:genre692 a :acteur .
  :acteur693 rdfs:label "jodie comer".
+:genre693 a :acteur .
  :acteur694 rdfs:label "sandra oh".
+:genre694 a :acteur .
  :acteur695 rdfs:label "fiona shaw".
+:genre695 a :acteur .
  :acteur696 rdfs:label "kim bodnia".
+:genre696 a :acteur .
  :acteur697 rdfs:label "brad pitt".
+:genre697 a :acteur .
  :acteur698 rdfs:label "daniel betts".
+:genre698 a :acteur .
  :acteur699 rdfs:label "john magaro".
+:genre699 a :acteur .
  :acteur700 rdfs:label "emory cohen".
+:genre700 a :acteur .
  :acteur701 rdfs:label "benoît poelvoorde".
+:genre701 a :acteur .
  :acteur702 rdfs:label "pitobash".
+:genre702 a :acteur .
  :acteur703 rdfs:label "anne girouard".
+:genre703 a :acteur .
  :acteur704 rdfs:label "pascal elbe".
+:genre704 a :acteur .
  :acteur705 rdfs:label "virginie hocq".
+:genre705 a :acteur .
  :acteur706 rdfs:label "isabelle vitari".
+:genre706 a :acteur .
  :acteur707 rdfs:label "sofia lesaffre".
+:genre707 a :acteur .
  :acteur708 rdfs:label "stephane bak".
+:genre708 a :acteur .
  :acteur709 rdfs:label "jean-stan du pac".
+:genre709 a :acteur .
  :acteur710 rdfs:label "paul scarfoglio".
+:genre710 a :acteur .
  :acteur711 rdfs:label "yasin houicha".
+:genre711 a :acteur .
  :acteur712 rdfs:label "nozha khouadra".
+:genre712 a :acteur .
  :acteur713 rdfs:label "juliette binoche".
+:genre713 a :acteur .
  :acteur714 rdfs:label "nicole garcia".
+:genre714 a :acteur .
  :acteur715 rdfs:label "marie-ange casta".
+:genre715 a :acteur .
  :acteur716 rdfs:label "anthony hopkins".
+:genre716 a :acteur .
  :acteur717 rdfs:label "david bedella".
+:genre717 a :acteur .
  :acteur718 rdfs:label "jessie kamm".
+:genre718 a :acteur .
  :acteur719 rdfs:label "angelina jolie".
+:genre719 a :acteur .
  :acteur720 rdfs:label "rogerio samora".
+:genre720 a :acteur .
  :acteur721 rdfs:label "andre gomes".
+:genre721 a :acteur .
  :acteur722 rdfs:label "rita blanco".
+:genre722 a :acteur .
  :acteur723 rdfs:label "suzana borges".
+:genre723 a :acteur .
  :acteur724 rdfs:label "jean croue".
+:genre724 a :acteur .
  :acteur725 rdfs:label "alfred zorilla".
+:genre725 a :acteur .
  :acteur726 rdfs:label "gabrielle robinne".
+:genre726 a :acteur .
  :acteur727 rdfs:label "andor ajtay".
+:genre727 a :acteur .
  :acteur728 rdfs:label "margit bara".
+:genre728 a :acteur .
  :acteur729 rdfs:label "györgy bardy".
+:genre729 a :acteur .
  :acteur730 rdfs:label "gyula buss".
+:genre730 a :acteur .
  :acteur731 rdfs:label "michelle pfeiffer".
+:genre731 a :acteur .
  :acteur732 rdfs:label "lucas hedges".
+:genre732 a :acteur .
  :acteur733 rdfs:label "tracy letts".
+:genre733 a :acteur .
  :acteur734 rdfs:label "valerie mahaffey".
+:genre734 a :acteur .
  :acteur735 rdfs:label "kery james".
+:genre735 a :acteur .
  :acteur736 rdfs:label "jammeh diangana".
+:genre736 a :acteur .
  :acteur737 rdfs:label "bakary diombera".
+:genre737 a :acteur .
  :acteur738 rdfs:label "chloe jouannet".
+:genre738 a :acteur .
  :acteur739 rdfs:label "huma qureshi".
+:genre739 a :acteur .
  :acteur740 rdfs:label "rahul khanna".
+:genre740 a :acteur .
  :acteur741 rdfs:label "siddharth".
+:genre741 a :acteur .
  :acteur742 rdfs:label "leysha mange".
+:genre742 a :acteur .
  :acteur743 rdfs:label "anya taylor-joy".
+:genre743 a :acteur .
  :acteur744 rdfs:label "angus imrie".
+:genre744 a :acteur .
  :acteur745 rdfs:label "letty thomas".
+:genre745 a :acteur .
  :acteur746 rdfs:label "gemma whelan".
+:genre746 a :acteur .
  :acteur747 rdfs:label "esben smed".
+:genre747 a :acteur .
  :acteur748 rdfs:label "toby kebbell".
+:genre748 a :acteur .
  :acteur749 rdfs:label "arbi alviati".
+:genre749 a :acteur .
  :acteur750 rdfs:label "yvonne andersen".
+:genre750 a :acteur .
  :acteur751 rdfs:label "javier drolas".
+:genre751 a :acteur .
  :acteur752 rdfs:label "jazmín stuart".
+:genre752 a :acteur .
  :acteur753 rdfs:label "amanda minujin".
+:genre753 a :acteur .
  :acteur754 rdfs:label "sebastian arzeno".
+:genre754 a :acteur .
  :acteur755 rdfs:label "sophia loren".
+:genre755 a :acteur .
  :acteur756 rdfs:label "ibrahima gueye".
+:genre756 a :acteur .
  :acteur757 rdfs:label "renato carpentieri".
+:genre757 a :acteur .
  :acteur758 rdfs:label "iosif diego pirvu".
+:genre758 a :acteur .
  :acteur759 rdfs:label "frederic diefenthal".
+:genre759 a :acteur .
  :acteur760 rdfs:label "hande kodja".
+:genre760 a :acteur .
  :acteur761 rdfs:label "steve driesen".
+:genre761 a :acteur .
  :acteur762 rdfs:label "marie borg".
+:genre762 a :acteur .
  :acteur763 rdfs:label "marina foïs".
+:genre763 a :acteur .
  :acteur764 rdfs:label "roby schinasi".
+:genre764 a :acteur .
  :acteur765 rdfs:label "zac efron".
+:genre765 a :acteur .
  :acteur766 rdfs:label "adam devine".
+:genre766 a :acteur .
  :acteur767 rdfs:label "anna kendrick".
+:genre767 a :acteur .
  :acteur768 rdfs:label "aubrey plaza".
+:genre768 a :acteur .
  :acteur769 rdfs:label "kristin scott thomas".
+:genre769 a :acteur .
  :acteur770 rdfs:label "pascal greggory".
+:genre770 a :acteur .
  :acteur771 rdfs:label "eva green".
+:genre771 a :acteur .
  :acteur772 rdfs:label "gad elmaleh".
+:genre772 a :acteur .
  :acteur773 rdfs:label "scott keiji takeda".
+:genre773 a :acteur .
  :acteur774 rdfs:label "jordan ver hoeve".
+:genre774 a :acteur .
  :acteur775 rdfs:label "erinn hayes".
+:genre775 a :acteur .
  :acteur776 rdfs:label "nawell madani".
+:genre776 a :acteur .
  :acteur777 rdfs:label "mimoun benabderrahmane".
+:genre777 a :acteur .
  :acteur778 rdfs:label "leyla doriane".
+:genre778 a :acteur .
  :acteur779 rdfs:label "gaël kamilindi".
+:genre779 a :acteur .
  :acteur780 rdfs:label "manoel dupont".
+:genre780 a :acteur .
  :acteur781 rdfs:label "fathia youssouf".
+:genre781 a :acteur .
  :acteur782 rdfs:label "medina el aidi-azouni".
+:genre782 a :acteur .
  :acteur783 rdfs:label "esther gohourou".
+:genre783 a :acteur .
  :acteur784 rdfs:label "ilanah cami-goursolas".
+:genre784 a :acteur .
  :acteur785 rdfs:label "christophe maratier".
+:genre785 a :acteur .
  :acteur786 rdfs:label "pierre poirot".
+:genre786 a :acteur .
  :acteur787 rdfs:label "stefan godin".
+:genre787 a :acteur .
  :acteur788 rdfs:label "jamie bamber".
+:genre788 a :acteur .
  :acteur789 rdfs:label "anne marivin".
+:genre789 a :acteur .
  :acteur790 rdfs:label "clementine celarie".
+:genre790 a :acteur .
  :acteur791 rdfs:label "pascal n'zonzi".
+:genre791 a :acteur .
  :acteur792 rdfs:label "bryan cranston".
+:genre792 a :acteur .
  :acteur793 rdfs:label "hunter doohan".
+:genre793 a :acteur .
  :acteur794 rdfs:label "hope davis".
+:genre794 a :acteur .
  :acteur795 rdfs:label "michael stuhlbarg".
+:genre795 a :acteur .
  :acteur796 rdfs:label "jennifer west".
+:genre796 a :acteur .
  :acteur797 rdfs:label "richard evans".
+:genre797 a :acteur .
  :acteur798 rdfs:label "warren parker".
+:genre798 a :acteur .
  :acteur799 rdfs:label "ralph manza".
+:genre799 a :acteur .
  :acteur800 rdfs:label "sophie rundle".
+:genre800 a :acteur .
  :acteur801 rdfs:label "matt stokoe".
+:genre801 a :acteur .
  :acteur802 rdfs:label "nathan mcmullen".
+:genre802 a :acteur .
  :acteur803 rdfs:label "olive gray".
+:genre803 a :acteur .
  :acteur804 rdfs:label "yohan manca".
+:genre804 a :acteur .
  :acteur805 rdfs:label "anton csazar".
+:genre805 a :acteur .
  :acteur806 rdfs:label "jeremy lewin".
+:genre806 a :acteur .
  :acteur807 rdfs:label "chapman to".
+:genre807 a :acteur .
  :acteur808 rdfs:label "cho-lam wong".
+:genre808 a :acteur .
  :acteur809 rdfs:label "fiona sit".
+:genre809 a :acteur .
  :acteur810 rdfs:label "shiu hung hui".
+:genre810 a :acteur .
  :acteur811 rdfs:label "sara forestier".
+:genre811 a :acteur .
  :acteur812 rdfs:label "bertrand belin".
+:genre812 a :acteur .
  :acteur813 rdfs:label "pierre lottin".
+:genre813 a :acteur .
  :acteur814 rdfs:label "david la haye".
+:genre814 a :acteur .
  :acteur815 rdfs:label "marie-chantal perron".
+:genre815 a :acteur .
  :acteur816 rdfs:label "richard robitaille".
+:genre816 a :acteur .
  :acteur817 rdfs:label "zita hanrot".
+:genre817 a :acteur .
  :acteur818 rdfs:label "clemence boisnard".
+:genre818 a :acteur .
  :acteur819 rdfs:label "christine citti".
+:genre819 a :acteur .
  :acteur820 rdfs:label "michelle yeoh".
+:genre820 a :acteur .
  :acteur821 rdfs:label "richard roxburgh".
+:genre821 a :acteur .
  :acteur822 rdfs:label "sihung lung".
+:genre822 a :acteur .
  :acteur823 rdfs:label "gregoire colin".
+:genre823 a :acteur .
  :acteur824 rdfs:label "tarek boudali".
+:genre824 a :acteur .
  :acteur825 rdfs:label "philippe lacheau".
+:genre825 a :acteur .
  :acteur826 rdfs:label "julien arruti".
+:genre826 a :acteur .
  :acteur827 rdfs:label "matt ingebretson".
+:genre827 a :acteur .
  :acteur828 rdfs:label "jake weisman".
+:genre828 a :acteur .
  :acteur829 rdfs:label "adam lustick".
+:genre829 a :acteur .
  :acteur830 rdfs:label "anne dudek".
+:genre830 a :acteur .
  :acteur831 rdfs:label "charles laughton".
+:genre831 a :acteur .
  :acteur832 rdfs:label "cedric hardwicke".
+:genre832 a :acteur .
  :acteur833 rdfs:label "thomas mitchell".
+:genre833 a :acteur .
  :acteur834 rdfs:label "maureen o'hara".
+:genre834 a :acteur .
  :acteur835 rdfs:label "richard bohringer".
+:genre835 a :acteur .
  :acteur836 rdfs:label "chantal lauby".
+:genre836 a :acteur .
  :acteur837 rdfs:label "pauline bureau".
+:genre837 a :acteur .
  :acteur838 rdfs:label "jerôme commandeur".
+:genre838 a :acteur .
  :acteur839 rdfs:label "caterina murino".
+:genre839 a :acteur .
  :acteur840 rdfs:label "al pacino".
+:genre840 a :acteur .
  :acteur841 rdfs:label "benjamin salisbury".
+:genre841 a :acteur .
  :acteur842 rdfs:label "winona ryder".
+:genre842 a :acteur .
  :acteur843 rdfs:label "darnell williams".
+:genre843 a :acteur .
  :acteur844 rdfs:label "françois damiens".
+:genre844 a :acteur .
  :acteur845 rdfs:label "vincent lindon".
+:genre845 a :acteur .
  :acteur846 rdfs:label "pascale arbillot".
+:genre846 a :acteur .
  :acteur847 rdfs:label "emma mackey".
+:genre847 a :acteur .
  :acteur848 rdfs:label "armande boulanger".
+:genre848 a :acteur .
  :acteur849 rdfs:label "elizabeth olsen".
+:genre849 a :acteur .
  :acteur850 rdfs:label "benedict cumberbatch".
+:genre850 a :acteur .
  :acteur851 rdfs:label "chiwetel ejiofor".
+:genre851 a :acteur .
  :acteur852 rdfs:label "sami outalbali".
+:genre852 a :acteur .
  :acteur853 rdfs:label "diong-keba tacu".
+:genre853 a :acteur .
  :acteur854 rdfs:label "mathilde lamusse".
+:genre854 a :acteur .
  :acteur855 rdfs:label "aurelia petit".
+:genre855 a :acteur .
  :acteur856 rdfs:label "emily beecham".
+:genre856 a :acteur .
  :acteur857 rdfs:label "beattie edmondson".
+:genre857 a :acteur .
  :acteur858 rdfs:label "emily mortimer".
+:genre858 a :acteur .
  :acteur859 rdfs:label "sekouba doucoure".
+:genre859 a :acteur .
  :acteur860 rdfs:label "mathieu longatte".
+:genre860 a :acteur .
  :acteur861 rdfs:label "jules ritmanic".
+:genre861 a :acteur .
  :acteur862 rdfs:label "gene hackman".
+:genre862 a :acteur .
  :acteur863 rdfs:label "jennifer warren".
+:genre863 a :acteur .
  :acteur864 rdfs:label "edward binns".
+:genre864 a :acteur .
  :acteur865 rdfs:label "harris yulin".
+:genre865 a :acteur .
  :acteur866 rdfs:label "odile vuillemin".
+:genre866 a :acteur .
  :acteur867 rdfs:label "loïc corbery".
+:genre867 a :acteur .
  :acteur868 rdfs:label "frederique tirmont".
+:genre868 a :acteur .
  :acteur869 rdfs:label "natalia dontcheva".
+:genre869 a :acteur .
  :acteur870 rdfs:label "laurent lafitte".
+:genre870 a :acteur .
  :acteur871 rdfs:label "tuheï adams".
+:genre871 a :acteur .
  :acteur872 rdfs:label "pua-taï hikutini".
+:genre872 a :acteur .
  :acteur873 rdfs:label "gerard bester".
+:genre873 a :acteur .
  :acteur874 rdfs:label "adolph de beer".
+:genre874 a :acteur .
  :acteur875 rdfs:label "deborah françois".
+:genre875 a :acteur .
  :acteur876 rdfs:label "marc ruchmann".
+:genre876 a :acteur .
  :acteur877 rdfs:label "benjamin bellecour".
+:genre877 a :acteur .
  :acteur878 rdfs:label "toni collette".
+:genre878 a :acteur .
  :acteur879 rdfs:label "harvey keitel".
+:genre879 a :acteur .
  :acteur880 rdfs:label "rossy de palma".
+:genre880 a :acteur .
  :acteur881 rdfs:label "michael smiley".
+:genre881 a :acteur .
  :acteur882 rdfs:label "micha lescot".
+:genre882 a :acteur .
  :acteur883 rdfs:label "nicolas bedos".
+:genre883 a :acteur .
  :acteur884 rdfs:label "antoine gouy".
+:genre884 a :acteur .
  :acteur885 rdfs:label "anne charrier".
+:genre885 a :acteur .
  :acteur886 rdfs:label "sophie quinton".
+:genre886 a :acteur .
  :acteur887 rdfs:label "camille lou".
+:genre887 a :acteur .
  :acteur888 rdfs:label "ernesto reyes".
+:genre888 a :acteur .
  :acteur889 rdfs:label "jesse tayeh".
+:genre889 a :acteur .
  :acteur890 rdfs:label "jimmy garcia".
+:genre890 a :acteur .
  :acteur891 rdfs:label "alma gloria garcia".
+:genre891 a :acteur .
  :acteur892 rdfs:label "isabelle huppert".
+:genre892 a :acteur .
  :acteur893 rdfs:label "farida ouchani".
+:genre893 a :acteur .
  :acteur894 rdfs:label "jacques bouanich".
+:genre894 a :acteur .
  :acteur895 rdfs:label "marie collins".
+:genre895 a :acteur .
  :acteur896 rdfs:label "ann dowd".
+:genre896 a :acteur .
  :acteur897 rdfs:label "catherine arditi".
+:genre897 a :acteur .
  :acteur898 rdfs:label "françoise arnoul".
+:genre898 a :acteur .
  :acteur899 rdfs:label "evelyne bouix".
+:genre899 a :acteur .
  :acteur900 rdfs:label "fabienne chaudat".
+:genre900 a :acteur .
  :acteur901 rdfs:label "eric metzger".
+:genre901 a :acteur .
  :acteur902 rdfs:label "quentin margot".
+:genre902 a :acteur .
  :acteur903 rdfs:label "marie-anne chazel".
+:genre903 a :acteur .
  :acteur904 rdfs:label "razane jammal".
+:genre904 a :acteur .
  :acteur905 rdfs:label "romane bohringer".
+:genre905 a :acteur .
  :acteur906 rdfs:label "romann berrux".
+:genre906 a :acteur .
  :acteur907 rdfs:label "françois rabette".
+:genre907 a :acteur .
  :acteur908 rdfs:label "tiera skovbye".
+:genre908 a :acteur .
  :acteur909 rdfs:label "natasha calis".
+:genre909 a :acteur .
  :acteur910 rdfs:label "jordan johnson-hinds".
+:genre910 a :acteur .
  :acteur911 rdfs:label "sandy sidhu".
+:genre911 a :acteur .
  :acteur912 rdfs:label "suzanne clement".
+:genre912 a :acteur .
  :acteur913 rdfs:label "igor van dessel".
+:genre913 a :acteur .
  :acteur914 rdfs:label "pascal demolon".
+:genre914 a :acteur .
  :acteur915 rdfs:label "sabrina seyvecou".
+:genre915 a :acteur .
  :acteur916 rdfs:label "eric cantona".
+:genre916 a :acteur .
  :acteur917 rdfs:label "alex lutz".
+:genre917 a :acteur .
  :acteur918 rdfs:label "gustave kervern".
+:genre918 a :acteur .
  :acteur919 rdfs:label "agnes jaoui".
+:genre919 a :acteur .
  :acteur920 rdfs:label "sarah suco".
+:genre920 a :acteur .
  :acteur921 rdfs:label "philippe katerine".
+:genre921 a :acteur .
  :acteur922 rdfs:label "anne serra".
+:genre922 a :acteur .
  :acteur923 rdfs:label "samuel jouy".
+:genre923 a :acteur .
  :acteur924 rdfs:label "talullah cassavetti".
+:genre924 a :acteur .
  :acteur925 rdfs:label "ana neborac".
+:genre925 a :acteur .
  :acteur926 rdfs:label "corentin fila".
+:genre926 a :acteur .
  :acteur927 rdfs:label "romain guillermic".
+:genre927 a :acteur .
  :acteur928 rdfs:label "pierre brasseur".
+:genre928 a :acteur .
  :acteur929 rdfs:label "philippe noiret".
+:genre929 a :acteur .
  :acteur930 rdfs:label "henri garcin".
+:genre930 a :acteur .
  :acteur931 rdfs:label "suzanne lindon".
+:genre931 a :acteur .
  :acteur932 rdfs:label "florence viala".
+:genre932 a :acteur .
  :acteur933 rdfs:label "sveva alviti".
+:genre933 a :acteur .
  :acteur934 rdfs:label "riccardo scamarcio".
+:genre934 a :acteur .
  :acteur935 rdfs:label "emilie dequenne".
+:genre935 a :acteur .
  :acteur936 rdfs:label "caitlin gerard".
+:genre936 a :acteur .
  :acteur937 rdfs:label "melanie papalia".
+:genre937 a :acteur .
  :acteur938 rdfs:label "shane dawson".
+:genre938 a :acteur .
  :acteur939 rdfs:label "andrew james allen".
+:genre939 a :acteur .
  :acteur940 rdfs:label "sabine azema".
+:genre940 a :acteur .
  :acteur941 rdfs:label "eric berger".
+:genre941 a :acteur .
  :acteur942 rdfs:label "helene duc".
+:genre942 a :acteur .
  :acteur943 rdfs:label "piti puia".
+:genre943 a :acteur .
  :acteur944 rdfs:label "clara ponsot".
+:genre944 a :acteur .
  :acteur945 rdfs:label "lea drucker".
+:genre945 a :acteur .
  :acteur946 rdfs:label "marc zinga".
+:genre946 a :acteur .
  :acteur947 rdfs:label "eye haidara".
+:genre947 a :acteur .
  :acteur948 rdfs:label "jamie chung".
+:genre948 a :acteur .
  :acteur949 rdfs:label "beau bridges".
+:genre949 a :acteur .
  :acteur950 rdfs:label "matt o'leary".
+:genre950 a :acteur .
  :acteur951 rdfs:label "eddie martinez".
+:genre951 a :acteur .
  :acteur952 rdfs:label "alexandre wetter".
+:genre952 a :acteur .
  :acteur953 rdfs:label "henriette confurius".
+:genre953 a :acteur .
  :acteur954 rdfs:label "emilio sakraya".
+:genre954 a :acteur .
  :acteur955 rdfs:label "david ali rashed".
+:genre955 a :acteur .
  :acteur956 rdfs:label "melika foroutan".
+:genre956 a :acteur .
  :acteur957 rdfs:label "trond espen seim".
+:genre957 a :acteur .
  :acteur958 rdfs:label "bjørn floberg".
+:genre958 a :acteur .
  :acteur959 rdfs:label "kathrine fagerland".
+:genre959 a :acteur .
  :acteur960 rdfs:label "endre hellestveit".
+:genre960 a :acteur .
  :acteur961 rdfs:label "eric roberts".
+:genre961 a :acteur .
  :acteur962 rdfs:label "arnold vosloo".
+:genre962 a :acteur .
  :acteur963 rdfs:label "john rhys-davies".
+:genre963 a :acteur .
  :acteur964 rdfs:label "tony lo bianco".
+:genre964 a :acteur .
  :acteur965 rdfs:label "michel fau".
+:genre965 a :acteur .
  :acteur966 rdfs:label "joe cole".
+:genre966 a :acteur .
  :acteur967 rdfs:label "brent skagford".
+:genre967 a :acteur .
  :acteur968 rdfs:label "faycal zeglat".
+:genre968 a :acteur .
  :acteur969 rdfs:label "emmanuelle devos".
+:genre969 a :acteur .
  :acteur970 rdfs:label "richard berry".
+:genre970 a :acteur .
  :acteur971 rdfs:label "sami frey".
+:genre971 a :acteur .
  :acteur972 rdfs:label "daria lorenci".
+:genre972 a :acteur .
  :acteur973 rdfs:label "neva rosic".
+:genre973 a :acteur .
  :acteur974 rdfs:label "vera zima".
+:genre974 a :acteur .
  :acteur975 rdfs:label "anka vuckovic".
+:genre975 a :acteur .
  :acteur976 rdfs:label "josiane balasko".
+:genre976 a :acteur .
  :acteur977 rdfs:label "mathilde seigner".
+:genre977 a :acteur .
  :acteur978 rdfs:label "philippe lefebvre".
+:genre978 a :acteur .
  :acteur979 rdfs:label "michel blanc".
+:genre979 a :acteur .
  :acteur980 rdfs:label "yvan attal".
+:genre980 a :acteur .
  :acteur981 rdfs:label "matthew goode".
+:genre981 a :acteur .
  :acteur982 rdfs:label "lauren julien-box".
+:genre982 a :acteur .
  :acteur983 rdfs:label "natasha williams".
+:genre983 a :acteur .
  :acteur984 rdfs:label "alan mckenna".
+:genre984 a :acteur .
  :acteur985 rdfs:label "jeanne moreau".
+:genre985 a :acteur .
  :acteur986 rdfs:label "ettore manni".
+:genre986 a :acteur .
  :acteur987 rdfs:label "keith skinner".
+:genre987 a :acteur .
  :acteur988 rdfs:label "umberto orsini".
+:genre988 a :acteur .
  :acteur989 rdfs:label "nicolas cage".
+:genre989 a :acteur .
  :acteur990 rdfs:label "maria conchita alonso".
+:genre990 a :acteur .
  :acteur991 rdfs:label "jennifer beals".
+:genre991 a :acteur .
  :acteur992 rdfs:label "elizabeth ashley".
+:genre992 a :acteur .
  :acteur993 rdfs:label "alassane diong".
+:genre993 a :acteur .
  :acteur994 rdfs:label "yoann zimmer".
+:genre994 a :acteur .
  :acteur995 rdfs:label "emile fofana".
+:genre995 a :acteur .
  :acteur996 rdfs:label "nacima bekthaoui".
+:genre996 a :acteur .
  :acteur997 rdfs:label "aadhi".
+:genre997 a :acteur .
  :acteur998 rdfs:label "rakul preet singh".
+:genre998 a :acteur .
  :acteur999 rdfs:label "matilda lawler".
+:genre999 a :acteur .
  :acteur1000 rdfs:label "alyson hannigan".
+:genre1000 a :acteur .
  :acteur1001 rdfs:label "ben schwartz".
+:genre1001 a :acteur .
  :acteur1002 rdfs:label "benjamin evan ainsworth".
+:genre1002 a :acteur .
  :acteur1003 rdfs:label "fanta kebe".
+:genre1003 a :acteur .
  :acteur1004 rdfs:label "tracy gotoas".
+:genre1004 a :acteur .
  :acteur1005 rdfs:label "bertrand usclat".
+:genre1005 a :acteur .
  :acteur1006 rdfs:label "vincent debost".
+:genre1006 a :acteur .
  :acteur1007 rdfs:label "louise coldefy".
+:genre1007 a :acteur .
  :acteur1008 rdfs:label "kevin garnichat".
+:genre1008 a :acteur .
  :acteur1009 rdfs:label "billy bob thornton".
+:genre1009 a :acteur .
  :acteur1010 rdfs:label "tania raymonde".
+:genre1010 a :acteur .
  :acteur1011 rdfs:label "nina arianda".
+:genre1011 a :acteur .
  :acteur1012 rdfs:label "diana hopper".
+:genre1012 a :acteur .
  :acteur1013 rdfs:label "glenn ford".
+:genre1013 a :acteur .
  :acteur1014 rdfs:label "lee remick".
+:genre1014 a :acteur .
  :acteur1015 rdfs:label "stefanie powers".
+:genre1015 a :acteur .
  :acteur1016 rdfs:label "roy poole".
+:genre1016 a :acteur .
  :acteur1017 rdfs:label "anaïs demoustier".
+:genre1017 a :acteur .
  :acteur1018 rdfs:label "gregoire oestermann".
+:genre1018 a :acteur .
  :acteur1019 rdfs:label "courtney b. vance".
+:genre1019 a :acteur .
  :acteur1020 rdfs:label "lashun pollard".
+:genre1020 a :acteur .
  :acteur1021 rdfs:label "michael mobley".
+:genre1021 a :acteur .
  :acteur1022 rdfs:label "robert cox".
+:genre1022 a :acteur .
  :acteur1023 rdfs:label "jean michelangeli".
+:genre1023 a :acteur .
  :acteur1024 rdfs:label "henri-noël tabary".
+:genre1024 a :acteur .
  :acteur1025 rdfs:label "cedric appietto".
+:genre1025 a :acteur .
  :acteur1026 rdfs:label "marie-pierre nouveau".
+:genre1026 a :acteur .
  :acteur1027 rdfs:label "alfred renely".
+:genre1027 a :acteur .
  :acteur1028 rdfs:label "jean-luc vincent".
+:genre1028 a :acteur .
  :acteur1029 rdfs:label "carole lombard".
+:genre1029 a :acteur .
  :acteur1030 rdfs:label "pat o'brien".
+:genre1030 a :acteur .
  :acteur1031 rdfs:label "mayo methot".
+:genre1031 a :acteur .
  :acteur1032 rdfs:label "jack la rue".
+:genre1032 a :acteur .
  :acteur1033 rdfs:label "florence foresti".
+:genre1033 a :acteur .
  :acteur1034 rdfs:label "miou-miou".
+:genre1034 a :acteur .
  :acteur1035 rdfs:label "valerie donzelli".
+:genre1035 a :acteur .
  :acteur1036 rdfs:label "clotilde hesme".
+:genre1036 a :acteur .
  :acteur1037 rdfs:label "barnaby metschurat".
+:genre1037 a :acteur .
  :acteur1038 rdfs:label "camille razat".
+:genre1038 a :acteur .
  :acteur1039 rdfs:label "laëtitia eïdo".
+:genre1039 a :acteur .
  :acteur1040 rdfs:label "vincent londez".
+:genre1040 a :acteur .
  :acteur1041 rdfs:label "ludivine sagnier".
+:genre1041 a :acteur .
  :acteur1042 rdfs:label "herve pierre".
+:genre1042 a :acteur .
  :acteur1043 rdfs:label "alice taglioni".
+:genre1043 a :acteur .
  :acteur1044 rdfs:label "aurore clement".
+:genre1044 a :acteur .
  :acteur1045 rdfs:label "christopher lambert".
+:genre1045 a :acteur .
  :acteur1046 rdfs:label "beatrice dalle".
+:genre1046 a :acteur .
  :acteur1047 rdfs:label "françoise fabian".
+:genre1047 a :acteur .
  :acteur1048 rdfs:label "jean-louis trintignant".
+:genre1048 a :acteur .
  :acteur1049 rdfs:label "james gandolfini".
+:genre1049 a :acteur .
  :acteur1050 rdfs:label "edie falco".
+:genre1050 a :acteur .
  :acteur1051 rdfs:label "michael imperioli".
+:genre1051 a :acteur .
  :acteur1052 rdfs:label "steven van zandt".
+:genre1052 a :acteur .
  :acteur1053 rdfs:label "pierre niney".
+:genre1053 a :acteur .
  :acteur1054 rdfs:label "christophe montenez".
+:genre1054 a :acteur .
  :acteur1055 rdfs:label "kev adams".
+:genre1055 a :acteur .
  :acteur1056 rdfs:label "manon azem".
+:genre1056 a :acteur .
  :acteur1057 rdfs:label "côme levin".
+:genre1057 a :acteur .
  :acteur1058 rdfs:label "hubert kounde".
+:genre1058 a :acteur .
  :acteur1059 rdfs:label "yves montand".
+:genre1059 a :acteur .
  :acteur1060 rdfs:label "carole laure".
+:genre1060 a :acteur .
  :acteur1061 rdfs:label "marie dubois".
+:genre1061 a :acteur .
  :acteur1062 rdfs:label "jean-françois balmer".
+:genre1062 a :acteur .
 
 :continent0 rdfs:label "Europe".
+:continent0 a :continent .
 :pays0 rdfs:label "France".
+:pays0 a :pays .
 :pays0 :seSitueDans :continent0. 
 :ville0 rdfs:label "Paris".
+:ville0 a :ville .
 :ville0 :seSitueDans :pays0. 
 :quartier0 rdfs:label "75001".
+:quartier0 a :quartier .
 :quartier0 :seSitueDans :ville0. 
 :adresse0 rdfs:label "place du pont neuf".
+:adresse0 a :adresse .
 :adresse0 :seSitueDans :quartier0. 
 :adresse1 rdfs:label "74 quai des orfevres".
+:adresse1 a :adresse .
 :adresse1 :seSitueDans :quartier0. 
 :adresse2 rdfs:label "7 rue gomboust".
+:adresse2 a :adresse .
 :adresse2 :seSitueDans :quartier0. 
 :adresse3 rdfs:label "18 place vendôme".
+:adresse3 a :adresse .
 :adresse3 :seSitueDans :quartier0. 
 :adresse4 rdfs:label "296 rue saint-honore".
+:adresse4 a :adresse .
 :adresse4 :seSitueDans :quartier0. 
 :adresse5 rdfs:label "place dauphine".
+:adresse5 a :adresse .
 :adresse5 :seSitueDans :quartier0. 
 :adresse6 rdfs:label "pont des arts".
+:adresse6 a :adresse .
 :adresse6 :seSitueDans :quartier0. 
 :adresse7 rdfs:label "11 rue de turbigo".
+:adresse7 a :adresse .
 :adresse7 :seSitueDans :quartier0. 
 :adresse8 rdfs:label "10 rue montmartre".
+:adresse8 a :adresse .
 :adresse8 :seSitueDans :quartier0. 
 :adresse9 rdfs:label "rue de harlay".
+:adresse9 a :adresse .
 :adresse9 :seSitueDans :quartier0. 
 :adresse10 rdfs:label "passage de beaujolais".
+:adresse10 a :adresse .
 :adresse10 :seSitueDans :quartier0. 
 :adresse11 rdfs:label "rue de beaujolais".
+:adresse11 a :adresse .
 :adresse11 :seSitueDans :quartier0. 
 :adresse12 rdfs:label "rue des orfevres".
+:adresse12 a :adresse .
 :adresse12 :seSitueDans :quartier0. 
 :adresse13 rdfs:label "galerie de montpensier".
+:adresse13 a :adresse .
 :adresse13 :seSitueDans :quartier0. 
 :adresse14 rdfs:label "1 place maurice barres".
+:adresse14 a :adresse .
 :adresse14 :seSitueDans :quartier0. 
 :adresse15 rdfs:label "quai de la megisserie".
+:adresse15 a :adresse .
 :adresse15 :seSitueDans :quartier0. 
 :adresse16 rdfs:label "228 rue de rivoli".
+:adresse16 a :adresse .
 :adresse16 :seSitueDans :quartier0. 
 :adresse17 rdfs:label "83 rue de rivoli".
+:adresse17 a :adresse .
 :adresse17 :seSitueDans :quartier0. 
 :quartier1 rdfs:label "75002".
+:quartier1 a :quartier .
 :quartier1 :seSitueDans :ville0. 
 :adresse18 rdfs:label "28 place de la bourse".
+:adresse18 a :adresse .
 :adresse18 :seSitueDans :quartier1. 
 :adresse19 rdfs:label "place goldoni".
+:adresse19 a :adresse .
 :adresse19 :seSitueDans :quartier1. 
 :adresse20 rdfs:label "place des petits peres".
+:adresse20 a :adresse .
 :adresse20 :seSitueDans :quartier1. 
 :adresse21 rdfs:label "rue de louvois".
+:adresse21 a :adresse .
 :adresse21 :seSitueDans :quartier1. 
 :adresse22 rdfs:label "rue saint-denis".
+:adresse22 a :adresse .
 :adresse22 :seSitueDans :quartier1. 
 :adresse23 rdfs:label "33 avenue de l'opera".
+:adresse23 a :adresse .
 :adresse23 :seSitueDans :quartier1. 
 :adresse24 rdfs:label "15 rue de palestro".
+:adresse24 a :adresse .
 :adresse24 :seSitueDans :quartier1. 
 :adresse25 rdfs:label "227 rue saint-denis".
+:adresse25 a :adresse .
 :adresse25 :seSitueDans :quartier1. 
 :adresse26 rdfs:label "rue rameau".
+:adresse26 a :adresse .
 :adresse26 :seSitueDans :quartier1. 
 :adresse27 rdfs:label "9 rue d'uzes".
+:adresse27 a :adresse .
 :adresse27 :seSitueDans :quartier1. 
 :adresse28 rdfs:label "1 rue du mail".
+:adresse28 a :adresse .
 :adresse28 :seSitueDans :quartier1. 
 :quartier2 rdfs:label "75003".
+:quartier2 a :quartier .
 :quartier2 :seSitueDans :ville0. 
 :adresse29 rdfs:label "rue payenne".
+:adresse29 a :adresse .
 :adresse29 :seSitueDans :quartier2. 
 :adresse30 rdfs:label "53 rue de saintonge".
+:adresse30 a :adresse .
 :adresse30 :seSitueDans :quartier2. 
 :adresse31 rdfs:label "10 rue saint-claude".
+:adresse31 a :adresse .
 :adresse31 :seSitueDans :quartier2. 
 :adresse32 rdfs:label "5 rue charles-françois dupuis".
+:adresse32 a :adresse .
 :adresse32 :seSitueDans :quartier2. 
 :adresse33 rdfs:label "5 rue de la corderie".
+:adresse33 a :adresse .
 :adresse33 :seSitueDans :quartier2. 
 :adresse34 rdfs:label "33 boulevard du temple".
+:adresse34 a :adresse .
 :adresse34 :seSitueDans :quartier2. 
 :adresse35 rdfs:label "15 rue de poitou".
+:adresse35 a :adresse .
 :adresse35 :seSitueDans :quartier2. 
 :adresse36 rdfs:label "14 rue beranger".
+:adresse36 a :adresse .
 :adresse36 :seSitueDans :quartier2. 
 :adresse37 rdfs:label "325 rue saint-martin".
+:adresse37 a :adresse .
 :adresse37 :seSitueDans :quartier2. 
 :adresse38 rdfs:label "2 rue beranger".
+:adresse38 a :adresse .
 :adresse38 :seSitueDans :quartier2. 
 :quartier3 rdfs:label "75004".
+:quartier3 a :quartier .
 :quartier3 :seSitueDans :ville0. 
 :adresse39 rdfs:label "pont saint-louis".
+:adresse39 a :adresse .
 :adresse39 :seSitueDans :quartier3. 
 :adresse40 rdfs:label "20 rue du temple".
+:adresse40 a :adresse .
 :adresse40 :seSitueDans :quartier3. 
 :adresse41 rdfs:label "66 rue de rivoli".
+:adresse41 a :adresse .
 :adresse41 :seSitueDans :quartier3. 
 :adresse42 rdfs:label "1 parvis notre-dame place jean-paul ii".
+:adresse42 a :adresse .
 :adresse42 :seSitueDans :quartier3. 
 :adresse43 rdfs:label "parvis notre-dame place jean-paul ii".
+:adresse43 a :adresse .
 :adresse43 :seSitueDans :quartier3. 
 :adresse44 rdfs:label "rue de la verrerie".
+:adresse44 a :adresse .
 :adresse44 :seSitueDans :quartier3. 
 :adresse45 rdfs:label "place saint-gervais".
+:adresse45 a :adresse .
 :adresse45 :seSitueDans :quartier3. 
 :adresse46 rdfs:label "25 rue des archives".
+:adresse46 a :adresse .
 :adresse46 :seSitueDans :quartier3. 
 :adresse47 rdfs:label "place georges pompidou".
+:adresse47 a :adresse .
 :adresse47 :seSitueDans :quartier3. 
 :adresse48 rdfs:label "place de l'hotel de ville-esplanade de la liberation".
+:adresse48 a :adresse .
 :adresse48 :seSitueDans :quartier3. 
 :adresse49 rdfs:label "rue de l'arsenal".
+:adresse49 a :adresse .
 :adresse49 :seSitueDans :quartier3. 
 :adresse50 rdfs:label "21 rue le regrattier".
+:adresse50 a :adresse .
 :adresse50 :seSitueDans :quartier3. 
 :adresse51 rdfs:label "pont louis-philippe".
+:adresse51 a :adresse .
 :adresse51 :seSitueDans :quartier3. 
 :adresse52 rdfs:label "port de l'hôtel de ville".
+:adresse52 a :adresse .
 :adresse52 :seSitueDans :quartier3. 
 :adresse53 rdfs:label "rue des nonnains d'hyeres".
+:adresse53 a :adresse .
 :adresse53 :seSitueDans :quartier3. 
 :adresse54 rdfs:label "place baudoyer".
+:adresse54 a :adresse .
 :adresse54 :seSitueDans :quartier3. 
 :adresse55 rdfs:label "2 place baudoyer".
+:adresse55 a :adresse .
 :adresse55 :seSitueDans :quartier3. 
 :adresse56 rdfs:label "17 rue des barres".
+:adresse56 a :adresse .
 :adresse56 :seSitueDans :quartier3. 
 :adresse57 rdfs:label "port henri iv".
+:adresse57 a :adresse .
 :adresse57 :seSitueDans :quartier3. 
 :adresse58 rdfs:label "rue saint-antoine".
+:adresse58 a :adresse .
 :adresse58 :seSitueDans :quartier3. 
 :adresse59 rdfs:label "66 quai de l'hôtel de ville".
+:adresse59 a :adresse .
 :adresse59 :seSitueDans :quartier3. 
 :adresse60 rdfs:label "21 rue de la cerisaie".
+:adresse60 a :adresse .
 :adresse60 :seSitueDans :quartier3. 
 :adresse61 rdfs:label "place des vosges".
+:adresse61 a :adresse .
 :adresse61 :seSitueDans :quartier3. 
 :adresse62 rdfs:label "rue aubriot".
+:adresse62 a :adresse .
 :adresse62 :seSitueDans :quartier3. 
 :adresse63 rdfs:label "4 rue nicolas flamel".
+:adresse63 a :adresse .
 :adresse63 :seSitueDans :quartier3. 
 :adresse64 rdfs:label "quai d'anjou".
+:adresse64 a :adresse .
 :adresse64 :seSitueDans :quartier3. 
 :quartier4 rdfs:label "75005".
+:quartier4 a :quartier .
 :quartier4 :seSitueDans :ville0. 
 :adresse65 rdfs:label "avenue de l'observatoire".
+:adresse65 a :adresse .
 :adresse65 :seSitueDans :quartier4. 
 :adresse66 rdfs:label "3 quai de montebello".
+:adresse66 a :adresse .
 :adresse66 :seSitueDans :quartier4. 
 :adresse67 rdfs:label "place de la sorbonne".
+:adresse67 a :adresse .
 :adresse67 :seSitueDans :quartier4. 
 :adresse68 rdfs:label "5 place saint-michel".
+:adresse68 a :adresse .
 :adresse68 :seSitueDans :quartier4. 
 :adresse69 rdfs:label "rue soufflot".
+:adresse69 a :adresse .
 :adresse69 :seSitueDans :quartier4. 
 :adresse70 rdfs:label "place valhubert".
+:adresse70 a :adresse .
 :adresse70 :seSitueDans :quartier4. 
 :adresse71 rdfs:label "4 rue erasme".
+:adresse71 a :adresse .
 :adresse71 :seSitueDans :quartier4. 
 :adresse72 rdfs:label "39 rue de la harpe".
+:adresse72 a :adresse .
 :adresse72 :seSitueDans :quartier4. 
 :adresse73 rdfs:label "12 rue lagarde".
+:adresse73 a :adresse .
 :adresse73 :seSitueDans :quartier4. 
 :adresse74 rdfs:label "8 port de montebello".
+:adresse74 a :adresse .
 :adresse74 :seSitueDans :quartier4. 
 :adresse75 rdfs:label "pont de la tournelle".
+:adresse75 a :adresse .
 :adresse75 :seSitueDans :quartier4. 
 :adresse76 rdfs:label "rue malebranche".
+:adresse76 a :adresse .
 :adresse76 :seSitueDans :quartier4. 
 :adresse77 rdfs:label "14 rue saint-julien le pauvre".
+:adresse77 a :adresse .
 :adresse77 :seSitueDans :quartier4. 
 :adresse78 rdfs:label "rue gay-lussac".
+:adresse78 a :adresse .
 :adresse78 :seSitueDans :quartier4. 
 :adresse79 rdfs:label "quai saint-bernard".
+:adresse79 a :adresse .
 :adresse79 :seSitueDans :quartier4. 
 :adresse80 rdfs:label "36 rue du fer a moulin".
+:adresse80 a :adresse .
 :adresse80 :seSitueDans :quartier4. 
 :adresse81 rdfs:label "10 rue saint-victor".
+:adresse81 a :adresse .
 :adresse81 :seSitueDans :quartier4. 
 :adresse82 rdfs:label "place de l'estrapade".
+:adresse82 a :adresse .
 :adresse82 :seSitueDans :quartier4. 
 :adresse83 rdfs:label "19 rue des fosses saint-jacques".
+:adresse83 a :adresse .
 :adresse83 :seSitueDans :quartier4. 
 :adresse84 rdfs:label "74 rue du cardinal lemoine".
+:adresse84 a :adresse .
 :adresse84 :seSitueDans :quartier4. 
 :adresse85 rdfs:label "18 rue vauquelin".
+:adresse85 a :adresse .
 :adresse85 :seSitueDans :quartier4. 
 :adresse86 rdfs:label "51 boulevard saint-michel".
+:adresse86 a :adresse .
 :adresse86 :seSitueDans :quartier4. 
 :quartier5 rdfs:label "75006".
+:quartier5 a :quartier .
 :quartier5 :seSitueDans :ville0. 
 :adresse87 rdfs:label "172 boulevard saint-germain".
+:adresse87 a :adresse .
 :adresse87 :seSitueDans :quartier5. 
 :adresse88 rdfs:label "place saint-germain des pres".
+:adresse88 a :adresse .
 :adresse88 :seSitueDans :quartier5. 
 :adresse89 rdfs:label "rue de medicis".
+:adresse89 a :adresse .
 :adresse89 :seSitueDans :quartier5. 
 :adresse90 rdfs:label "3 rue de l'echaude".
+:adresse90 a :adresse .
 :adresse90 :seSitueDans :quartier5. 
 :adresse91 rdfs:label "rue cardinale".
+:adresse91 a :adresse .
 :adresse91 :seSitueDans :quartier5. 
 :adresse92 rdfs:label "28 rue de l'abbe gregoire".
+:adresse92 a :adresse .
 :adresse92 :seSitueDans :quartier5. 
 :adresse93 rdfs:label "15 rue mazarine".
+:adresse93 a :adresse .
 :adresse93 :seSitueDans :quartier5. 
 :adresse94 rdfs:label "rue de nesle".
+:adresse94 a :adresse .
 :adresse94 :seSitueDans :quartier5. 
 :adresse95 rdfs:label "place andre honnorat".
+:adresse95 a :adresse .
 :adresse95 :seSitueDans :quartier5. 
 :adresse96 rdfs:label "quai malaquais".
+:adresse96 a :adresse .
 :adresse96 :seSitueDans :quartier5. 
 :adresse97 rdfs:label "1 rue du sabot".
+:adresse97 a :adresse .
 :adresse97 :seSitueDans :quartier5. 
 :adresse98 rdfs:label "23 quai malaquais".
+:adresse98 a :adresse .
 :adresse98 :seSitueDans :quartier5. 
 :adresse99 rdfs:label "place andre honnorat".
+:adresse99 a :adresse .
 :adresse99 :seSitueDans :quartier5. 
 :adresse100 rdfs:label "1 rue de berite".
+:adresse100 a :adresse .
 :adresse100 :seSitueDans :quartier5. 
 :adresse101 rdfs:label "4 rue jean-françois gerbillon".
+:adresse101 a :adresse .
 :adresse101 :seSitueDans :quartier5. 
 :quartier6 rdfs:label "75007".
+:quartier6 a :quartier .
 :quartier6 :seSitueDans :ville0. 
 :adresse102 rdfs:label "1 place de breteuil".
+:adresse102 a :adresse .
 :adresse102 :seSitueDans :quartier6. 
 :adresse103 rdfs:label "31 rue de grenelle".
+:adresse103 a :adresse .
 :adresse103 :seSitueDans :quartier6. 
 :adresse104 rdfs:label "63 quai branly".
+:adresse104 a :adresse .
 :adresse104 :seSitueDans :quartier6. 
 :adresse105 rdfs:label "quai d'orsay".
+:adresse105 a :adresse .
 :adresse105 :seSitueDans :quartier6. 
 :adresse106 rdfs:label "12 rue de solferino".
+:adresse106 a :adresse .
 :adresse106 :seSitueDans :quartier6. 
 :adresse107 rdfs:label "avenue de tourville".
+:adresse107 a :adresse .
 :adresse107 :seSitueDans :quartier6. 
 :adresse108 rdfs:label "138 rue de grenelle".
+:adresse108 a :adresse .
 :adresse108 :seSitueDans :quartier6. 
 :adresse109 rdfs:label "17 avenue de saxe".
+:adresse109 a :adresse .
 :adresse109 :seSitueDans :quartier6. 
 :adresse110 rdfs:label "passerelle leopold sedar senghor".
+:adresse110 a :adresse .
 :adresse110 :seSitueDans :quartier6. 
 :adresse111 rdfs:label "24 boulevard de la tour-maubourg".
+:adresse111 a :adresse .
 :adresse111 :seSitueDans :quartier6. 
 :adresse112 rdfs:label "avenue charles risler".
+:adresse112 a :adresse .
 :adresse112 :seSitueDans :quartier6. 
 :adresse113 rdfs:label "64 rue de lille".
+:adresse113 a :adresse .
 :adresse113 :seSitueDans :quartier6. 
 :adresse114 rdfs:label "33 rue du bac".
+:adresse114 a :adresse .
 :adresse114 :seSitueDans :quartier6. 
 :adresse115 rdfs:label "rue fabert".
+:adresse115 a :adresse .
 :adresse115 :seSitueDans :quartier6. 
 :adresse116 rdfs:label "2 rue montalembert".
+:adresse116 a :adresse .
 :adresse116 :seSitueDans :quartier6. 
 :adresse117 rdfs:label "rue saint-dominique".
+:adresse117 a :adresse .
 :adresse117 :seSitueDans :quartier6. 
 :adresse118 rdfs:label "1 rue dupont des loges".
+:adresse118 a :adresse .
 :adresse118 :seSitueDans :quartier6. 
 :adresse119 rdfs:label "rue casimir perier".
+:adresse119 a :adresse .
 :adresse119 :seSitueDans :quartier6. 
 :adresse120 rdfs:label "5 rue masseran".
+:adresse120 a :adresse .
 :adresse120 :seSitueDans :quartier6. 
 :adresse121 rdfs:label "5 place du palais bourbon".
+:adresse121 a :adresse .
 :adresse121 :seSitueDans :quartier6. 
 :adresse122 rdfs:label "3 square rapp".
+:adresse122 a :adresse .
 :adresse122 :seSitueDans :quartier6. 
 :adresse123 rdfs:label "228 rue de l'universite".
+:adresse123 a :adresse .
 :adresse123 :seSitueDans :quartier6. 
 :adresse124 rdfs:label "avenue joseph bouvard".
+:adresse124 a :adresse .
 :adresse124 :seSitueDans :quartier6. 
 :adresse125 rdfs:label "passerelle leopold sedar senghor".
+:adresse125 a :adresse .
 :adresse125 :seSitueDans :quartier6. 
 :adresse126 rdfs:label "9 place du president mithouard".
+:adresse126 a :adresse .
 :adresse126 :seSitueDans :quartier6. 
 :adresse127 rdfs:label "square samuel rousseau".
+:adresse127 a :adresse .
 :adresse127 :seSitueDans :quartier6. 
 :quartier7 rdfs:label "75008".
+:quartier7 a :quartier .
 :quartier7 :seSitueDans :ville0. 
 :adresse128 rdfs:label "12 rue marbeuf".
+:adresse128 a :adresse .
 :adresse128 :seSitueDans :quartier7. 
 :adresse129 rdfs:label "avenue winston churchill".
+:adresse129 a :adresse .
 :adresse129 :seSitueDans :quartier7. 
 :adresse130 rdfs:label "1 place de la republique dominicaine".
+:adresse130 a :adresse .
 :adresse130 :seSitueDans :quartier7. 
 :adresse131 rdfs:label "23 avenue de friedland".
+:adresse131 a :adresse .
 :adresse131 :seSitueDans :quartier7. 
 :adresse132 rdfs:label "11 rue berryer".
+:adresse132 a :adresse .
 :adresse132 :seSitueDans :quartier7. 
 :adresse133 rdfs:label "avenue gabriel".
+:adresse133 a :adresse .
 :adresse133 :seSitueDans :quartier7. 
 :adresse134 rdfs:label "58 rue de courcelles".
+:adresse134 a :adresse .
 :adresse134 :seSitueDans :quartier7. 
 :adresse135 rdfs:label "place de la concorde".
+:adresse135 a :adresse .
 :adresse135 :seSitueDans :quartier7. 
 :adresse136 rdfs:label "15 rue chateaubriand".
+:adresse136 a :adresse .
 :adresse136 :seSitueDans :quartier7. 
 :adresse137 rdfs:label "place henri bergson".
+:adresse137 a :adresse .
 :adresse137 :seSitueDans :quartier7. 
 :adresse138 rdfs:label "50 avenue montaigne".
+:adresse138 a :adresse .
 :adresse138 :seSitueDans :quartier7. 
 :adresse139 rdfs:label "86 rue de miromesnil".
+:adresse139 a :adresse .
 :adresse139 :seSitueDans :quartier7. 
 :adresse140 rdfs:label "rue pelouze".
+:adresse140 a :adresse .
 :adresse140 :seSitueDans :quartier7. 
 :adresse141 rdfs:label "15 rue d'edimbourg".
+:adresse141 a :adresse .
 :adresse141 :seSitueDans :quartier7. 
 :adresse142 rdfs:label "9 avenue hoche".
+:adresse142 a :adresse .
 :adresse142 :seSitueDans :quartier7. 
 :adresse143 rdfs:label "35 boulevard de courcelles".
+:adresse143 a :adresse .
 :adresse143 :seSitueDans :quartier7. 
 :adresse144 rdfs:label "45 boulevard des batignolles".
+:adresse144 a :adresse .
 :adresse144 :seSitueDans :quartier7. 
 :adresse145 rdfs:label "25 avenue montaigne".
+:adresse145 a :adresse .
 :adresse145 :seSitueDans :quartier7. 
 :adresse146 rdfs:label "11 rue de berri".
+:adresse146 a :adresse .
 :adresse146 :seSitueDans :quartier7. 
 :adresse147 rdfs:label "14b avenue hoche".
+:adresse147 a :adresse .
 :adresse147 :seSitueDans :quartier7. 
 :adresse148 rdfs:label "2 rue lord byron".
+:adresse148 a :adresse .
 :adresse148 :seSitueDans :quartier7. 
 :adresse149 rdfs:label "6 rue chauveau-lagarde".
+:adresse149 a :adresse .
 :adresse149 :seSitueDans :quartier7. 
 :quartier8 rdfs:label "75009".
+:quartier8 a :quartier .
 :quartier8 :seSitueDans :ville0. 
 :adresse150 rdfs:label "52 rue condorcet".
+:adresse150 a :adresse .
 :adresse150 :seSitueDans :quartier8. 
 :adresse151 rdfs:label "2 rue turgot".
+:adresse151 a :adresse .
 :adresse151 :seSitueDans :quartier8. 
 :adresse152 rdfs:label "place blanche".
+:adresse152 a :adresse .
 :adresse152 :seSitueDans :quartier8. 
 :adresse153 rdfs:label "rue de caumartin".
+:adresse153 a :adresse .
 :adresse153 :seSitueDans :quartier8. 
 :adresse154 rdfs:label "46 rue de dunkerque".
+:adresse154 a :adresse .
 :adresse154 :seSitueDans :quartier8. 
 :adresse155 rdfs:label "12 avenue trudaine".
+:adresse155 a :adresse .
 :adresse155 :seSitueDans :quartier8. 
 :adresse156 rdfs:label "10b avenue trudaine".
+:adresse156 a :adresse .
 :adresse156 :seSitueDans :quartier8. 
 :adresse157 rdfs:label "place de l'opera".
+:adresse157 a :adresse .
 :adresse157 :seSitueDans :quartier8. 
 :adresse158 rdfs:label "8 rue du faubourg montmartre".
+:adresse158 a :adresse .
 :adresse158 :seSitueDans :quartier8. 
 :adresse159 rdfs:label "place de l'opera".
+:adresse159 a :adresse .
 :adresse159 :seSitueDans :quartier8. 
 :adresse160 rdfs:label "place de l'opera".
+:adresse160 a :adresse .
 :adresse160 :seSitueDans :quartier8. 
 :adresse161 rdfs:label "rue turgot".
+:adresse161 a :adresse .
 :adresse161 :seSitueDans :quartier8. 
 :adresse162 rdfs:label "5 rue de chantilly".
+:adresse162 a :adresse .
 :adresse162 :seSitueDans :quartier8. 
 :adresse163 rdfs:label "place jacques rouche".
+:adresse163 a :adresse .
 :adresse163 :seSitueDans :quartier8. 
 :adresse164 rdfs:label "cite de trevise".
+:adresse164 a :adresse .
 :adresse164 :seSitueDans :quartier8. 
 :adresse165 rdfs:label "place de l'opera".
+:adresse165 a :adresse .
 :adresse165 :seSitueDans :quartier8. 
 :adresse166 rdfs:label "12 rue laferriere".
+:adresse166 a :adresse .
 :adresse166 :seSitueDans :quartier8. 
 :adresse167 rdfs:label "15 boulevard de clichy".
+:adresse167 a :adresse .
 :adresse167 :seSitueDans :quartier8. 
 :adresse168 rdfs:label "49 boulevard de clichy".
+:adresse168 a :adresse .
 :adresse168 :seSitueDans :quartier8. 
 :adresse169 rdfs:label "rue thimonnier".
+:adresse169 a :adresse .
 :adresse169 :seSitueDans :quartier8. 
 :adresse170 rdfs:label "10 rue d'aumale".
+:adresse170 a :adresse .
 :adresse170 :seSitueDans :quartier8. 
 :adresse171 rdfs:label "place diaghilev".
+:adresse171 a :adresse .
 :adresse171 :seSitueDans :quartier8. 
 :quartier9 rdfs:label "75010".
+:quartier9 a :quartier .
 :quartier9 :seSitueDans :ville0. 
 :adresse172 rdfs:label "rue bichat".
+:adresse172 a :adresse .
 :adresse172 :seSitueDans :quartier9. 
 :adresse173 rdfs:label "18 place de la republique".
+:adresse173 a :adresse .
 :adresse173 :seSitueDans :quartier9. 
 :adresse174 rdfs:label "85 rue du faubourg saint-denis".
+:adresse174 a :adresse .
 :adresse174 :seSitueDans :quartier9. 
 :adresse175 rdfs:label "29 rue des vinaigriers".
+:adresse175 a :adresse .
 :adresse175 :seSitueDans :quartier9. 
 :adresse176 rdfs:label "rue d'alsace".
+:adresse176 a :adresse .
 :adresse176 :seSitueDans :quartier9. 
 :adresse177 rdfs:label "46 rue du faubourg saint-denis".
+:adresse177 a :adresse .
 :adresse177 :seSitueDans :quartier9. 
 :adresse178 rdfs:label "9 boulevard de denain".
+:adresse178 a :adresse .
 :adresse178 :seSitueDans :quartier9. 
 :adresse179 rdfs:label "rue de marseille".
+:adresse179 a :adresse .
 :adresse179 :seSitueDans :quartier9. 
 :adresse180 rdfs:label "52 rue rene boulanger".
+:adresse180 a :adresse .
 :adresse180 :seSitueDans :quartier9. 
 :adresse181 rdfs:label "quai de jemmapes".
+:adresse181 a :adresse .
 :adresse181 :seSitueDans :quartier9. 
 :adresse182 rdfs:label "passage du marche".
+:adresse182 a :adresse .
 :adresse182 :seSitueDans :quartier9. 
 :adresse183 rdfs:label "65 rue du chateau d'eau".
+:adresse183 a :adresse .
 :adresse183 :seSitueDans :quartier9. 
 :adresse184 rdfs:label "74 quai de jemmapes".
+:adresse184 a :adresse .
 :adresse184 :seSitueDans :quartier9. 
 :adresse185 rdfs:label "rue perdonnet".
+:adresse185 a :adresse .
 :adresse185 :seSitueDans :quartier9. 
 :adresse186 rdfs:label "rue du faubourg saint-denis".
+:adresse186 a :adresse .
 :adresse186 :seSitueDans :quartier9. 
 :adresse187 rdfs:label "27 rue du buisson saint-louis".
+:adresse187 a :adresse .
 :adresse187 :seSitueDans :quartier9. 
 :adresse188 rdfs:label "14 boulevard de strasbourg".
+:adresse188 a :adresse .
 :adresse188 :seSitueDans :quartier9. 
 :adresse189 rdfs:label "passage des recollets".
+:adresse189 a :adresse .
 :adresse189 :seSitueDans :quartier9. 
 :adresse190 rdfs:label "19 rue sainte-marthe".
+:adresse190 a :adresse .
 :adresse190 :seSitueDans :quartier9. 
 :adresse191 rdfs:label "14 rue philippe de girard".
+:adresse191 a :adresse .
 :adresse191 :seSitueDans :quartier9. 
 :adresse192 rdfs:label "165 boulevard de la villette".
+:adresse192 a :adresse .
 :adresse192 :seSitueDans :quartier9. 
 :adresse193 rdfs:label "boulevard saint-martin".
+:adresse193 a :adresse .
 :adresse193 :seSitueDans :quartier9. 
 :adresse194 rdfs:label "16 rue lucien sampaix".
+:adresse194 a :adresse .
 :adresse194 :seSitueDans :quartier9. 
 :adresse195 rdfs:label "place sainte-marthe".
+:adresse195 a :adresse .
 :adresse195 :seSitueDans :quartier9. 
 :adresse196 rdfs:label "83 boulevard de magenta".
+:adresse196 a :adresse .
 :adresse196 :seSitueDans :quartier9. 
 :quartier10 rdfs:label "75011".
+:quartier10 a :quartier .
 :quartier10 :seSitueDans :ville0. 
 :adresse197 rdfs:label "rue pasteur".
+:adresse197 a :adresse .
 :adresse197 :seSitueDans :quartier10. 
 :adresse198 rdfs:label "rue du grand prieure".
+:adresse198 a :adresse .
 :adresse198 :seSitueDans :quartier10. 
 :adresse199 rdfs:label "place de la fontaine timbaud".
+:adresse199 a :adresse .
 :adresse199 :seSitueDans :quartier10. 
 :adresse200 rdfs:label "passage josset".
+:adresse200 a :adresse .
 :adresse200 :seSitueDans :quartier10. 
 :adresse201 rdfs:label "104 avenue ledru-rollin".
+:adresse201 a :adresse .
 :adresse201 :seSitueDans :quartier10. 
 :adresse202 rdfs:label "place de la republique".
+:adresse202 a :adresse .
 :adresse202 :seSitueDans :quartier10. 
 :adresse203 rdfs:label "passage du bureau".
+:adresse203 a :adresse .
 :adresse203 :seSitueDans :quartier10. 
 :adresse204 rdfs:label "place de la republique".
+:adresse204 a :adresse .
 :adresse204 :seSitueDans :quartier10. 
 :adresse205 rdfs:label "13 rue jean mace".
+:adresse205 a :adresse .
 :adresse205 :seSitueDans :quartier10. 
 :adresse206 rdfs:label "place mireille havet".
+:adresse206 a :adresse .
 :adresse206 :seSitueDans :quartier10. 
 :adresse207 rdfs:label "rue deguerry".
+:adresse207 a :adresse .
 :adresse207 :seSitueDans :quartier10. 
 :adresse208 rdfs:label "avenue de la republique".
+:adresse208 a :adresse .
 :adresse208 :seSitueDans :quartier10. 
 :adresse209 rdfs:label "place de la republique".
+:adresse209 a :adresse .
 :adresse209 :seSitueDans :quartier10. 
 :adresse210 rdfs:label "23 rue jean-pierre timbaud".
+:adresse210 a :adresse .
 :adresse210 :seSitueDans :quartier10. 
 :adresse211 rdfs:label "10 place de la bastille".
+:adresse211 a :adresse .
 :adresse211 :seSitueDans :quartier10. 
 :adresse212 rdfs:label "square maurice gardette".
+:adresse212 a :adresse .
 :adresse212 :seSitueDans :quartier10. 
 :adresse213 rdfs:label "3 rue saint-sebastien".
+:adresse213 a :adresse .
 :adresse213 :seSitueDans :quartier10. 
 :adresse214 rdfs:label "boulevard richard lenoir".
+:adresse214 a :adresse .
 :adresse214 :seSitueDans :quartier10. 
 :adresse215 rdfs:label "112 boulevard voltaire".
+:adresse215 a :adresse .
 :adresse215 :seSitueDans :quartier10. 
 :adresse216 rdfs:label "7 rue darboy".
+:adresse216 a :adresse .
 :adresse216 :seSitueDans :quartier10. 
 :adresse217 rdfs:label "13 rue de charonne".
+:adresse217 a :adresse .
 :adresse217 :seSitueDans :quartier10. 
 :adresse218 rdfs:label "142 rue de charonne".
+:adresse218 a :adresse .
 :adresse218 :seSitueDans :quartier10. 
 :adresse219 rdfs:label "14 rue jean mace".
+:adresse219 a :adresse .
 :adresse219 :seSitueDans :quartier10. 
 :adresse220 rdfs:label "32 rue du faubourg du temple".
+:adresse220 a :adresse .
 :adresse220 :seSitueDans :quartier10. 
 :adresse221 rdfs:label "rue gonnet".
+:adresse221 a :adresse .
 :adresse221 :seSitueDans :quartier10. 
 :adresse222 rdfs:label "19 rue keller".
+:adresse222 a :adresse .
 :adresse222 :seSitueDans :quartier10. 
 :quartier11 rdfs:label "75012".
+:quartier11 a :quartier .
 :quartier11 :seSitueDans :ville0. 
 :adresse223 rdfs:label "voie dd".
+:adresse223 a :adresse .
 :adresse223 :seSitueDans :quartier11. 
 :adresse224 rdfs:label "12".
+:adresse224 a :adresse .
 :adresse224 :seSitueDans :quartier11. 
 :adresse225 rdfs:label "9 rue pierre bourdan".
+:adresse225 a :adresse .
 :adresse225 :seSitueDans :quartier11. 
 :adresse226 rdfs:label "59 rue claude decaen".
+:adresse226 a :adresse .
 :adresse226 :seSitueDans :quartier11. 
 :adresse227 rdfs:label "rue claude decaen".
+:adresse227 a :adresse .
 :adresse227 :seSitueDans :quartier11. 
 :adresse228 rdfs:label "48 avenue du docteur arnold netter".
+:adresse228 a :adresse .
 :adresse228 :seSitueDans :quartier11. 
 :adresse229 rdfs:label "33 rue de fecamp".
+:adresse229 a :adresse .
 :adresse229 :seSitueDans :quartier11. 
 :adresse230 rdfs:label "boulevard de reuilly".
+:adresse230 a :adresse .
 :adresse230 :seSitueDans :quartier11. 
 :adresse231 rdfs:label "port de bercy".
+:adresse231 a :adresse .
 :adresse231 :seSitueDans :quartier11. 
 :adresse232 rdfs:label "15 rue jacques hillairet".
+:adresse232 a :adresse .
 :adresse232 :seSitueDans :quartier11. 
 :adresse233 rdfs:label "rue de wattignies".
+:adresse233 a :adresse .
 :adresse233 :seSitueDans :quartier11. 
 :adresse234 rdfs:label "9 avenue du general laperrine".
+:adresse234 a :adresse .
 :adresse234 :seSitueDans :quartier11. 
 :adresse235 rdfs:label "13 rue edouard robert".
+:adresse235 a :adresse .
 :adresse235 :seSitueDans :quartier11. 
 :adresse236 rdfs:label "8 rue de madagascar".
+:adresse236 a :adresse .
 :adresse236 :seSitueDans :quartier11. 
 :adresse237 rdfs:label "esplanade saint-louis".
+:adresse237 a :adresse .
 :adresse237 :seSitueDans :quartier11. 
 :adresse238 rdfs:label "85b rue de charenton".
+:adresse238 a :adresse .
 :adresse238 :seSitueDans :quartier11. 
 :adresse239 rdfs:label "41 avenue de saint-mande".
+:adresse239 a :adresse .
 :adresse239 :seSitueDans :quartier11. 
 :adresse240 rdfs:label "route de ceinture du lac daumesnil".
+:adresse240 a :adresse .
 :adresse240 :seSitueDans :quartier11. 
 :adresse241 rdfs:label "32 rue de lyon".
+:adresse241 a :adresse .
 :adresse241 :seSitueDans :quartier11. 
 :adresse242 rdfs:label "203 rue de charenton".
+:adresse242 a :adresse .
 :adresse242 :seSitueDans :quartier11. 
 :adresse243 rdfs:label "52 cours de vincennes".
+:adresse243 a :adresse .
 :adresse243 :seSitueDans :quartier11. 
 :adresse244 rdfs:label "bois de vincennes".
+:adresse244 a :adresse .
 :adresse244 :seSitueDans :quartier11. 
 :adresse245 rdfs:label "rue de lyon".
+:adresse245 a :adresse .
 :adresse245 :seSitueDans :quartier11. 
 :adresse246 rdfs:label "99t rue de reuilly".
+:adresse246 a :adresse .
 :adresse246 :seSitueDans :quartier11. 
 :adresse247 rdfs:label "2 avenue de bel-air".
+:adresse247 a :adresse .
 :adresse247 :seSitueDans :quartier11. 
 :adresse248 rdfs:label "46 boulevard de la bastille".
+:adresse248 a :adresse .
 :adresse248 :seSitueDans :quartier11. 
 :adresse249 rdfs:label "41 avenue de saint-mande".
+:adresse249 a :adresse .
 :adresse249 :seSitueDans :quartier11. 
 :adresse250 rdfs:label "100 avenue de saint-mande".
+:adresse250 a :adresse .
 :adresse250 :seSitueDans :quartier11. 
 :adresse251 rdfs:label "4 place de la nation".
+:adresse251 a :adresse .
 :adresse251 :seSitueDans :quartier11. 
 :adresse252 rdfs:label "avenue daumesnil".
+:adresse252 a :adresse .
 :adresse252 :seSitueDans :quartier11. 
 :adresse253 rdfs:label "cour du ponant".
+:adresse253 a :adresse .
 :adresse253 :seSitueDans :quartier11. 
 :adresse254 rdfs:label "11 villa de saint-mande".
+:adresse254 a :adresse .
 :adresse254 :seSitueDans :quartier11. 
 :quartier12 rdfs:label "75013".
+:quartier12 a :quartier .
 :quartier12 :seSitueDans :ville0. 
 :adresse255 rdfs:label "10 quai d'austerlitz".
+:adresse255 a :adresse .
 :adresse255 :seSitueDans :quartier12. 
 :adresse256 rdfs:label "105 rue de tolbiac".
+:adresse256 a :adresse .
 :adresse256 :seSitueDans :quartier12. 
 :adresse257 rdfs:label "55 rue baudricourt".
+:adresse257 a :adresse .
 :adresse257 :seSitueDans :quartier12. 
 :adresse258 rdfs:label "10 rue des frigos".
+:adresse258 a :adresse .
 :adresse258 :seSitueDans :quartier12. 
 :adresse259 rdfs:label "rue jean-marie jego".
+:adresse259 a :adresse .
 :adresse259 :seSitueDans :quartier12. 
 :adresse260 rdfs:label "quai d'austerlitz".
+:adresse260 a :adresse .
 :adresse260 :seSitueDans :quartier12. 
 :adresse261 rdfs:label "boulevard vincent auriol".
+:adresse261 a :adresse .
 :adresse261 :seSitueDans :quartier12. 
 :adresse262 rdfs:label "59 rue des peupliers".
+:adresse262 a :adresse .
 :adresse262 :seSitueDans :quartier12. 
 :adresse263 rdfs:label "avenue de choisy".
+:adresse263 a :adresse .
 :adresse263 :seSitueDans :quartier12. 
 :adresse264 rdfs:label "rue elsa morante".
+:adresse264 a :adresse .
 :adresse264 :seSitueDans :quartier12. 
 :adresse265 rdfs:label "rue de la butte aux cailles".
+:adresse265 a :adresse .
 :adresse265 :seSitueDans :quartier12. 
 :adresse266 rdfs:label "rue jonas".
+:adresse266 a :adresse .
 :adresse266 :seSitueDans :quartier12. 
 :adresse267 rdfs:label "131 boulevard vincent auriol".
+:adresse267 a :adresse .
 :adresse267 :seSitueDans :quartier12. 
 :adresse268 rdfs:label "65 rue du javelot".
+:adresse268 a :adresse .
 :adresse268 :seSitueDans :quartier12. 
 :adresse269 rdfs:label "66 rue baudricourt".
+:adresse269 a :adresse .
 :adresse269 :seSitueDans :quartier12. 
 :adresse270 rdfs:label "17 avenue d'ivry".
+:adresse270 a :adresse .
 :adresse270 :seSitueDans :quartier12. 
 :adresse271 rdfs:label "boulevard auguste blanqui".
+:adresse271 a :adresse .
 :adresse271 :seSitueDans :quartier12. 
 :adresse272 rdfs:label "22 rue des wallons".
+:adresse272 a :adresse .
 :adresse272 :seSitueDans :quartier12. 
 :adresse273 rdfs:label "47 rue du javelot".
+:adresse273 a :adresse .
 :adresse273 :seSitueDans :quartier12. 
 :adresse274 rdfs:label "17 rue olivier messiaen".
+:adresse274 a :adresse .
 :adresse274 :seSitueDans :quartier12. 
 :adresse275 rdfs:label "15 rue helene brion".
+:adresse275 a :adresse .
 :adresse275 :seSitueDans :quartier12. 
 :adresse276 rdfs:label "128 avenue de choisy".
+:adresse276 a :adresse .
 :adresse276 :seSitueDans :quartier12. 
 :adresse277 rdfs:label "108 rue de tolbiac".
+:adresse277 a :adresse .
 :adresse277 :seSitueDans :quartier12. 
 :adresse278 rdfs:label "rue du docteur tuffier".
+:adresse278 a :adresse .
 :adresse278 :seSitueDans :quartier12. 
 :quartier13 rdfs:label "75014".
+:quartier13 a :quartier .
 :quartier13 :seSitueDans :ville0. 
 :adresse279 rdfs:label "rue du chateau".
+:adresse279 a :adresse .
 :adresse279 :seSitueDans :quartier13. 
 :adresse280 rdfs:label "rue gazan".
+:adresse280 a :adresse .
 :adresse280 :seSitueDans :quartier13. 
 :adresse281 rdfs:label "place de l'ile de sein".
+:adresse281 a :adresse .
 :adresse281 :seSitueDans :quartier13. 
 :adresse282 rdfs:label "rue maison dieu".
+:adresse282 a :adresse .
 :adresse282 :seSitueDans :quartier13. 
 :adresse283 rdfs:label "place ferdinand brunot".
+:adresse283 a :adresse .
 :adresse283 :seSitueDans :quartier13. 
 :adresse284 rdfs:label "16 place denfert-rochereau".
+:adresse284 a :adresse .
 :adresse284 :seSitueDans :quartier13. 
 :adresse285 rdfs:label "1 rue sivel".
+:adresse285 a :adresse .
 :adresse285 :seSitueDans :quartier13. 
 :adresse286 rdfs:label "7 rue liancourt".
+:adresse286 a :adresse .
 :adresse286 :seSitueDans :quartier13. 
 :adresse287 rdfs:label "villa saint-jacques".
+:adresse287 a :adresse .
 :adresse287 :seSitueDans :quartier13. 
 :adresse288 rdfs:label "103 boulevard de port-royal".
+:adresse288 a :adresse .
 :adresse288 :seSitueDans :quartier13. 
 :adresse289 rdfs:label "68 avenue denfert-rochereau".
+:adresse289 a :adresse .
 :adresse289 :seSitueDans :quartier13. 
 :adresse290 rdfs:label "34 rue dareau".
+:adresse290 a :adresse .
 :adresse290 :seSitueDans :quartier13. 
 :adresse291 rdfs:label "place flora tristan".
+:adresse291 a :adresse .
 :adresse291 :seSitueDans :quartier13. 
 :adresse292 rdfs:label "2 rue gazan".
+:adresse292 a :adresse .
 :adresse292 :seSitueDans :quartier13. 
 :quartier14 rdfs:label "75015".
+:quartier14 a :quartier .
 :quartier14 :seSitueDans :ville0. 
 :adresse293 rdfs:label "1 rue des perichaux".
+:adresse293 a :adresse .
 :adresse293 :seSitueDans :quartier14. 
 :adresse294 rdfs:label "rue de vaugirard".
+:adresse294 a :adresse .
 :adresse294 :seSitueDans :quartier14. 
 :adresse295 rdfs:label "port de suffren".
+:adresse295 a :adresse .
 :adresse295 :seSitueDans :quartier14. 
 :adresse296 rdfs:label "place georges mulot".
+:adresse296 a :adresse .
 :adresse296 :seSitueDans :quartier14. 
 :adresse297 rdfs:label "16 boulevard pasteur".
+:adresse297 a :adresse .
 :adresse297 :seSitueDans :quartier14. 
 :adresse298 rdfs:label "15 rue eugene millon".
+:adresse298 a :adresse .
 :adresse298 :seSitueDans :quartier14. 
 :adresse299 rdfs:label "place raoul dautry".
+:adresse299 a :adresse .
 :adresse299 :seSitueDans :quartier14. 
 :adresse300 rdfs:label "15 rue gerbert".
+:adresse300 a :adresse .
 :adresse300 :seSitueDans :quartier14. 
 :adresse301 rdfs:label "55 quai de grenelle".
+:adresse301 a :adresse .
 :adresse301 :seSitueDans :quartier14. 
 :adresse302 rdfs:label "22 rue jean rey".
+:adresse302 a :adresse .
 :adresse302 :seSitueDans :quartier14. 
 :adresse303 rdfs:label "19 boulevard de vaugirard".
+:adresse303 a :adresse .
 :adresse303 :seSitueDans :quartier14. 
 :adresse304 rdfs:label "32 rue du depart".
+:adresse304 a :adresse .
 :adresse304 :seSitueDans :quartier14. 
 :quartier15 rdfs:label "75016".
+:quartier15 a :quartier .
 :quartier15 :seSitueDans :ville0. 
 :adresse305 rdfs:label "103 boulevard suchet".
+:adresse305 a :adresse .
 :adresse305 :seSitueDans :quartier15. 
 :adresse306 rdfs:label "place rodin".
+:adresse306 a :adresse .
 :adresse306 :seSitueDans :quartier15. 
 :adresse307 rdfs:label "rue mallet-stevens".
+:adresse307 a :adresse .
 :adresse307 :seSitueDans :quartier15. 
 :adresse308 rdfs:label "2 rue eugene poubelle".
+:adresse308 a :adresse .
 :adresse308 :seSitueDans :quartier15. 
 :adresse309 rdfs:label "5 rue louis boilly".
+:adresse309 a :adresse .
 :adresse309 :seSitueDans :quartier15. 
 :adresse310 rdfs:label "10 rue du docteur blanche".
+:adresse310 a :adresse .
 :adresse310 :seSitueDans :quartier15. 
 :adresse311 rdfs:label "route de la vierge aux berceaux".
+:adresse311 a :adresse .
 :adresse311 :seSitueDans :quartier15. 
 :adresse312 rdfs:label "quai saint-exupery".
+:adresse312 a :adresse .
 :adresse312 :seSitueDans :quartier15. 
 :adresse313 rdfs:label "16 rue gros".
+:adresse313 a :adresse .
 :adresse313 :seSitueDans :quartier15. 
 :adresse314 rdfs:label "9 rue du general niox".
+:adresse314 a :adresse .
 :adresse314 :seSitueDans :quartier15. 
 :adresse315 rdfs:label "27 avenue de lamballe".
+:adresse315 a :adresse .
 :adresse315 :seSitueDans :quartier15. 
 :adresse316 rdfs:label "116 avenue du president kennedy".
+:adresse316 a :adresse .
 :adresse316 :seSitueDans :quartier15. 
 :quartier16 rdfs:label "75017".
+:quartier16 a :quartier .
 :quartier16 :seSitueDans :ville0. 
 :adresse317 rdfs:label "boulevard gouvion-saint-cyr".
+:adresse317 a :adresse .
 :adresse317 :seSitueDans :quartier16. 
 :adresse318 rdfs:label "3 rue verniquet".
+:adresse318 a :adresse .
 :adresse318 :seSitueDans :quartier16. 
 :adresse319 rdfs:label "1 rue alphonse de neuville".
+:adresse319 a :adresse .
 :adresse319 :seSitueDans :quartier16. 
 :adresse320 rdfs:label "100 rue des dames".
+:adresse320 a :adresse .
 :adresse320 :seSitueDans :quartier16. 
 :adresse321 rdfs:label "7 place des ternes".
+:adresse321 a :adresse .
 :adresse321 :seSitueDans :quartier16. 
 :adresse322 rdfs:label "2 avenue de villiers".
+:adresse322 a :adresse .
 :adresse322 :seSitueDans :quartier16. 
 :adresse323 rdfs:label "13 boulevard du fort de vaux".
+:adresse323 a :adresse .
 :adresse323 :seSitueDans :quartier16. 
 :adresse324 rdfs:label "104 boulevard malesherbes".
+:adresse324 a :adresse .
 :adresse324 :seSitueDans :quartier16. 
 :adresse325 rdfs:label "place du general catroux".
+:adresse325 a :adresse .
 :adresse325 :seSitueDans :quartier16. 
 :adresse326 rdfs:label "rue alphonse de neuville".
+:adresse326 a :adresse .
 :adresse326 :seSitueDans :quartier16. 
 :adresse327 rdfs:label "8 avenue mac-mahon".
+:adresse327 a :adresse .
 :adresse327 :seSitueDans :quartier16. 
 :adresse328 rdfs:label "place charles de gaulle".
+:adresse328 a :adresse .
 :adresse328 :seSitueDans :quartier16. 
 :adresse329 rdfs:label "35 avenue des ternes".
+:adresse329 a :adresse .
 :adresse329 :seSitueDans :quartier16. 
 :adresse330 rdfs:label "5 rue meissonier".
+:adresse330 a :adresse .
 :adresse330 :seSitueDans :quartier16. 
 :adresse331 rdfs:label "5 rue helene".
+:adresse331 a :adresse .
 :adresse331 :seSitueDans :quartier16. 
 :adresse332 rdfs:label "147 rue cardinet".
+:adresse332 a :adresse .
 :adresse332 :seSitueDans :quartier16. 
 :adresse333 rdfs:label "25 boulevard pershing".
+:adresse333 a :adresse .
 :adresse333 :seSitueDans :quartier16. 
 :adresse334 rdfs:label "1 rue raymond pitet".
+:adresse334 a :adresse .
 :adresse334 :seSitueDans :quartier16. 
 :quartier17 rdfs:label "75018".
+:quartier17 a :quartier .
 :quartier17 :seSitueDans :ville0. 
 :adresse335 rdfs:label "20 rue des gardes".
+:adresse335 a :adresse .
 :adresse335 :seSitueDans :quartier17. 
 :adresse336 rdfs:label "17 rue pajol".
+:adresse336 a :adresse .
 :adresse336 :seSitueDans :quartier17. 
 :adresse337 rdfs:label "rue jean-françois lepine".
+:adresse337 a :adresse .
 :adresse337 :seSitueDans :quartier17. 
 :adresse338 rdfs:label "21 rue paul albert".
+:adresse338 a :adresse .
 :adresse338 :seSitueDans :quartier17. 
 :adresse339 rdfs:label "esplanade nathalie sarraute".
+:adresse339 a :adresse .
 :adresse339 :seSitueDans :quartier17. 
 :adresse340 rdfs:label "rue maurice utrillo".
+:adresse340 a :adresse .
 :adresse340 :seSitueDans :quartier17. 
 :adresse341 rdfs:label "2 rue duhesme".
+:adresse341 a :adresse .
 :adresse341 :seSitueDans :quartier17. 
 :adresse342 rdfs:label "191 rue championnet".
+:adresse342 a :adresse .
 :adresse342 :seSitueDans :quartier17. 
 :adresse343 rdfs:label "38 rue doudeauville".
+:adresse343 a :adresse .
 :adresse343 :seSitueDans :quartier17. 
 :adresse344 rdfs:label "4 place du calvaire".
+:adresse344 a :adresse .
 :adresse344 :seSitueDans :quartier17. 
 :adresse345 rdfs:label "40 rue marx dormoy".
+:adresse345 a :adresse .
 :adresse345 :seSitueDans :quartier17. 
 :adresse346 rdfs:label "rue lamarck".
+:adresse346 a :adresse .
 :adresse346 :seSitueDans :quartier17. 
 :adresse347 rdfs:label "rue du chevalier de la barre".
+:adresse347 a :adresse .
 :adresse347 :seSitueDans :quartier17. 
 :adresse348 rdfs:label "86 rue du ruisseau".
+:adresse348 a :adresse .
 :adresse348 :seSitueDans :quartier17. 
 :adresse349 rdfs:label "7 rue aristide bruant".
+:adresse349 a :adresse .
 :adresse349 :seSitueDans :quartier17. 
 :adresse350 rdfs:label "rue simon dereure".
+:adresse350 a :adresse .
 :adresse350 :seSitueDans :quartier17. 
 :adresse351 rdfs:label "12 rue saint-vincent".
+:adresse351 a :adresse .
 :adresse351 :seSitueDans :quartier17. 
 :adresse352 rdfs:label "18 rue veron".
+:adresse352 a :adresse .
 :adresse352 :seSitueDans :quartier17. 
 :adresse353 rdfs:label "place marcel ayme".
+:adresse353 a :adresse .
 :adresse353 :seSitueDans :quartier17. 
 :adresse354 rdfs:label "57 rue berthe".
+:adresse354 a :adresse .
 :adresse354 :seSitueDans :quartier17. 
 :adresse355 rdfs:label "4 villa vauvenargues".
+:adresse355 a :adresse .
 :adresse355 :seSitueDans :quartier17. 
 :adresse356 rdfs:label "3 rue fleury".
+:adresse356 a :adresse .
 :adresse356 :seSitueDans :quartier17. 
 :adresse357 rdfs:label "place louise blanquart".
+:adresse357 a :adresse .
 :adresse357 :seSitueDans :quartier17. 
 :adresse358 rdfs:label "20 rue du departement".
+:adresse358 a :adresse .
 :adresse358 :seSitueDans :quartier17. 
 :adresse359 rdfs:label "48 rue d'orsel".
+:adresse359 a :adresse .
 :adresse359 :seSitueDans :quartier17. 
 :adresse360 rdfs:label "34 rue du chevalier de la barre".
+:adresse360 a :adresse .
 :adresse360 :seSitueDans :quartier17. 
 :adresse361 rdfs:label "9 place jean-baptiste clement".
+:adresse361 a :adresse .
 :adresse361 :seSitueDans :quartier17. 
 :adresse362 rdfs:label "2 rue ferdinand flocon".
+:adresse362 a :adresse .
 :adresse362 :seSitueDans :quartier17. 
 :adresse363 rdfs:label "8 rue de l'evangile".
+:adresse363 a :adresse .
 :adresse363 :seSitueDans :quartier17. 
 :adresse364 rdfs:label "5 rue saint-bruno".
+:adresse364 a :adresse .
 :adresse364 :seSitueDans :quartier17. 
 :adresse365 rdfs:label "promenade dora bruder".
+:adresse365 a :adresse .
 :adresse365 :seSitueDans :quartier17. 
 :adresse366 rdfs:label "2 allee d'andrezieux".
+:adresse366 a :adresse .
 :adresse366 :seSitueDans :quartier17. 
 :adresse367 rdfs:label "8 rue jean-françois lepine".
+:adresse367 a :adresse .
 :adresse367 :seSitueDans :quartier17. 
 :quartier18 rdfs:label "75019".
+:quartier18 a :quartier .
 :quartier18 :seSitueDans :ville0. 
 :adresse368 rdfs:label "21 rue augustin thierry".
+:adresse368 a :adresse .
 :adresse368 :seSitueDans :quartier18. 
 :adresse369 rdfs:label "41b quai de la loire".
+:adresse369 a :adresse .
 :adresse369 :seSitueDans :quartier18. 
 :adresse370 rdfs:label "6 rue manin".
+:adresse370 a :adresse .
 :adresse370 :seSitueDans :quartier18. 
 :adresse371 rdfs:label "rue botzaris".
+:adresse371 a :adresse .
 :adresse371 :seSitueDans :quartier18. 
 :adresse372 rdfs:label "39 quai de la loire".
+:adresse372 a :adresse .
 :adresse372 :seSitueDans :quartier18. 
 :adresse373 rdfs:label "quai de la seine".
+:adresse373 a :adresse .
 :adresse373 :seSitueDans :quartier18. 
 :adresse374 rdfs:label "1 rue du rhin".
+:adresse374 a :adresse .
 :adresse374 :seSitueDans :quartier18. 
 :adresse375 rdfs:label "1 rue botzaris".
+:adresse375 a :adresse .
 :adresse375 :seSitueDans :quartier18. 
 :adresse376 rdfs:label "rue jules romains".
+:adresse376 a :adresse .
 :adresse376 :seSitueDans :quartier18. 
 :adresse377 rdfs:label "27 rue edouard pailleron".
+:adresse377 a :adresse .
 :adresse377 :seSitueDans :quartier18. 
 :adresse378 rdfs:label "85 avenue simon bolivar".
+:adresse378 a :adresse .
 :adresse378 :seSitueDans :quartier18. 
 :adresse379 rdfs:label "quai du lot".
+:adresse379 a :adresse .
 :adresse379 :seSitueDans :quartier18. 
 :adresse380 rdfs:label "23 rue du general brunet".
+:adresse380 a :adresse .
 :adresse380 :seSitueDans :quartier18. 
 :adresse381 rdfs:label "6 place de la bataille de stalingrad".
+:adresse381 a :adresse .
 :adresse381 :seSitueDans :quartier18. 
 :adresse382 rdfs:label "46 quai de la loire".
+:adresse382 a :adresse .
 :adresse382 :seSitueDans :quartier18. 
 :adresse383 rdfs:label "rue compans".
+:adresse383 a :adresse .
 :adresse383 :seSitueDans :quartier18. 
 :adresse384 rdfs:label "145 boulevard serurier".
+:adresse384 a :adresse .
 :adresse384 :seSitueDans :quartier18. 
 :adresse385 rdfs:label "38 avenue simon bolivar".
+:adresse385 a :adresse .
 :adresse385 :seSitueDans :quartier18. 
 :adresse386 rdfs:label "avenue de la grotte".
+:adresse386 a :adresse .
 :adresse386 :seSitueDans :quartier18. 
 :adresse387 rdfs:label "46 boulevard de la villette".
+:adresse387 a :adresse .
 :adresse387 :seSitueDans :quartier18. 
 :adresse388 rdfs:label "parvis rosa parks".
+:adresse388 a :adresse .
 :adresse388 :seSitueDans :quartier18. 
 :adresse389 rdfs:label "promenade signoret-montand".
+:adresse389 a :adresse .
 :adresse389 :seSitueDans :quartier18. 
 :adresse390 rdfs:label "3 place rhin et danube".
+:adresse390 a :adresse .
 :adresse390 :seSitueDans :quartier18. 
 :adresse391 rdfs:label "4 rue manin".
+:adresse391 a :adresse .
 :adresse391 :seSitueDans :quartier18. 
 :adresse392 rdfs:label "54 avenue secretan".
+:adresse392 a :adresse .
 :adresse392 :seSitueDans :quartier18. 
 :adresse393 rdfs:label "41 avenue simon bolivar".
+:adresse393 a :adresse .
 :adresse393 :seSitueDans :quartier18. 
 :adresse394 rdfs:label "39 rue compans".
+:adresse394 a :adresse .
 :adresse394 :seSitueDans :quartier18. 
 :adresse395 rdfs:label "avenue debidour".
+:adresse395 a :adresse .
 :adresse395 :seSitueDans :quartier18. 
 :adresse396 rdfs:label "rue manin".
+:adresse396 a :adresse .
 :adresse396 :seSitueDans :quartier18. 
 :adresse397 rdfs:label "2 rue de l'ourcq".
+:adresse397 a :adresse .
 :adresse397 :seSitueDans :quartier18. 
 :adresse398 rdfs:label "60 rue cesaria evora".
+:adresse398 a :adresse .
 :adresse398 :seSitueDans :quartier18. 
 :quartier19 rdfs:label "75020".
+:quartier19 a :quartier .
 :quartier19 :seSitueDans :ville0. 
 :adresse399 rdfs:label "7 rue du jourdain".
+:adresse399 a :adresse .
 :adresse399 :seSitueDans :quartier19. 
 :adresse400 rdfs:label "1 rue des montiboeufs".
+:adresse400 a :adresse .
 :adresse400 :seSitueDans :quartier19. 
 :adresse401 rdfs:label "60 boulevard de belleville".
+:adresse401 a :adresse .
 :adresse401 :seSitueDans :quartier19. 
 :adresse402 rdfs:label "1 rue des panoyaux".
+:adresse402 a :adresse .
 :adresse402 :seSitueDans :quartier19. 
 :adresse403 rdfs:label "2 rue michel de bourges".
+:adresse403 a :adresse .
 :adresse403 :seSitueDans :quartier19. 
 :adresse404 rdfs:label "46 boulevard de charonne".
+:adresse404 a :adresse .
 :adresse404 :seSitueDans :quartier19. 
 :adresse405 rdfs:label "rue du capitaine ferber".
+:adresse405 a :adresse .
 :adresse405 :seSitueDans :quartier19. 
 :adresse406 rdfs:label "19 rue lesage".
+:adresse406 a :adresse .
 :adresse406 :seSitueDans :quartier19. 
 :adresse407 rdfs:label "avenue de la porte de bagnolet".
+:adresse407 a :adresse .
 :adresse407 :seSitueDans :quartier19. 
 :adresse408 rdfs:label "14 rue du pressoir".
+:adresse408 a :adresse .
 :adresse408 :seSitueDans :quartier19. 
 :adresse409 rdfs:label "21 rue piat".
+:adresse409 a :adresse .
 :adresse409 :seSitueDans :quartier19. 
 :adresse410 rdfs:label "rue du senegal".
+:adresse410 a :adresse .
 :adresse410 :seSitueDans :quartier19. 
 :adresse411 rdfs:label "rue bisson".
+:adresse411 a :adresse .
 :adresse411 :seSitueDans :quartier19. 
 :adresse412 rdfs:label "rue de menilmontant".
+:adresse412 a :adresse .
 :adresse412 :seSitueDans :quartier19. 
 :adresse413 rdfs:label "54 rue de belleville".
+:adresse413 a :adresse .
 :adresse413 :seSitueDans :quartier19. 
 :adresse414 rdfs:label "16 rue etienne dolet".
+:adresse414 a :adresse .
 :adresse414 :seSitueDans :quartier19. 
 :adresse415 rdfs:label "90 rue de belleville".
+:adresse415 a :adresse .
 :adresse415 :seSitueDans :quartier19. 
 :adresse416 rdfs:label "87 rue de buzenval".
+:adresse416 a :adresse .
 :adresse416 :seSitueDans :quartier19. 
 :adresse417 rdfs:label "1 rue du jourdain".
+:adresse417 a :adresse .
 :adresse417 :seSitueDans :quartier19. 
 :adresse418 rdfs:label "place du guignier".
+:adresse418 a :adresse .
 :adresse418 :seSitueDans :quartier19. 
 :adresse419 rdfs:label "rue de buzenval".
+:adresse419 a :adresse .
 :adresse419 :seSitueDans :quartier19. 
 :adresse420 rdfs:label "262b rue des pyrenees".
+:adresse420 a :adresse .
 :adresse420 :seSitueDans :quartier19. 
 :adresse421 rdfs:label "6 rue pierre mouillard".
+:adresse421 a :adresse .
 :adresse421 :seSitueDans :quartier19. 
 :adresse422 rdfs:label "5 cite champagne".
+:adresse422 a :adresse .
 :adresse422 :seSitueDans :quartier19. 
 :adresse423 rdfs:label "boulevard davout".
+:adresse423 a :adresse .
 :adresse423 :seSitueDans :quartier19. 
 :adresse424 rdfs:label "14 rue du cambodge".
+:adresse424 a :adresse .
 :adresse424 :seSitueDans :quartier19. 
 :adresse425 rdfs:label "97 rue julien lacroix".
+:adresse425 a :adresse .
 :adresse425 :seSitueDans :quartier19. 
 :adresse426 rdfs:label "27 rue piat".
+:adresse426 a :adresse .
 :adresse426 :seSitueDans :quartier19. 
 :adresse427 rdfs:label "47 rue des couronnes".
+:adresse427 a :adresse .
 :adresse427 :seSitueDans :quartier19. 
 :adresse428 rdfs:label "rue du pere prosper-enfantin".
+:adresse428 a :adresse .
 :adresse428 :seSitueDans :quartier19. 
 :adresse429 rdfs:label "8 rue de belleville".
+:adresse429 a :adresse .
 :adresse429 :seSitueDans :quartier19. 
 :adresse430 rdfs:label "90 rue des couronnes".
+:adresse430 a :adresse .
 :adresse430 :seSitueDans :quartier19. 
 :adresse431 rdfs:label "avenue de la porte des lilas".
+:adresse431 a :adresse .
 :adresse431 :seSitueDans :quartier19. 
 :adresse432 rdfs:label "avenue benoît frachon".
+:adresse432 a :adresse .
 :adresse432 :seSitueDans :quartier19. 
 :adresse433 rdfs:label "13 rue sorbier".
+:adresse433 a :adresse .
 :adresse433 :seSitueDans :quartier19. 
 :quartier20 rdfs:label "75116".
+:quartier20 a :quartier .
 :quartier20 :seSitueDans :ville0. 
 :adresse434 rdfs:label "rue adolphe yvon".
+:adresse434 a :adresse .
 :adresse434 :seSitueDans :quartier20. 
 :adresse435 rdfs:label "5 avenue albert de mun".
+:adresse435 a :adresse .
 :adresse435 :seSitueDans :quartier20. 
 :adresse436 rdfs:label "10 avenue d'iena".
+:adresse436 a :adresse .
 :adresse436 :seSitueDans :quartier20. 
 :adresse437 rdfs:label "10 place de mexico".
+:adresse437 a :adresse .
 :adresse437 :seSitueDans :quartier20. 
 :adresse438 rdfs:label "3 rue de lota".
+:adresse438 a :adresse .
 :adresse438 :seSitueDans :quartier20. 
 :adresse439 rdfs:label "84 avenue kleber".
+:adresse439 a :adresse .
 :adresse439 :seSitueDans :quartier20. 
 :adresse440 rdfs:label "9 rue louis david".
+:adresse440 a :adresse .
 :adresse440 :seSitueDans :quartier20. 
 :adresse441 rdfs:label "place du trocadero et du onze novembre".
+:adresse441 a :adresse .
 :adresse441 :seSitueDans :quartier20. 
 :adresse442 rdfs:label "17 avenue d'iena".
+:adresse442 a :adresse .
 :adresse442 :seSitueDans :quartier20. 
 :adresse443 rdfs:label "16 avenue victor hugo".
+:adresse443 a :adresse .
 :adresse443 :seSitueDans :quartier20. 
 :adresse444 rdfs:label "5b rue eugene manuel".
+:adresse444 a :adresse .
 :adresse444 :seSitueDans :quartier20. 
 :adresse445 rdfs:label "boulevard de l'amiral bruix".
+:adresse445 a :adresse .
 :adresse445 :seSitueDans :quartier20. 
 :adresse446 rdfs:label "8 place du trocadero et du onze novembre".
+:adresse446 a :adresse .
 :adresse446 :seSitueDans :quartier20. 
 :adresse447 rdfs:label "avenue kleber".
+:adresse447 a :adresse .
 :adresse447 :seSitueDans :quartier20. 
 :adresse448 rdfs:label "83 avenue kleber".
+:adresse448 a :adresse .
 :adresse448 :seSitueDans :quartier20. 
 :adresse449 rdfs:label "avenue victor hugo".
+:adresse449 a :adresse .
 :adresse449 :seSitueDans :quartier20. 
 :adresse450 rdfs:label "avenue hussein 1er de jordanie".
+:adresse450 a :adresse .
 :adresse450 :seSitueDans :quartier20. 
 :adresse451 rdfs:label "67 boulevard lannes".
+:adresse451 a :adresse .
 :adresse451 :seSitueDans :quartier20. 
 :adresse452 rdfs:label "avenue du president wilson".
+:adresse452 a :adresse .
 :adresse452 :seSitueDans :quartier20. 
 :adresse453 rdfs:label "rue de galliera".
+:adresse453 a :adresse .
 :adresse453 :seSitueDans :quartier20. 
 :adresse454 rdfs:label "4 impasse des prêtres".
+:adresse454 a :adresse .
 :adresse454 :seSitueDans :quartier20. 
 :adresse455 rdfs:label "13 rue des sablons".
+:adresse455 a :adresse .
 :adresse455 :seSitueDans :quartier20. 
 :adresse456 rdfs:label "place de varsovie".
+:adresse456 a :adresse .
 :adresse456 :seSitueDans :quartier20. 
 :adresse457 rdfs:label "42 rue scheffer".
+:adresse457 a :adresse .
 :adresse457 :seSitueDans :quartier20. 
 :adresse458 rdfs:label "place des etats-unis".
+:adresse458 a :adresse .
 :adresse458 :seSitueDans :quartier20. 
 :adresse459 rdfs:label "avenue albert de mun".
+:adresse459 a :adresse .
 :adresse459 :seSitueDans :quartier20. 
 :adresse460 rdfs:label "12 rue de presbourg".
+:adresse460 a :adresse .
 :adresse460 :seSitueDans :quartier20. 
 :adresse461 rdfs:label "2 place du trocadero et du onze novembre".
+:adresse461 a :adresse .
 :adresse461 :seSitueDans :quartier20. 
 :quartier21 rdfs:label "nsp".
+:quartier21 a :quartier .
 :quartier21 :seSitueDans :ville0. 
 :adresse462 rdfs:label "place  de l'opera".
+:adresse462 a :adresse .
 :adresse462 :seSitueDans :quartier21. 
 :adresse463 rdfs:label "18  rue  vauquelin".
+:adresse463 a :adresse .
 :adresse463 :seSitueDans :quartier21. 
 :adresse464 rdfs:label "rue  de cluny".
+:adresse464 a :adresse .
 :adresse464 :seSitueDans :quartier21. 
 :adresse465 rdfs:label "8  rue  poliveau".
+:adresse465 a :adresse .
 :adresse465 :seSitueDans :quartier21. 
 :adresse466 rdfs:label "villa  emile loubert".
+:adresse466 a :adresse .
 :adresse466 :seSitueDans :quartier21. 
 :adresse467 rdfs:label "rue mouzaia".
+:adresse467 a :adresse .
 :adresse467 :seSitueDans :quartier21. 
 :adresse468 rdfs:label "passerelle*  du bassin de la villette".
+:adresse468 a :adresse .
 :adresse468 :seSitueDans :quartier21. 
 :adresse469 rdfs:label "rue  de belleville".
+:adresse469 a :adresse .
 :adresse469 :seSitueDans :quartier21. 
 :adresse470 rdfs:label "cite  de trevise".
+:adresse470 a :adresse .
 :adresse470 :seSitueDans :quartier21. 
 :adresse471 rdfs:label "25  avenue  de l'observatoire".
+:adresse471 a :adresse .
 :adresse471 :seSitueDans :quartier21. 
 :adresse472 rdfs:label "49  rue  des petites ecuries".
+:adresse472 a :adresse .
 :adresse472 :seSitueDans :quartier21. 
 :adresse473 rdfs:label "place  pigalle".
+:adresse473 a :adresse .
 :adresse473 :seSitueDans :quartier21. 
 :adresse474 rdfs:label "rue  ferdinand braudel".
+:adresse474 a :adresse .
 :adresse474 :seSitueDans :quartier21. 
 :adresse475 rdfs:label "8  avenue  elisee reclus".
+:adresse475 a :adresse .
 :adresse475 :seSitueDans :quartier21. 
 :adresse476 rdfs:label "72  rue  louis lumiere".
+:adresse476 a :adresse .
 :adresse476 :seSitueDans :quartier21. 
 :adresse477 rdfs:label "pont  d'iena".
+:adresse477 a :adresse .
 :adresse477 :seSitueDans :quartier21. 
 :adresse478 rdfs:label "14  quai  de seine".
+:adresse478 a :adresse .
 :adresse478 :seSitueDans :quartier21. 
 :adresse479 rdfs:label "cinema mk2".
+:adresse479 a :adresse .
 :adresse479 :seSitueDans :quartier21. 
 :adresse480 rdfs:label "29  rue  le brun".
+:adresse480 a :adresse .
 :adresse480 :seSitueDans :quartier21. 
 :adresse481 rdfs:label "37  rue  le brun".
+:adresse481 a :adresse .
 :adresse481 :seSitueDans :quartier21. 
 :adresse482 rdfs:label "rue  de la cossonnerie".
+:adresse482 a :adresse .
 :adresse482 :seSitueDans :quartier21. 
 :adresse483 rdfs:label "avenue  des champs elysees".
+:adresse483 a :adresse .
 :adresse483 :seSitueDans :quartier21. 
 :adresse484 rdfs:label "avenue  de varsovie".
+:adresse484 a :adresse .
 :adresse484 :seSitueDans :quartier21. 
 :adresse485 rdfs:label "rue  de dunkerque".
+:adresse485 a :adresse .
 :adresse485 :seSitueDans :quartier21. 
 :adresse486 rdfs:label "rue  de senlis".
+:adresse486 a :adresse .
 :adresse486 :seSitueDans :quartier21. 
 :adresse487 rdfs:label "3".
+:adresse487 a :adresse .
 :adresse487 :seSitueDans :quartier21. 
 :adresse488 rdfs:label "5  place  casadesus".
+:adresse488 a :adresse .
 :adresse488 :seSitueDans :quartier21. 
 :adresse489 rdfs:label "rue  abel gance".
+:adresse489 a :adresse .
 :adresse489 :seSitueDans :quartier21. 
 :adresse490 rdfs:label "rue  robineau".
+:adresse490 a :adresse .
 :adresse490 :seSitueDans :quartier21. 
 :adresse491 rdfs:label "terre plein  angle avenue st maurice".
+:adresse491 a :adresse .
 :adresse491 :seSitueDans :quartier21. 
 :adresse492 rdfs:label "avenue daumesnil".
+:adresse492 a :adresse .
 :adresse492 :seSitueDans :quartier21. 
 :adresse493 rdfs:label "46  rue  saint louis en l'ile".
+:adresse493 a :adresse .
 :adresse493 :seSitueDans :quartier21. 
 :adresse494 rdfs:label "12  rue  de jouy".
+:adresse494 a :adresse .
 :adresse494 :seSitueDans :quartier21. 
 :adresse495 rdfs:label "rue  la bonne".
+:adresse495 a :adresse .
 :adresse495 :seSitueDans :quartier21. 
 :adresse496 rdfs:label "parc  montsouris".
+:adresse496 a :adresse .
 :adresse496 :seSitueDans :quartier21. 
 :adresse497 rdfs:label "rue  alexandre dumas".
+:adresse497 a :adresse .
 :adresse497 :seSitueDans :quartier21. 
 :adresse498 rdfs:label "boulevard  de strasbourg".
+:adresse498 a :adresse .
 :adresse498 :seSitueDans :quartier21. 
 :adresse499 rdfs:label "avenue  prudhon".
+:adresse499 a :adresse .
 :adresse499 :seSitueDans :quartier21. 
 :adresse500 rdfs:label "74  rue  de dunkerque".
+:adresse500 a :adresse .
 :adresse500 :seSitueDans :quartier21. 
 :adresse501 rdfs:label "place  saint augustin".
+:adresse501 a :adresse .
 :adresse501 :seSitueDans :quartier21. 
 :adresse502 rdfs:label "avenue  ruysdael".
+:adresse502 a :adresse .
 :adresse502 :seSitueDans :quartier21. 
 :adresse503 rdfs:label "passage  des panoramas".
+:adresse503 a :adresse .
 :adresse503 :seSitueDans :quartier21. 
 :adresse504 rdfs:label "avenue  des portugais".
+:adresse504 a :adresse .
 :adresse504 :seSitueDans :quartier21. 
 :adresse505 rdfs:label "parc  des buttes chaumont".
+:adresse505 a :adresse .
 :adresse505 :seSitueDans :quartier21. 
 :adresse506 rdfs:label "33  boulevard  de la chapelle".
+:adresse506 a :adresse .
 :adresse506 :seSitueDans :quartier21. 
 :adresse507 rdfs:label "rue  clotaire".
+:adresse507 a :adresse .
 :adresse507 :seSitueDans :quartier21. 
 :adresse508 rdfs:label "place  de clichy".
+:adresse508 a :adresse .
 :adresse508 :seSitueDans :quartier21. 
 :adresse509 rdfs:label "87  avenue  de villiers".
+:adresse509 a :adresse .
 :adresse509 :seSitueDans :quartier21. 
 :adresse510 rdfs:label "4 rue  pierre mouillard".
+:adresse510 a :adresse .
 :adresse510 :seSitueDans :quartier21. 
 :adresse511 rdfs:label "6  rue  pierre mouillard".
+:adresse511 a :adresse .
 :adresse511 :seSitueDans :quartier21. 
 :adresse512 rdfs:label "rue  delouvain".
+:adresse512 a :adresse .
 :adresse512 :seSitueDans :quartier21. 
 :adresse513 rdfs:label "quai  de grenelle".
+:adresse513 a :adresse .
 :adresse513 :seSitueDans :quartier21. 
 :adresse514 rdfs:label "1 rue  de beaune".
+:adresse514 a :adresse .
 :adresse514 :seSitueDans :quartier21. 
 :adresse515 rdfs:label "place  jules joffrin".
+:adresse515 a :adresse .
 :adresse515 :seSitueDans :quartier21. 
 :adresse516 rdfs:label "place  des invalides".
+:adresse516 a :adresse .
 :adresse516 :seSitueDans :quartier21. 
 :adresse517 rdfs:label "esplanade".
+:adresse517 a :adresse .
 :adresse517 :seSitueDans :quartier21. 
 :adresse518 rdfs:label "place  de la concorde".
+:adresse518 a :adresse .
 :adresse518 :seSitueDans :quartier21. 
 :adresse519 rdfs:label "place  des fetes".
+:adresse519 a :adresse .
 :adresse519 :seSitueDans :quartier21. 
 :adresse520 rdfs:label "30  rue  perignon".
+:adresse520 a :adresse .
 :adresse520 :seSitueDans :quartier21. 
 :adresse521 rdfs:label "2  rue  vivienne".
+:adresse521 a :adresse .
 :adresse521 :seSitueDans :quartier21. 
 :adresse522 rdfs:label "11  rue  des taillandiers".
+:adresse522 a :adresse .
 :adresse522 :seSitueDans :quartier21. 
 :adresse523 rdfs:label "rue  trousseau".
+:adresse523 a :adresse .
 :adresse523 :seSitueDans :quartier21. 
 :adresse524 rdfs:label "cimetiere*  de thiais".
+:adresse524 a :adresse .
 :adresse524 :seSitueDans :quartier21. 
 :adresse525 rdfs:label "rue  censier".
+:adresse525 a :adresse .
 :adresse525 :seSitueDans :quartier21. 
 :adresse526 rdfs:label "terrain*  de foot poterne des peupliers".
+:adresse526 a :adresse .
 :adresse526 :seSitueDans :quartier21. 
 :adresse527 rdfs:label "rue  du soleil".
+:adresse527 a :adresse .
 :adresse527 :seSitueDans :quartier21. 
 :adresse528 rdfs:label "rue pixerecourt (angle)".
+:adresse528 a :adresse .
 :adresse528 :seSitueDans :quartier21. 
 :adresse529 rdfs:label "1 rue  du bac".
+:adresse529 a :adresse .
 :adresse529 :seSitueDans :quartier21. 
 :adresse530 rdfs:label "rue  hermel".
+:adresse530 a :adresse .
 :adresse530 :seSitueDans :quartier21. 
 :adresse531 rdfs:label "terrasse  morland".
+:adresse531 a :adresse .
 :adresse531 :seSitueDans :quartier21. 
 :adresse532 rdfs:label "51  rue  de courcelles".
+:adresse532 a :adresse .
 :adresse532 :seSitueDans :quartier21. 
 :adresse533 rdfs:label "55  rue  de courcelles".
+:adresse533 a :adresse .
 :adresse533 :seSitueDans :quartier21. 
 :adresse534 rdfs:label "15  avenue  du recteur poincare".
+:adresse534 a :adresse .
 :adresse534 :seSitueDans :quartier21. 
 :adresse535 rdfs:label "68  boulevard  picpus".
+:adresse535 a :adresse .
 :adresse535 :seSitueDans :quartier21. 
 :adresse536 rdfs:label "marche*  beauvau".
+:adresse536 a :adresse .
 :adresse536 :seSitueDans :quartier21. 
 :adresse537 rdfs:label "4  rue  des belles feuilles".
+:adresse537 a :adresse .
 :adresse537 :seSitueDans :quartier21. 
 :adresse538 rdfs:label "place  de fontenoy".
+:adresse538 a :adresse .
 :adresse538 :seSitueDans :quartier21. 
 :adresse539 rdfs:label "place  de la bastille".
+:adresse539 a :adresse .
 :adresse539 :seSitueDans :quartier21. 
 :adresse540 rdfs:label "avenue  gustave eiffel".
+:adresse540 a :adresse .
 :adresse540 :seSitueDans :quartier21. 
 :adresse541 rdfs:label "avenue  trudaine".
+:adresse541 a :adresse .
 :adresse541 :seSitueDans :quartier21. 
 :adresse542 rdfs:label "21".
+:adresse542 a :adresse .
 :adresse542 :seSitueDans :quartier21. 
 :adresse543 rdfs:label "33".
+:adresse543 a :adresse .
 :adresse543 :seSitueDans :quartier21. 
 :adresse544 rdfs:label "37  boulevard  de clichy".
+:adresse544 a :adresse .
 :adresse544 :seSitueDans :quartier21. 
 :adresse545 rdfs:label "rue  de lutece".
+:adresse545 a :adresse .
 :adresse545 :seSitueDans :quartier21. 
 :adresse546 rdfs:label "64  boulevard  de menilmontant".
+:adresse546 a :adresse .
 :adresse546 :seSitueDans :quartier21. 
 :adresse547 rdfs:label "avenue  de la motte picquet".
+:adresse547 a :adresse .
 :adresse547 :seSitueDans :quartier21. 
 :adresse548 rdfs:label "34  rue  dulong".
+:adresse548 a :adresse .
 :adresse548 :seSitueDans :quartier21. 
 :adresse549 rdfs:label "rue  de montpensier".
+:adresse549 a :adresse .
 :adresse549 :seSitueDans :quartier21. 
 :adresse550 rdfs:label "rue  vicsconti".
+:adresse550 a :adresse .
 :adresse550 :seSitueDans :quartier21. 
 :adresse551 rdfs:label "12  rue  du renard".
+:adresse551 a :adresse .
 :adresse551 :seSitueDans :quartier21. 
 :adresse552 rdfs:label "5  rue  de chaillot".
+:adresse552 a :adresse .
 :adresse552 :seSitueDans :quartier21. 
 :adresse553 rdfs:label "cabinet d'avocats".
+:adresse553 a :adresse .
 :adresse553 :seSitueDans :quartier21. 
 :adresse554 rdfs:label "foire  du trone".
+:adresse554 a :adresse .
 :adresse554 :seSitueDans :quartier21. 
 :adresse555 rdfs:label "quai  de la megisserie".
+:adresse555 a :adresse .
 :adresse555 :seSitueDans :quartier21. 
 :adresse556 rdfs:label "224  rue  saint denis".
+:adresse556 a :adresse .
 :adresse556 :seSitueDans :quartier21. 
 :adresse557 rdfs:label "188  boulevard  saint germain".
+:adresse557 a :adresse .
 :adresse557 :seSitueDans :quartier21. 
 :adresse558 rdfs:label "rue  eugene atget".
+:adresse558 a :adresse .
 :adresse558 :seSitueDans :quartier21. 
 :adresse559 rdfs:label "rue  abel gance".
+:adresse559 a :adresse .
 :adresse559 :seSitueDans :quartier21. 
 :adresse560 rdfs:label "71  quai  de seine".
+:adresse560 a :adresse .
 :adresse560 :seSitueDans :quartier21. 
 :adresse561 rdfs:label "place  de la porte maillot".
+:adresse561 a :adresse .
 :adresse561 :seSitueDans :quartier21. 
 :adresse562 rdfs:label "5  boulevard  des filles du calvaire".
+:adresse562 a :adresse .
 :adresse562 :seSitueDans :quartier21. 
 :adresse563 rdfs:label "8  avenue  elisee reclus".
+:adresse563 a :adresse .
 :adresse563 :seSitueDans :quartier21. 
 :adresse564 rdfs:label "impasse  de la tour d'auvergne".
+:adresse564 a :adresse .
 :adresse564 :seSitueDans :quartier21. 
 :adresse565 rdfs:label "1  parvis  notre dame".
+:adresse565 a :adresse .
 :adresse565 :seSitueDans :quartier21. 
 :adresse566 rdfs:label "25  avenue  de l'observatoire".
+:adresse566 a :adresse .
 :adresse566 :seSitueDans :quartier21. 
 :adresse567 rdfs:label "boulevard  magenta".
+:adresse567 a :adresse .
 :adresse567 :seSitueDans :quartier21. 
 :adresse568 rdfs:label "boulevard  de strasbourg".
+:adresse568 a :adresse .
 :adresse568 :seSitueDans :quartier21. 
 :adresse569 rdfs:label "quai  d'orsay".
+:adresse569 a :adresse .
 :adresse569 :seSitueDans :quartier21. 
 :adresse570 rdfs:label "place  charles dullin".
+:adresse570 a :adresse .
 :adresse570 :seSitueDans :quartier21. 
 :adresse571 rdfs:label "ecole  vulpian gervais corvisart".
+:adresse571 a :adresse .
 :adresse571 :seSitueDans :quartier21. 
 :adresse572 rdfs:label "rue  caulaincourt".
+:adresse572 a :adresse .
 :adresse572 :seSitueDans :quartier21. 
 :adresse573 rdfs:label "5  rue  du docteur paquelin".
+:adresse573 a :adresse .
 :adresse573 :seSitueDans :quartier21. 
 :adresse574 rdfs:label "cafe du quartier".
+:adresse574 a :adresse .
 :adresse574 :seSitueDans :quartier21. 
 :adresse575 rdfs:label "225  rue  de l'universit2".
+:adresse575 a :adresse .
 :adresse575 :seSitueDans :quartier21. 
 :adresse576 rdfs:label "15  rue  poliveau".
+:adresse576 a :adresse .
 :adresse576 :seSitueDans :quartier21. 
 :adresse577 rdfs:label "27  rue  de chaligny".
+:adresse577 a :adresse .
 :adresse577 :seSitueDans :quartier21. 
 :adresse578 rdfs:label "1  rue  des grands augustins".
+:adresse578 a :adresse .
 :adresse578 :seSitueDans :quartier21. 
 :adresse579 rdfs:label "avenue  de wagram".
+:adresse579 a :adresse .
 :adresse579 :seSitueDans :quartier21. 
 :adresse580 rdfs:label "18  rue  ampere".
+:adresse580 a :adresse .
 :adresse580 :seSitueDans :quartier21. 
 :adresse581 rdfs:label "15  rue  rene boulanger".
+:adresse581 a :adresse .
 :adresse581 :seSitueDans :quartier21. 
 :adresse582 rdfs:label "rue  saint merri".
+:adresse582 a :adresse .
 :adresse582 :seSitueDans :quartier21. 
 :adresse583 rdfs:label "ecole  maternelle (28 avenue rapp)".
+:adresse583 a :adresse .
 :adresse583 :seSitueDans :quartier21. 
 :adresse584 rdfs:label "rue  saint denis".
+:adresse584 a :adresse .
 :adresse584 :seSitueDans :quartier21. 
 :adresse585 rdfs:label "100  boulevard  diderot".
+:adresse585 a :adresse .
 :adresse585 :seSitueDans :quartier21. 
 :adresse586 rdfs:label "boulevard  du palais".
+:adresse586 a :adresse .
 :adresse586 :seSitueDans :quartier21. 
 :adresse587 rdfs:label "3  rue  bachaumont".
+:adresse587 a :adresse .
 :adresse587 :seSitueDans :quartier21. 
 :adresse588 rdfs:label "1  rue  descartes".
+:adresse588 a :adresse .
 :adresse588 :seSitueDans :quartier21. 
 :adresse589 rdfs:label "8  rue  de douai".
+:adresse589 a :adresse .
 :adresse589 :seSitueDans :quartier21. 
 :adresse590 rdfs:label "avenue  victor hugo".
+:adresse590 a :adresse .
 :adresse590 :seSitueDans :quartier21. 
 :adresse591 rdfs:label "13  rue  de savies".
+:adresse591 a :adresse .
 :adresse591 :seSitueDans :quartier21. 
 :adresse592 rdfs:label "16  rue  de la faisanderie".
+:adresse592 a :adresse .
 :adresse592 :seSitueDans :quartier21. 
 :adresse593 rdfs:label "63  boulevard  des batignolles".
+:adresse593 a :adresse .
 :adresse593 :seSitueDans :quartier21. 
 :adresse594 rdfs:label "rue  victor schoelcher".
+:adresse594 a :adresse .
 :adresse594 :seSitueDans :quartier21. 
 :adresse595 rdfs:label "125  boulevard  montparnasse".
+:adresse595 a :adresse .
 :adresse595 :seSitueDans :quartier21. 
 :adresse596 rdfs:label "rue  des fosses st jacques".
+:adresse596 a :adresse .
 :adresse596 :seSitueDans :quartier21. 
 :adresse597 rdfs:label "42  rue  des saules".
+:adresse597 a :adresse .
 :adresse597 :seSitueDans :quartier21. 
 :adresse598 rdfs:label "rue  bouchut".
+:adresse598 a :adresse .
 :adresse598 :seSitueDans :quartier21. 
 :adresse599 rdfs:label "eglise  saint gervais".
+:adresse599 a :adresse .
 :adresse599 :seSitueDans :quartier21. 
 :adresse600 rdfs:label "boulevard  vincent auriol".
+:adresse600 a :adresse .
 :adresse600 :seSitueDans :quartier21. 
 :adresse601 rdfs:label "9  avenue  gabriel (studio gabriel)".
+:adresse601 a :adresse .
 :adresse601 :seSitueDans :quartier21. 
 :adresse602 rdfs:label "34 bis  impasse  de la tour d'auvergne".
+:adresse602 a :adresse .
 :adresse602 :seSitueDans :quartier21. 
 :adresse603 rdfs:label "rue  lacaze".
+:adresse603 a :adresse .
 :adresse603 :seSitueDans :quartier21. 
 :adresse604 rdfs:label "14  rue  du bois le vent".
+:adresse604 a :adresse .
 :adresse604 :seSitueDans :quartier21. 
 :adresse605 rdfs:label "5  rue  de senlis".
+:adresse605 a :adresse .
 :adresse605 :seSitueDans :quartier21. 
 :adresse606 rdfs:label "place  jean paul ii".
+:adresse606 a :adresse .
 :adresse606 :seSitueDans :quartier21. 
 :adresse607 rdfs:label "80  boulevard  de rochechouart".
+:adresse607 a :adresse .
 :adresse607 :seSitueDans :quartier21. 
 :adresse608 rdfs:label "146  rue  du faubourg poissonniere".
+:adresse608 a :adresse .
 :adresse608 :seSitueDans :quartier21. 
 :adresse609 rdfs:label "place  de mexico".
+:adresse609 a :adresse .
 :adresse609 :seSitueDans :quartier21. 
 :adresse610 rdfs:label "3  rue  bachaumont".
+:adresse610 a :adresse .
 :adresse610 :seSitueDans :quartier21. 
 :adresse611 rdfs:label "place  charles de gaulle".
+:adresse611 a :adresse .
 :adresse611 :seSitueDans :quartier21. 
 :adresse612 rdfs:label "rue  scribe".
+:adresse612 a :adresse .
 :adresse612 :seSitueDans :quartier21. 
 :adresse613 rdfs:label "105  boulevard  saint michel".
+:adresse613 a :adresse .
 :adresse613 :seSitueDans :quartier21. 
 :adresse614 rdfs:label "72  quai  de l'hotel de ville".
+:adresse614 a :adresse .
 :adresse614 :seSitueDans :quartier21. 
 :adresse615 rdfs:label "rue  saint severin".
+:adresse615 a :adresse .
 :adresse615 :seSitueDans :quartier21. 
 :adresse616 rdfs:label "25  avenue  de l'observatoire".
+:adresse616 a :adresse .
 :adresse616 :seSitueDans :quartier21. 
 :adresse617 rdfs:label "place ernest denis".
+:adresse617 a :adresse .
 :adresse617 :seSitueDans :quartier21. 
 :adresse618 rdfs:label "3  rue  de l'echiquier".
+:adresse618 a :adresse .
 :adresse618 :seSitueDans :quartier21. 
 :adresse619 rdfs:label "110  rue  de grenelle (ministere de l'education)".
+:adresse619 a :adresse .
 :adresse619 :seSitueDans :quartier21. 
 :adresse620 rdfs:label "jardin*  des champs elysees".
+:adresse620 a :adresse .
 :adresse620 :seSitueDans :quartier21. 
 :adresse621 rdfs:label "rue  des barres".
+:adresse621 a :adresse .
 :adresse621 :seSitueDans :quartier21. 
 :adresse622 rdfs:label "cimetiere*  de montmartre".
+:adresse622 a :adresse .
 :adresse622 :seSitueDans :quartier21. 
 :adresse623 rdfs:label "8  rue  d'arcole".
+:adresse623 a :adresse .
 :adresse623 :seSitueDans :quartier21. 
 :adresse624 rdfs:label "rue  des ursins".
+:adresse624 a :adresse .
 :adresse624 :seSitueDans :quartier21. 
 :adresse625 rdfs:label "74  rue  de la roquette".
+:adresse625 a :adresse .
 :adresse625 :seSitueDans :quartier21. 
 :adresse626 rdfs:label "pont  de bercy".
+:adresse626 a :adresse .
 :adresse626 :seSitueDans :quartier21. 
 :adresse627 rdfs:label "137  avenue  de choist".
+:adresse627 a :adresse .
 :adresse627 :seSitueDans :quartier21. 
 :adresse628 rdfs:label "rue  jourdain".
+:adresse628 a :adresse .
 :adresse628 :seSitueDans :quartier21. 
 :adresse629 rdfs:label "7  avenue  franklin d. roosevelt".
+:adresse629 a :adresse .
 :adresse629 :seSitueDans :quartier21. 
 :adresse630 rdfs:label "rue  alexandre dumas".
+:adresse630 a :adresse .
 :adresse630 :seSitueDans :quartier21. 
 :adresse631 rdfs:label "bois*  de boulogne".
+:adresse631 a :adresse .
 :adresse631 :seSitueDans :quartier21. 
 :adresse632 rdfs:label "rue  girardon".
+:adresse632 a :adresse .
 :adresse632 :seSitueDans :quartier21. 
 :adresse633 rdfs:label "place  saint gervais".
+:adresse633 a :adresse .
 :adresse633 :seSitueDans :quartier21. 
 :adresse634 rdfs:label "bois*  de boulogne".
+:adresse634 a :adresse .
 :adresse634 :seSitueDans :quartier21. 
 :adresse635 rdfs:label "34  boulevard  victor".
+:adresse635 a :adresse .
 :adresse635 :seSitueDans :quartier21. 
 :adresse636 rdfs:label "22  avenue  de la sibelle".
+:adresse636 a :adresse .
 :adresse636 :seSitueDans :quartier21. 
 :adresse637 rdfs:label "rue  rocher".
+:adresse637 a :adresse .
 :adresse637 :seSitueDans :quartier21. 
 :adresse638 rdfs:label "de madrid et portalis".
+:adresse638 a :adresse .
 :adresse638 :seSitueDans :quartier21. 
 :adresse639 rdfs:label "rue  saint jacques".
+:adresse639 a :adresse .
 :adresse639 :seSitueDans :quartier21. 
 :adresse640 rdfs:label "rue  de nevers".
+:adresse640 a :adresse .
 :adresse640 :seSitueDans :quartier21. 
 :adresse641 rdfs:label "de nesles".
+:adresse641 a :adresse .
 :adresse641 :seSitueDans :quartier21. 
 :adresse642 rdfs:label "56  rue  du capitaine ferber".
+:adresse642 a :adresse .
 :adresse642 :seSitueDans :quartier21. 
 :adresse643 rdfs:label "12  quai  de seine".
+:adresse643 a :adresse .
 :adresse643 :seSitueDans :quartier21. 
 :adresse644 rdfs:label "resto corso".
+:adresse644 a :adresse .
 :adresse644 :seSitueDans :quartier21. 
 :adresse645 rdfs:label "19  rue  de beaujolais".
+:adresse645 a :adresse .
 :adresse645 :seSitueDans :quartier21. 
 :adresse646 rdfs:label "18  rue  de marignan".
+:adresse646 a :adresse .
 :adresse646 :seSitueDans :quartier21. 
 :adresse647 rdfs:label "70  avenue  de breteuuil".
+:adresse647 a :adresse .
 :adresse647 :seSitueDans :quartier21. 
 :adresse648 rdfs:label "3  avenue  theophile gautier".
+:adresse648 a :adresse .
 :adresse648 :seSitueDans :quartier21. 
 :adresse649 rdfs:label "4  rue  de douai".
+:adresse649 a :adresse .
 :adresse649 :seSitueDans :quartier21. 
 :adresse650 rdfs:label "rue  fleury".
+:adresse650 a :adresse .
 :adresse650 :seSitueDans :quartier21. 
 :adresse651 rdfs:label "2  rue  de lille".
+:adresse651 a :adresse .
 :adresse651 :seSitueDans :quartier21. 
 :adresse652 rdfs:label "inalco".
+:adresse652 a :adresse .
 :adresse652 :seSitueDans :quartier21. 
 :adresse653 rdfs:label "2  rue  de washington".
+:adresse653 a :adresse .
 :adresse653 :seSitueDans :quartier21. 
 :adresse654 rdfs:label "square  louis majorelle".
+:adresse654 a :adresse .
 :adresse654 :seSitueDans :quartier21. 
 :adresse655 rdfs:label "8  rue  garanciere".
+:adresse655 a :adresse .
 :adresse655 :seSitueDans :quartier21. 
 :adresse656 rdfs:label "49  rue  de ponthieu".
+:adresse656 a :adresse .
 :adresse656 :seSitueDans :quartier21. 
 :adresse657 rdfs:label "avenue  gustave eiffel".
+:adresse657 a :adresse .
 :adresse657 :seSitueDans :quartier21. 
 :adresse658 rdfs:label "parc  des buttes chaumont".
+:adresse658 a :adresse .
 :adresse658 :seSitueDans :quartier21. 
 :adresse659 rdfs:label "74  rue  dunois".
+:adresse659 a :adresse .
 :adresse659 :seSitueDans :quartier21. 
 :adresse660 rdfs:label "16  rue  de clichy".
+:adresse660 a :adresse .
 :adresse660 :seSitueDans :quartier21. 
 :adresse661 rdfs:label "24  rue  saint ambroise".
+:adresse661 a :adresse .
 :adresse661 :seSitueDans :quartier21. 
 :adresse662 rdfs:label "8  rue  monsigny".
+:adresse662 a :adresse .
 :adresse662 :seSitueDans :quartier21. 
 :adresse663 rdfs:label "place  mireille".
+:adresse663 a :adresse .
 :adresse663 :seSitueDans :quartier21. 
 :adresse664 rdfs:label "rue  perignon".
+:adresse664 a :adresse .
 :adresse664 :seSitueDans :quartier21. 
 :adresse665 rdfs:label "place  louis aragon".
+:adresse665 a :adresse .
 :adresse665 :seSitueDans :quartier21. 
 :adresse666 rdfs:label "rue  albert de mun".
+:adresse666 a :adresse .
 :adresse666 :seSitueDans :quartier21. 
 :adresse667 rdfs:label "33  rue  du marois".
+:adresse667 a :adresse .
 :adresse667 :seSitueDans :quartier21. 
 :adresse668 rdfs:label "aqua loft 31".
+:adresse668 a :adresse .
 :adresse668 :seSitueDans :quartier21. 
 :adresse669 rdfs:label "5  avenue  albert de mun (aquarium de paris)".
+:adresse669 a :adresse .
 :adresse669 :seSitueDans :quartier21. 
 :adresse670 rdfs:label "9  avenue  trudaine".
+:adresse670 a :adresse .
 :adresse670 :seSitueDans :quartier21. 
 :adresse671 rdfs:label "11  avenue  trudaine".
+:adresse671 a :adresse .
 :adresse671 :seSitueDans :quartier21. 
 :adresse672 rdfs:label "1  rue  des dardanelles".
+:adresse672 a :adresse .
 :adresse672 :seSitueDans :quartier21. 
 :adresse673 rdfs:label "12  rue  albert roussel".
+:adresse673 a :adresse .
 :adresse673 :seSitueDans :quartier21. 
 :adresse674 rdfs:label "rue  de sevigne".
+:adresse674 a :adresse .
 :adresse674 :seSitueDans :quartier21. 
 :adresse675 rdfs:label "rue  monge".
+:adresse675 a :adresse .
 :adresse675 :seSitueDans :quartier21. 
 :adresse676 rdfs:label "boulevard  serrurier (niveau metro telegraphe)".
+:adresse676 a :adresse .
 :adresse676 :seSitueDans :quartier21. 
 :adresse677 rdfs:label "rue  edouard quenu".
+:adresse677 a :adresse .
 :adresse677 :seSitueDans :quartier21. 
 :adresse678 rdfs:label "17  rue  des halles".
+:adresse678 a :adresse .
 :adresse678 :seSitueDans :quartier21. 
 :adresse679 rdfs:label "7  rue  lechapelais".
+:adresse679 a :adresse .
 :adresse679 :seSitueDans :quartier21. 
 :adresse680 rdfs:label "avenue  des portugais".
+:adresse680 a :adresse .
 :adresse680 :seSitueDans :quartier21. 
 :adresse681 rdfs:label "place  de l'opera".
+:adresse681 a :adresse .
 :adresse681 :seSitueDans :quartier21. 
 :adresse682 rdfs:label "32  rue  saint marc".
+:adresse682 a :adresse .
 :adresse682 :seSitueDans :quartier21. 
 :adresse683 rdfs:label "les lyonnais".
+:adresse683 a :adresse .
 :adresse683 :seSitueDans :quartier21. 
 :adresse684 rdfs:label "7  rue  apolline".
+:adresse684 a :adresse .
 :adresse684 :seSitueDans :quartier21. 
 :adresse685 rdfs:label "rue  de l'acqueduc".
+:adresse685 a :adresse .
 :adresse685 :seSitueDans :quartier21. 
 :adresse686 rdfs:label "34   rue  de belleville".
+:adresse686 a :adresse .
 :adresse686 :seSitueDans :quartier21. 
 :adresse687 rdfs:label "39  rue  de belleville".
+:adresse687 a :adresse .
 :adresse687 :seSitueDans :quartier21. 
 :adresse688 rdfs:label "carrefour  rue thomas mann".
+:adresse688 a :adresse .
 :adresse688 :seSitueDans :quartier21. 
 :adresse689 rdfs:label "rue  lobau".
+:adresse689 a :adresse .
 :adresse689 :seSitueDans :quartier21. 
 :adresse690 rdfs:label "rue  francois 1er".
+:adresse690 a :adresse .
 :adresse690 :seSitueDans :quartier21. 
 :adresse691 rdfs:label "21  rue  de tanger".
+:adresse691 a :adresse .
 :adresse691 :seSitueDans :quartier21. 
 :adresse692 rdfs:label "5 rue  de constantine".
+:adresse692 a :adresse .
 :adresse692 :seSitueDans :quartier21. 
 :adresse693 rdfs:label "11  rue  de constantine".
+:adresse693 a :adresse .
 :adresse693 :seSitueDans :quartier21. 
 :adresse694 rdfs:label "8  rue  de la main d'or (bar)".
+:adresse694 a :adresse .
 :adresse694 :seSitueDans :quartier21. 
 :adresse695 rdfs:label "31  boulevard  auguste blanqui".
+:adresse695 a :adresse .
 :adresse695 :seSitueDans :quartier21. 
 :adresse696 rdfs:label "rue  du faubourg saint denis".
+:adresse696 a :adresse .
 :adresse696 :seSitueDans :quartier21. 
 :adresse697 rdfs:label "bois*  de boulogne".
+:adresse697 a :adresse .
 :adresse697 :seSitueDans :quartier21. 
 :adresse698 rdfs:label "rue  auguste comte".
+:adresse698 a :adresse .
 :adresse698 :seSitueDans :quartier21. 
 :adresse699 rdfs:label "70  avenue  de breteuil".
+:adresse699 a :adresse .
 :adresse699 :seSitueDans :quartier21. 
 :adresse700 rdfs:label "37 bis  quai  de la seine".
+:adresse700 a :adresse .
 :adresse700 :seSitueDans :quartier21. 
 :adresse701 rdfs:label "foire  du trone".
+:adresse701 a :adresse .
 :adresse701 :seSitueDans :quartier21. 
 :adresse702 rdfs:label "15  rue  dupleix".
+:adresse702 a :adresse .
 :adresse702 :seSitueDans :quartier21. 
 :adresse703 rdfs:label "19  avenue  kleber".
+:adresse703 a :adresse .
 :adresse703 :seSitueDans :quartier21. 
 :adresse704 rdfs:label "hotel le peninsula".
+:adresse704 a :adresse .
 :adresse704 :seSitueDans :quartier21. 
 :adresse705 rdfs:label "45  rue  de clignancourt".
+:adresse705 a :adresse .
 :adresse705 :seSitueDans :quartier21. 
 :adresse706 rdfs:label "34 rue  dulong".
+:adresse706 a :adresse .
 :adresse706 :seSitueDans :quartier21. 
 :adresse707 rdfs:label "14 rue  dulong".
+:adresse707 a :adresse .
 :adresse707 :seSitueDans :quartier21. 
 :adresse708 rdfs:label "43  rue  dulong".
+:adresse708 a :adresse .
 :adresse708 :seSitueDans :quartier21. 
 :adresse709 rdfs:label "108  rue  saint lazare".
+:adresse709 a :adresse .
 :adresse709 :seSitueDans :quartier21. 
 :adresse710 rdfs:label "7  rue  jean quarre".
+:adresse710 a :adresse .
 :adresse710 :seSitueDans :quartier21. 
 :adresse711 rdfs:label "college guillaume bude".
+:adresse711 a :adresse .
 :adresse711 :seSitueDans :quartier21. 
 :adresse712 rdfs:label "pont  mirabeau (sous le pont)".
+:adresse712 a :adresse .
 :adresse712 :seSitueDans :quartier21. 
 :adresse713 rdfs:label "16  rue  des fosses saint jacques".
+:adresse713 a :adresse .
 :adresse713 :seSitueDans :quartier21. 
 :adresse714 rdfs:label "avenue  du president wilson".
+:adresse714 a :adresse .
 :adresse714 :seSitueDans :quartier21. 
 :adresse715 rdfs:label "1  place  de notre dame".
+:adresse715 a :adresse .
 :adresse715 :seSitueDans :quartier21. 
 :adresse716 rdfs:label "rue  du pere corentin".
+:adresse716 a :adresse .
 :adresse716 :seSitueDans :quartier21. 
 :adresse717 rdfs:label "4  rue  des belles feuilles".
+:adresse717 a :adresse .
 :adresse717 :seSitueDans :quartier21. 
 :adresse718 rdfs:label "18  boulevard  auguste blanqui".
+:adresse718 a :adresse .
 :adresse718 :seSitueDans :quartier21. 
 :adresse719 rdfs:label "11bis  rue  d'orchampt".
+:adresse719 a :adresse .
 :adresse719 :seSitueDans :quartier21. 
 :adresse720 rdfs:label "rue  du caire".
+:adresse720 a :adresse .
 :adresse720 :seSitueDans :quartier21. 
 :adresse721 rdfs:label "eglise  notre dame de la croix".
+:adresse721 a :adresse .
 :adresse721 :seSitueDans :quartier21. 
 :adresse722 rdfs:label "rue  de la fraternite".
+:adresse722 a :adresse .
 :adresse722 :seSitueDans :quartier21. 
 :adresse723 rdfs:label "rue  de la harpe".
+:adresse723 a :adresse .
 :adresse723 :seSitueDans :quartier21. 
 :adresse724 rdfs:label "10  rue  charlot".
+:adresse724 a :adresse .
 :adresse724 :seSitueDans :quartier21. 
 :adresse725 rdfs:label "boulevard  de strasbourg".
+:adresse725 a :adresse .
 :adresse725 :seSitueDans :quartier21. 
 :adresse726 rdfs:label "rue  des hospitalieres saint gervais".
+:adresse726 a :adresse .
 :adresse726 :seSitueDans :quartier21. 
 :adresse727 rdfs:label "13  rue  jacques louvel tessier".
+:adresse727 a :adresse .
 :adresse727 :seSitueDans :quartier21. 
 :adresse728 rdfs:label "quai  de l'hotel de ville".
+:adresse728 a :adresse .
 :adresse728 :seSitueDans :quartier21. 
 :adresse729 rdfs:label "12  rue  des mathurins".
+:adresse729 a :adresse .
 :adresse729 :seSitueDans :quartier21. 
 :adresse730 rdfs:label "rue  philippe de girard".
+:adresse730 a :adresse .
 :adresse730 :seSitueDans :quartier21. 
 :adresse731 rdfs:label "59  rue  mouzaia".
+:adresse731 a :adresse .
 :adresse731 :seSitueDans :quartier21. 
 :adresse732 rdfs:label "place  saint michel".
+:adresse732 a :adresse .
 :adresse732 :seSitueDans :quartier21. 
 :adresse733 rdfs:label "rue  jean dolent".
+:adresse733 a :adresse .
 :adresse733 :seSitueDans :quartier21. 
 :adresse734 rdfs:label "rue  max dormoy".
+:adresse734 a :adresse .
 :adresse734 :seSitueDans :quartier21. 
 :adresse735 rdfs:label "9  rue  raffaelli".
+:adresse735 a :adresse .
 :adresse735 :seSitueDans :quartier21. 
 :adresse736 rdfs:label "rue  du general foy".
+:adresse736 a :adresse .
 :adresse736 :seSitueDans :quartier21. 
 :adresse737 rdfs:label "avenue  gustave eiffel (tour eiffel)".
+:adresse737 a :adresse .
 :adresse737 :seSitueDans :quartier21. 
 :adresse738 rdfs:label "boulevard  malesherbes".
+:adresse738 a :adresse .
 :adresse738 :seSitueDans :quartier21. 
 :adresse739 rdfs:label "universite  paris sorbonne".
+:adresse739 a :adresse .
 :adresse739 :seSitueDans :quartier21. 
 :adresse740 rdfs:label "avenue  franklin roosevelt".
+:adresse740 a :adresse .
 :adresse740 :seSitueDans :quartier21. 
 :adresse741 rdfs:label "31  boulevard  du port royal".
+:adresse741 a :adresse .
 :adresse741 :seSitueDans :quartier21. 
 :adresse742 rdfs:label "10  rue  charles delescluze".
+:adresse742 a :adresse .
 :adresse742 :seSitueDans :quartier21. 
 
 

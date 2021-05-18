@@ -468,7 +468,7 @@ var db_insert = function(wdatas, wcb)
 function build_prefix()
 {
 
-	var str =  "PREFIX : <http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161>\n";
+	var str =  "PREFIX : <http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#>\n";
 	str += "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n"
 	str += "INSERT DATA {\n"
 
@@ -500,7 +500,7 @@ function insert_genre(nom_genre, index)
 function insert_acteur(acteur_name, index)
 {
 	var str = " :acteur"+index+" rdfs:label \""+acteur_name+"\".\n"
-	str += ":genre"+index+" a :acteur .\n"
+	str += ":acteur"+index+" a :acteur .\n"
 	return str;
 }
 

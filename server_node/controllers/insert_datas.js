@@ -327,22 +327,22 @@ var get_lieu = function(wdatas, wcb)
 
 	  for(var pays in lieux[continent])
 	  {
-	  	query += ":pays"+index_pays + " rdfs:label \"" + pays + "\";\n" ;
+	  	query += ":pays"+index_pays + " rdfs:label \"" + pays + "\".\n" ;
 	  	query += ":pays"+index_pays + " :seSitueDans :continent"+index_continent +". \n";
 
 	  	for(var ville in lieux[continent][pays])
 	  	{
-	  		query += ":ville"+index_ville +  " rdfs:label \"" + ville + "\";\n" ;
+	  		query += ":ville"+index_ville +  " rdfs:label \"" + ville + "\".\n" ;
 	  		query += ":ville"+index_pays + " :seSitueDans :pays"+index_pays +". \n";
 	  		
 	  		for(var quartier in lieux[continent][pays][ville])
   			{
-  				query += ":quartier"+index_quartier +  " rdfs:label \"" + quartier + "\";\n" ;
+  				query += ":quartier"+index_quartier +  " rdfs:label \"" + quartier + "\".\n" ;
   				query += ":quartier"+index_quartier + " :seSitueDans :ville"+index_ville +". \n";
   				
   				for(var i = 0; i< lieux[continent][pays][ville][quartier].length; i++ )
   				{
-  					query += ":adresse"+index_adresse +  " rdfs:label \"" + lieux[continent][pays][ville][quartier][i] + "\";\n" ;
+  					query += ":adresse"+index_adresse +  " rdfs:label \"" + lieux[continent][pays][ville][quartier][i] + "\".\n" ;
   					query += ":adresse"+index_adresse + " :seSitueDans :quartier"+index_quartier +". \n";
 
   					index_adresse += 1

@@ -1,0 +1,15 @@
+PREFIX : <http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+INSERT DATA {
+ :realisateur0 rdfs:label "Jeanne Herry".
+ :realisateur1 rdfs:label "Sylvie VERHEYDE".
+ :realisateur2 rdfs:label "Lise Akoka et Romane Gueret".
+ :realisateur3 rdfs:label "Jeanne Balibar".
+ :realisateur4 rdfs:label "Katia LEWKOWICZ".
+ :realisateur5 rdfs:label "Julien Rambaldi".
+ :realisateur6 rdfs:label "Frederic Farrucci".
+ :realisateur7 rdfs:label "Hervé HADMAR".
+ :realisateur8 rdfs:label "Simon Bouisson".
+ :realisateur9 rdfs:label "NICOLAS BEDOS".
+ :realisateur10 rdfs:label "CEDRIC KLAPISCH".
+}

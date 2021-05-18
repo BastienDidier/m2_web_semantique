@@ -20,7 +20,7 @@ module.exports = function (req, res, next) {
 
         clear_file,
         parse_json,
-        each_row,
+        get_real,
         build_query_file,
 
     ],
@@ -85,7 +85,35 @@ var  parse_json = function(wdatas, wcb)
 	})
 }
 
+var get_real = function(wdatas, wcb)
+{
+	var json_datas = wdatas.json_datas;
+	var tab_real = []
+	json_datas.map(function(elt)
+	{
+		var real = elt["nom_realisateur"]
+		if(tab_real.indexOf(real) == -1)
+		{
+			tab_real.push(real);
 
+		}
+	})
+
+	var query_real = build_prefix()
+	for(var i = 0; i<tab_real.length; i++)
+	{
+
+		query_real += insert_realisateur(tab_real[i], i);
+
+	}
+
+	query_real += "\n}\n"
+	wdatas.query_real = query_real;
+
+	return wcb(null, wdatas);
+
+
+}
 
 var each_row = function(wdatas, wcb)
 {
@@ -179,18 +207,25 @@ var db_insert = function(wdatas, wcb)
 function build_prefix()
 {
 
-	return "";
+	var str =  "PREFIX : <http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161>\n";
+	str += "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n"
+	str += "INSERT DATA {\n"
+
+
+	return str
 
 }
 
 function insert_movie(row)
 {
+
 	return "";
 }
 
-function insert_realisateur(row)
+function insert_realisateur(nom_real, index)
 {
-	return "";
+	var str = " :realisateur"+index+" rdfs:label \""+nom_real+"\".\n"
+	return str;
 }
 
 function insert_genre(row)
@@ -224,9 +259,9 @@ function insert_acteur(acteur_name, film_name)
 
 var build_query_file = function(wdatas, wcb)
 {
-	var query_str = wdatas.query;
+	var query_str = wdatas.query_real;
 
-	fs.writeFile("query_str.txt", query, function(err, result)
+	fs.writeFile("query_str.txt", query_str, function(err, result)
 	{
 	  if (err)
 	    console.log(err);

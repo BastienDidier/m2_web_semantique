@@ -477,7 +477,7 @@ var get_films = function(wdatas, wcb)
 		var tab_adresse_row = adresse.split("/");
 
 
-		if(! list_films[elt["nom_tournage"]]])
+		if(! list_films[elt["nom_tournage"]])
 		{
 			var tpm_film = {
 
@@ -486,7 +486,7 @@ var get_films = function(wdatas, wcb)
 				realisateur: 	get_correspondant_index(tab_real_row, tab_real, "realisateur"),
 				actors: 		get_correspondant_index(tab_actor_row, tab_actors, "acteur"),
 				genres: 		get_correspondant_index(tab_genre_row, tab_genre, "genre"),
-				duree: 			elt["runtime"]
+				duree: 			elt["runtime"],
 				lieu_tournage: 	get_correspondant_index(tab_adresse_row, tab_adresse, "adresse"),
 				ratings: 		elt["imdbRatings"],
 				nb_ratings: 	elt["nb_ratings"],
@@ -560,7 +560,7 @@ var query_db = function(wdatas, wcb)
 	var data = {query: query};
 	var url_fuseki_update = wdatas.url_fuseki_update
 
-	request.post({url: url_fuseki_update, form: data, function(err,httpResponse,body){
+	request.post({url: url_fuseki_update, form: data}, function(err,httpResponse,body){
 		if(err)
 		{
 			return wcb("[query_db]"+err, wdatas);

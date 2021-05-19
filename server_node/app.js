@@ -7,8 +7,8 @@ app.get('/insert', 		require("./controllers/insert_datas.js"))
 app.get('/transform', 	require("./controllers/transform_datas.js"))
 
 
-app.get('/villes/details/:id', 				require("./controllers/ville/render.js"));
-app.get('/villes/details/:id/ajax', 		require("./controllers/ville/ajax.js"));
+app.get('/villes/details/:id', 				require("./controllers/villes/render.js"));
+app.get('/villes/details/:id/ajax', 		require("./controllers/villes/ajax.js"));
 
 app.get('/home', 		require("./controllers/home/render.js"));
 app.post('/home/ajax', 	require("./controllers/home/ajax.js"));

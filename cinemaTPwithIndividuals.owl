@@ -343,6 +343,150 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#lieu"/>
         <rdfs:label xml:lang="fr">ville</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_295cdf5a_8a05_4a37_8edf_b8f6eb027b7e -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_295cdf5a_8a05_4a37_8edf_b8f6eb027b7e">
+        <rdfs:label xml:lang="fr">Woody Allen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_2aae5f2d_f6de_4a73_8351_21f95c891a9d -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_2aae5f2d_f6de_4a73_8351_21f95c891a9d">
+        <estLeGenreDe rdf:resource="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_4923da81_5a10_407a_8a11_c72817332fe4"/>
+        <rdfs:label xml:lang="fr">Action</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_32c51547_75d2_4aa2_b3b8_8dc69989effe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_32c51547_75d2_4aa2_b3b8_8dc69989effe">
+        <rdfs:label xml:lang="fr">Europe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_47b58489_adbf_4f6c_b5e6_711bd67c1f15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_47b58489_adbf_4f6c_b5e6_711bd67c1f15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#genre"/>
+        <rdfs:label xml:lang="fr">Horreur</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_4923da81_5a10_407a_8a11_c72817332fe4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_4923da81_5a10_407a_8a11_c72817332fe4">
+        <rdfs:label xml:lang="fr">The artist</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_4d572bce_06c0_4d18_a55a_79aa702b1832 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_4d572bce_06c0_4d18_a55a_79aa702b1832">
+        <seSitueDans rdf:resource="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_f76e2a8c_33e5_4724_b33b_7ce5e103f2b5"/>
+        <rdfs:label xml:lang="fr">Paris</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_5e4bc6ac_364b_4327_9ede_86021706912f -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_5e4bc6ac_364b_4327_9ede_86021706912f">
+        <seSitueDans rdf:resource="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_4d572bce_06c0_4d18_a55a_79aa702b1832"/>
+        <rdfs:label xml:lang="fr">90 avenue de cornebarrieu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_61171a5e_14a0_4ca7_a041_a10c0c978013 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_61171a5e_14a0_4ca7_a041_a10c0c978013">
+        <aJoueDans rdf:resource="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_4923da81_5a10_407a_8a11_c72817332fe4"/>
+        <rdfs:label xml:lang="fr">Jean Dujardin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_771f9567_212e_498d_938d_d21f7bbf701f -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_771f9567_212e_498d_938d_d21f7bbf701f">
+        <aJoueDans rdf:resource="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_4923da81_5a10_407a_8a11_c72817332fe4"/>
+        <rdfs:label xml:lang="fr">Bérénice Bejo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_accdb127_317b_4fed_9a4a_01e50a9233dd -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_accdb127_317b_4fed_9a4a_01e50a9233dd">
+        <aRealise rdf:resource="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_4923da81_5a10_407a_8a11_c72817332fe4"/>
+        <rdfs:label xml:lang="fr">Michel Hazanavicius</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_b2055bca_33c3_4faf_af6d_e4cc7af45333 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_b2055bca_33c3_4faf_af6d_e4cc7af45333">
+        <rdfs:label xml:lang="fr">féminin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_b5007ea7_ffef_421b_8fab_474b608ac1ff -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_b5007ea7_ffef_421b_8fab_474b608ac1ff">
+        <aEteRealiseA rdf:resource="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_4d572bce_06c0_4d18_a55a_79aa702b1832"/>
+        <aEteRealiseA rdf:resource="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_f76e2a8c_33e5_4724_b33b_7ce5e103f2b5"/>
+        <aPourGenre rdf:resource="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_2aae5f2d_f6de_4a73_8351_21f95c891a9d"/>
+        <aPourGenre rdf:resource="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_47b58489_adbf_4f6c_b5e6_711bd67c1f15"/>
+        <aPourRealisateur rdf:resource="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_295cdf5a_8a05_4a37_8edf_b8f6eb027b7e"/>
+        <rdfs:label xml:lang="fr">Midnight in Paris</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_d4a82c01_c65f_4907_a327_4117846dfc0b -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_d4a82c01_c65f_4907_a327_4117846dfc0b">
+        <rdfs:label xml:lang="fr">française</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_e6b38ecf_c44b_4dac_9054_8907ab65f89a -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_e6b38ecf_c44b_4dac_9054_8907ab65f89a">
+        <rdfs:label xml:lang="fr">masculin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_f76e2a8c_33e5_4724_b33b_7ce5e103f2b5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_f76e2a8c_33e5_4724_b33b_7ce5e103f2b5">
+        <seSitueDans rdf:resource="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#OWLNamedIndividual_32c51547_75d2_4aa2_b3b8_8dc69989effe"/>
+        <rdfs:label xml:lang="fr">France</rdfs:label>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 

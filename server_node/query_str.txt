@@ -5214,5 +5214,4751 @@ INSERT DATA {
 :adresse742 a :adresse .
 :adresse742 :seSitueDans :quartier21. 
 
+:film0 rdfs:label "Fleabag".
+:film0 a :video .
+:film0 :aEteRealiseA :adresse29 .
+:film0 :aEteRealiseA :adresse172 .
+:film0 :aEteRealiseA :adresse322 .
+:film0 :aPourActeur :acteur0 .
+:film0 :aPourActeur :acteur1 .
+:film0 :aPourActeur :acteur2 .
+:film0 :aPourActeur :acteur3 .
+:film0 :aPourGenre :genre0 .
+:film0 :aPourGenre :genre1 .
+:film0 :aPourRealisateur :realisateur0 .
+:film0 :aPourDuree :27 min .
+:film0 :aPourNote :8.7 .
+:film0 :estSortiEn :2019 .
+:film1 rdfs:label "Madame Claude".
+:film1 a :video .
+:film1 :aEteRealiseA :adresse434 .
+:film1 :aPourActeur :acteur4 .
+:film1 :aPourActeur :acteur5 .
+:film1 :aPourActeur :acteur6 .
+:film1 :aPourActeur :acteur7 .
+:film1 :aPourGenre :genre2 .
+:film1 :aPourGenre :genre3 .
+:film1 :aPourGenre :genre1 .
+:film1 :aPourGenre :genre4 .
+:film1 :aPourRealisateur :realisateur1 .
+:film1 :aPourDuree :112 min .
+:film1 :aPourNote :5.4 .
+:film1 :estSortiEn :2019 .
+:film2 rdfs:label "Tu Préfèreres".
+:film2 a :video .
+:film2 :aEteRealiseA :adresse368 .
+:film2 :aEteRealiseA :adresse378 .
+:film2 :aPourActeur :acteur8 .
+:film2 :aPourActeur :acteur9 .
+:film2 :aPourGenre :genre0 .
+:film2 :aPourRealisateur :realisateur2 .
+:film2 :aPourRealisateur :realisateur3 .
+:film2 :aPourDuree :2 min .
+:film2 :aPourNote :6.9 .
+:film2 :estSortiEn :2019 .
+:film3 rdfs:label "MERVEILLES A MONTFERMEIL".
+:film3 a :video .
+:film3 :aEteRealiseA :adresse197 .
+:film3 :aPourActeur :acteur10 .
+:film3 :aPourActeur :acteur11 .
+:film3 :aPourActeur :acteur12 .
+:film3 :aPourActeur :acteur13 .
+:film3 :aPourGenre :genre0 .
+:film3 :aPourRealisateur :realisateur4 .
+:film3 :aPourDuree :109 min .
+:film3 :aPourNote :3.9 .
+:film3 :estSortiEn :2018 .
+:film4 rdfs:label "FORTE".
+:film4 a :video .
+:film4 :aEteRealiseA :adresse369 .
+:film4 :aEteRealiseA :adresse435 .
+:film4 :aEteRealiseA :adresse8 .
+:film4 :aEteRealiseA :adresse348 .
+:film4 :aEteRealiseA :adresse146 .
+:film4 :aEteRealiseA :adresse17 .
+:film4 :aEteRealiseA :adresse431 .
+:film4 :aPourActeur :acteur14 .
+:film4 :aPourActeur :acteur15 .
+:film4 :aPourActeur :acteur16 .
+:film4 :aPourActeur :acteur17 .
+:film4 :aPourGenre :genre0 .
+:film4 :aPourRealisateur :realisateur5 .
+:film4 :aPourDuree :95 min .
+:film4 :aPourNote :5.0 .
+:film4 :estSortiEn :2018 .
+:film5 rdfs:label "C'est la vie".
+:film5 a :video .
+:film5 :aEteRealiseA :adresse102 .
+:film5 :aPourActeur :acteur18 .
+:film5 :aPourActeur :acteur19 .
+:film5 :aPourActeur :acteur20 .
+:film5 :aPourActeur :acteur21 .
+:film5 :aPourGenre :genre0 .
+:film5 :aPourGenre :genre1 .
+:film5 :aPourGenre :genre4 .
+:film5 :aPourRealisateur :realisateur6 .
+:film5 :aPourDuree :117 min .
+:film5 :aPourNote :6.9 .
+:film5 :estSortiEn :2018 .
+:film6 rdfs:label "La nuit venue".
+:film6 a :video .
+:film6 :aEteRealiseA :adresse317 .
+:film6 :aEteRealiseA :adresse134 .
+:film6 :aPourActeur :acteur22 .
+:film6 :aPourActeur :acteur23 .
+:film6 :aPourActeur :acteur24 .
+:film6 :aPourActeur :acteur25 .
+:film6 :aPourGenre :genre1 .
+:film6 :aPourRealisateur :realisateur7 .
+:film6 :aPourDuree :95 min .
+:film6 :aPourNote :6.1 .
+:film6 :estSortiEn :2018 .
+:film7 rdfs:label "ROMANCE".
+:film7 a :video .
+:film7 :aEteRealiseA :adresse150 .
+:film7 :aEteRealiseA :adresse60 .
+:film7 :aPourActeur :acteur26 .
+:film7 :aPourActeur :acteur27 .
+:film7 :aPourActeur :acteur28 .
+:film7 :aPourActeur :acteur29 .
+:film7 :aPourGenre :genre1 .
+:film7 :aPourGenre :genre4 .
+:film7 :aPourRealisateur :realisateur8 .
+:film7 :aPourDuree :84 min .
+:film7 :aPourNote :5.3 .
+:film7 :estSortiEn :2019 .
+:film8 rdfs:label "La République".
+:film8 a :video .
+:film8 :aEteRealiseA :adresse179 .
+:film8 :aPourActeur :acteur30 .
+:film8 :aPourActeur :acteur31 .
+:film8 :aPourActeur :acteur32 .
+:film8 :aPourActeur :acteur33 .
+:film8 :aPourGenre :genre5 .
+:film8 :aPourRealisateur :realisateur9 .
+:film8 :aPourDuree :36 min .
+:film8 :aPourNote :6.2 .
+:film8 :estSortiEn :2018 .
+:film9 rdfs:label "LA BELLE EPOQUE".
+:film9 a :video .
+:film9 :aEteRealiseA :adresse223 .
+:film9 :aEteRealiseA :adresse224 .
+:film9 :aPourActeur :acteur34 .
+:film9 :aPourActeur :acteur35 .
+:film9 :aPourActeur :acteur36 .
+:film9 :aPourActeur :acteur37 .
+:film9 :aPourGenre :genre0 .
+:film9 :aPourGenre :genre1 .
+:film9 :aPourGenre :genre6 .
+:film9 :aPourGenre :genre4 .
+:film9 :aPourRealisateur :realisateur10 .
+:film9 :aPourDuree :115 min .
+:film9 :aPourNote :7.4 .
+:film9 :estSortiEn :2018 .
+:film10 rdfs:label "DEUX MOI".
+:film10 a :video .
+:film10 :aEteRealiseA :adresse39 .
+:film10 :aPourActeur :acteur38 .
+:film10 :aPourActeur :acteur39 .
+:film10 :aPourActeur :acteur40 .
+:film10 :aPourActeur :acteur28 .
+:film10 :aPourGenre :genre0 .
+:film10 :aPourGenre :genre1 .
+:film10 :aPourGenre :genre4 .
+:film10 :aPourRealisateur :realisateur11 .
+:film10 :aPourDuree :110 min .
+:film10 :aPourNote :6.6 .
+:film10 :estSortiEn :2018 .
+:film11 rdfs:label "UN VOYAGE EN HIVER".
+:film11 a :video .
+:film11 :aEteRealiseA :adresse0 .
+:film11 :aEteRealiseA :adresse7 .
+:film11 :aEteRealiseA :adresse397 .
+:film11 :aPourActeur :acteur41 .
+:film11 :aPourActeur :acteur42 .
+:film11 :aPourActeur :acteur43 .
+:film11 :aPourActeur :acteur44 .
+:film11 :aPourGenre :genre1 .
+:film11 :aPourRealisateur :realisateur12 .
+:film11 :aPourDuree :86 min .
+:film11 :aPourNote :6.1 .
+:film11 :estSortiEn :2019 .
+:film12 rdfs:label "LE SEL DES LARMES".
+:film12 a :video .
+:film12 :aEteRealiseA :adresse225 .
+:film12 :aPourActeur :acteur45 .
+:film12 :aPourActeur :acteur46 .
+:film12 :aPourActeur :acteur47 .
+:film12 :aPourActeur :acteur48 .
+:film12 :aPourGenre :genre1 .
+:film12 :aPourRealisateur :realisateur13 .
+:film12 :aPourDuree :100 min .
+:film12 :aPourNote :5.9 .
+:film12 :estSortiEn :2019 .
+:film13 rdfs:label "The Eddy".
+:film13 a :video .
+:film13 :aEteRealiseA :adresse305 .
+:film13 :aEteRealiseA :adresse255 .
+:film13 :aEteRealiseA :adresse226 .
+:film13 :aEteRealiseA :adresse227 .
+:film13 :aEteRealiseA :adresse226 .
+:film13 :aPourActeur :acteur49 .
+:film13 :aPourActeur :acteur50 .
+:film13 :aPourActeur :acteur51 .
+:film13 :aPourActeur :acteur52 .
+:film13 :aPourGenre :genre1 .
+:film13 :aPourGenre :genre7 .
+:film13 :aPourRealisateur :realisateur14 .
+:film13 :aPourDuree :N/A .
+:film13 :aPourNote :7.2 .
+:film13 :estSortiEn :2019 .
+:film14 rdfs:label "Tendre et saignant".
+:film14 a :video .
+:film14 :aEteRealiseA :adresse30 .
+:film14 :aPourActeur :acteur53 .
+:film14 :aPourActeur :acteur54 .
+:film14 :aPourActeur :acteur16 .
+:film14 :aPourActeur :acteur55 .
+:film14 :aPourGenre :genre0 .
+:film14 :aPourGenre :genre4 .
+:film14 :aPourRealisateur :realisateur15 .
+:film14 :aPourDuree :91 min .
+:film14 :aPourNote :N/A .
+:film14 :estSortiEn :2019 .
+:film15 rdfs:label "Les Mignonnes".
+:film15 a :video .
+:film15 :aEteRealiseA :adresse370 .
+:film15 :aPourActeur :acteur56 .
+:film15 :aPourActeur :acteur57 .
+:film15 :aPourActeur :acteur58 .
+:film15 :aPourActeur :acteur59 .
+:film15 :aPourGenre :genre8 .
+:film15 :aPourGenre :genre9 .
+:film15 :aPourGenre :genre10 .
+:film15 :aPourRealisateur :realisateur16 .
+:film15 :aPourDuree :89 min .
+:film15 :aPourNote :5.8 .
+:film15 :estSortiEn :2018 .
+:film16 rdfs:label "DOCTEUR ?".
+:film16 a :video .
+:film16 :aEteRealiseA :adresse128 .
+:film16 :aPourActeur :acteur60 .
+:film16 :aPourGenre :genre11 .
+:film16 :aPourRealisateur :realisateur17 .
+:film16 :aPourDuree : .
+:film16 :aPourNote : .
+:film16 :estSortiEn :2019 .
+:film17 rdfs:label "Passion Simple".
+:film17 a :video .
+:film17 :aEteRealiseA :adresse103 .
+:film17 :aEteRealiseA :adresse86 .
+:film17 :aPourActeur :acteur61 .
+:film17 :aPourActeur :acteur62 .
+:film17 :aPourActeur :acteur63 .
+:film17 :aPourActeur :acteur26 .
+:film17 :aPourGenre :genre1 .
+:film17 :aPourGenre :genre4 .
+:film17 :aPourRealisateur :realisateur18 .
+:film17 :aPourDuree :99 min .
+:film17 :aPourNote :6.2 .
+:film17 :estSortiEn :2019 .
+:film18 rdfs:label "Musique de Chambre".
+:film18 a :video .
+:film18 :aEteRealiseA :adresse65 .
+:film18 :aPourActeur :acteur64 .
+:film18 :aPourActeur :acteur65 .
+:film18 :aPourActeur :acteur66 .
+:film18 :aPourActeur :acteur67 .
+:film18 :aPourGenre :genre0 .
+:film18 :aPourRealisateur :realisateur19 .
+:film18 :aPourDuree :86 min .
+:film18 :aPourNote :6.0 .
+:film18 :estSortiEn :2019 .
+:film19 rdfs:label "VILLA CAPRICE".
+:film19 a :video .
+:film19 :aEteRealiseA :adresse104 .
+:film19 :aPourActeur :acteur68 .
+:film19 :aPourActeur :acteur69 .
+:film19 :aPourActeur :acteur70 .
+:film19 :aPourActeur :acteur71 .
+:film19 :aPourGenre :genre1 .
+:film19 :aPourRealisateur :realisateur20 .
+:film19 :aPourDuree :103 min .
+:film19 :aPourNote :5.7 .
+:film19 :estSortiEn :2019 .
+:film20 rdfs:label "THE HUNTING".
+:film20 a :video .
+:film20 :aEteRealiseA :adresse174 .
+:film20 :aEteRealiseA :adresse261 .
+:film20 :aEteRealiseA :adresse326 .
+:film20 :aEteRealiseA :adresse432 .
+:film20 :aPourActeur :acteur72 .
+:film20 :aPourActeur :acteur73 .
+:film20 :aPourActeur :acteur74 .
+:film20 :aPourActeur :acteur75 .
+:film20 :aPourGenre :genre1 .
+:film20 :aPourRealisateur :realisateur21 .
+:film20 :aPourDuree :N/A .
+:film20 :aPourNote :7.2 .
+:film20 :estSortiEn :2019 .
+:film21 rdfs:label "MODERN FAMILY 11".
+:film21 a :video .
+:film21 :aEteRealiseA :adresse66 .
+:film21 :aEteRealiseA :adresse50 .
+:film21 :aPourActeur :acteur76 .
+:film21 :aPourActeur :acteur77 .
+:film21 :aPourActeur :acteur78 .
+:film21 :aPourActeur :acteur79 .
+:film21 :aPourGenre :genre0 .
+:film21 :aPourGenre :genre1 .
+:film21 :aPourGenre :genre4 .
+:film21 :aPourRealisateur :realisateur22 .
+:film21 :aPourDuree :22 min .
+:film21 :aPourNote :8.4 .
+:film21 :estSortiEn :2019 .
+:film22 rdfs:label "Alice NEVERS".
+:film22 a :video .
+:film22 :aEteRealiseA :adresse9 .
+:film22 :aEteRealiseA :adresse445 .
+:film22 :aEteRealiseA :adresse387 .
+:film22 :aPourActeur :acteur80 .
+:film22 :aPourActeur :acteur81 .
+:film22 :aPourActeur :acteur82 .
+:film22 :aPourActeur :acteur83 .
+:film22 :aPourGenre :genre3 .
+:film22 :aPourGenre :genre1 .
+:film22 :aPourRealisateur :realisateur23 .
+:film22 :aPourDuree :90 min .
+:film22 :aPourNote :5.7 .
+:film22 :estSortiEn :2019 .
+:film23 rdfs:label "TROP D'AMOUR".
+:film23 a :video .
+:film23 :aEteRealiseA :adresse199 .
+:film23 :aEteRealiseA :adresse75 .
+:film23 :aPourActeur :acteur84 .
+:film23 :aPourActeur :acteur85 .
+:film23 :aPourActeur :acteur86 .
+:film23 :aPourActeur :acteur87 .
+:film23 :aPourGenre :genre0 .
+:film23 :aPourGenre :genre1 .
+:film23 :aPourRealisateur :realisateur24 .
+:film23 :aPourDuree :78 min .
+:film23 :aPourNote :N/A .
+:film23 :estSortiEn :2019 .
+:film24 rdfs:label "BIG BANG".
+:film24 a :video .
+:film24 :aEteRealiseA :adresse371 .
+:film24 :aPourActeur :acteur88 .
+:film24 :aPourActeur :acteur89 .
+:film24 :aPourActeur :acteur90 .
+:film24 :aPourActeur :acteur91 .
+:film24 :aPourGenre :genre0 .
+:film24 :aPourGenre :genre4 .
+:film24 :aPourRealisateur :realisateur25 .
+:film24 :aPourDuree :22 min .
+:film24 :aPourNote :8.1 .
+:film24 :estSortiEn :2017 .
+:film25 rdfs:label "GARDE ALTERNEE".
+:film25 a :video .
+:film25 :aEteRealiseA :adresse399 .
+:film25 :aEteRealiseA :adresse151 .
+:film25 :aEteRealiseA :adresse67 .
+:film25 :aPourActeur :acteur92 .
+:film25 :aPourActeur :acteur93 .
+:film25 :aPourActeur :acteur94 .
+:film25 :aPourActeur :acteur95 .
+:film25 :aPourGenre :genre0 .
+:film25 :aPourRealisateur :realisateur26 .
+:film25 :aPourDuree :104 min .
+:film25 :aPourNote :5.5 .
+:film25 :estSortiEn :2017 .
+:film26 rdfs:label "LOULOU".
+:film26 a :video .
+:film26 :aEteRealiseA :adresse400 .
+:film26 :aPourActeur :acteur96 .
+:film26 :aPourActeur :acteur97 .
+:film26 :aPourActeur :acteur98 .
+:film26 :aPourActeur :acteur99 .
+:film26 :aPourGenre :genre3 .
+:film26 :aPourGenre :genre1 .
+:film26 :aPourGenre :genre4 .
+:film26 :aPourRealisateur :realisateur27 .
+:film26 :aPourDuree :109 min .
+:film26 :aPourNote :7.8 .
+:film26 :estSortiEn :2017 .
+:film27 rdfs:label "Un Cadeau du Ciel".
+:film27 a :video .
+:film27 :aEteRealiseA :adresse40 .
+:film27 :aEteRealiseA :adresse51 .
+:film27 :aPourActeur :acteur100 .
+:film27 :aPourActeur :acteur101 .
+:film27 :aPourActeur :acteur102 .
+:film27 :aPourActeur :acteur103 .
+:film27 :aPourGenre :genre0 .
+:film27 :aPourGenre :genre12 .
+:film27 :aPourGenre :genre6 .
+:film27 :aPourRealisateur :realisateur28 .
+:film27 :aPourDuree :92 min .
+:film27 :aPourNote :6.3 .
+:film27 :estSortiEn :2017 .
+:film28 rdfs:label "CHRONIQUES PARISIENNES 12".
+:film28 a :video .
+:film28 :aEteRealiseA :adresse256 .
+:film28 :aPourActeur :acteur104 .
+:film28 :aPourGenre :genre5 .
+:film28 :aPourRealisateur :realisateur29 .
+:film28 :aPourDuree :2 min .
+:film28 :aPourNote :N/A .
+:film28 :estSortiEn :2017 .
+:film29 rdfs:label "Jean-François".
+:film29 a :video .
+:film29 :aEteRealiseA :adresse87 .
+:film29 :aPourActeur :acteur105 .
+:film29 :aPourActeur :acteur106 .
+:film29 :aPourActeur :acteur107 .
+:film29 :aPourActeur :acteur108 .
+:film29 :aPourGenre :genre1 .
+:film29 :aPourRealisateur :realisateur30 .
+:film29 :aPourDuree :52 min .
+:film29 :aPourNote :N/A .
+:film29 :estSortiEn :2017 .
+:film30 rdfs:label "Un cadeau du ciel".
+:film30 a :video .
+:film30 :aEteRealiseA :adresse40 .
+:film30 :aEteRealiseA :adresse200 .
+:film30 :aEteRealiseA :adresse212 .
+:film30 :aPourActeur :acteur100 .
+:film30 :aPourActeur :acteur101 .
+:film30 :aPourActeur :acteur102 .
+:film30 :aPourActeur :acteur103 .
+:film30 :aPourGenre :genre0 .
+:film30 :aPourGenre :genre12 .
+:film30 :aPourGenre :genre6 .
+:film30 :aPourRealisateur :realisateur31 .
+:film30 :aPourDuree :92 min .
+:film30 :aPourNote :6.3 .
+:film30 :estSortiEn :2017 .
+:film31 rdfs:label "CHRONIQUES PARISIENNES".
+:film31 a :video .
+:film31 :aEteRealiseA :adresse2 .
+:film31 :aEteRealiseA :adresse257 .
+:film31 :aEteRealiseA :adresse43 .
+:film31 :aEteRealiseA :adresse34 .
+:film31 :aPourActeur :acteur109 .
+:film31 :aPourActeur :acteur110 .
+:film31 :aPourActeur :acteur111 .
+:film31 :aPourActeur :acteur112 .
+:film31 :aPourGenre :genre0 .
+:film31 :aPourGenre :genre1 .
+:film31 :aPourRealisateur :realisateur29 .
+:film31 :aPourDuree :N/A .
+:film31 :aPourNote :6.5 .
+:film31 :estSortiEn :2017 .
+:film32 rdfs:label "UN CADEAU DU CIEL".
+:film32 a :video .
+:film32 :aEteRealiseA :adresse152 .
+:film32 :aPourActeur :acteur100 .
+:film32 :aPourActeur :acteur101 .
+:film32 :aPourActeur :acteur102 .
+:film32 :aPourActeur :acteur103 .
+:film32 :aPourGenre :genre0 .
+:film32 :aPourGenre :genre12 .
+:film32 :aPourGenre :genre6 .
+:film32 :aPourRealisateur :realisateur28 .
+:film32 :aPourDuree :92 min .
+:film32 :aPourNote :6.3 .
+:film32 :estSortiEn :2017 .
+:film33 rdfs:label "JALOUSE".
+:film33 a :video .
+:film33 :aEteRealiseA :adresse175 .
+:film33 :aPourActeur :acteur113 .
+:film33 :aPourActeur :acteur114 .
+:film33 :aPourActeur :acteur115 .
+:film33 :aPourActeur :acteur116 .
+:film33 :aPourGenre :genre0 .
+:film33 :aPourGenre :genre1 .
+:film33 :aPourRealisateur :realisateur32 .
+:film33 :aPourRealisateur :realisateur33 .
+:film33 :aPourDuree :107 min .
+:film33 :aPourNote :6.2 .
+:film33 :estSortiEn :2017 .
+:film34 rdfs:label "Ramadan à Paris".
+:film34 a :video .
+:film34 :aEteRealiseA :adresse335 .
+:film34 :aPourActeur :acteur60 .
+:film34 :aPourGenre :genre11 .
+:film34 :aPourRealisateur :realisateur34 .
+:film34 :aPourDuree : .
+:film34 :aPourNote : .
+:film34 :estSortiEn :2017 .
+:film35 rdfs:label "JE NE SUIS PAS UN HOMME FACILE".
+:film35 a :video .
+:film35 :aEteRealiseA :adresse3 .
+:film35 :aEteRealiseA :adresse139 .
+:film35 :aEteRealiseA :adresse300 .
+:film35 :aPourActeur :acteur117 .
+:film35 :aPourActeur :acteur118 .
+:film35 :aPourActeur :acteur119 .
+:film35 :aPourActeur :acteur120 .
+:film35 :aPourGenre :genre0 .
+:film35 :aPourRealisateur :realisateur35 .
+:film35 :aPourDuree :98 min .
+:film35 :aPourNote :6.3 .
+:film35 :estSortiEn :2017 .
+:film36 rdfs:label "Amanda".
+:film36 a :video .
+:film36 :aEteRealiseA :adresse228 .
+:film36 :aEteRealiseA :adresse237 .
+:film36 :aPourActeur :acteur121 .
+:film36 :aPourActeur :acteur122 .
+:film36 :aPourActeur :acteur123 .
+:film36 :aPourActeur :acteur124 .
+:film36 :aPourGenre :genre0 .
+:film36 :aPourGenre :genre7 .
+:film36 :aPourGenre :genre4 .
+:film36 :aPourRealisateur :realisateur36 .
+:film36 :aPourDuree :83 min .
+:film36 :aPourNote :7.0 .
+:film36 :estSortiEn :2017 .
+:film37 rdfs:label "UN ADULTERE".
+:film37 a :video .
+:film37 :aPourActeur :acteur94 .
+:film37 :aPourActeur :acteur125 .
+:film37 :aPourActeur :acteur126 .
+:film37 :aPourActeur :acteur127 .
+:film37 :aPourGenre :genre1 .
+:film37 :aPourRealisateur :realisateur37 .
+:film37 :aPourDuree :99 min .
+:film37 :aPourNote :6.4 .
+:film37 :estSortiEn :2017 .
+:film38 rdfs:label "THE ROMANOFFS".
+:film38 a :video .
+:film38 :aEteRealiseA :adresse41 .
+:film38 :aPourActeur :acteur128 .
+:film38 :aPourActeur :acteur129 .
+:film38 :aPourActeur :acteur130 .
+:film38 :aPourActeur :acteur131 .
+:film38 :aPourGenre :genre1 .
+:film38 :aPourRealisateur :realisateur38 .
+:film38 :aPourDuree :60 min .
+:film38 :aPourNote :7.0 .
+:film38 :estSortiEn :2017 .
+:film39 rdfs:label "LE TEMPS DES EGARES".
+:film39 a :video .
+:film39 :aEteRealiseA :adresse153 .
+:film39 :aEteRealiseA :adresse336 .
+:film39 :aPourActeur :acteur132 .
+:film39 :aPourActeur :acteur133 .
+:film39 :aPourActeur :acteur134 .
+:film39 :aPourActeur :acteur135 .
+:film39 :aPourGenre :genre1 .
+:film39 :aPourRealisateur :realisateur39 .
+:film39 :aPourDuree :90 min .
+:film39 :aPourNote :6.7 .
+:film39 :estSortiEn :2017 .
+:film40 rdfs:label "BELLEVILLE'S COP".
+:film40 a :video .
+:film40 :aEteRealiseA :adresse401 .
+:film40 :aEteRealiseA :adresse413 .
+:film40 :aPourActeur :acteur136 .
+:film40 :aPourActeur :acteur137 .
+:film40 :aPourActeur :acteur135 .
+:film40 :aPourActeur :acteur138 .
+:film40 :aPourGenre :genre0 .
+:film40 :aPourGenre :genre3 .
+:film40 :aPourRealisateur :realisateur40 .
+:film40 :aPourDuree :111 min .
+:film40 :aPourNote :4.8 .
+:film40 :estSortiEn :2017 .
+:film41 rdfs:label "LA FETE DES MERES".
+:film41 a :video .
+:film41 :aEteRealiseA :adresse201 .
+:film41 :aEteRealiseA :adresse238 .
+:film41 :aEteRealiseA :adresse77 .
+:film41 :aEteRealiseA :adresse267 .
+:film41 :aPourActeur :acteur139 .
+:film41 :aPourActeur :acteur140 .
+:film41 :aPourActeur :acteur141 .
+:film41 :aPourActeur :acteur142 .
+:film41 :aPourGenre :genre0 .
+:film41 :aPourGenre :genre1 .
+:film41 :aPourGenre :genre4 .
+:film41 :aPourRealisateur :realisateur41 .
+:film41 :aPourDuree :118 min .
+:film41 :aPourNote :5.7 .
+:film41 :estSortiEn :2017 .
+:film42 rdfs:label "LE POULAIN".
+:film42 a :video .
+:film42 :aEteRealiseA :adresse105 .
+:film42 :aPourActeur :acteur143 .
+:film42 :aPourActeur :acteur144 .
+:film42 :aPourActeur :acteur145 .
+:film42 :aPourActeur :acteur146 .
+:film42 :aPourGenre :genre0 .
+:film42 :aPourRealisateur :realisateur42 .
+:film42 :aPourDuree :97 min .
+:film42 :aPourNote :5.6 .
+:film42 :estSortiEn :2017 .
+:film43 rdfs:label "NOX".
+:film43 a :video .
+:film43 :aEteRealiseA :adresse154 .
+:film43 :aEteRealiseA :adresse414 .
+:film43 :aPourActeur :acteur147 .
+:film43 :aPourActeur :acteur148 .
+:film43 :aPourActeur :acteur149 .
+:film43 :aPourActeur :acteur150 .
+:film43 :aPourGenre :genre3 .
+:film43 :aPourGenre :genre10 .
+:film43 :aPourRealisateur :realisateur43 .
+:film43 :aPourDuree :52 min .
+:film43 :aPourNote :6.6 .
+:film43 :estSortiEn :2017 .
+:film44 rdfs:label "Le Temps des Egarés".
+:film44 a :video .
+:film44 :aEteRealiseA :adresse42 .
+:film44 :aPourActeur :acteur151 .
+:film44 :aPourActeur :acteur152 .
+:film44 :aPourActeur :acteur153 .
+:film44 :aPourActeur :acteur154 .
+:film44 :aPourGenre :genre8 .
+:film44 :aPourGenre :genre3 .
+:film44 :aPourGenre :genre10 .
+:film44 :aPourRealisateur :realisateur39 .
+:film44 :aPourDuree :52 min .
+:film44 :aPourNote :8.6 .
+:film44 :estSortiEn :2017 .
+:film45 rdfs:label "Baron noir".
+:film45 a :video .
+:film45 :aEteRealiseA :adresse115 .
+:film45 :aPourActeur :acteur155 .
+:film45 :aPourActeur :acteur156 .
+:film45 :aPourActeur :acteur157 .
+:film45 :aPourActeur :acteur158 .
+:film45 :aPourGenre :genre1 .
+:film45 :aPourGenre :genre10 .
+:film45 :aPourRealisateur :realisateur44 .
+:film45 :aPourRealisateur :realisateur45 .
+:film45 :aPourDuree :55 min .
+:film45 :aPourNote :7.8 .
+:film45 :estSortiEn :2017 .
+:film46 rdfs:label "SUN".
+:film46 a :video .
+:film46 :aEteRealiseA :adresse373 .
+:film46 :aEteRealiseA :adresse181 .
+:film46 :aEteRealiseA :adresse185 .
+:film46 :aPourActeur :acteur159 .
+:film46 :aPourActeur :acteur160 .
+:film46 :aPourActeur :acteur161 .
+:film46 :aPourActeur :acteur162 .
+:film46 :aPourGenre :genre1 .
+:film46 :aPourGenre :genre13 .
+:film46 :aPourRealisateur :realisateur46 .
+:film46 :aPourDuree :110 min .
+:film46 :aPourNote :7.3 .
+:film46 :estSortiEn :2017 .
+:film47 rdfs:label "Premieres Vacances".
+:film47 a :video .
+:film47 :aEteRealiseA :adresse372 .
+:film47 :aEteRealiseA :adresse372 .
+:film47 :aPourActeur :acteur163 .
+:film47 :aPourActeur :acteur164 .
+:film47 :aPourActeur :acteur40 .
+:film47 :aPourActeur :acteur165 .
+:film47 :aPourGenre :genre0 .
+:film47 :aPourRealisateur :realisateur47 .
+:film47 :aPourDuree :102 min .
+:film47 :aPourNote :5.9 .
+:film47 :estSortiEn :2017 .
+:film48 rdfs:label "Ton ancien toi".
+:film48 a :video .
+:film48 :aEteRealiseA :adresse129 .
+:film48 :aEteRealiseA :adresse18 .
+:film48 :aEteRealiseA :adresse449 .
+:film48 :aPourActeur :acteur60 .
+:film48 :aPourGenre :genre11 .
+:film48 :aPourRealisateur :realisateur48 .
+:film48 :aPourDuree : .
+:film48 :aPourNote : .
+:film48 :estSortiEn :2017 .
+:film49 rdfs:label "BAD POEMS".
+:film49 a :video .
+:film49 :aEteRealiseA :adresse338 .
+:film49 :aEteRealiseA :adresse351 .
+:film49 :aPourActeur :acteur166 .
+:film49 :aPourActeur :acteur167 .
+:film49 :aPourActeur :acteur168 .
+:film49 :aPourActeur :acteur169 .
+:film49 :aPourGenre :genre0 .
+:film49 :aPourGenre :genre1 .
+:film49 :aPourRealisateur :realisateur49 .
+:film49 :aPourDuree :97 min .
+:film49 :aPourNote :7.7 .
+:film49 :estSortiEn :2017 .
+:film50 rdfs:label "Mauvaises Herbes".
+:film50 a :video .
+:film50 :aPourActeur :acteur170 .
+:film50 :aPourActeur :acteur171 .
+:film50 :aPourActeur :acteur172 .
+:film50 :aPourActeur :acteur173 .
+:film50 :aPourGenre :genre0 .
+:film50 :aPourRealisateur :realisateur50 .
+:film50 :aPourDuree :100 min .
+:film50 :aPourNote :7.3 .
+:film50 :estSortiEn :2017 .
+:film51 rdfs:label "Skam".
+:film51 a :video .
+:film51 :aEteRealiseA :adresse203 .
+:film51 :aEteRealiseA :adresse141 .
+:film51 :aEteRealiseA :adresse381 .
+:film51 :aPourActeur :acteur174 .
+:film51 :aPourActeur :acteur175 .
+:film51 :aPourActeur :acteur176 .
+:film51 :aPourActeur :acteur177 .
+:film51 :aPourGenre :genre1 .
+:film51 :aPourGenre :genre4 .
+:film51 :aPourRealisateur :realisateur51 .
+:film51 :aPourDuree :30 min .
+:film51 :aPourNote :8.6 .
+:film51 :estSortiEn :2017 .
+:film52 rdfs:label "ecole de cuisine".
+:film52 a :video .
+:film52 :aEteRealiseA :adresse215 .
+:film52 :aPourActeur :acteur178 .
+:film52 :aPourGenre :genre14 .
+:film52 :aPourRealisateur :realisateur52 .
+:film52 :aPourDuree :90 min .
+:film52 :aPourNote :N/A .
+:film52 :estSortiEn :2017 .
+:film53 rdfs:label "LA VIE SAUVE".
+:film53 a :video .
+:film53 :aEteRealiseA :adresse402 .
+:film53 :aPourActeur :acteur179 .
+:film53 :aPourActeur :acteur180 .
+:film53 :aPourActeur :acteur181 .
+:film53 :aPourActeur :acteur182 .
+:film53 :aPourGenre :genre1 .
+:film53 :aPourRealisateur :realisateur53 .
+:film53 :aPourDuree :55 min .
+:film53 :aPourNote :N/A .
+:film53 :estSortiEn :2017 .
+:film54 rdfs:label "New Horizon".
+:film54 a :video .
+:film54 :aEteRealiseA :adresse107 .
+:film54 :aEteRealiseA :adresse302 .
+:film54 :aPourActeur :acteur183 .
+:film54 :aPourActeur :acteur184 .
+:film54 :aPourActeur :acteur185 .
+:film54 :aPourActeur :acteur186 .
+:film54 :aPourGenre :genre5 .
+:film54 :aPourGenre :genre1 .
+:film54 :aPourRealisateur :realisateur54 .
+:film54 :aPourDuree :27 min .
+:film54 :aPourNote :N/A .
+:film54 :estSortiEn :2017 .
+:film55 rdfs:label "SYNONYMES".
+:film55 a :video .
+:film55 :aEteRealiseA :adresse68 .
+:film55 :aPourActeur :acteur187 .
+:film55 :aPourActeur :acteur188 .
+:film55 :aPourActeur :acteur48 .
+:film55 :aPourActeur :acteur189 .
+:film55 :aPourGenre :genre0 .
+:film55 :aPourGenre :genre1 .
+:film55 :aPourRealisateur :realisateur55 .
+:film55 :aPourDuree :123 min .
+:film55 :aPourNote :6.4 .
+:film55 :estSortiEn :2017 .
+:film56 rdfs:label "TERRITOIRES".
+:film56 a :video .
+:film56 :aEteRealiseA :adresse318 .
+:film56 :aEteRealiseA :adresse319 .
+:film56 :aPourActeur :acteur190 .
+:film56 :aPourActeur :acteur191 .
+:film56 :aPourActeur :acteur192 .
+:film56 :aPourActeur :acteur193 .
+:film56 :aPourGenre :genre1 .
+:film56 :aPourGenre :genre10 .
+:film56 :aPourRealisateur :realisateur56 .
+:film56 :aPourDuree :111 min .
+:film56 :aPourNote :6.3 .
+:film56 :estSortiEn :2017 .
+:film57 rdfs:label "VOLTAIRE".
+:film57 a :video .
+:film57 :aEteRealiseA :adresse294 .
+:film57 :aEteRealiseA :adresse52 .
+:film57 :aEteRealiseA :adresse135 .
+:film57 :aEteRealiseA :adresse78 .
+:film57 :aPourActeur :acteur194 .
+:film57 :aPourActeur :acteur195 .
+:film57 :aPourActeur :acteur196 .
+:film57 :aPourActeur :acteur197 .
+:film57 :aPourGenre :genre13 .
+:film57 :aPourRealisateur :realisateur57 .
+:film57 :aPourDuree :N/A .
+:film57 :aPourNote :7.7 .
+:film57 :estSortiEn :2017 .
+:film58 rdfs:label "une jeunesse dorée".
+:film58 a :video .
+:film58 :aEteRealiseA :adresse19 .
+:film58 :aPourActeur :acteur198 .
+:film58 :aPourActeur :acteur199 .
+:film58 :aPourActeur :acteur200 .
+:film58 :aPourActeur :acteur201 .
+:film58 :aPourGenre :genre1 .
+:film58 :aPourRealisateur :realisateur58 .
+:film58 :aPourDuree :85 min .
+:film58 :aPourNote :6.3 .
+:film58 :estSortiEn :2017 .
+:film59 rdfs:label "La Ch'Tite Famille".
+:film59 a :video .
+:film59 :aEteRealiseA :adresse131 .
+:film59 :aPourActeur :acteur202 .
+:film59 :aPourActeur :acteur203 .
+:film59 :aPourActeur :acteur204 .
+:film59 :aPourActeur :acteur93 .
+:film59 :aPourGenre :genre0 .
+:film59 :aPourRealisateur :realisateur31 .
+:film59 :aPourDuree :107 min .
+:film59 :aPourNote :5.8 .
+:film59 :estSortiEn :2017 .
+:film60 rdfs:label "Synonymes".
+:film60 a :video .
+:film60 :aPourActeur :acteur187 .
+:film60 :aPourActeur :acteur188 .
+:film60 :aPourActeur :acteur48 .
+:film60 :aPourActeur :acteur189 .
+:film60 :aPourGenre :genre0 .
+:film60 :aPourGenre :genre1 .
+:film60 :aPourRealisateur :realisateur55 .
+:film60 :aPourDuree :123 min .
+:film60 :aPourNote :6.4 .
+:film60 :estSortiEn :2017 .
+:film61 rdfs:label "Diana and I".
+:film61 a :video .
+:film61 :aEteRealiseA :adresse437 .
+:film61 :aPourActeur :acteur205 .
+:film61 :aPourActeur :acteur206 .
+:film61 :aPourActeur :acteur207 .
+:film61 :aPourActeur :acteur208 .
+:film61 :aPourGenre :genre1 .
+:film61 :aPourRealisateur :realisateur59 .
+:film61 :aPourDuree :90 min .
+:film61 :aPourNote :6.0 .
+:film61 :estSortiEn :2017 .
+:film62 rdfs:label "Les Affamés".
+:film62 a :video .
+:film62 :aEteRealiseA :adresse44 .
+:film62 :aEteRealiseA :adresse54 .
+:film62 :aPourActeur :acteur209 .
+:film62 :aPourActeur :acteur210 .
+:film62 :aPourActeur :acteur211 .
+:film62 :aPourActeur :acteur212 .
+:film62 :aPourGenre :genre0 .
+:film62 :aPourRealisateur :realisateur60 .
+:film62 :aPourDuree :95 min .
+:film62 :aPourNote :4.3 .
+:film62 :estSortiEn :2017 .
+:film63 rdfs:label "MRS MILLS".
+:film63 a :video .
+:film63 :aEteRealiseA :adresse69 .
+:film63 :aPourActeur :acteur213 .
+:film63 :aPourActeur :acteur214 .
+:film63 :aPourActeur :acteur215 .
+:film63 :aPourActeur :acteur17 .
+:film63 :aPourGenre :genre0 .
+:film63 :aPourRealisateur :realisateur61 .
+:film63 :aPourDuree :88 min .
+:film63 :aPourNote :3.8 .
+:film63 :estSortiEn :2017 .
+:film64 rdfs:label "AMANDA".
+:film64 a :video .
+:film64 :aEteRealiseA :adresse206 .
+:film64 :aEteRealiseA :adresse70 .
+:film64 :aEteRealiseA :adresse79 .
+:film64 :aPourActeur :acteur121 .
+:film64 :aPourActeur :acteur122 .
+:film64 :aPourActeur :acteur123 .
+:film64 :aPourActeur :acteur124 .
+:film64 :aPourGenre :genre0 .
+:film64 :aPourGenre :genre7 .
+:film64 :aPourGenre :genre4 .
+:film64 :aPourRealisateur :realisateur36 .
+:film64 :aPourDuree :83 min .
+:film64 :aPourNote :7.0 .
+:film64 :estSortiEn :2017 .
+:film65 rdfs:label "À jamais fidèle".
+:film65 a :video .
+:film65 :aEteRealiseA :adresse403 .
+:film65 :aEteRealiseA :adresse404 .
+:film65 :aEteRealiseA :adresse306 .
+:film65 :aEteRealiseA :adresse416 .
+:film65 :aEteRealiseA :adresse454 .
+:film65 :aEteRealiseA :adresse455 .
+:film65 :aPourActeur :acteur216 .
+:film65 :aPourGenre :genre15 .
+:film65 :aPourRealisateur :realisateur62 .
+:film65 :aPourDuree :120 min .
+:film65 :aPourNote :N/A .
+:film65 :estSortiEn :2017 .
+:film66 rdfs:label "Cold war".
+:film66 a :video .
+:film66 :aEteRealiseA :adresse438 .
+:film66 :aPourActeur :acteur50 .
+:film66 :aPourActeur :acteur217 .
+:film66 :aPourActeur :acteur218 .
+:film66 :aPourActeur :acteur219 .
+:film66 :aPourGenre :genre1 .
+:film66 :aPourGenre :genre13 .
+:film66 :aPourGenre :genre16 .
+:film66 :aPourGenre :genre4 .
+:film66 :aPourRealisateur :realisateur63 .
+:film66 :aPourDuree :89 min .
+:film66 :aPourNote :7.6 .
+:film66 :estSortiEn :2017 .
+:film67 rdfs:label "UNDER THE EIFFEL TOWER".
+:film67 a :video .
+:film67 :aPourActeur :acteur220 .
+:film67 :aPourActeur :acteur221 .
+:film67 :aPourActeur :acteur222 .
+:film67 :aPourActeur :acteur223 .
+:film67 :aPourGenre :genre0 .
+:film67 :aPourGenre :genre4 .
+:film67 :aPourRealisateur :realisateur64 .
+:film67 :aPourDuree :87 min .
+:film67 :aPourNote :5.3 .
+:film67 :estSortiEn :2017 .
+:film68 rdfs:label "ALICE NEVERS".
+:film68 a :video .
+:film68 :aEteRealiseA :adresse339 .
+:film68 :aEteRealiseA :adresse281 .
+:film68 :aEteRealiseA :adresse313 .
+:film68 :aPourActeur :acteur80 .
+:film68 :aPourActeur :acteur81 .
+:film68 :aPourActeur :acteur82 .
+:film68 :aPourActeur :acteur83 .
+:film68 :aPourGenre :genre3 .
+:film68 :aPourGenre :genre1 .
+:film68 :aPourRealisateur :realisateur65 .
+:film68 :aPourDuree :90 min .
+:film68 :aPourNote :5.7 .
+:film68 :estSortiEn :2017 .
+:film69 rdfs:label "Eiffel i'm in love 2".
+:film69 a :video .
+:film69 :aEteRealiseA :adresse295 .
+:film69 :aEteRealiseA :adresse456 .
+:film69 :aPourActeur :acteur224 .
+:film69 :aPourActeur :acteur225 .
+:film69 :aPourActeur :acteur226 .
+:film69 :aPourActeur :acteur227 .
+:film69 :aPourGenre :genre1 .
+:film69 :aPourRealisateur :realisateur66 .
+:film69 :aPourDuree :117 min .
+:film69 :aPourNote :6.9 .
+:film69 :estSortiEn :2017 .
+:film70 rdfs:label "One Woman".
+:film70 a :video .
+:film70 :aEteRealiseA :adresse207 .
+:film70 :aPourActeur :acteur228 .
+:film70 :aPourActeur :acteur229 .
+:film70 :aPourActeur :acteur230 .
+:film70 :aPourActeur :acteur231 .
+:film70 :aPourGenre :genre3 .
+:film70 :aPourGenre :genre1 .
+:film70 :aPourGenre :genre17 .
+:film70 :aPourGenre :genre18 .
+:film70 :aPourGenre :genre10 .
+:film70 :aPourRealisateur :realisateur67 .
+:film70 :aPourDuree :86 min .
+:film70 :aPourNote :6.5 .
+:film70 :estSortiEn :2017 .
+:film71 rdfs:label "L'extraordinaire voyage du Fakir".
+:film71 a :video .
+:film71 :aEteRealiseA :adresse340 .
+:film71 :aEteRealiseA :adresse6 .
+:film71 :aEteRealiseA :adresse357 .
+:film71 :aPourActeur :acteur232 .
+:film71 :aPourActeur :acteur233 .
+:film71 :aPourActeur :acteur234 .
+:film71 :aPourActeur :acteur235 .
+:film71 :aPourGenre :genre9 .
+:film71 :aPourGenre :genre0 .
+:film71 :aPourGenre :genre1 .
+:film71 :aPourRealisateur :realisateur68 .
+:film71 :aPourDuree :92 min .
+:film71 :aPourNote :6.9 .
+:film71 :estSortiEn :2017 .
+:film72 rdfs:label "JUSTE UN REGARD".
+:film72 a :video .
+:film72 :aEteRealiseA :adresse405 .
+:film72 :aPourActeur :acteur236 .
+:film72 :aPourActeur :acteur237 .
+:film72 :aPourActeur :acteur238 .
+:film72 :aPourActeur :acteur239 .
+:film72 :aPourGenre :genre8 .
+:film72 :aPourGenre :genre9 .
+:film72 :aPourGenre :genre3 .
+:film72 :aPourGenre :genre1 .
+:film72 :aPourGenre :genre10 .
+:film72 :aPourRealisateur :realisateur69 .
+:film72 :aPourDuree :N/A .
+:film72 :aPourNote :6.4 .
+:film72 :estSortiEn :2017 .
+:film73 rdfs:label "La belle et la belle".
+:film73 a :video .
+:film73 :aEteRealiseA :adresse406 .
+:film73 :aEteRealiseA :adresse35 .
+:film73 :aPourActeur :acteur240 .
+:film73 :aPourActeur :acteur241 .
+:film73 :aPourActeur :acteur242 .
+:film73 :aPourActeur :acteur243 .
+:film73 :aPourGenre :genre0 .
+:film73 :aPourGenre :genre1 .
+:film73 :aPourGenre :genre19 .
+:film73 :aPourRealisateur :realisateur70 .
+:film73 :aPourDuree :95 min .
+:film73 :aPourNote :5.5 .
+:film73 :estSortiEn :2017 .
+:film74 rdfs:label "QUADRAS".
+:film74 a :video .
+:film74 :aEteRealiseA :adresse155 .
+:film74 :aPourActeur :acteur244 .
+:film74 :aPourActeur :acteur245 .
+:film74 :aPourActeur :acteur246 .
+:film74 :aPourActeur :acteur247 .
+:film74 :aPourGenre :genre0 .
+:film74 :aPourGenre :genre1 .
+:film74 :aPourGenre :genre4 .
+:film74 :aPourRealisateur :realisateur71 .
+:film74 :aPourDuree :N/A .
+:film74 :aPourNote :7.0 .
+:film74 :estSortiEn :2017 .
+:film75 rdfs:label "CHRIST(OFF)".
+:film75 a :video .
+:film75 :aEteRealiseA :adresse71 .
+:film75 :aPourActeur :acteur248 .
+:film75 :aPourActeur :acteur249 .
+:film75 :aPourActeur :acteur250 .
+:film75 :aPourActeur :acteur251 .
+:film75 :aPourGenre :genre0 .
+:film75 :aPourRealisateur :realisateur72 .
+:film75 :aPourDuree :91 min .
+:film75 :aPourNote :4.2 .
+:film75 :estSortiEn :2017 .
+:film76 rdfs:label "LRDM - Patriot season 2".
+:film76 a :video .
+:film76 :aEteRealiseA :adresse176 .
+:film76 :aEteRealiseA :adresse172 .
+:film76 :aEteRealiseA :adresse117 .
+:film76 :aEteRealiseA :adresse311 .
+:film76 :aPourActeur :acteur252 .
+:film76 :aPourGenre :genre20 .
+:film76 :aPourRealisateur :realisateur73 .
+:film76 :aPourDuree :95 min .
+:film76 :aPourNote :9.7 .
+:film76 :estSortiEn :2018 .
+:film77 rdfs:label "L'Enkas".
+:film77 a :video .
+:film77 :aEteRealiseA :adresse341 .
+:film77 :aEteRealiseA :adresse342 .
+:film77 :aEteRealiseA :adresse355 .
+:film77 :aPourActeur :acteur253 .
+:film77 :aPourActeur :acteur254 .
+:film77 :aPourActeur :acteur255 .
+:film77 :aPourActeur :acteur256 .
+:film77 :aPourGenre :genre1 .
+:film77 :aPourRealisateur :realisateur74 .
+:film77 :aPourDuree :85 min .
+:film77 :aPourNote :5.9 .
+:film77 :estSortiEn :2018 .
+:film78 rdfs:label "HAUTE SOCIETE".
+:film78 a :video .
+:film78 :aEteRealiseA :adresse45 .
+:film78 :aPourActeur :acteur257 .
+:film78 :aPourActeur :acteur258 .
+:film78 :aPourActeur :acteur259 .
+:film78 :aPourActeur :acteur260 .
+:film78 :aPourGenre :genre0 .
+:film78 :aPourGenre :genre1 .
+:film78 :aPourGenre :genre4 .
+:film78 :aPourRealisateur :realisateur75 .
+:film78 :aPourDuree :83 min .
+:film78 :aPourNote :6.2 .
+:film78 :estSortiEn :2018 .
+:film79 rdfs:label "Les Michetonneuses".
+:film79 a :video .
+:film79 :aEteRealiseA :adresse46 .
+:film79 :aPourActeur :acteur261 .
+:film79 :aPourActeur :acteur262 .
+:film79 :aPourActeur :acteur263 .
+:film79 :aPourActeur :acteur264 .
+:film79 :aPourGenre :genre0 .
+:film79 :aPourRealisateur :realisateur76 .
+:film79 :aPourDuree :80 min .
+:film79 :aPourNote :5.1 .
+:film79 :estSortiEn :2018 .
+:film80 rdfs:label "LA LUTTE DES CLASSES".
+:film80 a :video .
+:film80 :aEteRealiseA :adresse407 .
+:film80 :aPourActeur :acteur51 .
+:film80 :aPourActeur :acteur265 .
+:film80 :aPourActeur :acteur11 .
+:film80 :aPourActeur :acteur266 .
+:film80 :aPourGenre :genre0 .
+:film80 :aPourGenre :genre1 .
+:film80 :aPourGenre :genre12 .
+:film80 :aPourRealisateur :realisateur77 .
+:film80 :aPourDuree :103 min .
+:film80 :aPourNote :6.0 .
+:film80 :estSortiEn :2018 .
+:film81 rdfs:label "Un homme pressé".
+:film81 a :video .
+:film81 :aEteRealiseA :adresse296 .
+:film81 :aEteRealiseA :adresse55 .
+:film81 :aPourActeur :acteur267 .
+:film81 :aPourActeur :acteur268 .
+:film81 :aPourActeur :acteur269 .
+:film81 :aPourActeur :acteur270 .
+:film81 :aPourGenre :genre1 .
+:film81 :aPourRealisateur :realisateur31 .
+:film81 :aPourDuree :90 min .
+:film81 :aPourNote :6.4 .
+:film81 :estSortiEn :2017 .
+:film82 rdfs:label "MON INCONNUE".
+:film82 a :video .
+:film82 :aEteRealiseA :adresse156 .
+:film82 :aPourActeur :acteur38 .
+:film82 :aPourActeur :acteur271 .
+:film82 :aPourActeur :acteur272 .
+:film82 :aPourActeur :acteur273 .
+:film82 :aPourGenre :genre0 .
+:film82 :aPourGenre :genre1 .
+:film82 :aPourGenre :genre6 .
+:film82 :aPourGenre :genre4 .
+:film82 :aPourRealisateur :realisateur78 .
+:film82 :aPourDuree :117 min .
+:film82 :aPourNote :7.0 .
+:film82 :estSortiEn :2018 .
+:film83 rdfs:label "Can't Buy me love".
+:film83 a :video .
+:film83 :aEteRealiseA :adresse374 .
+:film83 :aEteRealiseA :adresse383 .
+:film83 :aEteRealiseA :adresse161 .
+:film83 :aPourActeur :acteur274 .
+:film83 :aPourActeur :acteur275 .
+:film83 :aPourActeur :acteur276 .
+:film83 :aPourActeur :acteur277 .
+:film83 :aPourGenre :genre0 .
+:film83 :aPourGenre :genre1 .
+:film83 :aPourGenre :genre4 .
+:film83 :aPourRealisateur :realisateur79 .
+:film83 :aPourRealisateur :realisateur80 .
+:film83 :aPourDuree :94 min .
+:film83 :aPourNote :6.8 .
+:film83 :estSortiEn :2018 .
+:film84 rdfs:label "Like Me".
+:film84 a :video .
+:film84 :aEteRealiseA :adresse297 .
+:film84 :aPourActeur :acteur278 .
+:film84 :aPourActeur :acteur279 .
+:film84 :aPourActeur :acteur280 .
+:film84 :aPourActeur :acteur281 .
+:film84 :aPourGenre :genre3 .
+:film84 :aPourGenre :genre1 .
+:film84 :aPourGenre :genre21 .
+:film84 :aPourRealisateur :realisateur81 .
+:film84 :aPourDuree :80 min .
+:film84 :aPourNote :5.3 .
+:film84 :estSortiEn :2018 .
+:film85 rdfs:label "Bliss".
+:film85 a :video .
+:film85 :aEteRealiseA :adresse31 .
+:film85 :aPourActeur :acteur282 .
+:film85 :aPourActeur :acteur283 .
+:film85 :aPourActeur :acteur284 .
+:film85 :aPourActeur :acteur285 .
+:film85 :aPourGenre :genre1 .
+:film85 :aPourGenre :genre4 .
+:film85 :aPourGenre :genre19 .
+:film85 :aPourRealisateur :realisateur82 .
+:film85 :aPourRealisateur :realisateur83 .
+:film85 :aPourDuree :103 min .
+:film85 :aPourNote :5.3 .
+:film85 :estSortiEn :2018 .
+:film86 rdfs:label "MAIS VOUS ETES FOUS".
+:film86 a :video .
+:film86 :aEteRealiseA :adresse72 .
+:film86 :aPourActeur :acteur102 .
+:film86 :aPourActeur :acteur286 .
+:film86 :aPourActeur :acteur287 .
+:film86 :aPourActeur :acteur288 .
+:film86 :aPourGenre :genre1 .
+:film86 :aPourRealisateur :realisateur84 .
+:film86 :aPourDuree :95 min .
+:film86 :aPourNote :6.4 .
+:film86 :estSortiEn :2018 .
+:film87 rdfs:label "The Marvelous Mrs Maisel".
+:film87 a :video .
+:film87 :aPourActeur :acteur289 .
+:film87 :aPourActeur :acteur290 .
+:film87 :aPourActeur :acteur291 .
+:film87 :aPourActeur :acteur292 .
+:film87 :aPourGenre :genre0 .
+:film87 :aPourGenre :genre1 .
+:film87 :aPourRealisateur :realisateur85 .
+:film87 :aPourRealisateur :realisateur86 .
+:film87 :aPourDuree :57 min .
+:film87 :aPourNote :8.7 .
+:film87 :estSortiEn :2018 .
+:film88 rdfs:label "engrenages S7".
+:film88 a :video .
+:film88 :aEteRealiseA :adresse343 .
+:film88 :aEteRealiseA :adresse241 .
+:film88 :aPourActeur :acteur293 .
+:film88 :aPourGenre :genre3 .
+:film88 :aPourGenre :genre10 .
+:film88 :aPourRealisateur :realisateur87 .
+:film88 :aPourDuree :60 min .
+:film88 :aPourNote :8.8 .
+:film88 :estSortiEn :2018 .
+:film89 rdfs:label "ENGRENAGES S7".
+:film89 a :video .
+:film89 :aEteRealiseA :adresse408 .
+:film89 :aPourActeur :acteur293 .
+:film89 :aPourGenre :genre3 .
+:film89 :aPourGenre :genre10 .
+:film89 :aPourRealisateur :realisateur87 .
+:film89 :aPourDuree :60 min .
+:film89 :aPourNote :8.8 .
+:film89 :estSortiEn :2018 .
+:film90 rdfs:label "ZONE FRANCHE".
+:film90 a :video .
+:film90 :aEteRealiseA :adresse162 .
+:film90 :aPourActeur :acteur294 .
+:film90 :aPourActeur :acteur102 .
+:film90 :aPourActeur :acteur295 .
+:film90 :aPourActeur :acteur296 .
+:film90 :aPourGenre :genre0 .
+:film90 :aPourGenre :genre1 .
+:film90 :aPourRealisateur :realisateur88 .
+:film90 :aPourDuree :89 min .
+:film90 :aPourNote :5.9 .
+:film90 :estSortiEn :2018 .
+:film91 rdfs:label "Andy".
+:film91 a :video .
+:film91 :aEteRealiseA :adresse258 .
+:film91 :aEteRealiseA :adresse385 .
+:film91 :aPourActeur :acteur297 .
+:film91 :aPourActeur :acteur298 .
+:film91 :aPourActeur :acteur299 .
+:film91 :aPourActeur :acteur300 .
+:film91 :aPourGenre :genre0 .
+:film91 :aPourGenre :genre12 .
+:film91 :aPourRealisateur :realisateur89 .
+:film91 :aPourDuree :30 min .
+:film91 :aPourNote :8.3 .
+:film91 :estSortiEn :2018 .
+:film92 rdfs:label "WHISKEY CAVALIER".
+:film92 a :video .
+:film92 :aEteRealiseA :adresse132 .
+:film92 :aPourActeur :acteur301 .
+:film92 :aPourActeur :acteur302 .
+:film92 :aPourActeur :acteur303 .
+:film92 :aPourActeur :acteur304 .
+:film92 :aPourGenre :genre8 .
+:film92 :aPourGenre :genre9 .
+:film92 :aPourGenre :genre0 .
+:film92 :aPourGenre :genre1 .
+:film92 :aPourGenre :genre10 .
+:film92 :aPourRealisateur :realisateur90 .
+:film92 :aPourDuree :60 min .
+:film92 :aPourNote :7.1 .
+:film92 :estSortiEn :2018 .
+:film93 rdfs:label "MON BEBE".
+:film93 a :video .
+:film93 :aEteRealiseA :adresse230 .
+:film93 :aEteRealiseA :adresse320 .
+:film93 :aEteRealiseA :adresse260 .
+:film93 :aPourActeur :acteur240 .
+:film93 :aPourActeur :acteur305 .
+:film93 :aPourActeur :acteur306 .
+:film93 :aPourActeur :acteur307 .
+:film93 :aPourGenre :genre0 .
+:film93 :aPourGenre :genre1 .
+:film93 :aPourGenre :genre4 .
+:film93 :aPourRealisateur :realisateur91 .
+:film93 :aPourDuree :87 min .
+:film93 :aPourNote :6.2 .
+:film93 :estSortiEn :2018 .
+:film94 rdfs:label "PLAY".
+:film94 a :video .
+:film94 :aEteRealiseA :adresse375 .
+:film94 :aEteRealiseA :adresse74 .
+:film94 :aEteRealiseA :adresse344 .
+:film94 :aEteRealiseA :adresse282 .
+:film94 :aEteRealiseA :adresse386 .
+:film94 :aEteRealiseA :adresse24 .
+:film94 :aEteRealiseA :adresse43 .
+:film94 :aPourActeur :acteur308 .
+:film94 :aPourActeur :acteur309 .
+:film94 :aPourActeur :acteur148 .
+:film94 :aPourActeur :acteur310 .
+:film94 :aPourGenre :genre0 .
+:film94 :aPourGenre :genre4 .
+:film94 :aPourRealisateur :realisateur92 .
+:film94 :aPourDuree :108 min .
+:film94 :aPourNote :7.1 .
+:film94 :estSortiEn :2018 .
+:film95 rdfs:label "Vernon Subutex".
+:film95 a :video .
+:film95 :aEteRealiseA :adresse307 .
+:film95 :aEteRealiseA :adresse440 .
+:film95 :aEteRealiseA :adresse47 .
+:film95 :aEteRealiseA :adresse42 .
+:film95 :aEteRealiseA :adresse376 .
+:film95 :aEteRealiseA :adresse242 .
+:film95 :aEteRealiseA :adresse284 .
+:film95 :aPourActeur :acteur311 .
+:film95 :aPourActeur :acteur286 .
+:film95 :aPourActeur :acteur312 .
+:film95 :aPourActeur :acteur313 .
+:film95 :aPourGenre :genre3 .
+:film95 :aPourGenre :genre1 .
+:film95 :aPourRealisateur :realisateur94 .
+:film95 :aPourDuree :35 min .
+:film95 :aPourNote :6.7 .
+:film95 :estSortiEn :2018 .
+:film96 rdfs:label "Tu vivras ma fille".
+:film96 a :video .
+:film96 :aEteRealiseA :adresse73 .
+:film96 :aPourActeur :acteur314 .
+:film96 :aPourActeur :acteur315 .
+:film96 :aPourActeur :acteur316 .
+:film96 :aPourActeur :acteur317 .
+:film96 :aPourGenre :genre1 .
+:film96 :aPourRealisateur :realisateur95 .
+:film96 :aPourDuree :95 min .
+:film96 :aPourNote :6.2 .
+:film96 :estSortiEn :2018 .
+:film97 rdfs:label "EGLANDINE".
+:film97 a :video .
+:film97 :aPourActeur :acteur60 .
+:film97 :aPourGenre :genre11 .
+:film97 :aPourRealisateur :realisateur96 .
+:film97 :aPourDuree : .
+:film97 :aPourNote : .
+:film97 :estSortiEn :2018 .
+:film98 rdfs:label "LE GENDRE IDEAL".
+:film98 a :video .
+:film98 :aEteRealiseA :adresse177 .
+:film98 :aPourActeur :acteur318 .
+:film98 :aPourActeur :acteur319 .
+:film98 :aPourActeur :acteur320 .
+:film98 :aPourActeur :acteur321 .
+:film98 :aPourGenre :genre0 .
+:film98 :aPourRealisateur :realisateur97 .
+:film98 :aPourDuree :93 min .
+:film98 :aPourNote :4.9 .
+:film98 :estSortiEn :2018 .
+:film99 rdfs:label "DE PERNAS PRO AR 3".
+:film99 a :video .
+:film99 :aEteRealiseA :adresse5 .
+:film99 :aPourActeur :acteur322 .
+:film99 :aPourActeur :acteur323 .
+:film99 :aPourActeur :acteur324 .
+:film99 :aPourActeur :acteur325 .
+:film99 :aPourGenre :genre0 .
+:film99 :aPourGenre :genre4 .
+:film99 :aPourRealisateur :realisateur98 .
+:film99 :aPourDuree :104 min .
+:film99 :aPourNote :5.3 .
+:film99 :estSortiEn :2018 .
+:film100 rdfs:label "Britt-Marie Was Here".
+:film100 a :video .
+:film100 :aEteRealiseA :adresse409 .
+:film100 :aPourActeur :acteur326 .
+:film100 :aPourActeur :acteur327 .
+:film100 :aPourActeur :acteur328 .
+:film100 :aPourActeur :acteur329 .
+:film100 :aPourGenre :genre0 .
+:film100 :aPourGenre :genre1 .
+:film100 :aPourGenre :genre20 .
+:film100 :aPourRealisateur :realisateur99 .
+:film100 :aPourDuree :97 min .
+:film100 :aPourNote :5.3 .
+:film100 :estSortiEn :2018 .
+:film101 rdfs:label "NAMASTE ENGLAND".
+:film101 a :video .
+:film101 :aEteRealiseA :adresse178 .
+:film101 :aPourActeur :acteur330 .
+:film101 :aPourActeur :acteur331 .
+:film101 :aPourActeur :acteur332 .
+:film101 :aPourActeur :acteur333 .
+:film101 :aPourGenre :genre0 .
+:film101 :aPourGenre :genre1 .
+:film101 :aPourGenre :genre4 .
+:film101 :aPourRealisateur :realisateur101 .
+:film101 :aPourDuree :141 min .
+:film101 :aPourNote :2.3 .
+:film101 :estSortiEn :2018 .
+:film102 rdfs:label "FAHIM".
+:film102 a :video .
+:film102 :aEteRealiseA :adresse345 .
+:film102 :aPourActeur :acteur334 .
+:film102 :aPourActeur :acteur335 .
+:film102 :aPourActeur :acteur336 .
+:film102 :aPourActeur :acteur337 .
+:film102 :aPourGenre :genre2 .
+:film102 :aPourGenre :genre0 .
+:film102 :aPourGenre :genre1 .
+:film102 :aPourRealisateur :realisateur102 .
+:film102 :aPourDuree :107 min .
+:film102 :aPourNote :6.8 .
+:film102 :estSortiEn :2018 .
+:film103 rdfs:label "C'E TEMPO".
+:film103 a :video .
+:film103 :aPourActeur :acteur338 .
+:film103 :aPourActeur :acteur339 .
+:film103 :aPourActeur :acteur340 .
+:film103 :aPourActeur :acteur341 .
+:film103 :aPourGenre :genre0 .
+:film103 :aPourRealisateur :realisateur103 .
+:film103 :aPourDuree :107 min .
+:film103 :aPourNote :5.3 .
+:film103 :estSortiEn :2018 .
+:film104 rdfs:label "It Must Be Heaven".
+:film104 a :video .
+:film104 :aEteRealiseA :adresse6 .
+:film104 :aPourActeur :acteur342 .
+:film104 :aPourActeur :acteur343 .
+:film104 :aPourActeur :acteur344 .
+:film104 :aPourActeur :acteur345 .
+:film104 :aPourGenre :genre0 .
+:film104 :aPourRealisateur :realisateur104 .
+:film104 :aPourDuree :102 min .
+:film104 :aPourNote :7.0 .
+:film104 :estSortiEn :2018 .
+:film105 rdfs:label "QUAND SORT LA RECLUSE".
+:film105 a :video .
+:film105 :aEteRealiseA :adresse217 .
+:film105 :aPourActeur :acteur346 .
+:film105 :aPourActeur :acteur347 .
+:film105 :aPourActeur :acteur348 .
+:film105 :aPourActeur :acteur349 .
+:film105 :aPourGenre :genre3 .
+:film105 :aPourGenre :genre1 .
+:film105 :aPourGenre :genre18 .
+:film105 :aPourRealisateur :realisateur105 .
+:film105 :aPourDuree :88 min .
+:film105 :aPourNote :6.0 .
+:film105 :estSortiEn :2018 .
+:film106 rdfs:label "Plan Coeur S2".
+:film106 a :video .
+:film106 :aEteRealiseA :adresse280 .
+:film106 :aEteRealiseA :adresse389 .
+:film106 :aEteRealiseA :adresse54 .
+:film106 :aEteRealiseA :adresse149 .
+:film106 :aPourActeur :acteur350 .
+:film106 :aPourGenre :genre22 .
+:film106 :aPourRealisateur :realisateur79 .
+:film106 :aPourRealisateur :realisateur80 .
+:film106 :aPourDuree :N/A .
+:film106 :aPourNote :6.6 .
+:film106 :estSortiEn :2019 .
+:film107 rdfs:label "BALTHAZAR".
+:film107 a :video .
+:film107 :aEteRealiseA :adresse231 .
+:film107 :aEteRealiseA :adresse118 .
+:film107 :aPourActeur :acteur351 .
+:film107 :aPourActeur :acteur352 .
+:film107 :aPourActeur :acteur353 .
+:film107 :aPourActeur :acteur354 .
+:film107 :aPourGenre :genre3 .
+:film107 :aPourGenre :genre10 .
+:film107 :aPourRealisateur :realisateur107 .
+:film107 :aPourDuree :52 min .
+:film107 :aPourNote :7.6 .
+:film107 :estSortiEn :2019 .
+:film108 rdfs:label "LIBRES".
+:film108 a :video .
+:film108 :aEteRealiseA :adresse108 .
+:film108 :aPourActeur :acteur355 .
+:film108 :aPourActeur :acteur94 .
+:film108 :aPourActeur :acteur356 .
+:film108 :aPourActeur :acteur357 .
+:film108 :aPourGenre :genre2 .
+:film108 :aPourGenre :genre1 .
+:film108 :aPourGenre :genre13 .
+:film108 :aPourRealisateur :realisateur108 .
+:film108 :aPourDuree :108 min .
+:film108 :aPourNote :5.9 .
+:film108 :estSortiEn :2019 .
+:film109 rdfs:label "DES JOURS SAUVAGES".
+:film109 a :video .
+:film109 :aEteRealiseA :adresse321 .
+:film109 :aEteRealiseA :adresse158 .
+:film109 :aEteRealiseA :adresse214 .
+:film109 :aEteRealiseA :adresse193 .
+:film109 :aPourActeur :acteur358 .
+:film109 :aPourGenre :genre23 .
+:film109 :aPourRealisateur :realisateur109 .
+:film109 :aPourDuree :22 min .
+:film109 :aPourNote :N/A .
+:film109 :estSortiEn :2019 .
+:film110 rdfs:label "TOUT SIMPLEMENT NOIR".
+:film110 a :video .
+:film110 :aEteRealiseA :adresse109 .
+:film110 :aPourActeur :acteur359 .
+:film110 :aPourActeur :acteur360 .
+:film110 :aPourActeur :acteur361 .
+:film110 :aPourActeur :acteur362 .
+:film110 :aPourGenre :genre0 .
+:film110 :aPourRealisateur :realisateur110 .
+:film110 :aPourRealisateur :realisateur111 .
+:film110 :aPourDuree :90 min .
+:film110 :aPourNote :6.3 .
+:film110 :estSortiEn :2019 .
+:film111 rdfs:label "MAKE UP ON THE WAY".
+:film111 a :video .
+:film111 :aPourActeur :acteur104 .
+:film111 :aPourGenre :genre14 .
+:film111 :aPourRealisateur :realisateur112 .
+:film111 :aPourDuree :N/A .
+:film111 :aPourNote :N/A .
+:film111 :estSortiEn :2019 .
+:film112 rdfs:label "Voir le Jour".
+:film112 a :video .
+:film112 :aEteRealiseA :adresse21 .
+:film112 :aEteRealiseA :adresse26 .
+:film112 :aPourActeur :acteur255 .
+:film112 :aPourActeur :acteur363 .
+:film112 :aPourActeur :acteur364 .
+:film112 :aPourActeur :acteur365 .
+:film112 :aPourGenre :genre1 .
+:film112 :aPourRealisateur :realisateur113 .
+:film112 :aPourDuree :91 min .
+:film112 :aPourNote :6.0 .
+:film112 :estSortiEn :2018 .
+:film113 rdfs:label "PARENT D'ELEVE".
+:film113 a :video .
+:film113 :aEteRealiseA :adresse232 .
+:film113 :aEteRealiseA :adresse246 .
+:film113 :aPourActeur :acteur366 .
+:film113 :aPourActeur :acteur23 .
+:film113 :aPourActeur :acteur367 .
+:film113 :aPourActeur :acteur245 .
+:film113 :aPourGenre :genre0 .
+:film113 :aPourRealisateur :realisateur79 .
+:film113 :aPourDuree :89 min .
+:film113 :aPourNote :6.0 .
+:film113 :estSortiEn :2019 .
+:film114 rdfs:label "Les Meilleures".
+:film114 a :video .
+:film114 :aEteRealiseA :adresse411 .
+:film114 :aPourActeur :acteur368 .
+:film114 :aPourActeur :acteur369 .
+:film114 :aPourActeur :acteur370 .
+:film114 :aPourGenre :genre14 .
+:film114 :aPourRealisateur :realisateur114 .
+:film114 :aPourDuree :N/A .
+:film114 :aPourNote :N/A .
+:film114 :estSortiEn :2019 .
+:film115 rdfs:label "VAMPIRES".
+:film115 a :video .
+:film115 :aEteRealiseA :adresse377 .
+:film115 :aEteRealiseA :adresse144 .
+:film115 :aEteRealiseA :adresse426 .
+:film115 :aPourActeur :acteur371 .
+:film115 :aPourActeur :acteur372 .
+:film115 :aPourActeur :acteur373 .
+:film115 :aPourActeur :acteur374 .
+:film115 :aPourGenre :genre8 .
+:film115 :aPourGenre :genre21 .
+:film115 :aPourGenre :genre10 .
+:film115 :aPourRealisateur :realisateur115 .
+:film115 :aPourRealisateur :realisateur116 .
+:film115 :aPourDuree :108 min .
+:film115 :aPourNote :6.2 .
+:film115 :estSortiEn :2019 .
+:film116 rdfs:label "Oogappels".
+:film116 a :video .
+:film116 :aPourActeur :acteur375 .
+:film116 :aPourActeur :acteur376 .
+:film116 :aPourActeur :acteur377 .
+:film116 :aPourActeur :acteur378 .
+:film116 :aPourGenre :genre1 .
+:film116 :aPourRealisateur :realisateur117 .
+:film116 :aPourDuree :50 min .
+:film116 :aPourNote :7.9 .
+:film116 :estSortiEn :2019 .
+:film117 rdfs:label "BARON NOIR".
+:film117 a :video .
+:film117 :aEteRealiseA :adresse133 .
+:film117 :aPourActeur :acteur155 .
+:film117 :aPourActeur :acteur156 .
+:film117 :aPourActeur :acteur157 .
+:film117 :aPourActeur :acteur158 .
+:film117 :aPourGenre :genre1 .
+:film117 :aPourGenre :genre10 .
+:film117 :aPourRealisateur :realisateur44 .
+:film117 :aPourDuree :55 min .
+:film117 :aPourNote :7.8 .
+:film117 :estSortiEn :2019 .
+:film118 rdfs:label "ASTRID ET RAPHAËLLE".
+:film118 a :video .
+:film118 :aEteRealiseA :adresse346 .
+:film118 :aEteRealiseA :adresse287 .
+:film118 :aPourActeur :acteur379 .
+:film118 :aPourActeur :acteur380 .
+:film118 :aPourActeur :acteur381 .
+:film118 :aPourActeur :acteur382 .
+:film118 :aPourGenre :genre3 .
+:film118 :aPourRealisateur :realisateur118 .
+:film118 :aPourRealisateur :realisateur119 .
+:film118 :aPourRealisateur :realisateur120 .
+:film118 :aPourDuree :N/A .
+:film118 :aPourNote :7.8 .
+:film118 :estSortiEn :2019 .
+:film119 rdfs:label "Gott du kannst ein Arsch sein".
+:film119 a :video .
+:film119 :aEteRealiseA :adresse347 .
+:film119 :aPourActeur :acteur383 .
+:film119 :aPourActeur :acteur384 .
+:film119 :aPourActeur :acteur385 .
+:film119 :aPourActeur :acteur386 .
+:film119 :aPourGenre :genre0 .
+:film119 :aPourGenre :genre1 .
+:film119 :aPourGenre :genre4 .
+:film119 :aPourRealisateur :realisateur121 .
+:film119 :aPourDuree :98 min .
+:film119 :aPourNote :5.0 .
+:film119 :estSortiEn :2019 .
+:film120 rdfs:label "MARIANNE".
+:film120 a :video .
+:film120 :aPourActeur :acteur387 .
+:film120 :aPourActeur :acteur388 .
+:film120 :aPourActeur :acteur389 .
+:film120 :aPourActeur :acteur390 .
+:film120 :aPourGenre :genre1 .
+:film120 :aPourGenre :genre21 .
+:film120 :aPourRealisateur :realisateur122 .
+:film120 :aPourDuree :50 min .
+:film120 :aPourNote :7.5 .
+:film120 :estSortiEn :2019 .
+:film121 rdfs:label "T'as Pécho?".
+:film121 a :video .
+:film121 :aEteRealiseA :adresse262 .
+:film121 :aEteRealiseA :adresse273 .
+:film121 :aPourActeur :acteur60 .
+:film121 :aPourGenre :genre11 .
+:film121 :aPourRealisateur :realisateur123 .
+:film121 :aPourDuree : .
+:film121 :aPourNote : .
+:film121 :estSortiEn :2019 .
+:film122 rdfs:label "Validé".
+:film122 a :video .
+:film122 :aPourActeur :acteur391 .
+:film122 :aPourActeur :acteur392 .
+:film122 :aPourActeur :acteur393 .
+:film122 :aPourActeur :acteur394 .
+:film122 :aPourGenre :genre14 .
+:film122 :aPourRealisateur :realisateur124 .
+:film122 :aPourDuree :N/A .
+:film122 :aPourNote :7.4 .
+:film122 :estSortiEn :2019 .
+:film123 rdfs:label "Par-dessus l'épaule de Jonas".
+:film123 a :video .
+:film123 :aEteRealiseA :adresse233 .
+:film123 :aEteRealiseA :adresse323 .
+:film123 :aEteRealiseA :adresse459 .
+:film123 :aPourActeur :acteur60 .
+:film123 :aPourGenre :genre11 .
+:film123 :aPourRealisateur :realisateur125 .
+:film123 :aPourDuree : .
+:film123 :aPourNote : .
+:film123 :estSortiEn :2019 .
+:film124 rdfs:label "FAMILY BUSINESS S1".
+:film124 a :video .
+:film124 :aEteRealiseA :adresse32 .
+:film124 :aPourActeur :acteur395 .
+:film124 :aPourActeur :acteur396 .
+:film124 :aPourActeur :acteur397 .
+:film124 :aPourActeur :acteur398 .
+:film124 :aPourGenre :genre8 .
+:film124 :aPourGenre :genre3 .
+:film124 :aPourGenre :genre1 .
+:film124 :aPourRealisateur :realisateur126 .
+:film124 :aPourDuree :50 min .
+:film124 :aPourNote :6.2 .
+:film124 :estSortiEn :2019 .
+:film125 rdfs:label "CHANSON DOUCE".
+:film125 a :video .
+:film125 :aEteRealiseA :adresse210 .
+:film125 :aEteRealiseA :adresse210 .
+:film125 :aPourActeur :acteur113 .
+:film125 :aPourActeur :acteur51 .
+:film125 :aPourActeur :acteur399 .
+:film125 :aPourActeur :acteur400 .
+:film125 :aPourGenre :genre3 .
+:film125 :aPourGenre :genre1 .
+:film125 :aPourRealisateur :realisateur127 .
+:film125 :aPourDuree :100 min .
+:film125 :aPourNote :5.9 .
+:film125 :estSortiEn :2018 .
+:film126 rdfs:label "C'est quoi cette famille?! 2".
+:film126 a :video .
+:film126 :aPourActeur :acteur401 .
+:film126 :aPourActeur :acteur237 .
+:film126 :aPourActeur :acteur402 .
+:film126 :aPourActeur :acteur249 .
+:film126 :aPourGenre :genre0 .
+:film126 :aPourRealisateur :realisateur128 .
+:film126 :aPourDuree :99 min .
+:film126 :aPourNote :6.2 .
+:film126 :estSortiEn :2018 .
+:film127 rdfs:label "LES DEUX ALFRED".
+:film127 a :video .
+:film127 :aEteRealiseA :adresse263 .
+:film127 :aEteRealiseA :adresse252 .
+:film127 :aEteRealiseA :adresse492 .
+:film127 :aPourActeur :acteur403 .
+:film127 :aPourActeur :acteur404 .
+:film127 :aPourActeur :acteur240 .
+:film127 :aPourActeur :acteur405 .
+:film127 :aPourGenre :genre0 .
+:film127 :aPourRealisateur :realisateur129 .
+:film127 :aPourDuree :92 min .
+:film127 :aPourNote :6.8 .
+:film127 :estSortiEn :2019 .
+:film128 rdfs:label "SIMONE BENLOULOU".
+:film128 a :video .
+:film128 :aPourActeur :acteur365 .
+:film128 :aPourActeur :acteur406 .
+:film128 :aPourActeur :acteur407 .
+:film128 :aPourActeur :acteur408 .
+:film128 :aPourGenre :genre0 .
+:film128 :aPourGenre :genre1 .
+:film128 :aPourRealisateur :realisateur130 .
+:film128 :aPourDuree :95 min .
+:film128 :aPourNote :5.3 .
+:film128 :estSortiEn :2016 .
+:film129 rdfs:label "BEFIKRE".
+:film129 a :video .
+:film129 :aPourActeur :acteur409 .
+:film129 :aPourActeur :acteur410 .
+:film129 :aPourActeur :acteur411 .
+:film129 :aPourActeur :acteur412 .
+:film129 :aPourGenre :genre0 .
+:film129 :aPourGenre :genre1 .
+:film129 :aPourGenre :genre4 .
+:film129 :aPourRealisateur :realisateur131 .
+:film129 :aPourDuree :130 min .
+:film129 :aPourNote :3.9 .
+:film129 :estSortiEn :2016 .
+:film130 rdfs:label "THE ESCAPE".
+:film130 a :video .
+:film130 :aPourActeur :acteur413 .
+:film130 :aPourActeur :acteur414 .
+:film130 :aPourActeur :acteur415 .
+:film130 :aPourActeur :acteur416 .
+:film130 :aPourGenre :genre1 .
+:film130 :aPourRealisateur :realisateur132 .
+:film130 :aPourDuree :101 min .
+:film130 :aPourNote :5.9 .
+:film130 :estSortiEn :2016 .
+:film131 rdfs:label "LOLA PATER".
+:film131 a :video .
+:film131 :aPourActeur :acteur37 .
+:film131 :aPourActeur :acteur417 .
+:film131 :aPourActeur :acteur418 .
+:film131 :aPourActeur :acteur419 .
+:film131 :aPourGenre :genre1 .
+:film131 :aPourRealisateur :realisateur133 .
+:film131 :aPourDuree :95 min .
+:film131 :aPourNote :6.4 .
+:film131 :estSortiEn :2016 .
+:film132 rdfs:label "SOUS LE MEME TOIT".
+:film132 a :video .
+:film132 :aPourActeur :acteur20 .
+:film132 :aPourActeur :acteur131 .
+:film132 :aPourActeur :acteur420 .
+:film132 :aPourActeur :acteur421 .
+:film132 :aPourGenre :genre0 .
+:film132 :aPourGenre :genre12 .
+:film132 :aPourRealisateur :realisateur134 .
+:film132 :aPourDuree :97 min .
+:film132 :aPourNote :5.3 .
+:film132 :estSortiEn :2016 .
+:film133 rdfs:label "Sacha".
+:film133 a :video .
+:film133 :aEteRealiseA :adresse22 .
+:film133 :aPourActeur :acteur422 .
+:film133 :aPourActeur :acteur423 .
+:film133 :aPourActeur :acteur424 .
+:film133 :aPourActeur :acteur425 .
+:film133 :aPourGenre :genre2 .
+:film133 :aPourGenre :genre3 .
+:film133 :aPourGenre :genre1 .
+:film133 :aPourGenre :genre10 .
+:film133 :aPourRealisateur :realisateur135 .
+:film133 :aPourDuree :134 min .
+:film133 :aPourNote :7.3 .
+:film133 :estSortiEn :2020 .
+:film134 rdfs:label "Une famille Formidable".
+:film134 a :video .
+:film134 :aEteRealiseA :adresse111 .
+:film134 :aEteRealiseA :adresse299 .
+:film134 :aPourActeur :acteur426 .
+:film134 :aPourActeur :acteur251 .
+:film134 :aPourActeur :acteur427 .
+:film134 :aPourActeur :acteur428 .
+:film134 :aPourGenre :genre0 .
+:film134 :aPourGenre :genre4 .
+:film134 :aPourRealisateur :realisateur136 .
+:film134 :aPourDuree :90 min .
+:film134 :aPourNote :5.6 .
+:film134 :estSortiEn :2018 .
+:film135 rdfs:label "A NOS AGES".
+:film135 a :video .
+:film135 :aEteRealiseA :adresse443 .
+:film135 :aEteRealiseA :adresse33 .
+:film135 :aEteRealiseA :adresse211 .
+:film135 :aEteRealiseA :adresse147 .
+:film135 :aPourActeur :acteur60 .
+:film135 :aPourGenre :genre11 .
+:film135 :aPourRealisateur :realisateur137 .
+:film135 :aPourDuree : .
+:film135 :aPourNote : .
+:film135 :estSortiEn :2020 .
+:film136 rdfs:label "Rosa".
+:film136 a :video .
+:film136 :aEteRealiseA :adresse135 .
+:film136 :aPourActeur :acteur429 .
+:film136 :aPourActeur :acteur430 .
+:film136 :aPourActeur :acteur431 .
+:film136 :aPourActeur :acteur432 .
+:film136 :aPourGenre :genre1 .
+:film136 :aPourRealisateur :realisateur138 .
+:film136 :aPourDuree :98 min .
+:film136 :aPourNote :4.8 .
+:film136 :estSortiEn :2020 .
+:film137 rdfs:label "JUST DIVORCED".
+:film137 a :video .
+:film137 :aPourActeur :acteur433 .
+:film137 :aPourGenre :genre0 .
+:film137 :aPourRealisateur :realisateur139 .
+:film137 :aPourDuree :N/A .
+:film137 :aPourNote :N/A .
+:film137 :estSortiEn :2016 .
+:film138 rdfs:label "Clem".
+:film138 a :video .
+:film138 :aPourActeur :acteur434 .
+:film138 :aPourActeur :acteur435 .
+:film138 :aPourActeur :acteur436 .
+:film138 :aPourActeur :acteur437 .
+:film138 :aPourGenre :genre0 .
+:film138 :aPourRealisateur :realisateur140 .
+:film138 :aPourDuree :90 min .
+:film138 :aPourNote :6.0 .
+:film138 :estSortiEn :2018 .
+:film139 rdfs:label "KOTO".
+:film139 a :video .
+:film139 :aPourActeur :acteur438 .
+:film139 :aPourActeur :acteur439 .
+:film139 :aPourActeur :acteur440 .
+:film139 :aPourActeur :acteur441 .
+:film139 :aPourGenre :genre1 .
+:film139 :aPourRealisateur :realisateur141 .
+:film139 :aPourDuree :125 min .
+:film139 :aPourNote :6.7 .
+:film139 :estSortiEn :2016 .
+:film140 rdfs:label "POLICE".
+:film140 a :video .
+:film140 :aEteRealiseA :adresse235 .
+:film140 :aPourActeur :acteur442 .
+:film140 :aPourActeur :acteur136 .
+:film140 :aPourActeur :acteur443 .
+:film140 :aPourActeur :acteur444 .
+:film140 :aPourGenre :genre3 .
+:film140 :aPourGenre :genre1 .
+:film140 :aPourRealisateur :realisateur142 .
+:film140 :aPourDuree :98 min .
+:film140 :aPourNote :5.3 .
+:film140 :estSortiEn :2019 .
+:film141 rdfs:label "THE COLLECTION".
+:film141 a :video .
+:film141 :aPourActeur :acteur445 .
+:film141 :aPourActeur :acteur446 .
+:film141 :aPourActeur :acteur447 .
+:film141 :aPourActeur :acteur448 .
+:film141 :aPourGenre :genre21 .
+:film141 :aPourGenre :genre10 .
+:film141 :aPourRealisateur :realisateur143 .
+:film141 :aPourDuree :82 min .
+:film141 :aPourNote :6.1 .
+:film141 :estSortiEn :2016 .
+:film142 rdfs:label "BALTHAZAR 7,8".
+:film142 a :video .
+:film142 :aEteRealiseA :adresse49 .
+:film142 :aPourActeur :acteur351 .
+:film142 :aPourActeur :acteur352 .
+:film142 :aPourActeur :acteur353 .
+:film142 :aPourActeur :acteur354 .
+:film142 :aPourGenre :genre3 .
+:film142 :aPourGenre :genre10 .
+:film142 :aPourRealisateur :realisateur144 .
+:film142 :aPourDuree :52 min .
+:film142 :aPourNote :7.6 .
+:film142 :estSortiEn :2019 .
+:film143 rdfs:label "Emily in Paris".
+:film143 a :video .
+:film143 :aEteRealiseA :adresse91 .
+:film143 :aEteRealiseA :adresse96 .
+:film143 :aEteRealiseA :adresse248 .
+:film143 :aEteRealiseA :adresse145 .
+:film143 :aPourActeur :acteur449 .
+:film143 :aPourActeur :acteur450 .
+:film143 :aPourActeur :acteur451 .
+:film143 :aPourActeur :acteur452 .
+:film143 :aPourGenre :genre0 .
+:film143 :aPourGenre :genre1 .
+:film143 :aPourGenre :genre4 .
+:film143 :aPourRealisateur :realisateur145 .
+:film143 :aPourDuree :30 min .
+:film143 :aPourNote :7.0 .
+:film143 :estSortiEn :2019 .
+:film144 rdfs:label "LA NUIT A DEVORE LE MONDE".
+:film144 a :video .
+:film144 :aPourActeur :acteur453 .
+:film144 :aPourActeur :acteur101 .
+:film144 :aPourActeur :acteur454 .
+:film144 :aPourActeur :acteur455 .
+:film144 :aPourGenre :genre1 .
+:film144 :aPourGenre :genre21 .
+:film144 :aPourGenre :genre10 .
+:film144 :aPourRealisateur :realisateur146 .
+:film144 :aPourDuree :93 min .
+:film144 :aPourNote :6.0 .
+:film144 :estSortiEn :2016 .
+:film145 rdfs:label "COEXISTER".
+:film145 a :video .
+:film145 :aPourActeur :acteur11 .
+:film145 :aPourActeur :acteur456 .
+:film145 :aPourActeur :acteur457 .
+:film145 :aPourActeur :acteur458 .
+:film145 :aPourGenre :genre0 .
+:film145 :aPourGenre :genre16 .
+:film145 :aPourRealisateur :realisateur147 .
+:film145 :aPourDuree :90 min .
+:film145 :aPourNote :5.8 .
+:film145 :estSortiEn :2016 .
+:film146 rdfs:label "MUNCH".
+:film146 a :video .
+:film146 :aPourActeur :acteur337 .
+:film146 :aPourActeur :acteur459 .
+:film146 :aPourActeur :acteur460 .
+:film146 :aPourActeur :acteur461 .
+:film146 :aPourGenre :genre3 .
+:film146 :aPourGenre :genre1 .
+:film146 :aPourRealisateur :realisateur148 .
+:film146 :aPourDuree :N/A .
+:film146 :aPourNote :7.6 .
+:film146 :estSortiEn :2016 .
+:film147 rdfs:label "THE THUNDER".
+:film147 a :video .
+:film147 :aEteRealiseA :adresse76 .
+:film147 :aPourActeur :acteur462 .
+:film147 :aPourActeur :acteur463 .
+:film147 :aPourActeur :acteur464 .
+:film147 :aPourActeur :acteur465 .
+:film147 :aPourGenre :genre1 .
+:film147 :aPourRealisateur :realisateur31 .
+:film147 :aPourDuree :45 min .
+:film147 :aPourNote :7.4 .
+:film147 :estSortiEn :2018 .
+:film148 rdfs:label "KO".
+:film148 a :video .
+:film148 :aPourActeur :acteur466 .
+:film148 :aPourActeur :acteur467 .
+:film148 :aPourActeur :acteur468 .
+:film148 :aPourActeur :acteur469 .
+:film148 :aPourGenre :genre8 .
+:film148 :aPourGenre :genre10 .
+:film148 :aPourRealisateur :realisateur149 .
+:film148 :aPourDuree :128 min .
+:film148 :aPourNote :7.8 .
+:film148 :estSortiEn :2016 .
+:film149 rdfs:label "QUAND ON CRIE AU LOUP".
+:film149 a :video .
+:film149 :aEteRealiseA :adresse309 .
+:film149 :aPourActeur :acteur470 .
+:film149 :aPourActeur :acteur421 .
+:film149 :aPourActeur :acteur471 .
+:film149 :aPourActeur :acteur472 .
+:film149 :aPourGenre :genre0 .
+:film149 :aPourGenre :genre12 .
+:film149 :aPourRealisateur :realisateur150 .
+:film149 :aPourDuree :83 min .
+:film149 :aPourNote :3.8 .
+:film149 :estSortiEn :2018 .
+:film150 rdfs:label "CARBONE".
+:film150 a :video .
+:film150 :aPourActeur :acteur473 .
+:film150 :aPourActeur :acteur8 .
+:film150 :aPourActeur :acteur474 .
+:film150 :aPourActeur :acteur475 .
+:film150 :aPourGenre :genre3 .
+:film150 :aPourGenre :genre10 .
+:film150 :aPourRealisateur :realisateur151 .
+:film150 :aPourDuree :104 min .
+:film150 :aPourNote :6.5 .
+:film150 :estSortiEn :2016 .
+:film151 rdfs:label "Ala Vaikunthapurramlo".
+:film151 a :video .
+:film151 :aEteRealiseA :adresse112 .
+:film151 :aPourActeur :acteur476 .
+:film151 :aPourActeur :acteur477 .
+:film151 :aPourActeur :acteur478 .
+:film151 :aPourActeur :acteur479 .
+:film151 :aPourGenre :genre8 .
+:film151 :aPourGenre :genre0 .
+:film151 :aPourGenre :genre1 .
+:film151 :aPourRealisateur :realisateur152 .
+:film151 :aPourDuree :163 min .
+:film151 :aPourNote :7.1 .
+:film151 :estSortiEn :2019 .
+:film152 rdfs:label "UNE MERE PARFAITE".
+:film152 a :video .
+:film152 :aEteRealiseA :adresse136 .
+:film152 :aEteRealiseA :adresse191 .
+:film152 :aEteRealiseA :adresse460 .
+:film152 :aEteRealiseA :adresse148 .
+:film152 :aPourActeur :acteur104 .
+:film152 :aPourGenre :genre1 .
+:film152 :aPourRealisateur :realisateur153 .
+:film152 :aPourDuree :N/A .
+:film152 :aPourNote :N/A .
+:film152 :estSortiEn :2020 .
+:film153 rdfs:label "H24".
+:film153 a :video .
+:film153 :aEteRealiseA :adresse264 .
+:film153 :aPourActeur :acteur480 .
+:film153 :aPourActeur :acteur481 .
+:film153 :aPourActeur :acteur482 .
+:film153 :aPourActeur :acteur483 .
+:film153 :aPourGenre :genre1 .
+:film153 :aPourRealisateur :realisateur154 .
+:film153 :aPourRealisateur :realisateur155 .
+:film153 :aPourDuree :N/A .
+:film153 :aPourNote :4.9 .
+:film153 :estSortiEn :2020 .
+:film154 rdfs:label "LES FILLES DE REIMS".
+:film154 a :video .
+:film154 :aPourActeur :acteur308 .
+:film154 :aPourActeur :acteur484 .
+:film154 :aPourActeur :acteur485 .
+:film154 :aPourActeur :acteur287 .
+:film154 :aPourGenre :genre0 .
+:film154 :aPourGenre :genre1 .
+:film154 :aPourGenre :genre13 .
+:film154 :aPourGenre :genre20 .
+:film154 :aPourRealisateur :realisateur156 .
+:film154 :aPourDuree :90 min .
+:film154 :aPourNote :6.0 .
+:film154 :estSortiEn :2016 .
+:film155 rdfs:label "LIANG SHENG".
+:film155 a :video .
+:film155 :aPourActeur :acteur486 .
+:film155 :aPourGenre :genre24 .
+:film155 :aPourGenre :genre8 .
+:film155 :aPourGenre :genre0 .
+:film155 :aPourGenre :genre6 .
+:film155 :aPourRealisateur :realisateur157 .
+:film155 :aPourDuree :85 min .
+:film155 :aPourNote :5.1 .
+:film155 :estSortiEn :2016 .
+:film156 rdfs:label "ENCHANTEES".
+:film156 a :video .
+:film156 :aEteRealiseA :adresse113 .
+:film156 :aPourActeur :acteur394 .
+:film156 :aPourActeur :acteur487 .
+:film156 :aPourActeur :acteur488 .
+:film156 :aPourActeur :acteur489 .
+:film156 :aPourGenre :genre0 .
+:film156 :aPourRealisateur :realisateur158 .
+:film156 :aPourRealisateur :realisateur159 .
+:film156 :aPourDuree :100 min .
+:film156 :aPourNote :5.8 .
+:film156 :estSortiEn :2017 .
+:film157 rdfs:label "SI J'ETAIS UN HOMME".
+:film157 a :video .
+:film157 :aPourActeur :acteur490 .
+:film157 :aPourActeur :acteur491 .
+:film157 :aPourActeur :acteur492 .
+:film157 :aPourActeur :acteur493 .
+:film157 :aPourGenre :genre0 .
+:film157 :aPourRealisateur :realisateur160 .
+:film157 :aPourDuree :95 min .
+:film157 :aPourNote :4.9 .
+:film157 :estSortiEn :2016 .
+:film158 rdfs:label "MIAMI VINE".
+:film158 a :video .
+:film158 :aEteRealiseA :adresse137 .
+:film158 :aPourActeur :acteur494 .
+:film158 :aPourActeur :acteur495 .
+:film158 :aPourActeur :acteur496 .
+:film158 :aPourActeur :acteur497 .
+:film158 :aPourGenre :genre8 .
+:film158 :aPourGenre :genre3 .
+:film158 :aPourGenre :genre1 .
+:film158 :aPourGenre :genre18 .
+:film158 :aPourGenre :genre10 .
+:film158 :aPourRealisateur :realisateur161 .
+:film158 :aPourRealisateur :realisateur162 .
+:film158 :aPourDuree :48 min .
+:film158 :aPourNote :7.5 .
+:film158 :estSortiEn :2017 .
+:film159 rdfs:label "MARIE FRANCINE".
+:film159 a :video .
+:film159 :aPourActeur :acteur15 .
+:film159 :aPourActeur :acteur498 .
+:film159 :aPourActeur :acteur95 .
+:film159 :aPourActeur :acteur499 .
+:film159 :aPourGenre :genre0 .
+:film159 :aPourRealisateur :realisateur163 .
+:film159 :aPourDuree :95 min .
+:film159 :aPourNote :5.7 .
+:film159 :estSortiEn :2016 .
+:film160 rdfs:label "The 15:17 to Paris".
+:film160 a :video .
+:film160 :aEteRealiseA :adresse349 .
+:film160 :aPourActeur :acteur500 .
+:film160 :aPourActeur :acteur501 .
+:film160 :aPourActeur :acteur502 .
+:film160 :aPourActeur :acteur503 .
+:film160 :aPourGenre :genre2 .
+:film160 :aPourGenre :genre1 .
+:film160 :aPourGenre :genre10 .
+:film160 :aPourRealisateur :realisateur164 .
+:film160 :aPourDuree :94 min .
+:film160 :aPourNote :5.3 .
+:film160 :estSortiEn :2017 .
+:film161 rdfs:label "MARIAGE BLANC".
+:film161 a :video .
+:film161 :aPourActeur :acteur504 .
+:film161 :aPourActeur :acteur505 .
+:film161 :aPourActeur :acteur506 .
+:film161 :aPourActeur :acteur507 .
+:film161 :aPourGenre :genre1 .
+:film161 :aPourRealisateur :realisateur165 .
+:film161 :aPourDuree :84 min .
+:film161 :aPourNote :5.8 .
+:film161 :estSortiEn :2016 .
+:film162 rdfs:label "LA SAGE FEMME".
+:film162 a :video .
+:film162 :aPourActeur :acteur60 .
+:film162 :aPourGenre :genre11 .
+:film162 :aPourRealisateur :realisateur166 .
+:film162 :aPourDuree : .
+:film162 :aPourNote : .
+:film162 :estSortiEn :2016 .
+:film163 rdfs:label "THE PACKAGE".
+:film163 a :video .
+:film163 :aPourActeur :acteur508 .
+:film163 :aPourActeur :acteur509 .
+:film163 :aPourActeur :acteur510 .
+:film163 :aPourActeur :acteur511 .
+:film163 :aPourGenre :genre0 .
+:film163 :aPourGenre :genre10 .
+:film163 :aPourRealisateur :realisateur167 .
+:film163 :aPourDuree :94 min .
+:film163 :aPourNote :5.5 .
+:film163 :estSortiEn :2016 .
+:film164 rdfs:label "LES MEUFS".
+:film164 a :video .
+:film164 :aPourActeur :acteur104 .
+:film164 :aPourGenre :genre0 .
+:film164 :aPourRealisateur :realisateur168 .
+:film164 :aPourDuree :N/A .
+:film164 :aPourNote :N/A .
+:film164 :estSortiEn :2016 .
+:film165 rdfs:label "JEUNE FEMME".
+:film165 a :video .
+:film165 :aPourActeur :acteur61 .
+:film165 :aPourActeur :acteur512 .
+:film165 :aPourActeur :acteur513 .
+:film165 :aPourActeur :acteur406 .
+:film165 :aPourGenre :genre0 .
+:film165 :aPourGenre :genre1 .
+:film165 :aPourRealisateur :realisateur169 .
+:film165 :aPourDuree :97 min .
+:film165 :aPourNote :6.6 .
+:film165 :estSortiEn :2016 .
+:film166 rdfs:label "DJANGO MELODIES".
+:film166 a :video .
+:film166 :aEteRealiseA :adresse487 .
+:film166 :aPourActeur :acteur191 .
+:film166 :aPourActeur :acteur514 .
+:film166 :aPourActeur :acteur515 .
+:film166 :aPourActeur :acteur516 .
+:film166 :aPourGenre :genre2 .
+:film166 :aPourGenre :genre1 .
+:film166 :aPourGenre :genre16 .
+:film166 :aPourGenre :genre25 .
+:film166 :aPourRealisateur :realisateur170 .
+:film166 :aPourDuree :117 min .
+:film166 :aPourNote :6.3 .
+:film166 :estSortiEn :2016 .
+:film167 rdfs:label "LA DOULEUR".
+:film167 a :video .
+:film167 :aPourActeur :acteur517 .
+:film167 :aPourActeur :acteur473 .
+:film167 :aPourActeur :acteur65 .
+:film167 :aPourActeur :acteur518 .
+:film167 :aPourGenre :genre2 .
+:film167 :aPourGenre :genre1 .
+:film167 :aPourGenre :genre25 .
+:film167 :aPourRealisateur :realisateur171 .
+:film167 :aPourDuree :127 min .
+:film167 :aPourNote :6.2 .
+:film167 :estSortiEn :2016 .
+:film168 rdfs:label "MON POUSSIN".
+:film168 a :video .
+:film168 :aPourActeur :acteur519 .
+:film168 :aPourActeur :acteur337 .
+:film168 :aPourActeur :acteur194 .
+:film168 :aPourActeur :acteur520 .
+:film168 :aPourGenre :genre0 .
+:film168 :aPourRealisateur :realisateur172 .
+:film168 :aPourDuree :97 min .
+:film168 :aPourNote :5.1 .
+:film168 :estSortiEn :2016 .
+:film169 rdfs:label "RED OAKS".
+:film169 a :video .
+:film169 :aPourActeur :acteur521 .
+:film169 :aPourActeur :acteur522 .
+:film169 :aPourActeur :acteur523 .
+:film169 :aPourActeur :acteur524 .
+:film169 :aPourGenre :genre0 .
+:film169 :aPourGenre :genre1 .
+:film169 :aPourGenre :genre20 .
+:film169 :aPourRealisateur :realisateur173 .
+:film169 :aPourDuree :30 min .
+:film169 :aPourNote :7.9 .
+:film169 :estSortiEn :2016 .
+:film170 rdfs:label "PLAN B".
+:film170 a :video .
+:film170 :aEteRealiseA :adresse135 .
+:film170 :aEteRealiseA :adresse124 .
+:film170 :aEteRealiseA :adresse328 .
+:film170 :aPourActeur :acteur525 .
+:film170 :aPourActeur :acteur526 .
+:film170 :aPourActeur :acteur527 .
+:film170 :aPourActeur :acteur528 .
+:film170 :aPourGenre :genre0 .
+:film170 :aPourRealisateur :realisateur174 .
+:film170 :aPourDuree :N/A .
+:film170 :aPourNote :N/A .
+:film170 :estSortiEn :2020 .
+:film171 rdfs:label "Voyez comme on danse".
+:film171 a :video .
+:film171 :aEteRealiseA :adresse138 .
+:film171 :aPourActeur :acteur113 .
+:film171 :aPourActeur :acteur529 .
+:film171 :aPourActeur :acteur530 .
+:film171 :aPourActeur :acteur19 .
+:film171 :aPourGenre :genre0 .
+:film171 :aPourGenre :genre1 .
+:film171 :aPourRealisateur :realisateur175 .
+:film171 :aPourDuree :88 min .
+:film171 :aPourNote :5.6 .
+:film171 :estSortiEn :2017 .
+:film172 rdfs:label "Tazzeka".
+:film172 a :video .
+:film172 :aEteRealiseA :adresse379 .
+:film172 :aPourActeur :acteur531 .
+:film172 :aPourActeur :acteur532 .
+:film172 :aPourActeur :acteur533 .
+:film172 :aPourActeur :acteur534 .
+:film172 :aPourGenre :genre0 .
+:film172 :aPourRealisateur :realisateur176 .
+:film172 :aPourDuree :95 min .
+:film172 :aPourNote :6.6 .
+:film172 :estSortiEn :2017 .
+:film173 rdfs:label "LUMIERE AMOUREUSE".
+:film173 a :video .
+:film173 :aPourActeur :acteur104 .
+:film173 :aPourGenre :genre5 .
+:film173 :aPourGenre :genre1 .
+:film173 :aPourRealisateur :realisateur177 .
+:film173 :aPourDuree :18 min .
+:film173 :aPourNote :N/A .
+:film173 :estSortiEn :2016 .
+:film174 rdfs:label "CHRONIQUES PARISIENNES 13".
+:film174 a :video .
+:film174 :aEteRealiseA :adresse236 .
+:film174 :aPourActeur :acteur104 .
+:film174 :aPourGenre :genre5 .
+:film174 :aPourRealisateur :realisateur29 .
+:film174 :aPourDuree :2 min .
+:film174 :aPourNote :N/A .
+:film174 :estSortiEn :2017 .
+:film175 rdfs:label "LA BETE CURIEUSE".
+:film175 a :video .
+:film175 :aPourActeur :acteur475 .
+:film175 :aPourActeur :acteur535 .
+:film175 :aPourActeur :acteur536 .
+:film175 :aPourActeur :acteur537 .
+:film175 :aPourGenre :genre1 .
+:film175 :aPourRealisateur :realisateur178 .
+:film175 :aPourDuree :90 min .
+:film175 :aPourNote :6.5 .
+:film175 :estSortiEn :2016 .
+:film176 rdfs:label "GEMINI".
+:film176 a :video .
+:film176 :aEteRealiseA :adresse10 .
+:film176 :aEteRealiseA :adresse214 .
+:film176 :aEteRealiseA :adresse11 .
+:film176 :aPourActeur :acteur538 .
+:film176 :aPourActeur :acteur539 .
+:film176 :aPourActeur :acteur540 .
+:film176 :aPourActeur :acteur541 .
+:film176 :aPourGenre :genre8 .
+:film176 :aPourGenre :genre1 .
+:film176 :aPourGenre :genre19 .
+:film176 :aPourGenre :genre10 .
+:film176 :aPourRealisateur :realisateur179 .
+:film176 :aPourDuree :117 min .
+:film176 :aPourNote :5.7 .
+:film176 :estSortiEn :2017 .
+:film177 rdfs:label "IN AMERICA".
+:film177 a :video .
+:film177 :aPourActeur :acteur542 .
+:film177 :aPourActeur :acteur543 .
+:film177 :aPourActeur :acteur544 .
+:film177 :aPourActeur :acteur545 .
+:film177 :aPourGenre :genre1 .
+:film177 :aPourRealisateur :realisateur180 .
+:film177 :aPourDuree :105 min .
+:film177 :aPourNote :7.7 .
+:film177 :estSortiEn :2016 .
+:film178 rdfs:label "MARVIN".
+:film178 a :video .
+:film178 :aPourActeur :acteur144 .
+:film178 :aPourActeur :acteur443 .
+:film178 :aPourActeur :acteur21 .
+:film178 :aPourActeur :acteur546 .
+:film178 :aPourGenre :genre1 .
+:film178 :aPourRealisateur :realisateur142 .
+:film178 :aPourDuree :115 min .
+:film178 :aPourNote :7.0 .
+:film178 :estSortiEn :2016 .
+:film179 rdfs:label "CHRONIQUES PARISIENNES 3".
+:film179 a :video .
+:film179 :aEteRealiseA :adresse350 .
+:film179 :aPourActeur :acteur104 .
+:film179 :aPourGenre :genre5 .
+:film179 :aPourRealisateur :realisateur29 .
+:film179 :aPourDuree :2 min .
+:film179 :aPourNote :N/A .
+:film179 :estSortiEn :2017 .
+:film180 rdfs:label "IL A DEJA TES YEUX".
+:film180 a :video .
+:film180 :aPourActeur :acteur249 .
+:film180 :aPourActeur :acteur547 .
+:film180 :aPourActeur :acteur111 .
+:film180 :aPourActeur :acteur117 .
+:film180 :aPourGenre :genre0 .
+:film180 :aPourRealisateur :realisateur181 .
+:film180 :aPourDuree :95 min .
+:film180 :aPourNote :6.2 .
+:film180 :estSortiEn :2016 .
+:film181 rdfs:label "Le Doudou".
+:film181 a :video .
+:film181 :aPourActeur :acteur155 .
+:film181 :aPourActeur :acteur548 .
+:film181 :aPourActeur :acteur549 .
+:film181 :aPourActeur :acteur550 .
+:film181 :aPourGenre :genre0 .
+:film181 :aPourRealisateur :realisateur182 .
+:film181 :aPourRealisateur :realisateur183 .
+:film181 :aPourDuree :82 min .
+:film181 :aPourNote :5.3 .
+:film181 :estSortiEn :2017 .
+:film182 rdfs:label "STELLA EST AMOUREUSE".
+:film182 a :video .
+:film182 :aEteRealiseA :adresse265 .
+:film182 :aEteRealiseA :adresse266 .
+:film182 :aPourActeur :acteur60 .
+:film182 :aPourGenre :genre11 .
+:film182 :aPourRealisateur :realisateur1 .
+:film182 :aPourDuree : .
+:film182 :aPourNote : .
+:film182 :estSortiEn :2020 .
+:film183 rdfs:label "COUP DE FOUDRE A JAIPUR".
+:film183 a :video .
+:film183 :aPourActeur :acteur434 .
+:film183 :aPourActeur :acteur551 .
+:film183 :aPourActeur :acteur552 .
+:film183 :aPourActeur :acteur553 .
+:film183 :aPourGenre :genre0 .
+:film183 :aPourGenre :genre4 .
+:film183 :aPourRealisateur :realisateur184 .
+:film183 :aPourDuree :92 min .
+:film183 :aPourNote :5.7 .
+:film183 :estSortiEn :2016 .
+:film184 rdfs:label "GC5".
+:film184 a :video .
+:film184 :aPourActeur :acteur60 .
+:film184 :aPourGenre :genre11 .
+:film184 :aPourRealisateur :realisateur185 .
+:film184 :aPourDuree : .
+:film184 :aPourNote : .
+:film184 :estSortiEn :2016 .
+:film185 rdfs:label "LES FANTOMES D'ISMAEL".
+:film185 a :video .
+:film185 :aPourActeur :acteur13 .
+:film185 :aPourActeur :acteur554 .
+:film185 :aPourActeur :acteur555 .
+:film185 :aPourActeur :acteur556 .
+:film185 :aPourGenre :genre1 .
+:film185 :aPourGenre :genre4 .
+:film185 :aPourGenre :genre10 .
+:film185 :aPourRealisateur :realisateur186 .
+:film185 :aPourDuree :114 min .
+:film185 :aPourNote :5.5 .
+:film185 :estSortiEn :2016 .
+:film186 rdfs:label "I-ART".
+:film186 a :video .
+:film186 :aEteRealiseA :adresse301 .
+:film186 :aPourActeur :acteur557 .
+:film186 :aPourActeur :acteur558 .
+:film186 :aPourActeur :acteur559 .
+:film186 :aPourActeur :acteur560 .
+:film186 :aPourGenre :genre19 .
+:film186 :aPourRealisateur :realisateur187 .
+:film186 :aPourDuree :N/A .
+:film186 :aPourNote :N/A .
+:film186 :estSortiEn :2017 .
+:film187 rdfs:label "LES EX".
+:film187 a :video .
+:film187 :aPourActeur :acteur19 .
+:film187 :aPourActeur :acteur561 .
+:film187 :aPourActeur :acteur54 .
+:film187 :aPourActeur :acteur562 .
+:film187 :aPourGenre :genre0 .
+:film187 :aPourRealisateur :realisateur188 .
+:film187 :aPourDuree :84 min .
+:film187 :aPourNote :5.6 .
+:film187 :estSortiEn :2016 .
+:film188 rdfs:label "voyez comme on danse".
+:film188 a :video .
+:film188 :aEteRealiseA :adresse324 .
+:film188 :aPourActeur :acteur113 .
+:film188 :aPourActeur :acteur529 .
+:film188 :aPourActeur :acteur530 .
+:film188 :aPourActeur :acteur19 .
+:film188 :aPourGenre :genre0 .
+:film188 :aPourGenre :genre1 .
+:film188 :aPourRealisateur :realisateur175 .
+:film188 :aPourDuree :88 min .
+:film188 :aPourNote :5.6 .
+:film188 :estSortiEn :2017 .
+:film189 rdfs:label "BER".
+:film189 a :video .
+:film189 :aPourActeur :acteur563 .
+:film189 :aPourActeur :acteur564 .
+:film189 :aPourActeur :acteur565 .
+:film189 :aPourActeur :acteur566 .
+:film189 :aPourGenre :genre1 .
+:film189 :aPourGenre :genre12 .
+:film189 :aPourGenre :genre6 .
+:film189 :aPourGenre :genre4 .
+:film189 :aPourRealisateur :realisateur189 .
+:film189 :aPourDuree :105 min .
+:film189 :aPourNote :6.9 .
+:film189 :estSortiEn :2017 .
+:film190 rdfs:label "NOIR ENIGMA".
+:film190 a :video .
+:film190 :aPourActeur :acteur561 .
+:film190 :aPourActeur :acteur567 .
+:film190 :aPourActeur :acteur568 .
+:film190 :aPourActeur :acteur569 .
+:film190 :aPourGenre :genre3 .
+:film190 :aPourGenre :genre10 .
+:film190 :aPourRealisateur :realisateur190 .
+:film190 :aPourDuree :98 min .
+:film190 :aPourNote :6.2 .
+:film190 :estSortiEn :2016 .
+:film191 rdfs:label "L'ASCENSION".
+:film191 a :video .
+:film191 :aPourActeur :acteur570 .
+:film191 :aPourActeur :acteur493 .
+:film191 :aPourActeur :acteur571 .
+:film191 :aPourActeur :acteur472 .
+:film191 :aPourGenre :genre0 .
+:film191 :aPourGenre :genre1 .
+:film191 :aPourGenre :genre4 .
+:film191 :aPourRealisateur :realisateur191 .
+:film191 :aPourDuree :103 min .
+:film191 :aPourNote :6.9 .
+:film191 :estSortiEn :2016 .
+:film192 rdfs:label "DEMAIN ET TOUS LES AUTRES JOURS (2)".
+:film192 a :video .
+:film192 :aPourActeur :acteur265 .
+:film192 :aPourActeur :acteur572 .
+:film192 :aPourActeur :acteur573 .
+:film192 :aPourActeur :acteur574 .
+:film192 :aPourGenre :genre9 .
+:film192 :aPourRealisateur :realisateur192 .
+:film192 :aPourDuree :105 min .
+:film192 :aPourNote :5.7 .
+:film192 :estSortiEn :2016 .
+:film193 rdfs:label "FIND ME IN PARIS 2".
+:film193 a :video .
+:film193 :aEteRealiseA :adresse450 .
+:film193 :aPourActeur :acteur575 .
+:film193 :aPourActeur :acteur576 .
+:film193 :aPourActeur :acteur577 .
+:film193 :aPourActeur :acteur578 .
+:film193 :aPourGenre :genre0 .
+:film193 :aPourGenre :genre1 .
+:film193 :aPourGenre :genre12 .
+:film193 :aPourGenre :genre6 .
+:film193 :aPourGenre :genre16 .
+:film193 :aPourRealisateur :realisateur193 .
+:film193 :aPourRealisateur :realisateur194 .
+:film193 :aPourDuree :25 min .
+:film193 :aPourNote :7.3 .
+:film193 :estSortiEn :2017 .
+:film194 rdfs:label "BARBARA".
+:film194 a :video .
+:film194 :aPourActeur :acteur579 .
+:film194 :aPourActeur :acteur580 .
+:film194 :aPourActeur :acteur581 .
+:film194 :aPourActeur :acteur582 .
+:film194 :aPourGenre :genre1 .
+:film194 :aPourRealisateur :realisateur195 .
+:film194 :aPourDuree :105 min .
+:film194 :aPourNote :7.1 .
+:film194 :estSortiEn :2016 .
+:film195 rdfs:label "UNE SAISON EN FRANCE".
+:film195 a :video .
+:film195 :aPourActeur :acteur583 .
+:film195 :aPourActeur :acteur255 .
+:film195 :aPourActeur :acteur584 .
+:film195 :aPourActeur :acteur585 .
+:film195 :aPourGenre :genre1 .
+:film195 :aPourRealisateur :realisateur196 .
+:film195 :aPourDuree :100 min .
+:film195 :aPourNote :6.2 .
+:film195 :estSortiEn :2016 .
+:film196 rdfs:label "ROCK ON 2".
+:film196 a :video .
+:film196 :aPourActeur :acteur586 .
+:film196 :aPourActeur :acteur587 .
+:film196 :aPourActeur :acteur588 .
+:film196 :aPourActeur :acteur589 .
+:film196 :aPourGenre :genre1 .
+:film196 :aPourGenre :genre16 .
+:film196 :aPourRealisateur :realisateur197 .
+:film196 :aPourDuree :143 min .
+:film196 :aPourNote :5.0 .
+:film196 :estSortiEn :2016 .
+:film197 rdfs:label "THIRST STREET".
+:film197 a :video .
+:film197 :aPourActeur :acteur590 .
+:film197 :aPourActeur :acteur591 .
+:film197 :aPourActeur :acteur592 .
+:film197 :aPourActeur :acteur593 .
+:film197 :aPourGenre :genre0 .
+:film197 :aPourGenre :genre1 .
+:film197 :aPourGenre :genre4 .
+:film197 :aPourRealisateur :realisateur198 .
+:film197 :aPourDuree :83 min .
+:film197 :aPourNote :5.8 .
+:film197 :estSortiEn :2016 .
+:film198 rdfs:label "LES HOMMES DE L'OMBRE".
+:film198 a :video .
+:film198 :aPourActeur :acteur594 .
+:film198 :aPourActeur :acteur595 .
+:film198 :aPourActeur :acteur596 .
+:film198 :aPourActeur :acteur597 .
+:film198 :aPourGenre :genre3 .
+:film198 :aPourGenre :genre1 .
+:film198 :aPourGenre :genre18 .
+:film198 :aPourGenre :genre10 .
+:film198 :aPourRealisateur :realisateur153 .
+:film198 :aPourDuree :107 min .
+:film198 :aPourNote :6.3 .
+:film198 :estSortiEn :2016 .
+:film199 rdfs:label "Un médecin de nuit".
+:film199 a :video .
+:film199 :aEteRealiseA :adresse451 .
+:film199 :aPourActeur :acteur598 .
+:film199 :aPourActeur :acteur599 .
+:film199 :aPourActeur :acteur600 .
+:film199 :aPourActeur :acteur601 .
+:film199 :aPourGenre :genre5 .
+:film199 :aPourGenre :genre3 .
+:film199 :aPourGenre :genre1 .
+:film199 :aPourRealisateur :realisateur200 .
+:film199 :aPourDuree :16 min .
+:film199 :aPourNote :N/A .
+:film199 :estSortiEn :2020 .
+:film200 rdfs:label "THANKSGIVING".
+:film200 a :video .
+:film200 :aEteRealiseA :adresse116 .
+:film200 :aPourActeur :acteur602 .
+:film200 :aPourActeur :acteur603 .
+:film200 :aPourActeur :acteur604 .
+:film200 :aPourActeur :acteur605 .
+:film200 :aPourGenre :genre5 .
+:film200 :aPourGenre :genre0 .
+:film200 :aPourGenre :genre21 .
+:film200 :aPourRealisateur :realisateur201 .
+:film200 :aPourDuree :2 min .
+:film200 :aPourNote :7.7 .
+:film200 :estSortiEn :2017 .
+:film201 rdfs:label "Je Te Promets".
+:film201 a :video .
+:film201 :aEteRealiseA :adresse114 .
+:film201 :aEteRealiseA :adresse290 .
+:film201 :aPourActeur :acteur606 .
+:film201 :aPourActeur :acteur607 .
+:film201 :aPourActeur :acteur608 .
+:film201 :aPourActeur :acteur609 .
+:film201 :aPourGenre :genre1 .
+:film201 :aPourGenre :genre4 .
+:film201 :aPourRealisateur :realisateur202 .
+:film201 :aPourDuree :104 min .
+:film201 :aPourNote :6.8 .
+:film201 :estSortiEn :2020 .
+:film202 rdfs:label "Le Suicide d'Emma Peeters".
+:film202 a :video .
+:film202 :aPourActeur :acteur610 .
+:film202 :aPourActeur :acteur611 .
+:film202 :aPourActeur :acteur612 .
+:film202 :aPourActeur :acteur568 .
+:film202 :aPourGenre :genre0 .
+:film202 :aPourRealisateur :realisateur203 .
+:film202 :aPourDuree :90 min .
+:film202 :aPourNote :6.2 .
+:film202 :estSortiEn :2017 .
+:film203 rdfs:label "L'AMANT D'UN JOUR".
+:film203 a :video .
+:film203 :aPourActeur :acteur196 .
+:film203 :aPourActeur :acteur593 .
+:film203 :aPourActeur :acteur48 .
+:film203 :aPourActeur :acteur613 .
+:film203 :aPourGenre :genre1 .
+:film203 :aPourRealisateur :realisateur13 .
+:film203 :aPourDuree :76 min .
+:film203 :aPourNote :6.7 .
+:film203 :estSortiEn :2016 .
+:film204 rdfs:label "MARYLINE".
+:film204 a :video .
+:film204 :aPourActeur :acteur614 .
+:film204 :aPourActeur :acteur615 .
+:film204 :aPourActeur :acteur616 .
+:film204 :aPourActeur :acteur617 .
+:film204 :aPourGenre :genre1 .
+:film204 :aPourRealisateur :realisateur204 .
+:film204 :aPourDuree :107 min .
+:film204 :aPourNote :6.2 .
+:film204 :estSortiEn :2016 .
+:film205 rdfs:label "MADE IN CHINA".
+:film205 a :video .
+:film205 :aEteRealiseA :adresse268 .
+:film205 :aEteRealiseA :adresse269 .
+:film205 :aPourActeur :acteur618 .
+:film205 :aPourActeur :acteur619 .
+:film205 :aPourActeur :acteur620 .
+:film205 :aPourActeur :acteur621 .
+:film205 :aPourGenre :genre0 .
+:film205 :aPourGenre :genre1 .
+:film205 :aPourRealisateur :realisateur205 .
+:film205 :aPourDuree :128 min .
+:film205 :aPourNote :6.2 .
+:film205 :estSortiEn :2017 .
+:film206 rdfs:label "PLONGER".
+:film206 a :video .
+:film206 :aPourActeur :acteur20 .
+:film206 :aPourActeur :acteur622 .
+:film206 :aPourActeur :acteur623 .
+:film206 :aPourActeur :acteur624 .
+:film206 :aPourGenre :genre1 .
+:film206 :aPourRealisateur :realisateur206 .
+:film206 :aPourDuree :102 min .
+:film206 :aPourNote :5.7 .
+:film206 :estSortiEn :2016 .
+:film207 rdfs:label "THANSKGIVING".
+:film207 a :video .
+:film207 :aEteRealiseA :adresse415 .
+:film207 :aPourActeur :acteur625 .
+:film207 :aPourActeur :acteur626 .
+:film207 :aPourActeur :acteur627 .
+:film207 :aPourActeur :acteur628 .
+:film207 :aPourGenre :genre0 .
+:film207 :aPourRealisateur :realisateur201 .
+:film207 :aPourDuree :30 min .
+:film207 :aPourNote :N/A .
+:film207 :estSortiEn :2017 .
+:film208 rdfs:label "ADIEU MONSIEUR HAFFMANN".
+:film208 a :video .
+:film208 :aEteRealiseA :adresse354 .
+:film208 :aPourActeur :acteur34 .
+:film208 :aPourActeur :acteur20 .
+:film208 :aPourActeur :acteur629 .
+:film208 :aPourActeur :acteur630 .
+:film208 :aPourGenre :genre1 .
+:film208 :aPourRealisateur :realisateur207 .
+:film208 :aPourDuree :N/A .
+:film208 :aPourNote :N/A .
+:film208 :estSortiEn :2020 .
+:film209 rdfs:label "PARIS POLICE 1900".
+:film209 a :video .
+:film209 :aEteRealiseA :adresse140 .
+:film209 :aPourActeur :acteur631 .
+:film209 :aPourActeur :acteur632 .
+:film209 :aPourActeur :acteur633 .
+:film209 :aPourActeur :acteur634 .
+:film209 :aPourGenre :genre3 .
+:film209 :aPourGenre :genre1 .
+:film209 :aPourGenre :genre13 .
+:film209 :aPourGenre :genre18 .
+:film209 :aPourRealisateur :realisateur208 .
+:film209 :aPourRealisateur :realisateur209 .
+:film209 :aPourDuree :N/A .
+:film209 :aPourNote :7.0 .
+:film209 :estSortiEn :2020 .
+:film210 rdfs:label "04:04:02".
+:film210 a :video .
+:film210 :aPourActeur :acteur60 .
+:film210 :aPourGenre :genre11 .
+:film210 :aPourRealisateur :realisateur210 .
+:film210 :aPourDuree : .
+:film210 :aPourNote : .
+:film210 :estSortiEn :2016 .
+:film211 rdfs:label "La Ch'tite famille".
+:film211 a :video .
+:film211 :aPourActeur :acteur202 .
+:film211 :aPourActeur :acteur203 .
+:film211 :aPourActeur :acteur204 .
+:film211 :aPourActeur :acteur93 .
+:film211 :aPourGenre :genre0 .
+:film211 :aPourRealisateur :realisateur211 .
+:film211 :aPourDuree :107 min .
+:film211 :aPourNote :5.8 .
+:film211 :estSortiEn :2017 .
+:film212 rdfs:label "Tout le monde debout".
+:film212 a :video .
+:film212 :aEteRealiseA :adresse184 .
+:film212 :aEteRealiseA :adresse187 .
+:film212 :aPourActeur :acteur635 .
+:film212 :aPourActeur :acteur143 .
+:film212 :aPourActeur :acteur636 .
+:film212 :aPourActeur :acteur637 .
+:film212 :aPourGenre :genre0 .
+:film212 :aPourGenre :genre4 .
+:film212 :aPourRealisateur :realisateur212 .
+:film212 :aPourDuree :107 min .
+:film212 :aPourNote :6.5 .
+:film212 :estSortiEn :2017 .
+:film213 rdfs:label "PAULA".
+:film213 a :video .
+:film213 :aPourActeur :acteur638 .
+:film213 :aPourActeur :acteur639 .
+:film213 :aPourActeur :acteur640 .
+:film213 :aPourActeur :acteur641 .
+:film213 :aPourGenre :genre1 .
+:film213 :aPourGenre :genre10 .
+:film213 :aPourRealisateur :realisateur213 .
+:film213 :aPourDuree :60 min .
+:film213 :aPourNote :6.3 .
+:film213 :estSortiEn :2016 .
+:film214 rdfs:label "CURIOSA".
+:film214 a :video .
+:film214 :aEteRealiseA :adresse453 .
+:film214 :aPourActeur :acteur642 .
+:film214 :aPourActeur :acteur643 .
+:film214 :aPourActeur :acteur272 .
+:film214 :aPourActeur :acteur23 .
+:film214 :aPourGenre :genre2 .
+:film214 :aPourGenre :genre1 .
+:film214 :aPourGenre :genre13 .
+:film214 :aPourRealisateur :realisateur31 .
+:film214 :aPourDuree :107 min .
+:film214 :aPourNote :5.4 .
+:film214 :estSortiEn :2017 .
+:film215 rdfs:label "LE GRAND SAUT".
+:film215 a :video .
+:film215 :aPourActeur :acteur644 .
+:film215 :aPourActeur :acteur645 .
+:film215 :aPourActeur :acteur646 .
+:film215 :aPourActeur :acteur647 .
+:film215 :aPourGenre :genre0 .
+:film215 :aPourGenre :genre1 .
+:film215 :aPourGenre :genre6 .
+:film215 :aPourRealisateur :realisateur214 .
+:film215 :aPourRealisateur :realisateur215 .
+:film215 :aPourDuree :111 min .
+:film215 :aPourNote :7.2 .
+:film215 :estSortiEn :2016 .
+:film216 rdfs:label "CHERCHEZ LA FEMME".
+:film216 a :video .
+:film216 :aPourActeur :acteur648 .
+:film216 :aPourActeur :acteur649 .
+:film216 :aPourActeur :acteur650 .
+:film216 :aPourActeur :acteur651 .
+:film216 :aPourGenre :genre1 .
+:film216 :aPourGenre :genre20 .
+:film216 :aPourRealisateur :realisateur216 .
+:film216 :aPourDuree :77 min .
+:film216 :aPourNote :6.4 .
+:film216 :estSortiEn :2016 .
+:film217 rdfs:label "Joueurs".
+:film217 a :video .
+:film217 :aEteRealiseA :adresse186 .
+:film217 :aPourActeur :acteur652 .
+:film217 :aPourActeur :acteur653 .
+:film217 :aPourActeur :acteur654 .
+:film217 :aPourActeur :acteur655 .
+:film217 :aPourGenre :genre3 .
+:film217 :aPourGenre :genre1 .
+:film217 :aPourRealisateur :realisateur116 .
+:film217 :aPourDuree :105 min .
+:film217 :aPourNote :5.6 .
+:film217 :estSortiEn :2017 .
+:film218 rdfs:label "HEINRICH VOGELER".
+:film218 a :video .
+:film218 :aEteRealiseA :adresse216 .
+:film218 :aPourActeur :acteur656 .
+:film218 :aPourActeur :acteur657 .
+:film218 :aPourGenre :genre23 .
+:film218 :aPourRealisateur :realisateur217 .
+:film218 :aPourDuree :N/A .
+:film218 :aPourNote :N/A .
+:film218 :estSortiEn :2020 .
+:film219 rdfs:label "FAMILY BUSINESS S2".
+:film219 a :video .
+:film219 :aEteRealiseA :adresse315 .
+:film219 :aPourActeur :acteur395 .
+:film219 :aPourActeur :acteur396 .
+:film219 :aPourActeur :acteur397 .
+:film219 :aPourActeur :acteur398 .
+:film219 :aPourGenre :genre8 .
+:film219 :aPourGenre :genre3 .
+:film219 :aPourGenre :genre1 .
+:film219 :aPourRealisateur :realisateur126 .
+:film219 :aPourDuree :50 min .
+:film219 :aPourNote :6.2 .
+:film219 :estSortiEn :2020 .
+:film220 rdfs:label "NADIA".
+:film220 a :video .
+:film220 :aPourActeur :acteur658 .
+:film220 :aPourActeur :acteur659 .
+:film220 :aPourActeur :acteur660 .
+:film220 :aPourActeur :acteur661 .
+:film220 :aPourGenre :genre0 .
+:film220 :aPourGenre :genre3 .
+:film220 :aPourGenre :genre10 .
+:film220 :aPourRealisateur :realisateur218 .
+:film220 :aPourDuree :93 min .
+:film220 :aPourNote :6.1 .
+:film220 :estSortiEn :2016 .
+:film221 rdfs:label "SPEAKERINE".
+:film221 a :video .
+:film221 :aEteRealiseA :adresse310 .
+:film221 :aPourActeur :acteur662 .
+:film221 :aPourActeur :acteur457 .
+:film221 :aPourActeur :acteur663 .
+:film221 :aPourActeur :acteur489 .
+:film221 :aPourGenre :genre1 .
+:film221 :aPourGenre :genre18 .
+:film221 :aPourGenre :genre10 .
+:film221 :aPourRealisateur :realisateur219 .
+:film221 :aPourDuree :52 min .
+:film221 :aPourNote :6.7 .
+:film221 :estSortiEn :2017 .
+:film222 rdfs:label "Année 2020".
+:film222 a :video .
+:film222 :aEteRealiseA :adresse375 .
+:film222 :aPourActeur :acteur60 .
+:film222 :aPourGenre :genre11 .
+:film222 :aPourRealisateur :realisateur220 .
+:film222 :aPourDuree : .
+:film222 :aPourNote : .
+:film222 :estSortiEn :2020 .
+:film223 rdfs:label "La croisade".
+:film223 a :video .
+:film223 :aEteRealiseA :adresse240 .
+:film223 :aPourActeur :acteur60 .
+:film223 :aPourGenre :genre11 .
+:film223 :aPourRealisateur :realisateur221 .
+:film223 :aPourDuree : .
+:film223 :aPourNote : .
+:film223 :estSortiEn :2020 .
+:film224 rdfs:label "Rétro".
+:film224 a :video .
+:film224 :aEteRealiseA :adresse270 .
+:film224 :aPourActeur :acteur664 .
+:film224 :aPourActeur :acteur665 .
+:film224 :aPourActeur :acteur666 .
+:film224 :aPourActeur :acteur667 .
+:film224 :aPourGenre :genre8 .
+:film224 :aPourGenre :genre9 .
+:film224 :aPourGenre :genre18 .
+:film224 :aPourGenre :genre19 .
+:film224 :aPourRealisateur :realisateur222 .
+:film224 :aPourDuree :44 min .
+:film224 :aPourNote :8.6 .
+:film224 :estSortiEn :2020 .
+:film225 rdfs:label "SUPREMES".
+:film225 a :video .
+:film225 :aEteRealiseA :adresse356 .
+:film225 :aPourActeur :acteur60 .
+:film225 :aPourGenre :genre11 .
+:film225 :aPourRealisateur :realisateur224 .
+:film225 :aPourDuree : .
+:film225 :aPourNote : .
+:film225 :estSortiEn :2020 .
+:film226 rdfs:label "THE AFFAIR".
+:film226 a :video .
+:film226 :aPourActeur :acteur668 .
+:film226 :aPourActeur :acteur669 .
+:film226 :aPourActeur :acteur670 .
+:film226 :aPourActeur :acteur671 .
+:film226 :aPourGenre :genre1 .
+:film226 :aPourRealisateur :realisateur226 .
+:film226 :aPourDuree :60 min .
+:film226 :aPourNote :7.9 .
+:film226 :estSortiEn :2016 .
+:film227 rdfs:label "LA FILLE DE BREST".
+:film227 a :video .
+:film227 :aPourActeur :acteur672 .
+:film227 :aPourActeur :acteur473 .
+:film227 :aPourActeur :acteur673 .
+:film227 :aPourActeur :acteur674 .
+:film227 :aPourGenre :genre2 .
+:film227 :aPourGenre :genre1 .
+:film227 :aPourRealisateur :realisateur227 .
+:film227 :aPourDuree :128 min .
+:film227 :aPourNote :6.6 .
+:film227 :estSortiEn :2016 .
+:film228 rdfs:label "120 BATTEMENTS PAR MINUTE".
+:film228 a :video .
+:film228 :aPourActeur :acteur675 .
+:film228 :aPourActeur :acteur676 .
+:film228 :aPourActeur :acteur677 .
+:film228 :aPourActeur :acteur399 .
+:film228 :aPourGenre :genre1 .
+:film228 :aPourRealisateur :realisateur228 .
+:film228 :aPourDuree :143 min .
+:film228 :aPourNote :7.4 .
+:film228 :estSortiEn :2016 .
+:film229 rdfs:label "JE VAIS MIEUX".
+:film229 a :video .
+:film229 :aEteRealiseA :adresse417 .
+:film229 :aPourActeur :acteur492 .
+:film229 :aPourActeur :acteur678 .
+:film229 :aPourActeur :acteur679 .
+:film229 :aPourActeur :acteur616 .
+:film229 :aPourGenre :genre0 .
+:film229 :aPourRealisateur :realisateur229 .
+:film229 :aPourDuree :86 min .
+:film229 :aPourNote :5.8 .
+:film229 :estSortiEn :2017 .
+:film230 rdfs:label "PARIS, LA BLANCHE".
+:film230 a :video .
+:film230 :aPourActeur :acteur680 .
+:film230 :aPourActeur :acteur681 .
+:film230 :aPourActeur :acteur4 .
+:film230 :aPourActeur :acteur624 .
+:film230 :aPourGenre :genre1 .
+:film230 :aPourGenre :genre4 .
+:film230 :aPourRealisateur :realisateur230 .
+:film230 :aPourDuree :83 min .
+:film230 :aPourNote :6.7 .
+:film230 :estSortiEn :2016 .
+:film231 rdfs:label "CHRONIQUES PARISIENNES 2".
+:film231 a :video .
+:film231 :aPourActeur :acteur104 .
+:film231 :aPourGenre :genre5 .
+:film231 :aPourRealisateur :realisateur29 .
+:film231 :aPourDuree :2 min .
+:film231 :aPourNote :N/A .
+:film231 :estSortiEn :2017 .
+:film232 rdfs:label "AMI, AMI".
+:film232 a :video .
+:film232 :aEteRealiseA :adresse418 .
+:film232 :aPourActeur :acteur682 .
+:film232 :aPourActeur :acteur683 .
+:film232 :aPourActeur :acteur684 .
+:film232 :aPourActeur :acteur685 .
+:film232 :aPourGenre :genre23 .
+:film232 :aPourGenre :genre2 .
+:film232 :aPourGenre :genre16 .
+:film232 :aPourRealisateur :realisateur231 .
+:film232 :aPourDuree :128 min .
+:film232 :aPourNote :7.8 .
+:film232 :estSortiEn :2017 .
+:film233 rdfs:label "FLEUVE NOIR".
+:film233 a :video .
+:film233 :aEteRealiseA :adresse542 .
+:film233 :aEteRealiseA :adresse543 .
+:film233 :aPourActeur :acteur660 .
+:film233 :aPourActeur :acteur311 .
+:film233 :aPourActeur :acteur240 .
+:film233 :aPourActeur :acteur686 .
+:film233 :aPourGenre :genre3 .
+:film233 :aPourGenre :genre1 .
+:film233 :aPourGenre :genre18 .
+:film233 :aPourGenre :genre10 .
+:film233 :aPourRealisateur :realisateur232 .
+:film233 :aPourDuree :113 min .
+:film233 :aPourNote :6.3 .
+:film233 :estSortiEn :2016 .
+:film234 rdfs:label "FIND ME IN PARIS".
+:film234 a :video .
+:film234 :aPourActeur :acteur575 .
+:film234 :aPourActeur :acteur576 .
+:film234 :aPourActeur :acteur577 .
+:film234 :aPourActeur :acteur578 .
+:film234 :aPourGenre :genre0 .
+:film234 :aPourGenre :genre1 .
+:film234 :aPourGenre :genre12 .
+:film234 :aPourGenre :genre6 .
+:film234 :aPourGenre :genre16 .
+:film234 :aPourRealisateur :realisateur193 .
+:film234 :aPourRealisateur :realisateur194 .
+:film234 :aPourDuree :25 min .
+:film234 :aPourNote :7.3 .
+:film234 :estSortiEn :2017 .
+:film235 rdfs:label "Maoussi".
+:film235 a :video .
+:film235 :aEteRealiseA :adresse419 .
+:film235 :aPourActeur :acteur104 .
+:film235 :aPourGenre :genre0 .
+:film235 :aPourRealisateur :realisateur233 .
+:film235 :aPourDuree :N/A .
+:film235 :aPourNote :N/A .
+:film235 :estSortiEn :2019 .
+:film236 rdfs:label "Martin Sexe Faible".
+:film236 a :video .
+:film236 :aEteRealiseA :adresse382 .
+:film236 :aPourActeur :acteur687 .
+:film236 :aPourActeur :acteur688 .
+:film236 :aPourGenre :genre0 .
+:film236 :aPourRealisateur :realisateur234 .
+:film236 :aPourRealisateur :realisateur235 .
+:film236 :aPourDuree :N/A .
+:film236 :aPourNote :6.6 .
+:film236 :estSortiEn :2018 .
+:film237 rdfs:label "SOOF 3".
+:film237 a :video .
+:film237 :aPourActeur :acteur689 .
+:film237 :aPourActeur :acteur690 .
+:film237 :aPourActeur :acteur691 .
+:film237 :aPourActeur :acteur692 .
+:film237 :aPourGenre :genre0 .
+:film237 :aPourRealisateur :realisateur236 .
+:film237 :aPourDuree :N/A .
+:film237 :aPourNote :N/A .
+:film237 :estSortiEn :2019 .
+:film238 rdfs:label "Killing Eve".
+:film238 a :video .
+:film238 :aEteRealiseA :adresse93 .
+:film238 :aPourActeur :acteur693 .
+:film238 :aPourActeur :acteur694 .
+:film238 :aPourActeur :acteur695 .
+:film238 :aPourActeur :acteur696 .
+:film238 :aPourGenre :genre8 .
+:film238 :aPourGenre :genre9 .
+:film238 :aPourGenre :genre1 .
+:film238 :aPourGenre :genre10 .
+:film238 :aPourRealisateur :realisateur237 .
+:film238 :aPourDuree :42 min .
+:film238 :aPourNote :8.2 .
+:film238 :estSortiEn :2017 .
+:film239 rdfs:label "WAR MACHINE".
+:film239 a :video .
+:film239 :aPourActeur :acteur697 .
+:film239 :aPourActeur :acteur698 .
+:film239 :aPourActeur :acteur699 .
+:film239 :aPourActeur :acteur700 .
+:film239 :aPourGenre :genre0 .
+:film239 :aPourGenre :genre1 .
+:film239 :aPourGenre :genre25 .
+:film239 :aPourRealisateur :realisateur238 .
+:film239 :aPourDuree :122 min .
+:film239 :aPourNote :6.0 .
+:film239 :estSortiEn :2016 .
+:film240 rdfs:label "UN CONTE INDIEN".
+:film240 a :video .
+:film240 :aPourActeur :acteur701 .
+:film240 :aPourActeur :acteur702 .
+:film240 :aPourActeur :acteur143 .
+:film240 :aPourActeur :acteur703 .
+:film240 :aPourGenre :genre0 .
+:film240 :aPourRealisateur :realisateur239 .
+:film240 :aPourDuree :91 min .
+:film240 :aPourNote :6.1 .
+:film240 :estSortiEn :2016 .
+:film241 rdfs:label "LE MEC DE LA TOMBE D'A COTE".
+:film241 a :video .
+:film241 :aPourActeur :acteur80 .
+:film241 :aPourActeur :acteur704 .
+:film241 :aPourActeur :acteur705 .
+:film241 :aPourActeur :acteur706 .
+:film241 :aPourGenre :genre0 .
+:film241 :aPourGenre :genre1 .
+:film241 :aPourGenre :genre4 .
+:film241 :aPourRealisateur :realisateur240 .
+:film241 :aPourDuree :90 min .
+:film241 :aPourNote :5.3 .
+:film241 :estSortiEn :2016 .
+:film242 rdfs:label "SEULS".
+:film242 a :video .
+:film242 :aPourActeur :acteur707 .
+:film242 :aPourActeur :acteur708 .
+:film242 :aPourActeur :acteur709 .
+:film242 :aPourActeur :acteur710 .
+:film242 :aPourGenre :genre9 .
+:film242 :aPourGenre :genre12 .
+:film242 :aPourGenre :genre6 .
+:film242 :aPourGenre :genre21 .
+:film242 :aPourGenre :genre19 .
+:film242 :aPourGenre :genre10 .
+:film242 :aPourRealisateur :realisateur241 .
+:film242 :aPourDuree :98 min .
+:film242 :aPourNote :5.1 .
+:film242 :estSortiEn :2016 .
+:film243 rdfs:label "LE BRIO".
+:film243 a :video .
+:film243 :aPourActeur :acteur34 .
+:film243 :aPourActeur :acteur23 .
+:film243 :aPourActeur :acteur711 .
+:film243 :aPourActeur :acteur712 .
+:film243 :aPourGenre :genre0 .
+:film243 :aPourGenre :genre1 .
+:film243 :aPourRealisateur :realisateur242 .
+:film243 :aPourDuree :95 min .
+:film243 :aPourNote :6.8 .
+:film243 :estSortiEn :2016 .
+:film244 rdfs:label "CELLE QUE VOUS CROYEZ".
+:film244 a :video .
+:film244 :aEteRealiseA :adresse303 .
+:film244 :aPourActeur :acteur713 .
+:film244 :aPourActeur :acteur714 .
+:film244 :aPourActeur :acteur38 .
+:film244 :aPourActeur :acteur715 .
+:film244 :aPourGenre :genre1 .
+:film244 :aPourGenre :genre4 .
+:film244 :aPourRealisateur :realisateur243 .
+:film244 :aPourDuree :101 min .
+:film244 :aPourNote :6.9 .
+:film244 :estSortiEn :2018 .
+:film245 rdfs:label "Une jeune fille qui va bien".
+:film245 a :video .
+:film245 :aEteRealiseA :adresse13 .
+:film245 :aEteRealiseA :adresse188 .
+:film245 :aEteRealiseA :adresse94 .
+:film245 :aEteRealiseA :adresse28 .
+:film245 :aPourActeur :acteur60 .
+:film245 :aPourGenre :genre11 .
+:film245 :aPourRealisateur :realisateur244 .
+:film245 :aPourDuree : .
+:film245 :aPourNote : .
+:film245 :estSortiEn :2020 .
+:film246 rdfs:label "ALEXANDRE".
+:film246 a :video .
+:film246 :aEteRealiseA :adresse56 .
+:film246 :aPourActeur :acteur716 .
+:film246 :aPourActeur :acteur717 .
+:film246 :aPourActeur :acteur718 .
+:film246 :aPourActeur :acteur719 .
+:film246 :aPourGenre :genre8 .
+:film246 :aPourGenre :genre2 .
+:film246 :aPourGenre :genre1 .
+:film246 :aPourGenre :genre13 .
+:film246 :aPourGenre :genre25 .
+:film246 :aPourRealisateur :realisateur245 .
+:film246 :aPourDuree :175 min .
+:film246 :aPourNote :5.6 .
+:film246 :estSortiEn :2018 .
+:film247 rdfs:label "C'est Quoi ce Papy".
+:film247 a :video .
+:film247 :aPourActeur :acteur401 .
+:film247 :aPourActeur :acteur402 .
+:film247 :aPourActeur :acteur237 .
+:film247 :aPourActeur :acteur315 .
+:film247 :aPourGenre :genre0 .
+:film247 :aPourRealisateur :realisateur128 .
+:film247 :aPourDuree :N/A .
+:film247 :aPourNote :N/A .
+:film247 :estSortiEn :2020 .
+:film248 rdfs:label "Le Fataliste".
+:film248 a :video .
+:film248 :aEteRealiseA :adresse283 .
+:film248 :aPourActeur :acteur720 .
+:film248 :aPourActeur :acteur721 .
+:film248 :aPourActeur :acteur722 .
+:film248 :aPourActeur :acteur723 .
+:film248 :aPourGenre :genre0 .
+:film248 :aPourGenre :genre1 .
+:film248 :aPourGenre :genre4 .
+:film248 :aPourRealisateur :realisateur221 .
+:film248 :aPourDuree :99 min .
+:film248 :aPourNote :5.3 .
+:film248 :estSortiEn :2018 .
+:film249 rdfs:label "Suprêmes".
+:film249 a :video .
+:film249 :aEteRealiseA :adresse421 .
+:film249 :aPourActeur :acteur724 .
+:film249 :aPourActeur :acteur725 .
+:film249 :aPourActeur :acteur726 .
+:film249 :aPourGenre :genre1 .
+:film249 :aPourRealisateur :realisateur224 .
+:film249 :aPourDuree :N/A .
+:film249 :aPourNote :N/A .
+:film249 :estSortiEn :2020 .
+:film250 rdfs:label "QUAND TU DANSES".
+:film250 a :video .
+:film250 :aEteRealiseA :adresse142 .
+:film250 :aPourActeur :acteur727 .
+:film250 :aPourActeur :acteur728 .
+:film250 :aPourActeur :acteur729 .
+:film250 :aPourActeur :acteur730 .
+:film250 :aPourGenre :genre1 .
+:film250 :aPourRealisateur :realisateur246 .
+:film250 :aPourDuree :100 min .
+:film250 :aPourNote :7.1 .
+:film250 :estSortiEn :2018 .
+:film251 rdfs:label "French Exit".
+:film251 a :video .
+:film251 :aEteRealiseA :adresse58 .
+:film251 :aEteRealiseA :adresse29 .
+:film251 :aPourActeur :acteur731 .
+:film251 :aPourActeur :acteur732 .
+:film251 :aPourActeur :acteur733 .
+:film251 :aPourActeur :acteur734 .
+:film251 :aPourGenre :genre0 .
+:film251 :aPourGenre :genre1 .
+:film251 :aPourRealisateur :realisateur247 .
+:film251 :aPourDuree :113 min .
+:film251 :aPourNote :6.5 .
+:film251 :estSortiEn :2019 .
+:film252 rdfs:label "BANLIEUSARDS".
+:film252 a :video .
+:film252 :aEteRealiseA :adresse388 .
+:film252 :aPourActeur :acteur735 .
+:film252 :aPourActeur :acteur736 .
+:film252 :aPourActeur :acteur737 .
+:film252 :aPourActeur :acteur738 .
+:film252 :aPourGenre :genre3 .
+:film252 :aPourRealisateur :realisateur248 .
+:film252 :aPourRealisateur :realisateur249 .
+:film252 :aPourDuree :96 min .
+:film252 :aPourNote :6.4 .
+:film252 :estSortiEn :2018 .
+:film253 rdfs:label "LEILA".
+:film253 a :video .
+:film253 :aPourActeur :acteur739 .
+:film253 :aPourActeur :acteur740 .
+:film253 :aPourActeur :acteur741 .
+:film253 :aPourActeur :acteur742 .
+:film253 :aPourGenre :genre1 .
+:film253 :aPourGenre :genre19 .
+:film253 :aPourRealisateur :realisateur250 .
+:film253 :aPourDuree :48 min .
+:film253 :aPourNote :4.8 .
+:film253 :estSortiEn :2016 .
+:film254 rdfs:label "EMMA".
+:film254 a :video .
+:film254 :aPourActeur :acteur743 .
+:film254 :aPourActeur :acteur744 .
+:film254 :aPourActeur :acteur745 .
+:film254 :aPourActeur :acteur746 .
+:film254 :aPourGenre :genre0 .
+:film254 :aPourGenre :genre1 .
+:film254 :aPourGenre :genre4 .
+:film254 :aPourRealisateur :realisateur251 .
+:film254 :aPourDuree :124 min .
+:film254 :aPourNote :6.7 .
+:film254 :estSortiEn :2016 .
+:film255 rdfs:label "DANIEL".
+:film255 a :video .
+:film255 :aPourActeur :acteur747 .
+:film255 :aPourActeur :acteur748 .
+:film255 :aPourActeur :acteur749 .
+:film255 :aPourActeur :acteur750 .
+:film255 :aPourGenre :genre1 .
+:film255 :aPourRealisateur :realisateur252 .
+:film255 :aPourDuree :138 min .
+:film255 :aPourNote :7.8 .
+:film255 :estSortiEn :2016 .
+:film256 rdfs:label "LES BONNES INTENTIONS".
+:film256 a :video .
+:film256 :aEteRealiseA :adresse143 .
+:film256 :aPourActeur :acteur751 .
+:film256 :aPourActeur :acteur752 .
+:film256 :aPourActeur :acteur753 .
+:film256 :aPourActeur :acteur754 .
+:film256 :aPourGenre :genre1 .
+:film256 :aPourRealisateur :realisateur253 .
+:film256 :aPourDuree :85 min .
+:film256 :aPourNote :6.5 .
+:film256 :estSortiEn :2018 .
+:film257 rdfs:label "LA VIE DEVANT SOI".
+:film257 a :video .
+:film257 :aEteRealiseA :adresse243 .
+:film257 :aPourActeur :acteur755 .
+:film257 :aPourActeur :acteur756 .
+:film257 :aPourActeur :acteur757 .
+:film257 :aPourActeur :acteur758 .
+:film257 :aPourGenre :genre1 .
+:film257 :aPourRealisateur :realisateur254 .
+:film257 :aPourDuree :94 min .
+:film257 :aPourNote :6.8 .
+:film257 :estSortiEn :2020 .
+:film258 rdfs:label "Van Gogh in love".
+:film258 a :video .
+:film258 :aPourActeur :acteur759 .
+:film258 :aPourActeur :acteur760 .
+:film258 :aPourActeur :acteur761 .
+:film258 :aPourActeur :acteur762 .
+:film258 :aPourGenre :genre0 .
+:film258 :aPourRealisateur :realisateur255 .
+:film258 :aPourDuree :93 min .
+:film258 :aPourNote :N/A .
+:film258 :estSortiEn :2018 .
+:film259 rdfs:label "BARBAQUE".
+:film259 a :video .
+:film259 :aEteRealiseA :adresse423 .
+:film259 :aPourActeur :acteur456 .
+:film259 :aPourActeur :acteur763 .
+:film259 :aPourActeur :acteur764 .
+:film259 :aPourActeur :acteur705 .
+:film259 :aPourGenre :genre0 .
+:film259 :aPourRealisateur :realisateur147 .
+:film259 :aPourDuree :N/A .
+:film259 :aPourNote :N/A .
+:film259 :estSortiEn :2020 .
+:film260 rdfs:label "Mike".
+:film260 a :video .
+:film260 :aEteRealiseA :adresse81 .
+:film260 :aPourActeur :acteur765 .
+:film260 :aPourActeur :acteur766 .
+:film260 :aPourActeur :acteur767 .
+:film260 :aPourActeur :acteur768 .
+:film260 :aPourGenre :genre0 .
+:film260 :aPourGenre :genre4 .
+:film260 :aPourRealisateur :realisateur256 .
+:film260 :aPourDuree :98 min .
+:film260 :aPourNote :6.0 .
+:film260 :estSortiEn :2018 .
+:film261 rdfs:label "Arsène Lupin".
+:film261 a :video .
+:film261 :aEteRealiseA :adresse16 .
+:film261 :aEteRealiseA :adresse288 .
+:film261 :aEteRealiseA :adresse63 .
+:film261 :aPourActeur :acteur311 .
+:film261 :aPourActeur :acteur769 .
+:film261 :aPourActeur :acteur770 .
+:film261 :aPourActeur :acteur771 .
+:film261 :aPourGenre :genre8 .
+:film261 :aPourGenre :genre9 .
+:film261 :aPourGenre :genre3 .
+:film261 :aPourGenre :genre18 .
+:film261 :aPourGenre :genre4 .
+:film261 :aPourGenre :genre10 .
+:film261 :aPourRealisateur :realisateur78 .
+:film261 :aPourDuree :125 min .
+:film261 :aPourNote :5.5 .
+:film261 :estSortiEn :2020 .
+:film262 rdfs:label "MIKE".
+:film262 a :video .
+:film262 :aEteRealiseA :adresse285 .
+:film262 :aEteRealiseA :adresse286 .
+:film262 :aPourActeur :acteur765 .
+:film262 :aPourActeur :acteur766 .
+:film262 :aPourActeur :acteur767 .
+:film262 :aPourActeur :acteur768 .
+:film262 :aPourGenre :genre0 .
+:film262 :aPourGenre :genre4 .
+:film262 :aPourRealisateur :realisateur256 .
+:film262 :aPourDuree :98 min .
+:film262 :aPourNote :6.0 .
+:film262 :estSortiEn :2018 .
+:film263 rdfs:label "CLEM".
+:film263 a :video .
+:film263 :aEteRealiseA :adresse390 .
+:film263 :aPourActeur :acteur434 .
+:film263 :aPourActeur :acteur435 .
+:film263 :aPourActeur :acteur436 .
+:film263 :aPourActeur :acteur437 .
+:film263 :aPourGenre :genre0 .
+:film263 :aPourRealisateur :realisateur257 .
+:film263 :aPourDuree :90 min .
+:film263 :aPourNote :6.0 .
+:film263 :estSortiEn :2019 .
+:film264 rdfs:label "une famille formidable".
+:film264 a :video .
+:film264 :aEteRealiseA :adresse190 .
+:film264 :aPourActeur :acteur426 .
+:film264 :aPourActeur :acteur251 .
+:film264 :aPourActeur :acteur427 .
+:film264 :aPourActeur :acteur428 .
+:film264 :aPourGenre :genre0 .
+:film264 :aPourGenre :genre4 .
+:film264 :aPourRealisateur :realisateur136 .
+:film264 :aPourDuree :90 min .
+:film264 :aPourNote :5.6 .
+:film264 :estSortiEn :2018 .
+:film265 rdfs:label "Huge in France".
+:film265 a :video .
+:film265 :aEteRealiseA :adresse37 .
+:film265 :aPourActeur :acteur772 .
+:film265 :aPourActeur :acteur773 .
+:film265 :aPourActeur :acteur774 .
+:film265 :aPourActeur :acteur775 .
+:film265 :aPourGenre :genre0 .
+:film265 :aPourRealisateur :realisateur258 .
+:film265 :aPourRealisateur :realisateur259 .
+:film265 :aPourDuree :30 min .
+:film265 :aPourNote :6.8 .
+:film265 :estSortiEn :2018 .
+:film266 rdfs:label "C'EST TOUT POUR MOI".
+:film266 a :video .
+:film266 :aPourActeur :acteur776 .
+:film266 :aPourActeur :acteur28 .
+:film266 :aPourActeur :acteur777 .
+:film266 :aPourActeur :acteur778 .
+:film266 :aPourGenre :genre0 .
+:film266 :aPourRealisateur :realisateur260 .
+:film266 :aPourDuree :99 min .
+:film266 :aPourNote :6.2 .
+:film266 :estSortiEn :2016 .
+:film267 rdfs:label "Osmosis".
+:film267 a :video .
+:film267 :aEteRealiseA :adresse57 .
+:film267 :aEteRealiseA :adresse61 .
+:film267 :aPourActeur :acteur241 .
+:film267 :aPourActeur :acteur316 .
+:film267 :aPourActeur :acteur779 .
+:film267 :aPourActeur :acteur780 .
+:film267 :aPourGenre :genre4 .
+:film267 :aPourGenre :genre19 .
+:film267 :aPourRealisateur :realisateur261 .
+:film267 :aPourDuree :55 min .
+:film267 :aPourNote :5.9 .
+:film267 :estSortiEn :2018 .
+:film268 rdfs:label "Mignonnes".
+:film268 a :video .
+:film268 :aEteRealiseA :adresse391 .
+:film268 :aPourActeur :acteur781 .
+:film268 :aPourActeur :acteur782 .
+:film268 :aPourActeur :acteur783 .
+:film268 :aPourActeur :acteur784 .
+:film268 :aPourGenre :genre1 .
+:film268 :aPourRealisateur :realisateur16 .
+:film268 :aPourDuree :96 min .
+:film268 :aPourNote :3.2 .
+:film268 :estSortiEn :2018 .
+:film269 rdfs:label "J'ACCUSE".
+:film269 a :video .
+:film269 :aPourActeur :acteur556 .
+:film269 :aPourActeur :acteur785 .
+:film269 :aPourActeur :acteur786 .
+:film269 :aPourActeur :acteur787 .
+:film269 :aPourGenre :genre1 .
+:film269 :aPourGenre :genre13 .
+:film269 :aPourGenre :genre10 .
+:film269 :aPourRealisateur :realisateur262 .
+:film269 :aPourDuree :132 min .
+:film269 :aPourNote :7.2 .
+:film269 :estSortiEn :2019 .
+:film270 rdfs:label "L'EMBARRAS DU CHOIX".
+:film270 a :video .
+:film270 :aPourActeur :acteur143 .
+:film270 :aPourActeur :acteur54 .
+:film270 :aPourActeur :acteur788 .
+:film270 :aPourActeur :acteur789 .
+:film270 :aPourGenre :genre0 .
+:film270 :aPourGenre :genre4 .
+:film270 :aPourRealisateur :realisateur263 .
+:film270 :aPourDuree :95 min .
+:film270 :aPourNote :5.5 .
+:film270 :estSortiEn :2016 .
+:film271 rdfs:label "BOUTCHOU".
+:film271 a :video .
+:film271 :aEteRealiseA :adresse424 .
+:film271 :aEteRealiseA :adresse457 .
+:film271 :aPourActeur :acteur529 .
+:film271 :aPourActeur :acteur637 .
+:film271 :aPourActeur :acteur790 .
+:film271 :aPourActeur :acteur791 .
+:film271 :aPourGenre :genre0 .
+:film271 :aPourRealisateur :realisateur264 .
+:film271 :aPourRealisateur :realisateur265 .
+:film271 :aPourDuree :78 min .
+:film271 :aPourNote :4.2 .
+:film271 :estSortiEn :2019 .
+:film272 rdfs:label "YOUR HONOR".
+:film272 a :video .
+:film272 :aEteRealiseA :adresse244 .
+:film272 :aEteRealiseA :adresse170 .
+:film272 :aPourActeur :acteur792 .
+:film272 :aPourActeur :acteur793 .
+:film272 :aPourActeur :acteur794 .
+:film272 :aPourActeur :acteur795 .
+:film272 :aPourGenre :genre3 .
+:film272 :aPourGenre :genre1 .
+:film272 :aPourGenre :genre10 .
+:film272 :aPourRealisateur :realisateur266 .
+:film272 :aPourDuree :573 min .
+:film272 :aPourNote :7.7 .
+:film272 :estSortiEn :2020 .
+:film273 rdfs:label "Les Jeunes Amants".
+:film273 a :video .
+:film273 :aEteRealiseA :adresse425 .
+:film273 :aEteRealiseA :adresse393 .
+:film273 :aPourActeur :acteur796 .
+:film273 :aPourActeur :acteur797 .
+:film273 :aPourActeur :acteur798 .
+:film273 :aPourActeur :acteur799 .
+:film273 :aPourGenre :genre1 .
+:film273 :aPourGenre :genre4 .
+:film273 :aPourRealisateur :realisateur267 .
+:film273 :aPourDuree :85 min .
+:film273 :aPourNote :5.0 .
+:film273 :estSortiEn :2020 .
+:film274 rdfs:label "ROSE".
+:film274 a :video .
+:film274 :aEteRealiseA :adresse82 .
+:film274 :aEteRealiseA :adresse135 .
+:film274 :aPourActeur :acteur800 .
+:film274 :aPourActeur :acteur801 .
+:film274 :aPourActeur :acteur802 .
+:film274 :aPourActeur :acteur803 .
+:film274 :aPourGenre :genre21 .
+:film274 :aPourRealisateur :realisateur268 .
+:film274 :aPourDuree :86 min .
+:film274 :aPourNote :5.7 .
+:film274 :estSortiEn :2020 .
+:film275 rdfs:label "LA VERITE SI JE MENS LES DEBUTS".
+:film275 a :video .
+:film275 :aEteRealiseA :adresse25 .
+:film275 :aEteRealiseA :adresse458 .
+:film275 :aPourActeur :acteur804 .
+:film275 :aPourActeur :acteur307 .
+:film275 :aPourActeur :acteur805 .
+:film275 :aPourActeur :acteur806 .
+:film275 :aPourGenre :genre0 .
+:film275 :aPourRealisateur :realisateur269 .
+:film275 :aPourRealisateur :realisateur270 .
+:film275 :aPourDuree :110 min .
+:film275 :aPourNote :4.5 .
+:film275 :estSortiEn :2018 .
+:film276 rdfs:label "COMÉDIE HUMAINE".
+:film276 a :video .
+:film276 :aPourActeur :acteur807 .
+:film276 :aPourActeur :acteur808 .
+:film276 :aPourActeur :acteur809 .
+:film276 :aPourActeur :acteur810 .
+:film276 :aPourGenre :genre0 .
+:film276 :aPourRealisateur :realisateur271 .
+:film276 :aPourDuree :105 min .
+:film276 :aPourNote :6.4 .
+:film276 :estSortiEn :2019 .
+:film277 rdfs:label "PLAYLIST".
+:film277 a :video .
+:film277 :aEteRealiseA :adresse271 .
+:film277 :aPourActeur :acteur811 .
+:film277 :aPourActeur :acteur61 .
+:film277 :aPourActeur :acteur812 .
+:film277 :aPourActeur :acteur813 .
+:film277 :aPourGenre :genre0 .
+:film277 :aPourRealisateur :realisateur272 .
+:film277 :aPourDuree :84 min .
+:film277 :aPourNote :N/A .
+:film277 :estSortiEn :2019 .
+:film278 rdfs:label "SI tu vas bien".
+:film278 a :video .
+:film278 :aEteRealiseA :adresse179 .
+:film278 :aPourActeur :acteur814 .
+:film278 :aPourActeur :acteur815 .
+:film278 :aPourActeur :acteur816 .
+:film278 :aPourGenre :genre4 .
+:film278 :aPourRealisateur :realisateur273 .
+:film278 :aPourDuree :91 min .
+:film278 :aPourNote :7.4 .
+:film278 :estSortiEn :2019 .
+:film279 rdfs:label "LA FETE EST FINIE".
+:film279 a :video .
+:film279 :aPourActeur :acteur817 .
+:film279 :aPourActeur :acteur818 .
+:film279 :aPourActeur :acteur624 .
+:film279 :aPourActeur :acteur819 .
+:film279 :aPourGenre :genre1 .
+:film279 :aPourRealisateur :realisateur274 .
+:film279 :aPourDuree :93 min .
+:film279 :aPourNote :6.5 .
+:film279 :estSortiEn :2016 .
+:film280 rdfs:label "Le Talisman".
+:film280 a :video .
+:film280 :aEteRealiseA :adresse272 .
+:film280 :aPourActeur :acteur820 .
+:film280 :aPourActeur :acteur659 .
+:film280 :aPourActeur :acteur821 .
+:film280 :aPourActeur :acteur822 .
+:film280 :aPourGenre :genre8 .
+:film280 :aPourGenre :genre9 .
+:film280 :aPourGenre :genre4 .
+:film280 :aPourRealisateur :realisateur275 .
+:film280 :aPourDuree :103 min .
+:film280 :aPourNote :4.6 .
+:film280 :estSortiEn :2019 .
+:film281 rdfs:label "CA C'EST LA FAMILLE".
+:film281 a :video .
+:film281 :aPourActeur :acteur652 .
+:film281 :aPourActeur :acteur6 .
+:film281 :aPourActeur :acteur149 .
+:film281 :aPourActeur :acteur823 .
+:film281 :aPourGenre :genre0 .
+:film281 :aPourGenre :genre1 .
+:film281 :aPourRealisateur :realisateur276 .
+:film281 :aPourDuree :92 min .
+:film281 :aPourNote :5.8 .
+:film281 :estSortiEn :2016 .
+:film282 rdfs:label "30 Jours Max".
+:film282 a :video .
+:film282 :aEteRealiseA :adresse120 .
+:film282 :aPourActeur :acteur824 .
+:film282 :aPourActeur :acteur825 .
+:film282 :aPourActeur :acteur826 .
+:film282 :aPourActeur :acteur484 .
+:film282 :aPourGenre :genre8 .
+:film282 :aPourGenre :genre0 .
+:film282 :aPourGenre :genre3 .
+:film282 :aPourRealisateur :realisateur165 .
+:film282 :aPourDuree :87 min .
+:film282 :aPourNote :5.0 .
+:film282 :estSortiEn :2019 .
+:film283 rdfs:label "CORPORATE".
+:film283 a :video .
+:film283 :aPourActeur :acteur827 .
+:film283 :aPourActeur :acteur828 .
+:film283 :aPourActeur :acteur829 .
+:film283 :aPourActeur :acteur830 .
+:film283 :aPourGenre :genre0 .
+:film283 :aPourRealisateur :realisateur277 .
+:film283 :aPourDuree :30 min .
+:film283 :aPourNote :7.7 .
+:film283 :estSortiEn :2016 .
+:film284 rdfs:label "NOTRE DAME".
+:film284 a :video .
+:film284 :aEteRealiseA :adresse43 .
+:film284 :aPourActeur :acteur831 .
+:film284 :aPourActeur :acteur832 .
+:film284 :aPourActeur :acteur833 .
+:film284 :aPourActeur :acteur834 .
+:film284 :aPourGenre :genre1 .
+:film284 :aPourGenre :genre4 .
+:film284 :aPourRealisateur :realisateur278 .
+:film284 :aPourDuree :117 min .
+:film284 :aPourNote :7.8 .
+:film284 :estSortiEn :2018 .
+:film285 rdfs:label "TELLE MERE TELLE FILLE".
+:film285 a :video .
+:film285 :aPourActeur :acteur835 .
+:film285 :aPourActeur :acteur836 .
+:film285 :aPourActeur :acteur837 .
+:film285 :aPourActeur :acteur459 .
+:film285 :aPourGenre :genre0 .
+:film285 :aPourRealisateur :realisateur79 .
+:film285 :aPourDuree :87 min .
+:film285 :aPourNote :N/A .
+:film285 :estSortiEn :2016 .
+:film286 rdfs:label "Toute Ressemblance".
+:film286 a :video .
+:film286 :aEteRealiseA :adresse75 .
+:film286 :aPourActeur :acteur635 .
+:film286 :aPourActeur :acteur838 .
+:film286 :aPourActeur :acteur839 .
+:film286 :aPourActeur :acteur348 .
+:film286 :aPourGenre :genre0 .
+:film286 :aPourGenre :genre1 .
+:film286 :aPourRealisateur :realisateur279 .
+:film286 :aPourDuree :83 min .
+:film286 :aPourNote :4.3 .
+:film286 :estSortiEn :2018 .
+:film287 rdfs:label "Simone".
+:film287 a :video .
+:film287 :aPourActeur :acteur840 .
+:film287 :aPourActeur :acteur841 .
+:film287 :aPourActeur :acteur842 .
+:film287 :aPourActeur :acteur843 .
+:film287 :aPourGenre :genre0 .
+:film287 :aPourGenre :genre1 .
+:film287 :aPourGenre :genre19 .
+:film287 :aPourRealisateur :realisateur280 .
+:film287 :aPourRealisateur :realisateur281 .
+:film287 :aPourDuree :117 min .
+:film287 :aPourNote :6.1 .
+:film287 :estSortiEn :2018 .
+:film288 rdfs:label "PARIS PASSIONS".
+:film288 a :video .
+:film288 :aEteRealiseA :adresse427 .
+:film288 :aPourActeur :acteur60 .
+:film288 :aPourGenre :genre11 .
+:film288 :aPourRealisateur :realisateur282 .
+:film288 :aPourDuree : .
+:film288 :aPourNote : .
+:film288 :estSortiEn :2019 .
+:film289 rdfs:label "Mon Cousin".
+:film289 a :video .
+:film289 :aEteRealiseA :adresse327 .
+:film289 :aPourActeur :acteur844 .
+:film289 :aPourActeur :acteur845 .
+:film289 :aPourActeur :acteur846 .
+:film289 :aPourActeur :acteur245 .
+:film289 :aPourGenre :genre0 .
+:film289 :aPourRealisateur :realisateur283 .
+:film289 :aPourDuree :104 min .
+:film289 :aPourNote :5.2 .
+:film289 :estSortiEn :2019 .
+:film290 rdfs:label "EIFFEL".
+:film290 a :video .
+:film290 :aEteRealiseA :adresse121 .
+:film290 :aPourActeur :acteur847 .
+:film290 :aPourActeur :acteur311 .
+:film290 :aPourActeur :acteur7 .
+:film290 :aPourActeur :acteur848 .
+:film290 :aPourGenre :genre2 .
+:film290 :aPourGenre :genre1 .
+:film290 :aPourRealisateur :realisateur284 .
+:film290 :aPourDuree :N/A .
+:film290 :aPourNote :7.8 .
+:film290 :estSortiEn :2019 .
+:film291 rdfs:label "A D N".
+:film291 a :video .
+:film291 :aEteRealiseA :adresse245 .
+:film291 :aPourActeur :acteur849 .
+:film291 :aPourActeur :acteur850 .
+:film291 :aPourActeur :acteur606 .
+:film291 :aPourActeur :acteur851 .
+:film291 :aPourGenre :genre8 .
+:film291 :aPourGenre :genre9 .
+:film291 :aPourGenre :genre6 .
+:film291 :aPourGenre :genre21 .
+:film291 :aPourGenre :genre19 .
+:film291 :aPourRealisateur :realisateur285 .
+:film291 :aPourDuree :N/A .
+:film291 :aPourNote :N/A .
+:film291 :estSortiEn :2019 .
+:film292 rdfs:label "MOTW 2".
+:film292 a :video .
+:film292 :aPourActeur :acteur60 .
+:film292 :aPourGenre :genre11 .
+:film292 :aPourRealisateur :realisateur112 .
+:film292 :aPourDuree : .
+:film292 :aPourNote : .
+:film292 :estSortiEn :2019 .
+:film293 rdfs:label "Une histoire d'amour et de désir".
+:film293 a :video .
+:film293 :aEteRealiseA :adresse84 .
+:film293 :aPourActeur :acteur852 .
+:film293 :aPourActeur :acteur853 .
+:film293 :aPourActeur :acteur854 .
+:film293 :aPourActeur :acteur855 .
+:film293 :aPourGenre :genre14 .
+:film293 :aPourRealisateur :realisateur286 .
+:film293 :aPourDuree :N/A .
+:film293 :aPourNote :N/A .
+:film293 :estSortiEn :2019 .
+:film294 rdfs:label "The Pursuit of Love".
+:film294 a :video .
+:film294 :aEteRealiseA :adresse5 .
+:film294 :aPourActeur :acteur856 .
+:film294 :aPourActeur :acteur857 .
+:film294 :aPourActeur :acteur564 .
+:film294 :aPourActeur :acteur858 .
+:film294 :aPourGenre :genre1 .
+:film294 :aPourRealisateur :realisateur287 .
+:film294 :aPourDuree :N/A .
+:film294 :aPourNote :N/A .
+:film294 :estSortiEn :2020 .
+:film295 rdfs:label "Paris Police 1900".
+:film295 a :video .
+:film295 :aEteRealiseA :adresse122 .
+:film295 :aPourActeur :acteur631 .
+:film295 :aPourActeur :acteur632 .
+:film295 :aPourActeur :acteur633 .
+:film295 :aPourActeur :acteur634 .
+:film295 :aPourGenre :genre3 .
+:film295 :aPourGenre :genre1 .
+:film295 :aPourGenre :genre13 .
+:film295 :aPourGenre :genre18 .
+:film295 :aPourRealisateur :realisateur288 .
+:film295 :aPourDuree :N/A .
+:film295 :aPourNote :7.0 .
+:film295 :estSortiEn :2019 .
+:film296 rdfs:label "NARVALO".
+:film296 a :video .
+:film296 :aEteRealiseA :adresse97 .
+:film296 :aPourActeur :acteur859 .
+:film296 :aPourActeur :acteur860 .
+:film296 :aPourActeur :acteur861 .
+:film296 :aPourGenre :genre14 .
+:film296 :aPourRealisateur :realisateur289 .
+:film296 :aPourDuree :N/A .
+:film296 :aPourNote :7.4 .
+:film296 :estSortiEn :2019 .
+:film297 rdfs:label "LA FUGUE".
+:film297 a :video .
+:film297 :aEteRealiseA :adresse192 .
+:film297 :aPourActeur :acteur862 .
+:film297 :aPourActeur :acteur863 .
+:film297 :aPourActeur :acteur864 .
+:film297 :aPourActeur :acteur865 .
+:film297 :aPourGenre :genre3 .
+:film297 :aPourGenre :genre18 .
+:film297 :aPourGenre :genre10 .
+:film297 :aPourRealisateur :realisateur290 .
+:film297 :aPourDuree :100 min .
+:film297 :aPourNote :7.1 .
+:film297 :estSortiEn :2019 .
+:film298 rdfs:label "UN FILS PARFAIT".
+:film298 a :video .
+:film298 :aEteRealiseA :adresse247 .
+:film298 :aPourActeur :acteur866 .
+:film298 :aPourActeur :acteur867 .
+:film298 :aPourActeur :acteur868 .
+:film298 :aPourActeur :acteur869 .
+:film298 :aPourGenre :genre1 .
+:film298 :aPourGenre :genre10 .
+:film298 :aPourRealisateur :realisateur291 .
+:film298 :aPourDuree :90 min .
+:film298 :aPourNote :6.8 .
+:film298 :estSortiEn :2018 .
+:film299 rdfs:label "L'Origine du Monde".
+:film299 a :video .
+:film299 :aEteRealiseA :adresse218 .
+:film299 :aPourActeur :acteur870 .
+:film299 :aPourActeur :acteur113 .
+:film299 :aPourActeur :acteur21 .
+:film299 :aPourActeur :acteur95 .
+:film299 :aPourGenre :genre0 .
+:film299 :aPourRealisateur :realisateur292 .
+:film299 :aPourDuree :98 min .
+:film299 :aPourNote :5.6 .
+:film299 :estSortiEn :2019 .
+:film300 rdfs:label "GAUGUIN".
+:film300 a :video .
+:film300 :aPourActeur :acteur660 .
+:film300 :aPourActeur :acteur871 .
+:film300 :aPourActeur :acteur148 .
+:film300 :aPourActeur :acteur872 .
+:film300 :aPourGenre :genre2 .
+:film300 :aPourGenre :genre1 .
+:film300 :aPourGenre :genre4 .
+:film300 :aPourRealisateur :realisateur293 .
+:film300 :aPourDuree :102 min .
+:film300 :aPourNote :5.9 .
+:film300 :estSortiEn :2016 .
+:film301 rdfs:label "H4-93".
+:film301 a :video .
+:film301 :aPourActeur :acteur873 .
+:film301 :aPourActeur :acteur874 .
+:film301 :aPourGenre :genre5 .
+:film301 :aPourGenre :genre19 .
+:film301 :aPourRealisateur :realisateur294 .
+:film301 :aPourDuree :19 min .
+:film301 :aPourNote :N/A .
+:film301 :estSortiEn :2016 .
+:film302 rdfs:label "LOUE MOI".
+:film302 a :video .
+:film302 :aPourActeur :acteur875 .
+:film302 :aPourActeur :acteur16 .
+:film302 :aPourActeur :acteur876 .
+:film302 :aPourActeur :acteur877 .
+:film302 :aPourGenre :genre0 .
+:film302 :aPourRealisateur :realisateur295 .
+:film302 :aPourDuree :89 min .
+:film302 :aPourNote :5.2 .
+:film302 :estSortiEn :2016 .
+:film303 rdfs:label "MADAME".
+:film303 a :video .
+:film303 :aPourActeur :acteur878 .
+:film303 :aPourActeur :acteur879 .
+:film303 :aPourActeur :acteur880 .
+:film303 :aPourActeur :acteur881 .
+:film303 :aPourGenre :genre0 .
+:film303 :aPourGenre :genre1 .
+:film303 :aPourGenre :genre4 .
+:film303 :aPourRealisateur :realisateur296 .
+:film303 :aPourDuree :91 min .
+:film303 :aPourNote :6.1 .
+:film303 :estSortiEn :2016 .
+:film304 rdfs:label "LE REDOUTABLE".
+:film304 a :video .
+:film304 :aPourActeur :acteur556 .
+:film304 :aPourActeur :acteur653 .
+:film304 :aPourActeur :acteur233 .
+:film304 :aPourActeur :acteur882 .
+:film304 :aPourGenre :genre2 .
+:film304 :aPourGenre :genre0 .
+:film304 :aPourGenre :genre1 .
+:film304 :aPourGenre :genre4 .
+:film304 :aPourRealisateur :realisateur297 .
+:film304 :aPourDuree :107 min .
+:film304 :aPourNote :6.6 .
+:film304 :estSortiEn :2016 .
+:film305 rdfs:label "MONSIEUR ET MADAME ADELMAN".
+:film305 a :video .
+:film305 :aPourActeur :acteur36 .
+:film305 :aPourActeur :acteur883 .
+:film305 :aPourActeur :acteur403 .
+:film305 :aPourActeur :acteur884 .
+:film305 :aPourGenre :genre0 .
+:film305 :aPourGenre :genre1 .
+:film305 :aPourGenre :genre4 .
+:film305 :aPourRealisateur :realisateur10 .
+:film305 :aPourDuree :120 min .
+:film305 :aPourNote :7.3 .
+:film305 :estSortiEn :2016 .
+:film306 rdfs:label "MAMAN A TORT".
+:film306 a :video .
+:film306 :aPourActeur :acteur885 .
+:film306 :aPourActeur :acteur704 .
+:film306 :aPourActeur :acteur886 .
+:film306 :aPourActeur :acteur887 .
+:film306 :aPourGenre :genre3 .
+:film306 :aPourGenre :genre1 .
+:film306 :aPourGenre :genre18 .
+:film306 :aPourGenre :genre10 .
+:film306 :aPourRealisateur :realisateur298 .
+:film306 :aPourDuree :N/A .
+:film306 :aPourNote :7.2 .
+:film306 :estSortiEn :2016 .
+:film307 rdfs:label "LUZ".
+:film307 a :video .
+:film307 :aEteRealiseA :adresse85 .
+:film307 :aEteRealiseA :adresse62 .
+:film307 :aPourActeur :acteur888 .
+:film307 :aPourActeur :acteur889 .
+:film307 :aPourActeur :acteur890 .
+:film307 :aPourActeur :acteur891 .
+:film307 :aPourGenre :genre3 .
+:film307 :aPourGenre :genre1 .
+:film307 :aPourGenre :genre4 .
+:film307 :aPourRealisateur :realisateur300 .
+:film307 :aPourDuree :118 min .
+:film307 :aPourNote :6.3 .
+:film307 :estSortiEn :2018 .
+:film308 rdfs:label "La Daronne".
+:film308 a :video .
+:film308 :aEteRealiseA :adresse394 .
+:film308 :aPourActeur :acteur892 .
+:film308 :aPourActeur :acteur197 .
+:film308 :aPourActeur :acteur893 .
+:film308 :aPourActeur :acteur574 .
+:film308 :aPourGenre :genre0 .
+:film308 :aPourGenre :genre3 .
+:film308 :aPourGenre :genre1 .
+:film308 :aPourRealisateur :realisateur301 .
+:film308 :aPourDuree :104 min .
+:film308 :aPourNote :6.2 .
+:film308 :estSortiEn :2018 .
+:film309 rdfs:label "Rebecca".
+:film309 a :video .
+:film309 :aEteRealiseA :adresse222 .
+:film309 :aPourActeur :acteur564 .
+:film309 :aPourActeur :acteur894 .
+:film309 :aPourActeur :acteur895 .
+:film309 :aPourActeur :acteur896 .
+:film309 :aPourGenre :genre1 .
+:film309 :aPourGenre :genre18 .
+:film309 :aPourGenre :genre4 .
+:film309 :aPourGenre :genre10 .
+:film309 :aPourRealisateur :realisateur302 .
+:film309 :aPourDuree :123 min .
+:film309 :aPourNote :6.0 .
+:film309 :estSortiEn :2020 .
+:film310 rdfs:label "Temps de Chien".
+:film310 a :video .
+:film310 :aEteRealiseA :adresse59 .
+:film310 :aPourActeur :acteur897 .
+:film310 :aPourActeur :acteur898 .
+:film310 :aPourActeur :acteur899 .
+:film310 :aPourActeur :acteur900 .
+:film310 :aPourGenre :genre0 .
+:film310 :aPourGenre :genre1 .
+:film310 :aPourRealisateur :realisateur293 .
+:film310 :aPourDuree :105 min .
+:film310 :aPourNote :4.8 .
+:film310 :estSortiEn :2018 .
+:film311 rdfs:label "BAD BUZZ".
+:film311 a :video .
+:film311 :aPourActeur :acteur901 .
+:film311 :aPourActeur :acteur902 .
+:film311 :aPourActeur :acteur903 .
+:film311 :aPourActeur :acteur904 .
+:film311 :aPourGenre :genre0 .
+:film311 :aPourRealisateur :realisateur303 .
+:film311 :aPourDuree :74 min .
+:film311 :aPourNote :2.5 .
+:film311 :estSortiEn :2016 .
+:film312 rdfs:label "HUGUETTE".
+:film312 a :video .
+:film312 :aEteRealiseA :adresse395 .
+:film312 :aPourActeur :acteur203 .
+:film312 :aPourActeur :acteur905 .
+:film312 :aPourActeur :acteur906 .
+:film312 :aPourActeur :acteur907 .
+:film312 :aPourGenre :genre0 .
+:film312 :aPourGenre :genre1 .
+:film312 :aPourRealisateur :realisateur304 .
+:film312 :aPourDuree :89 min .
+:film312 :aPourNote :6.2 .
+:film312 :estSortiEn :2018 .
+:film313 rdfs:label "NURSES".
+:film313 a :video .
+:film313 :aPourActeur :acteur908 .
+:film313 :aPourActeur :acteur909 .
+:film313 :aPourActeur :acteur910 .
+:film313 :aPourActeur :acteur911 .
+:film313 :aPourGenre :genre1 .
+:film313 :aPourRealisateur :realisateur305 .
+:film313 :aPourRealisateur :realisateur136 .
+:film313 :aPourDuree :N/A .
+:film313 :aPourNote :5.7 .
+:film313 :estSortiEn :2019 .
+:film314 rdfs:label "LE RIRE DE MA MERE".
+:film314 a :video .
+:film314 :aPourActeur :acteur912 .
+:film314 :aPourActeur :acteur913 .
+:film314 :aPourActeur :acteur914 .
+:film314 :aPourActeur :acteur915 .
+:film314 :aPourGenre :genre1 .
+:film314 :aPourRealisateur :realisateur306 .
+:film314 :aPourDuree :96 min .
+:film314 :aPourNote :6.2 .
+:film314 :estSortiEn :2016 .
+:film315 rdfs:label "CADRES NOIRS".
+:film315 a :video .
+:film315 :aEteRealiseA :adresse274 .
+:film315 :aPourActeur :acteur916 .
+:film315 :aPourActeur :acteur912 .
+:film315 :aPourActeur :acteur917 .
+:film315 :aPourActeur :acteur918 .
+:film315 :aPourGenre :genre1 .
+:film315 :aPourGenre :genre10 .
+:film315 :aPourRealisateur :realisateur45 .
+:film315 :aPourDuree :52 min .
+:film315 :aPourNote :7.1 .
+:film315 :estSortiEn :2019 .
+:film316 rdfs:label "AURORE TABORT".
+:film316 a :video .
+:film316 :aPourActeur :acteur919 .
+:film316 :aPourActeur :acteur116 .
+:film316 :aPourActeur :acteur846 .
+:film316 :aPourActeur :acteur920 .
+:film316 :aPourGenre :genre0 .
+:film316 :aPourGenre :genre1 .
+:film316 :aPourRealisateur :realisateur307 .
+:film316 :aPourDuree :89 min .
+:film316 :aPourNote :6.4 .
+:film316 :estSortiEn :2016 .
+:film317 rdfs:label "Le Lion".
+:film317 a :video .
+:film317 :aPourActeur :acteur202 .
+:film317 :aPourActeur :acteur921 .
+:film317 :aPourActeur :acteur922 .
+:film317 :aPourActeur :acteur923 .
+:film317 :aPourGenre :genre0 .
+:film317 :aPourRealisateur :realisateur69 .
+:film317 :aPourDuree :95 min .
+:film317 :aPourNote :5.3 .
+:film317 :estSortiEn :2019 .
+:film318 rdfs:label "Vous n'aurez pas ma haine".
+:film318 a :video .
+:film318 :aEteRealiseA :adresse429 .
+:film318 :aPourActeur :acteur60 .
+:film318 :aPourGenre :genre11 .
+:film318 :aPourRealisateur :realisateur308 .
+:film318 :aPourDuree : .
+:film318 :aPourNote : .
+:film318 :estSortiEn :2020 .
+:film319 rdfs:label "De l'or pour les chiens".
+:film319 a :video .
+:film319 :aEteRealiseA :adresse430 .
+:film319 :aEteRealiseA :adresse289 .
+:film319 :aPourActeur :acteur924 .
+:film319 :aPourActeur :acteur925 .
+:film319 :aPourActeur :acteur926 .
+:film319 :aPourActeur :acteur927 .
+:film319 :aPourGenre :genre1 .
+:film319 :aPourRealisateur :realisateur309 .
+:film319 :aPourDuree :99 min .
+:film319 :aPourNote :6.2 .
+:film319 :estSortiEn :2019 .
+:film320 rdfs:label "LA VIE DE CHATEAU".
+:film320 a :video .
+:film320 :aPourActeur :acteur171 .
+:film320 :aPourActeur :acteur928 .
+:film320 :aPourActeur :acteur929 .
+:film320 :aPourActeur :acteur930 .
+:film320 :aPourGenre :genre0 .
+:film320 :aPourGenre :genre4 .
+:film320 :aPourRealisateur :realisateur310 .
+:film320 :aPourDuree :93 min .
+:film320 :aPourNote :6.8 .
+:film320 :estSortiEn :2016 .
+:film321 rdfs:label "Seize Printemps".
+:film321 a :video .
+:film321 :aEteRealiseA :adresse359 .
+:film321 :aPourActeur :acteur931 .
+:film321 :aPourActeur :acteur676 .
+:film321 :aPourActeur :acteur150 .
+:film321 :aPourActeur :acteur932 .
+:film321 :aPourGenre :genre0 .
+:film321 :aPourGenre :genre1 .
+:film321 :aPourGenre :genre4 .
+:film321 :aPourRealisateur :realisateur311 .
+:film321 :aPourDuree :73 min .
+:film321 :aPourNote :5.8 .
+:film321 :estSortiEn :2019 .
+:film322 rdfs:label "DALIDA".
+:film322 a :video .
+:film322 :aPourActeur :acteur933 .
+:film322 :aPourActeur :acteur934 .
+:film322 :aPourActeur :acteur19 .
+:film322 :aPourActeur :acteur643 .
+:film322 :aPourGenre :genre2 .
+:film322 :aPourGenre :genre1 .
+:film322 :aPourGenre :genre16 .
+:film322 :aPourRealisateur :realisateur91 .
+:film322 :aPourDuree :127 min .
+:film322 :aPourNote :6.9 .
+:film322 :estSortiEn :2016 .
+:film323 rdfs:label "LES CHOSES QU'ON DIT, LES CHOSES QU'ON FAIT".
+:film323 a :video .
+:film323 :aPourActeur :acteur23 .
+:film323 :aPourActeur :acteur643 .
+:film323 :aPourActeur :acteur21 .
+:film323 :aPourActeur :acteur935 .
+:film323 :aPourGenre :genre1 .
+:film323 :aPourRealisateur :realisateur312 .
+:film323 :aPourDuree :122 min .
+:film323 :aPourNote :7.2 .
+:film323 :estSortiEn :2019 .
+:film324 rdfs:label "SMILEY".
+:film324 a :video .
+:film324 :aEteRealiseA :adresse396 .
+:film324 :aPourActeur :acteur936 .
+:film324 :aPourActeur :acteur937 .
+:film324 :aPourActeur :acteur938 .
+:film324 :aPourActeur :acteur939 .
+:film324 :aPourGenre :genre21 .
+:film324 :aPourGenre :genre18 .
+:film324 :aPourGenre :genre10 .
+:film324 :aPourRealisateur :realisateur313 .
+:film324 :aPourRealisateur :realisateur314 .
+:film324 :aPourRealisateur :realisateur298 .
+:film324 :aPourRealisateur :realisateur315 .
+:film324 :aPourRealisateur :realisateur316 .
+:film324 :aPourDuree :95 min .
+:film324 :aPourNote :3.4 .
+:film324 :estSortiEn :2018 .
+:film325 rdfs:label "TANGUY 2".
+:film325 a :video .
+:film325 :aEteRealiseA :adresse98 .
+:film325 :aEteRealiseA :adresse360 .
+:film325 :aPourActeur :acteur940 .
+:film325 :aPourActeur :acteur172 .
+:film325 :aPourActeur :acteur941 .
+:film325 :aPourActeur :acteur942 .
+:film325 :aPourGenre :genre0 .
+:film325 :aPourRealisateur :realisateur317 .
+:film325 :aPourDuree :108 min .
+:film325 :aPourNote :6.4 .
+:film325 :estSortiEn :2018 .
+:film326 rdfs:label "PLACE DES VICTOIRES".
+:film326 a :video .
+:film326 :aEteRealiseA :adresse362 .
+:film326 :aPourActeur :acteur457 .
+:film326 :aPourActeur :acteur943 .
+:film326 :aPourActeur :acteur835 .
+:film326 :aPourActeur :acteur944 .
+:film326 :aPourGenre :genre1 .
+:film326 :aPourRealisateur :realisateur318 .
+:film326 :aPourDuree :102 min .
+:film326 :aPourNote :5.3 .
+:film326 :estSortiEn :2018 .
+:film327 rdfs:label "LES FEMMES DU SQUARE".
+:film327 a :video .
+:film327 :aEteRealiseA :adresse167 .
+:film327 :aPourActeur :acteur945 .
+:film327 :aPourActeur :acteur946 .
+:film327 :aPourActeur :acteur947 .
+:film327 :aPourActeur :acteur570 .
+:film327 :aPourGenre :genre0 .
+:film327 :aPourRealisateur :realisateur6 .
+:film327 :aPourDuree :N/A .
+:film327 :aPourNote :N/A .
+:film327 :estSortiEn :2020 .
+:film328 rdfs:label "EDEN".
+:film328 a :video .
+:film328 :aEteRealiseA :adresse363 .
+:film328 :aPourActeur :acteur948 .
+:film328 :aPourActeur :acteur949 .
+:film328 :aPourActeur :acteur950 .
+:film328 :aPourActeur :acteur951 .
+:film328 :aPourGenre :genre3 .
+:film328 :aPourGenre :genre1 .
+:film328 :aPourRealisateur :realisateur319 .
+:film328 :aPourDuree :98 min .
+:film328 :aPourNote :6.6 .
+:film328 :estSortiEn :2018 .
+:film329 rdfs:label "Miss".
+:film329 a :video .
+:film329 :aEteRealiseA :adresse168 .
+:film329 :aPourActeur :acteur952 .
+:film329 :aPourActeur :acteur846 .
+:film329 :aPourActeur :acteur337 .
+:film329 :aPourActeur :acteur116 .
+:film329 :aPourGenre :genre0 .
+:film329 :aPourRealisateur :realisateur320 .
+:film329 :aPourDuree :107 min .
+:film329 :aPourNote :6.4 .
+:film329 :estSortiEn :2019 .
+:film330 rdfs:label "FEU !!".
+:film330 a :video .
+:film330 :aEteRealiseA :adresse194 .
+:film330 :aPourActeur :acteur953 .
+:film330 :aPourActeur :acteur954 .
+:film330 :aPourActeur :acteur955 .
+:film330 :aPourActeur :acteur956 .
+:film330 :aPourGenre :genre8 .
+:film330 :aPourGenre :genre9 .
+:film330 :aPourGenre :genre1 .
+:film330 :aPourGenre :genre6 .
+:film330 :aPourGenre :genre19 .
+:film330 :aPourRealisateur :realisateur321 .
+:film330 :aPourDuree :N/A .
+:film330 :aPourNote :6.8 .
+:film330 :estSortiEn :2020 .
+:film331 rdfs:label "BITTER FLOWERS".
+:film331 a :video .
+:film331 :aPourActeur :acteur957 .
+:film331 :aPourActeur :acteur958 .
+:film331 :aPourActeur :acteur959 .
+:film331 :aPourActeur :acteur960 .
+:film331 :aPourGenre :genre3 .
+:film331 :aPourGenre :genre1 .
+:film331 :aPourGenre :genre10 .
+:film331 :aPourRealisateur :realisateur322 .
+:film331 :aPourDuree :95 min .
+:film331 :aPourNote :6.4 .
+:film331 :estSortiEn :2016 .
+:film332 rdfs:label "ESPECES MENACEES".
+:film332 a :video .
+:film332 :aPourActeur :acteur961 .
+:film332 :aPourActeur :acteur962 .
+:film332 :aPourActeur :acteur963 .
+:film332 :aPourActeur :acteur964 .
+:film332 :aPourGenre :genre21 .
+:film332 :aPourGenre :genre19 .
+:film332 :aPourGenre :genre10 .
+:film332 :aPourRealisateur :realisateur323 .
+:film332 :aPourDuree :94 min .
+:film332 :aPourNote :4.1 .
+:film332 :estSortiEn :2016 .
+:film333 rdfs:label "NOS ANNEES FOLLES".
+:film333 a :video .
+:film333 :aPourActeur :acteur7 .
+:film333 :aPourActeur :acteur286 .
+:film333 :aPourActeur :acteur518 .
+:film333 :aPourActeur :acteur965 .
+:film333 :aPourGenre :genre1 .
+:film333 :aPourRealisateur :realisateur324 .
+:film333 :aPourDuree :103 min .
+:film333 :aPourNote :5.6 .
+:film333 :estSortiEn :2016 .
+:film334 rdfs:label "EYE ON JULIET".
+:film334 a :video .
+:film334 :aPourActeur :acteur966 .
+:film334 :aPourActeur :acteur368 .
+:film334 :aPourActeur :acteur967 .
+:film334 :aPourActeur :acteur968 .
+:film334 :aPourGenre :genre1 .
+:film334 :aPourRealisateur :realisateur325 .
+:film334 :aPourDuree :96 min .
+:film334 :aPourNote :6.6 .
+:film334 :estSortiEn :2016 .
+:film335 rdfs:label "L'UN DANS L'AUTRE".
+:film335 a :video .
+:film335 :aPourActeur :acteur55 .
+:film335 :aPourActeur :acteur131 .
+:film335 :aPourActeur :acteur364 .
+:film335 :aPourActeur :acteur519 .
+:film335 :aPourGenre :genre0 .
+:film335 :aPourRealisateur :realisateur326 .
+:film335 :aPourDuree :85 min .
+:film335 :aPourNote :5.4 .
+:film335 :estSortiEn :2016 .
+:film336 rdfs:label "NUMERO UNE".
+:film336 a :video .
+:film336 :aPourActeur :acteur969 .
+:film336 :aPourActeur :acteur912 .
+:film336 :aPourActeur :acteur970 .
+:film336 :aPourActeur :acteur971 .
+:film336 :aPourGenre :genre1 .
+:film336 :aPourGenre :genre10 .
+:film336 :aPourRealisateur :realisateur327 .
+:film336 :aPourDuree :110 min .
+:film336 :aPourNote :5.9 .
+:film336 :estSortiEn :2016 .
+:film337 rdfs:label "MERE ET FILLE".
+:film337 a :video .
+:film337 :aPourActeur :acteur972 .
+:film337 :aPourActeur :acteur973 .
+:film337 :aPourActeur :acteur974 .
+:film337 :aPourActeur :acteur975 .
+:film337 :aPourGenre :genre1 .
+:film337 :aPourRealisateur :realisateur328 .
+:film337 :aPourDuree :93 min .
+:film337 :aPourNote :6.9 .
+:film337 :estSortiEn :2016 .
+:film338 rdfs:label "Un tour chez ma fille (UTCMF)".
+:film338 a :video .
+:film338 :aEteRealiseA :adresse169 .
+:film338 :aPourActeur :acteur976 .
+:film338 :aPourActeur :acteur977 .
+:film338 :aPourActeur :acteur838 .
+:film338 :aPourActeur :acteur978 .
+:film338 :aPourGenre :genre0 .
+:film338 :aPourRealisateur :realisateur330 .
+:film338 :aPourDuree :88 min .
+:film338 :aPourNote :N/A .
+:film338 :estSortiEn :2020 .
+:film339 rdfs:label "RAID DINGUE".
+:film339 a :video .
+:film339 :aPourActeur :acteur616 .
+:film339 :aPourActeur :acteur202 .
+:film339 :aPourActeur :acteur979 .
+:film339 :aPourActeur :acteur980 .
+:film339 :aPourGenre :genre8 .
+:film339 :aPourGenre :genre0 .
+:film339 :aPourGenre :genre4 .
+:film339 :aPourRealisateur :realisateur211 .
+:film339 :aPourDuree :105 min .
+:film339 :aPourNote :5.5 .
+:film339 :estSortiEn :2016 .
+:film340 rdfs:label "FAMILY BUSINESS SAISON 2".
+:film340 a :video .
+:film340 :aEteRealiseA :adresse329 .
+:film340 :aEteRealiseA :adresse329 .
+:film340 :aPourActeur :acteur104 .
+:film340 :aPourGenre :genre22 .
+:film340 :aPourRealisateur :realisateur126 .
+:film340 :aPourDuree :60 min .
+:film340 :aPourNote :N/A .
+:film340 :estSortiEn :2020 .
+:film341 rdfs:label "BELLE BELLE BELLE".
+:film341 a :video .
+:film341 :aEteRealiseA :adresse330 .
+:film341 :aEteRealiseA :adresse195 .
+:film341 :aPourActeur :acteur981 .
+:film341 :aPourActeur :acteur982 .
+:film341 :aPourActeur :acteur983 .
+:film341 :aPourActeur :acteur984 .
+:film341 :aPourGenre :genre2 .
+:film341 :aPourGenre :genre1 .
+:film341 :aPourGenre :genre4 .
+:film341 :aPourRealisateur :realisateur332 .
+:film341 :aPourDuree :100 min .
+:film341 :aPourNote :7.3 .
+:film341 :estSortiEn :2020 .
+:film342 rdfs:label "OUI MADEMOISELLE".
+:film342 a :video .
+:film342 :aPourActeur :acteur985 .
+:film342 :aPourActeur :acteur986 .
+:film342 :aPourActeur :acteur987 .
+:film342 :aPourActeur :acteur988 .
+:film342 :aPourGenre :genre1 .
+:film342 :aPourRealisateur :realisateur333 .
+:film342 :aPourDuree :103 min .
+:film342 :aPourNote :7.3 .
+:film342 :estSortiEn :2016 .
+:film343 rdfs:label "EN THÉRAPIE".
+:film343 a :video .
+:film343 :aEteRealiseA :adresse220 .
+:film343 :aPourActeur :acteur150 .
+:film343 :aPourGenre :genre1 .
+:film343 :aPourRealisateur :realisateur334 .
+:film343 :aPourRealisateur :realisateur335 .
+:film343 :aPourRealisateur :realisateur336 .
+:film343 :aPourRealisateur :realisateur337 .
+:film343 :aPourRealisateur :realisateur338 .
+:film343 :aPourDuree :N/A .
+:film343 :aPourNote :8.3 .
+:film343 :estSortiEn :2020 .
+:film344 rdfs:label "EMBRASSE MOI".
+:film344 a :video .
+:film344 :aPourActeur :acteur989 .
+:film344 :aPourActeur :acteur990 .
+:film344 :aPourActeur :acteur991 .
+:film344 :aPourActeur :acteur992 .
+:film344 :aPourGenre :genre0 .
+:film344 :aPourGenre :genre21 .
+:film344 :aPourRealisateur :realisateur339 .
+:film344 :aPourDuree :103 min .
+:film344 :aPourNote :6.0 .
+:film344 :estSortiEn :2016 .
+:film345 rdfs:label "FREED".
+:film345 a :video .
+:film345 :aPourActeur :acteur993 .
+:film345 :aPourActeur :acteur994 .
+:film345 :aPourActeur :acteur995 .
+:film345 :aPourActeur :acteur996 .
+:film345 :aPourGenre :genre5 .
+:film345 :aPourGenre :genre1 .
+:film345 :aPourRealisateur :realisateur340 .
+:film345 :aPourDuree :20 min .
+:film345 :aPourNote :N/A .
+:film345 :estSortiEn :2016 .
+:film346 rdfs:label "MA PIRE ANGOISSE".
+:film346 a :video .
+:film346 :aPourActeur :acteur549 .
+:film346 :aPourGenre :genre0 .
+:film346 :aPourRealisateur :realisateur341 .
+:film346 :aPourDuree :N/A .
+:film346 :aPourNote :7.3 .
+:film346 :estSortiEn :2016 .
+:film347 rdfs:label "BLOCKBUSTER".
+:film347 a :video .
+:film347 :aPourActeur :acteur997 .
+:film347 :aPourActeur :acteur476 .
+:film347 :aPourActeur :acteur998 .
+:film347 :aPourGenre :genre5 .
+:film347 :aPourGenre :genre16 .
+:film347 :aPourRealisateur :realisateur342 .
+:film347 :aPourDuree :5 min .
+:film347 :aPourNote :8.6 .
+:film347 :estSortiEn :2016 .
+:film348 rdfs:label "FLORA63".
+:film348 a :video .
+:film348 :aPourActeur :acteur999 .
+:film348 :aPourActeur :acteur1000 .
+:film348 :aPourActeur :acteur1001 .
+:film348 :aPourActeur :acteur1002 .
+:film348 :aPourGenre :genre9 .
+:film348 :aPourGenre :genre0 .
+:film348 :aPourGenre :genre12 .
+:film348 :aPourRealisateur :realisateur343 .
+:film348 :aPourDuree :95 min .
+:film348 :aPourNote :6.3 .
+:film348 :estSortiEn :2016 .
+:film349 rdfs:label "Les Héritières".
+:film349 a :video .
+:film349 :aEteRealiseA :adresse251 .
+:film349 :aPourActeur :acteur875 .
+:film349 :aPourActeur :acteur1003 .
+:film349 :aPourActeur :acteur1004 .
+:film349 :aPourGenre :genre1 .
+:film349 :aPourRealisateur :realisateur344 .
+:film349 :aPourDuree :N/A .
+:film349 :aPourNote :N/A .
+:film349 :estSortiEn :2020 .
+:film350 rdfs:label "Il revient quand Bertrand".
+:film350 a :video .
+:film350 :aPourActeur :acteur1005 .
+:film350 :aPourActeur :acteur1006 .
+:film350 :aPourActeur :acteur1007 .
+:film350 :aPourActeur :acteur1008 .
+:film350 :aPourGenre :genre0 .
+:film350 :aPourRealisateur :realisateur345 .
+:film350 :aPourDuree :N/A .
+:film350 :aPourNote :N/A .
+:film350 :estSortiEn :2019 .
+:film351 rdfs:label "GOLIATH".
+:film351 a :video .
+:film351 :aEteRealiseA :adresse221 .
+:film351 :aEteRealiseA :adresse332 .
+:film351 :aPourActeur :acteur1009 .
+:film351 :aPourActeur :acteur1010 .
+:film351 :aPourActeur :acteur1011 .
+:film351 :aPourActeur :acteur1012 .
+:film351 :aPourGenre :genre1 .
+:film351 :aPourRealisateur :realisateur346 .
+:film351 :aPourDuree :60 min .
+:film351 :aPourNote :8.2 .
+:film351 :estSortiEn :2020 .
+:film352 rdfs:label "J'AI MENTI".
+:film352 a :video .
+:film352 :aEteRealiseA :adresse179 .
+:film352 :aPourActeur :acteur1013 .
+:film352 :aPourActeur :acteur1014 .
+:film352 :aPourActeur :acteur1015 .
+:film352 :aPourActeur :acteur1016 .
+:film352 :aPourGenre :genre3 .
+:film352 :aPourGenre :genre18 .
+:film352 :aPourGenre :genre10 .
+:film352 :aPourRealisateur :realisateur120 .
+:film352 :aPourDuree :123 min .
+:film352 :aPourNote :7.2 .
+:film352 :estSortiEn :2020 .
+:film353 rdfs:label "LES AMOURS D ANAIS".
+:film353 a :video .
+:film353 :aEteRealiseA :adresse291 .
+:film353 :aPourActeur :acteur112 .
+:film353 :aPourActeur :acteur1017 .
+:film353 :aPourActeur :acteur403 .
+:film353 :aPourActeur :acteur1018 .
+:film353 :aPourGenre :genre4 .
+:film353 :aPourRealisateur :realisateur347 .
+:film353 :aPourDuree :N/A .
+:film353 :aPourNote :N/A .
+:film353 :estSortiEn :2020 .
+:film354 rdfs:label "UNCORKED".
+:film354 a :video .
+:film354 :aEteRealiseA :adresse196 .
+:film354 :aPourActeur :acteur1019 .
+:film354 :aPourActeur :acteur1020 .
+:film354 :aPourActeur :acteur1021 .
+:film354 :aPourActeur :acteur1022 .
+:film354 :aPourGenre :genre1 .
+:film354 :aPourRealisateur :realisateur348 .
+:film354 :aPourDuree :104 min .
+:film354 :aPourNote :6.2 .
+:film354 :estSortiEn :2019 .
+:film355 rdfs:label "UNE VIE VIOLENTE".
+:film355 a :video .
+:film355 :aPourActeur :acteur1023 .
+:film355 :aPourActeur :acteur1024 .
+:film355 :aPourActeur :acteur1025 .
+:film355 :aPourActeur :acteur1026 .
+:film355 :aPourGenre :genre1 .
+:film355 :aPourGenre :genre10 .
+:film355 :aPourRealisateur :realisateur349 .
+:film355 :aPourDuree :107 min .
+:film355 :aPourNote :6.0 .
+:film355 :estSortiEn :2016 .
+:film356 rdfs:label "LA MELODIE".
+:film356 a :video .
+:film356 :aPourActeur :acteur155 .
+:film356 :aPourActeur :acteur535 .
+:film356 :aPourActeur :acteur1027 .
+:film356 :aPourActeur :acteur1028 .
+:film356 :aPourGenre :genre0 .
+:film356 :aPourGenre :genre1 .
+:film356 :aPourGenre :genre16 .
+:film356 :aPourRealisateur :realisateur350 .
+:film356 :aPourDuree :102 min .
+:film356 :aPourNote :6.5 .
+:film356 :estSortiEn :2016 .
+:film357 rdfs:label "Les Olympiades".
+:film357 a :video .
+:film357 :aEteRealiseA :adresse292 .
+:film357 :aEteRealiseA :adresse276 .
+:film357 :aEteRealiseA :adresse277 .
+:film357 :aPourActeur :acteur60 .
+:film357 :aPourGenre :genre11 .
+:film357 :aPourRealisateur :realisateur351 .
+:film357 :aPourDuree : .
+:film357 :aPourNote : .
+:film357 :estSortiEn :2020 .
+:film358 rdfs:label "Jeune et Golri".
+:film358 a :video .
+:film358 :aEteRealiseA :adresse433 .
+:film358 :aEteRealiseA :adresse127 .
+:film358 :aPourActeur :acteur60 .
+:film358 :aPourGenre :genre11 .
+:film358 :aPourRealisateur :realisateur352 .
+:film358 :aPourDuree : .
+:film358 :aPourNote : .
+:film358 :estSortiEn :2020 .
+:film359 rdfs:label "VIRTUE".
+:film359 a :video .
+:film359 :aEteRealiseA :adresse333 .
+:film359 :aEteRealiseA :adresse334 .
+:film359 :aPourActeur :acteur1029 .
+:film359 :aPourActeur :acteur1030 .
+:film359 :aPourActeur :acteur1031 .
+:film359 :aPourActeur :acteur1032 .
+:film359 :aPourGenre :genre3 .
+:film359 :aPourGenre :genre1 .
+:film359 :aPourGenre :genre4 .
+:film359 :aPourRealisateur :realisateur353 .
+:film359 :aPourDuree :68 min .
+:film359 :aPourNote :6.9 .
+:film359 :estSortiEn :2020 .
+:film360 rdfs:label "LADIES".
+:film360 a :video .
+:film360 :aPourActeur :acteur1033 .
+:film360 :aPourActeur :acteur661 .
+:film360 :aPourActeur :acteur714 .
+:film360 :aPourActeur :acteur163 .
+:film360 :aPourGenre :genre0 .
+:film360 :aPourGenre :genre1 .
+:film360 :aPourGenre :genre4 .
+:film360 :aPourRealisateur :realisateur354 .
+:film360 :aPourDuree :99 min .
+:film360 :aPourNote :6.4 .
+:film360 :estSortiEn :2016 .
+:film361 rdfs:label "Des vacances à tout prix".
+:film361 a :video .
+:film361 :aEteRealiseA :adresse278 .
+:film361 :aPourActeur :acteur60 .
+:film361 :aPourGenre :genre11 .
+:film361 :aPourRealisateur :realisateur355 .
+:film361 :aPourDuree : .
+:film361 :aPourNote : .
+:film361 :estSortiEn :2020 .
+:film362 rdfs:label "Nona et ses Filles".
+:film362 a :video .
+:film362 :aEteRealiseA :adresse364 .
+:film362 :aPourActeur :acteur1034 .
+:film362 :aPourActeur :acteur1035 .
+:film362 :aPourActeur :acteur1036 .
+:film362 :aPourActeur :acteur1037 .
+:film362 :aPourGenre :genre14 .
+:film362 :aPourRealisateur :realisateur278 .
+:film362 :aPourDuree :N/A .
+:film362 :aPourNote :N/A .
+:film362 :estSortiEn :2020 .
+:film363 rdfs:label "LES CHOSES HUMAINES".
+:film363 a :video .
+:film363 :aPourActeur :acteur1038 .
+:film363 :aPourActeur :acteur661 .
+:film363 :aPourActeur :acteur1039 .
+:film363 :aPourActeur :acteur272 .
+:film363 :aPourGenre :genre1 .
+:film363 :aPourRealisateur :realisateur242 .
+:film363 :aPourDuree :N/A .
+:film363 :aPourNote :N/A .
+:film363 :estSortiEn :2020 .
+:film364 rdfs:label "ARSENE LUPIN".
+:film364 a :video .
+:film364 :aEteRealiseA :adresse253 .
+:film364 :aPourActeur :acteur136 .
+:film364 :aPourActeur :acteur1040 .
+:film364 :aPourActeur :acteur1041 .
+:film364 :aPourActeur :acteur1042 .
+:film364 :aPourGenre :genre8 .
+:film364 :aPourGenre :genre3 .
+:film364 :aPourGenre :genre1 .
+:film364 :aPourGenre :genre18 .
+:film364 :aPourRealisateur :realisateur78 .
+:film364 :aPourDuree :231 min .
+:film364 :aPourNote :7.6 .
+:film364 :estSortiEn :2020 .
+:film365 rdfs:label "Je voudrais que quelqu'un m'attende quelque part".
+:film365 a :video .
+:film365 :aEteRealiseA :adresse365 .
+:film365 :aPourActeur :acteur19 .
+:film365 :aPourActeur :acteur1043 .
+:film365 :aPourActeur :acteur1044 .
+:film365 :aPourActeur :acteur272 .
+:film365 :aPourGenre :genre1 .
+:film365 :aPourGenre :genre4 .
+:film365 :aPourRealisateur :realisateur356 .
+:film365 :aPourDuree :89 min .
+:film365 :aPourNote :5.8 .
+:film365 :estSortiEn :2018 .
+:film366 rdfs:label "LA LICORNE".
+:film366 a :video .
+:film366 :aPourActeur :acteur60 .
+:film366 :aPourGenre :genre11 .
+:film366 :aPourRealisateur :realisateur357 .
+:film366 :aPourDuree : .
+:film366 :aPourNote : .
+:film366 :estSortiEn :2016 .
+:film367 rdfs:label "L'amour c'est mieux que la vie".
+:film367 a :video .
+:film367 :aEteRealiseA :adresse344 .
+:film367 :aPourActeur :acteur1045 .
+:film367 :aPourActeur :acteur1046 .
+:film367 :aPourActeur :acteur1047 .
+:film367 :aPourActeur :acteur1048 .
+:film367 :aPourGenre :genre14 .
+:film367 :aPourRealisateur :realisateur358 .
+:film367 :aPourDuree :N/A .
+:film367 :aPourNote :N/A .
+:film367 :estSortiEn :2020 .
+:film368 rdfs:label "L'Opéra".
+:film368 a :video .
+:film368 :aEteRealiseA :adresse171 .
+:film368 :aPourActeur :acteur1049 .
+:film368 :aPourActeur :acteur1050 .
+:film368 :aPourActeur :acteur1051 .
+:film368 :aPourActeur :acteur1052 .
+:film368 :aPourGenre :genre3 .
+:film368 :aPourGenre :genre1 .
+:film368 :aPourRealisateur :realisateur359 .
+:film368 :aPourDuree :55 min .
+:film368 :aPourNote :9.2 .
+:film368 :estSortiEn :2020 .
+:film369 rdfs:label "COULEURS DE L'INCENDIE".
+:film369 a :video .
+:film369 :aEteRealiseA :adresse64 .
+:film369 :aPourActeur :acteur60 .
+:film369 :aPourGenre :genre11 .
+:film369 :aPourRealisateur :realisateur360 .
+:film369 :aPourDuree : .
+:film369 :aPourNote : .
+:film369 :estSortiEn :2020 .
+:film370 rdfs:label "MES TRÈS CHERS ENFANTS".
+:film370 a :video .
+:film370 :aEteRealiseA :adresse101 .
+:film370 :aPourActeur :acteur60 .
+:film370 :aPourGenre :genre11 .
+:film370 :aPourRealisateur :realisateur26 .
+:film370 :aPourDuree : .
+:film370 :aPourNote : .
+:film370 :estSortiEn :2020 .
+:film371 rdfs:label "LISA REDLER".
+:film371 a :video .
+:film371 :aPourActeur :acteur1053 .
+:film371 :aPourActeur :acteur653 .
+:film371 :aPourActeur :acteur473 .
+:film371 :aPourActeur :acteur1054 .
+:film371 :aPourGenre :genre1 .
+:film371 :aPourGenre :genre10 .
+:film371 :aPourRealisateur :realisateur361 .
+:film371 :aPourDuree :102 min .
+:film371 :aPourNote :5.2 .
+:film371 :estSortiEn :2019 .
+:film372 rdfs:label "GANGSTERDAM".
+:film372 a :video .
+:film372 :aPourActeur :acteur1055 .
+:film372 :aPourActeur :acteur1056 .
+:film372 :aPourActeur :acteur1057 .
+:film372 :aPourActeur :acteur1058 .
+:film372 :aPourGenre :genre8 .
+:film372 :aPourGenre :genre9 .
+:film372 :aPourGenre :genre0 .
+:film372 :aPourGenre :genre3 .
+:film372 :aPourRealisateur :realisateur362 .
+:film372 :aPourDuree :100 min .
+:film372 :aPourNote :4.5 .
+:film372 :estSortiEn :2016 .
+:film373 rdfs:label "La Menace".
+:film373 a :video .
+:film373 :aPourActeur :acteur1059 .
+:film373 :aPourActeur :acteur1060 .
+:film373 :aPourActeur :acteur1061 .
+:film373 :aPourActeur :acteur1062 .
+:film373 :aPourGenre :genre8 .
+:film373 :aPourGenre :genre3 .
+:film373 :aPourGenre :genre1 .
+:film373 :aPourGenre :genre10 .
+:film373 :aPourRealisateur :realisateur363 .
+:film373 :aPourDuree :117 min .
+:film373 :aPourNote :6.6 .
+:film373 :estSortiEn :2020 .
 
 }

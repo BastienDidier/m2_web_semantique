@@ -484,13 +484,13 @@ var get_films = function(wdatas, wcb)
 				nom_film: 		elt["nom_tournage"],
 				types: 			[elt["type_tournage"]],
 				realisateur: 	get_correspondant_index(tab_real_row, tab_real, "realisateur"),
-				actors: 		get_correspondant_index(tab_actor_row, tab_actors, "acteur"),
+				actors: 		get_correspondant_index(tab_actors_row, tab_actors, "acteur"),
 				genres: 		get_correspondant_index(tab_genre_row, tab_genre, "genre"),
 				duree: 			elt["runtime"],
 				lieu_tournage: 	get_correspondant_index(tab_adresse_row, tab_adresse, "adresse"),
-				ratings: 		elt["imdbRatings"],
+				ratings: 		elt["Rating"],
 				nb_ratings: 	elt["nb_ratings"],
-				nb_ratings: 	elt["annee_tournage"]
+				annee_tournage: elt["annee_tournage"]
 
 			}
 

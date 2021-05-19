@@ -13,6 +13,7 @@ module.exports = function (req, res, next) {
 
             		csv_file : "transformeds_datas.csv",
             		list_films: {},
+            		url_fuseki_update: ""
 
             	};
 
@@ -553,7 +554,24 @@ var build_query_film = function(wdatas, wcb)
 
 }
 
+var query_db = function(wdatas, wcb)
+{
+	var query = wdatas.query + "\n}\n";
+	var data = {query: query};
+	var url_fuseki_update = wdatas.url_fuseki_update
 
+	request.post({url: url_fuseki_update, form: data, function(err,httpResponse,body){
+		if(err)
+		{
+			return wcb("[query_db]"+err, wdatas);
+		}
+		else
+		{
+			return wcb(null, wdatas);
+		}
+	});
+
+}
 
 
 function get_correspondant_index(tab1, tab2, type)

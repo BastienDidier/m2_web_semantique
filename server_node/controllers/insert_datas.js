@@ -482,14 +482,14 @@ var get_films = function(wdatas, wcb)
 			var tpm_film = {
 
 				nom_film: 		elt["nom_tournage"],
-				types: 			[elt["type_tournage"]],
+				types: 			elt["type_tournage"],
 				realisateur: 	get_correspondant_index(tab_real_row, tab_real, "realisateur"),
 				actors: 		get_correspondant_index(tab_actors_row, tab_actors, "acteur"),
 				genres: 		get_correspondant_index(tab_genre_row, tab_genre, "genre"),
 				duree: 			elt["runtime"],
 				lieu_tournage: 	get_correspondant_index(tab_adresse_row, tab_adresse, "adresse"),
 				ratings: 		elt["Rating"],
-				nb_ratings: 	elt["nb_ratings"],
+				nb_ratings: 	elt["nb_votes"],
 				annee_tournage: elt["annee_tournage"]
 
 			}
@@ -516,37 +516,42 @@ var build_query_film = function(wdatas, wcb)
 	var query = wdatas.query;
 
 	var index_film = 0;
+	var index_serie = 0;
 
 	for (var film in list_films)
 	{
-		query += ":film"+index_film  + " rdfs:label \"" + film + "\".\n" ;
-	  	query += ":film"+index_film+" a :video .\n";
+
+		var type = list_films[film]["types"].indexOf("Série") != -1 ? "serie" : "film"
+		query += ":video"+index_film  + " rdfs:label \"" + film + "\".\n" ;
+	  	query += ":video"+index_film+" a :"+type+" .\n";
 
 	  	for(var i = 0; i<list_films[film]["lieu_tournage"].length; i++)
 	  	{
-	  		query += ":film"+index_film+" :aEteRealiseA :"+list_films[film]["lieu_tournage"][i]+" .\n";
+	  		query += ":video"+index_film+" :aEteRealiseA :"+list_films[film]["lieu_tournage"][i]+" .\n";
 	  	}
 
 	  	for(var i = 0; i<list_films[film]["actors"].length; i++)
 	  	{
-	  		query += ":film"+index_film+" :aPourActeur :"+list_films[film]["actors"][i]+" .\n";
+	  		query += ":video"+index_film+" :aPourActeur :"+list_films[film]["actors"][i]+" .\n";
 	  	}
 
 	  	for(var i = 0; i<list_films[film]["genres"].length; i++)
 	  	{
-	  		query += ":film"+index_film+" :aPourGenre :"+list_films[film]["genres"][i]+" .\n";
+	  		query += ":video"+index_film+" :aPourGenre :"+list_films[film]["genres"][i]+" .\n";
 	  	}
 
 	  	for(var i = 0; i<list_films[film]["realisateur"].length; i++)
 	  	{
-	  		query += ":film"+index_film+" :aPourRealisateur :"+list_films[film]["realisateur"][i]+" .\n";
+	  		query += ":video"+index_film+" :aPourRealisateur :"+list_films[film]["realisateur"][i]+" .\n";
 	  	}
 
-	  	query += ":film"+index_film+" :aPourDuree :"+list_films[film]["duree"]+" .\n";
-	  	query += ":film"+index_film+" :aPourNote :"+list_films[film]["ratings"]+" .\n";
-	  	query += ":film"+index_film+" :estSortiEn :"+list_films[film]["annee_tournage"]+" .\n";
+	  	query += ":video"+index_film+" :aPourDuree :"+list_films[film]["duree"]+" .\n";
+	  	query += ":video"+index_film+" :aPourNote :"+list_films[film]["ratings"]+" .\n";
+	  	query += ":video"+index_film+" :a_un_nombre_de_vote :"+list_films[film]["nb_ratings"]+" .\n";
+	  	query += ":video"+index_film+" :estSortiEn :"+list_films[film]["annee_tournage"]+" .\n";
 
 		index_film += 1;
+		
 	}
 
 	wdatas.query = query;

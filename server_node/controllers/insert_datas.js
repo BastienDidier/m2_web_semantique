@@ -11,7 +11,8 @@ module.exports = function (req, res, next) {
         function (wcb) {
             var wdatas= {
 
-            		csv_file : "transformeds_datas.csv"
+            		csv_file : "transformeds_datas.csv",
+            		list_films: {},
 
             	};
 
@@ -23,6 +24,8 @@ module.exports = function (req, res, next) {
         get_genre,
         get_actors,
         get_lieu,
+        get_films,
+        build_query_film,
         build_query_file
 
     ],
@@ -48,25 +51,6 @@ module.exports = function (req, res, next) {
 };
 
 
-var clear_file = function(wdatas, wcb)
-{
-	var file_name = "query_str.txt";
-
-	fs.unlink(file_name, function(err, result)
-	{
-		if(err)
-		{
-			return wcb("[clear_file]"+err, wdatas);
-		}
-		else
-		{
-			return wcb(null, wdatas);
-		}
-	});
-
-}
-
-
 var  parse_json = function(wdatas, wcb)
 {
 	var csv_file = wdatas.csv_file;
@@ -90,12 +74,15 @@ var  parse_json = function(wdatas, wcb)
 var get_real = function(wdatas, wcb)
 {
 	var json_datas = wdatas.json_datas;
-	var tab_real = []
+	var tab_real = [];
+	var json_films = wdatas.json_films;
+
 	json_datas.map(function(elt)
 	{
+
+		var film_name = elt["nom_tournage"];
 		var real = elt["nom_realisateur"].toLowerCase().trim()
 		real = cleanUpSpecialChars(real);
-
 
 
 		if(real.indexOf(" - ") != -1)
@@ -161,8 +148,9 @@ var get_real = function(wdatas, wcb)
 			}
 		}
 
-
 	})
+
+
 
 	var query_real = build_prefix()
 	for(var i = 0; i<tab_real.length; i++)
@@ -174,7 +162,7 @@ var get_real = function(wdatas, wcb)
 
 	query_real += "\n"
 	wdatas.query = query_real;
-
+	wdatas.tab_real = tab_real;
 	return wcb(null, wdatas);
 
 
@@ -211,6 +199,7 @@ var get_actors = function(wdatas, wcb)
 
 	query += "\n"
 	wdatas.query = query;
+	wdatas.tab_actors = tab_actors;
 
 	return wcb(null, wdatas);
 
@@ -247,7 +236,7 @@ var get_genre = function(wdatas, wcb)
 
 	query += "\n"
 	wdatas.query = query;
-
+	wdatas.tab_genre = tab_genre;
 	return wcb(null, wdatas);
 }
 
@@ -265,10 +254,9 @@ var get_lieu = function(wdatas, wcb)
 	};
 
 	var France = lieux["Europe"]["France"];
-
+	var tab_adresse = [];
 	json_datas.map(function(elt)
 	{
-
 
 		var lieu = elt["adresse_lieu"];
 		var adresse = lieu.split(",")[0]
@@ -349,7 +337,7 @@ var get_lieu = function(wdatas, wcb)
   					query += ":adresse"+index_adresse +  " rdfs:label \"" + lieux[continent][pays][ville][quartier][i] + "\".\n" ;
   					query += ":adresse"+index_adresse+" a :adresse .\n";
   					query += ":adresse"+index_adresse + " :seSitueDans :quartier"+index_quartier +". \n";
-
+  					tab_adresse.push(lieux[continent][pays][ville][quartier][i]);
   					index_adresse += 1
   				}
 
@@ -368,103 +356,223 @@ var get_lieu = function(wdatas, wcb)
 
 	query += "\n"
 	wdatas.query = query;
+	wdatas.tab_adresse = tab_adresse;
 
 	return wcb(null, wdatas);
 }
 
 
-
-
-
-var each_row = function(wdatas, wcb)
+var get_films = function(wdatas, wcb)
 {
-
 	var json_datas = wdatas.json_datas;
+	
+	var tab_real = wdatas.tab_real;
+	var tab_actors = wdatas.tab_actors;
+	var tab_genre = wdatas.tab_genre;
+	var tab_adresse = wdatas.tab_adresse;
 
-	async.eachLimit(json_datas, 1, function(row, cb)
-		{
-		    waterfall_insert_row(row, function(err, result)
-		    {
-		    	if(err)
-		    	{
-		    		console.log(err);
-		    		return cb(null, null);
-		    	}
-		    	else
-		    	{
-		    		return cb(null, result);
-		    	}
-		    });
-	},
-	function(err, result)
+
+	var list_films = {};
+	json_datas.map(function(elt)
 	{
-		if(err)
+		var tab_actors_row = [];
+		var tab_real_row = [];
+		var tab_genre_row = []
+
+		var actors = elt["actors"].split(",");
+		for(var j = 0; j<actors.length; j++)
 		{
-	    	console.log(err);
-	    	return wcb("[each_row]"+err, wdatas);
+			var actor = actors[j].toLowerCase().trim();
+			actor = cleanUpSpecialChars(actor);
+
+			if(tab_actors_row.indexOf(actor) == -1)
+			{
+				tab_actors_row.push(actor);
+			}			
+		}
+
+		var real = elt["nom_realisateur"].toLowerCase().trim()
+		real = cleanUpSpecialChars(real);
+
+
+
+		if(real.indexOf(" - ") != -1)
+		{
+			var tab_reals = real.split(" - ");
+			for(var i = 0; i<tab_reals.length; i++)
+			{
+				if(tab_real_row.indexOf(tab_reals[i].toLowerCase().trim()) == -1)
+				{
+					tab_real_row.push(tab_reals[i].toLowerCase().trim());
+
+				}
+
+			}
+
+		}
+		else if( real.indexOf(", ") != -1 )
+		{
+			var tab_reals = real.split(", ");
+			for(var i = 0; i<tab_reals.length; i++)
+			{
+				if(tab_real_row.indexOf(tab_reals[i].toLowerCase().trim()) == -1)
+				{
+					tab_real_row.push(tab_reals[i].toLowerCase().trim());
+
+				}
+
+			}
+
+		}
+		else if(real.indexOf(" et ") != -1)
+		{
+			var tab_reals = real.split(" et ");
+			for(var i = 0; i<tab_reals.length; i++)
+			{
+				if(tab_real_row.indexOf(tab_reals[i].toLowerCase().trim()) == -1)
+				{
+					tab_real_row.push(tab_reals[i].toLowerCase().trim());
+
+				}
+
+			}
+		}
+		else if(real.indexOf("/") != -1)
+		{
+			var tab_reals = real.split("/");
+			for(var i = 0; i<tab_reals.length; i++)
+			{
+				if(tab_real_row.indexOf(tab_reals[i].toLowerCase().trim()) == -1)
+				{
+					tab_real_row.push(tab_reals[i].toLowerCase().trim());
+
+				}
+
+			}
 		}
 		else
 		{
-			return wcb(null, wdatas);
+			if(tab_real_row.indexOf(real) == -1)
+			{
+				tab_real_row.push(real);
+
+			}
 		}
 
-	});
-}
+
+		var genres = elt["Genre"].split(",");
+		for(var j = 0; j<genres.length; j++)
+		{
+			var genre = genres[j].toLowerCase().trim();
+			genre = cleanUpSpecialChars(genre);
+			if(tab_genre_row.indexOf(genre) == -1)
+			{
+				tab_genre_row.push(genre);
+			}			
+		}
+
+		var lieu = elt["adresse_lieu"];
+		var adresse = lieu.split(",")[0]
+		var tab_adresse_row = adresse.split("/");
 
 
+		if(! list_films[elt["nom_tournage"]]])
+		{
+			var tpm_film = {
 
-var waterfall_insert_row = function(datas, cb)
-{
-	async.waterfall([
-	
-	        function (wcb) {
-				var wdatas = {
-					row: datas
-				}
-	            return wcb(null, wdatas);
-	        },
+				nom_film: 		elt["nom_tournage"],
+				types: 			[elt["type_tournage"]],
+				realisateur: 	get_correspondant_index(tab_real_row, tab_real, "realisateur"),
+				actors: 		get_correspondant_index(tab_actor_row, tab_actors, "acteur"),
+				genres: 		get_correspondant_index(tab_genre_row, tab_genre, "genre"),
+				duree: 			elt["runtime"]
+				lieu_tournage: 	get_correspondant_index(tab_adresse_row, tab_adresse, "adresse"),
+				ratings: 		elt["imdbRatings"],
+				nb_ratings: 	elt["nb_ratings"],
+				nb_ratings: 	elt["annee_tournage"]
 
-			build_insert_str,
-			insert_row
-    ],
-    function(error,result){
+			}
 
-        if(error || !result){
-
-           return cb("[waterfall_insert_row]"+error, );
-
-        }else{
-			return cb(null, result)
-        }
-    });
-
-}
+			list_films[elt["nom_tournage"]] = tpm_film;
+		}
+		else
+		{
+			list_films[elt["nom_tournage"]]["lieu_tournage"] = list_films[elt["nom_tournage"]]["lieu_tournage"].concat(get_correspondant_index(tab_adresse_row, tab_adresse, "adresse")); 
+		}
+	})
 
 
-var build_insert_str = function(wdatas, wcb)
-{
-	var row = wdatas.row;
-	var query = build_prefix();
-	query += insert_movie(row);
-	query += insert_actors(row);
-	query += insert_realisateur(row);
-	query += insert_lieu(row);
+	wdatas.list_films = list_films;
 
-	console.log(query);
-	wdatas.query = query
-	return wcb(null, wdatas);
-}
-
-
-var db_insert = function(wdatas, wcb)
-{
-	var query = wdatas.query;
-	//to do find npm module for insert datas
 	return wcb(null, wdatas)
+
+}
+
+
+var build_query_film = function(wdatas, wcb)
+{
+	var list_films = wdatas.list_films;
+	var query = wdatas.query;
+
+	var index_film = 0;
+
+	for (var film in list_films)
+	{
+		query += ":film"+index_film  + " rdfs:label \"" + film + "\".\n" ;
+	  	query += ":film"+index_film+" a :video .\n";
+
+	  	for(var i = 0; i<list_films[film]["lieu_tournage"].length; i++)
+	  	{
+	  		query += ":film"+index_film+" :aEteRealiseA :"+list_films[film]["lieu_tournage"][i]+" .\n";
+	  	}
+
+	  	for(var i = 0; i<list_films[film]["actors"].length; i++)
+	  	{
+	  		query += ":film"+index_film+" :aPourActeur :"+list_films[film]["actors"][i]+" .\n";
+	  	}
+
+	  	for(var i = 0; i<list_films[film]["genres"].length; i++)
+	  	{
+	  		query += ":film"+index_film+" :aPourGenre :"+list_films[film]["genres"][i]+" .\n";
+	  	}
+
+	  	for(var i = 0; i<list_films[film]["realisateur"].length; i++)
+	  	{
+	  		query += ":film"+index_film+" :aPourRealisateur :"+list_films[film]["realisateur"][i]+" .\n";
+	  	}
+
+	  	query += ":film"+index_film+" :aPourDuree :"+list_films[film]["duree"]+" .\n";
+	  	query += ":film"+index_film+" :aPourNote :"+list_films[film]["ratings"]+" .\n";
+	  	query += ":film"+index_film+" :estSortiEn :"+list_films[film]["annee_tournage"]+" .\n";
+
+		index_film += 1;
+	}
+
+	wdatas.query = query;
+	return wcb(null, wdatas);
+
 }
 
 
 
+
+function get_correspondant_index(tab1, tab2, type)
+{
+	var array_indexes = [];
+	for(var i = 0; i<tab1.length; i++)
+	{
+		for(var j = 0; j<tab2.length; j++)
+		{
+			if(tab1[i] == tab2[j])
+			{
+				array_indexes.push(type+""+j);
+			}
+		}
+	}
+
+	return array_indexes;
+
+}
 function build_prefix()
 {
 
@@ -477,11 +585,6 @@ function build_prefix()
 
 }
 
-function insert_movie(row)
-{
-
-	return "";
-}
 
 function insert_realisateur(nom_real, index)
 {

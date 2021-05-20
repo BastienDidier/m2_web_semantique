@@ -13,7 +13,7 @@ module.exports = function (req, res, next) {
 
             		csv_file : "transformeds_datas.csv",
             		list_films: {},
-            		url_fuseki_update: ""
+            		url_fuseki_update: "http://localhost:3030/cinemaTP/update"
 
             	};
 
@@ -27,6 +27,7 @@ module.exports = function (req, res, next) {
         get_lieu,
         get_films,
         build_query_film,
+        query_db,
         build_query_file
 
     ],
@@ -222,6 +223,17 @@ var get_genre = function(wdatas, wcb)
 		{
 			var genre = genres[j].toLowerCase().trim();
 			genre = cleanUpSpecialChars(genre);
+
+			if(genre == "" || genre == "n/a")
+			{
+				genre = "n/a";
+			}
+
+			if(genre == "musical")
+			{
+				genre = "music";
+			}
+
 			if(tab_genre.indexOf(genre) == -1)
 			{
 				tab_genre.push(genre);
@@ -466,6 +478,14 @@ var get_films = function(wdatas, wcb)
 		{
 			var genre = genres[j].toLowerCase().trim();
 			genre = cleanUpSpecialChars(genre);
+			if(genre == "" || genre == "n/a")
+			{
+				genre = "n/a";
+			}
+			if(genre == "musical")
+			{
+				genre = "music";
+			}
 			if(tab_genre_row.indexOf(genre) == -1)
 			{
 				tab_genre_row.push(genre);
@@ -486,7 +506,7 @@ var get_films = function(wdatas, wcb)
 				realisateur: 	get_correspondant_index(tab_real_row, tab_real, "realisateur"),
 				actors: 		get_correspondant_index(tab_actors_row, tab_actors, "acteur"),
 				genres: 		get_correspondant_index(tab_genre_row, tab_genre, "genre"),
-				duree: 			elt["runtime"],
+				duree: 			elt["runtime"].replace(" min", ""),
 				lieu_tournage: 	get_correspondant_index(tab_adresse_row, tab_adresse, "adresse"),
 				ratings: 		elt["Rating"],
 				nb_ratings: 	elt["nb_votes"],
@@ -545,9 +565,28 @@ var build_query_film = function(wdatas, wcb)
 	  		query += ":video"+index_film+" :aPourRealisateur :"+list_films[film]["realisateur"][i]+" .\n";
 	  	}
 
-	  	query += ":video"+index_film+" :aPourDuree :"+list_films[film]["duree"]+" .\n";
-	  	query += ":video"+index_film+" :aPourNote :"+list_films[film]["ratings"]+" .\n";
-	  	query += ":video"+index_film+" :a_un_nombre_de_vote :"+list_films[film]["nb_ratings"]+" .\n";
+	  	var duree = list_films[film]["duree"]
+	  	if( ! duree || duree == "N/A" || duree == "")
+	  	{
+	  		duree = 0
+	  	}
+
+	  	query += ":video"+index_film+" :aPourDuree :"+duree+" .\n";
+
+	  	var nb_votes = list_films[film]["nb_ratings"];
+	  	if(! nb_votes || nb_votes == "N/A" || nb_votes == "")
+	  	{
+	  		nb_votes = 0;
+	  	}
+
+	  	var notes = list_films[film]["ratings"];
+	  	if(! notes || notes == "N/A" || notes == "")
+	  	{
+	  		notes = 5;
+	  	}
+
+	  	query += ":video"+index_film+" :aPourNote "+notes+" .\n";
+	  	query += ":video"+index_film+" :a_un_nombre_de_vote "+nb_votes+" .\n";
 	  	query += ":video"+index_film+" :estSortiEn :"+list_films[film]["annee_tournage"]+" .\n";
 
 		index_film += 1;
@@ -562,20 +601,30 @@ var build_query_film = function(wdatas, wcb)
 var query_db = function(wdatas, wcb)
 {
 	var query = wdatas.query + "\n}\n";
-	var data = {query: query};
 	var url_fuseki_update = wdatas.url_fuseki_update
+	var data = {update: query};
 
-	request.post({url: url_fuseki_update, form: data}, function(err,httpResponse,body){
-		if(err)
-		{
+	request.post({
+
+	    url: url_fuseki_update,
+	    json: true,
+	    form: data
+
+	}, function(err, response, body){
+
+	    if(err || !response || response.statusCode != 200)
+	    {
+	        console.log(err);
+	        console.log("Erreur");    
 			return wcb("[query_db]"+err, wdatas);
-		}
-		else
-		{
+	    }
+	    else
+	    {
+	        console.log("Résultat :");
+	        console.log(body);
 			return wcb(null, wdatas);
-		}
+	    }
 	});
-
 }
 
 

@@ -9,13 +9,12 @@ async.waterfall([
         function (wcb) {
             var wdatas= {
 
-
+            		url_fuseki_update: "http://localhost:3030/cinemaTP"
 
             	};
 
             return wcb(null,wdatas);
         }
-
     ],
     function(error,result){
 

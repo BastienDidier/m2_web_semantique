@@ -32,7 +32,7 @@ async.waterfall([
 
         }else{
 
-        	return res.status(200).json({list_film: tab_film});
+        	return res.status(200).json({list_film: tab_film, description_ville: description_ville});
 
         }
 
@@ -47,7 +47,7 @@ var call_db = function(wdatas, wcb)
      var url_fuseki_update = wdatas.url_fuseki_update;
     var query = 'PREFIX : <http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#>'
     query += "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
-    query += "SELECT ?nom_video  ?adresse ?ville ?note WHERE {"
+    query += "SELECT ?nom_video  ?adresse ?ville ?note ?ville_description WHERE {"
     query += "?video a :film ."
     query += "?video rdfs:label ?nom_video ."
     query += "?video :aPourNote ?note ."
@@ -56,6 +56,7 @@ var call_db = function(wdatas, wcb)
     query += "?adresse_uri :seSitueDans ?quartier_uri ."
     query += "?quartier_uri :seSitueDans ?ville_uri ."
     query += "?ville_uri rdfs:label ?ville ."
+    query += "?ville_uri :description ?ville_description ."
     query += "FILTER(str(?ville_uri) = 'http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#"+ville_id+"')";
     query += "}"
 
@@ -92,6 +93,9 @@ var format_list_film = function(wdatas, wcb)
     var dictionnary_film = {};
     var tab_film = [];
     var genre = wdatas.genre;
+
+    var description_ville = list_film[0]["description_ville"]["value"];
+    wdatas.description_ville = description_ville;
 
     list_film.map(function(elt){
 

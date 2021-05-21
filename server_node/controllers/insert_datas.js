@@ -25,6 +25,7 @@ module.exports = function (req, res, next) {
         get_genre,
         get_actors,
         get_lieu,
+        call_dbpedia,
         get_films,
         build_query_film,
         query_db,
@@ -321,6 +322,8 @@ var get_lieu = function(wdatas, wcb)
 	var index_quartier = 0;
 	var index_adresse = 0;
 
+	var list_villes = []
+
 	for (var continent in lieux)
 	{
 
@@ -335,6 +338,7 @@ var get_lieu = function(wdatas, wcb)
 
 	  	for(var ville in lieux[continent][pays])
 	  	{
+	  		list_villes.push(ville);
 	  		query += ":ville"+index_ville +  " rdfs:label \"" + ville + "\".\n" ;
 	  		query += ":ville"+index_ville+" a :ville .\n";
 	  		query += ":ville"+index_pays + " :seSitueDans :pays"+index_pays +". \n";
@@ -370,10 +374,83 @@ var get_lieu = function(wdatas, wcb)
 	query += "\n"
 	wdatas.query = query;
 	wdatas.tab_adresse = tab_adresse;
+	wdatas.list_villes = list_villes
 
 	return wcb(null, wdatas);
 }
 
+
+var call_dbpedia = function(wdatas, wcb)
+{
+	var list_villes = wdatas.list_villes;
+	console.log("iic list_villes call_dbpedia")
+	console.log(list_villes)
+	var url_fuseki = "http://localhost:3030/cinemaTP";
+	var query = wdatas.query;
+	var index_ville = 0;
+	async.eachLimit(list_villes , 1, function(ville, cb)
+	{
+		var query_dbpedia = 'PREFIX : <http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#>\n'
+		query_dbpedia += "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n"
+		query_dbpedia += "SELECT * WHERE { \n";
+		query_dbpedia += "SERVICE <http://dbpedia.org/sparql> {\n";
+		query_dbpedia += "<http://dbpedia.org/resource/"+ville+"> ?o ?p .\n"
+		query_dbpedia += "}\n"
+		query_dbpedia += "}\n"
+
+		var data = {query: query_dbpedia};
+
+		request.post({
+
+		    url: url_fuseki,
+		    json: true,
+		    form: data
+
+		}, function(err, response, body){
+
+		    if(err || !response || response.statusCode != 200)
+		    {
+		        console.log(err);   
+		        index_ville += 1;
+		        return cb( null , null);
+		    }
+		    else
+		    {
+		        var data = body.results.bindings;
+		        for(var i = 0; i<data.length; i++)
+		        {
+
+		        	var ontology = data[i]["o"]["value"];
+		        	var property = data[i]["p"];
+		        	if(ontology.indexOf("abstract") != -1 && property["xml:lang"] == "fr" )
+		        	{
+		        		query += ":ville"+index_ville + " :description \""+ property["value"] +"\" .\n";
+		        	}
+		        }
+
+		        index_ville += 1;
+		        return cb(null, null);
+		    }
+		});
+	    
+	},
+	function(err, result)
+	{
+		if(err)
+		{
+	    	console.log(err);
+	    	return wcb("[call_dbpedia]"+err, wdatas);
+		}
+		else
+		{
+			wdatas.query = query;
+			return wcb(null, wdatas);
+		}
+
+	});
+
+
+}
 
 var get_films = function(wdatas, wcb)
 {
@@ -620,8 +697,6 @@ var query_db = function(wdatas, wcb)
 	    }
 	    else
 	    {
-	        console.log("Résultat :");
-	        console.log(body);
 			return wcb(null, wdatas);
 	    }
 	});

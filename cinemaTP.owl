@@ -145,6 +145,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#description">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#ville"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#estSortiEn -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nathalie/ontologies/2017/1/untitled-ontology-161#estSortiEn">

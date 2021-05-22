@@ -33,7 +33,11 @@
     margin-top: 12px;
     margin-bottom: 12px;
 }
-
+#map { height: 600px; }
+#instructions { 
+    height: 400px;
+    width: 200px;
+}
 </style>
 <script
   src="https://code.jquery.com/jquery-3.4.1.js"
@@ -42,7 +46,14 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+   crossorigin=""></script>
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js'></script>
+ <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
 <body>
 
     <div id="header">
@@ -59,10 +70,9 @@
         </div>
 
 
-        <div id="preambule"> 
-            <div id="txt">Prenez le temps de découvrir les villes françaises sous l'angle de la création cinématographique ! Notre site web vous permettra d'avoir une rapide idée de la popularité des villes en fonction des films tournés en leur sein. Vous pourrez aussi en apprendre davantage sur les tournages de vos films préférés.</div>
-        </div>
 
+        <div id='map'></div>
+        <div id="instructions"></div>
 
         
         <div id="list">
@@ -121,5 +131,105 @@
         </div>
     </div>
 
+<script type="text/javascript">
+    $(document).ready(function () {
+        mapboxgl.accessToken = 'pk.eyJ1Ijoic2tyYWxsa2FnZ2VuIiwiYSI6ImNrb3pqMzRuMjBreWoyd254YjdyMmJ6ZG8ifQ.Z0Efmarj4fYhEhA4fYSl-w';
+        var mymap = new mapboxgl.Map({
+          container: 'map',
+          style: 'mapbox://styles/mapbox/streets-v10',
+          zoom: 15
+        });
+
+        var url = "http://localhost:3000/villes/details/ville0/ajax?genre=all"
+
+     $.ajax({
+          type: "GET",
+          url: url,
+          success: function(data, textStatus, jqXHR)
+            {
+                console.log(data)
+                var directions = data["directions"];
+                var description_ville = data["description_ville"];
+                var list_films = data["list_films"];
+
+                var route = directions.routes[0].geometry.coordinates;
+                display_directions_on_map(route, mymap);
+                add_instructions(directions.routes[0])
+
+            },
+            error: function (jqXHR, textStatus, errorThrown)
+            {
+                alert("Nombre call api mapbox depassé");       
+            },
+          dataType: "json"
+        });
+
+    });
+
+    function add_instructions(data)
+    {
+        var instructions = $("#instructions");
+
+        var steps = data.legs[0].steps;
+        console.log(steps)
+
+        var tripInstructions = [];
+        for (var i = 0; i < steps.length; i++) {
+          tripInstructions.push('<br><li>' + steps[i].maneuver.instruction) + '</li>';
+          instructions.innerHTML = '<br><span class="duration">Etapes du voyages :  </span>' + tripInstructions;
+        }
+    }
+
+    function display_directions_on_map(route, mymap)
+    {
+        var geojson = {
+          type: 'Feature',
+          properties: {},
+          geometry: {
+            type: 'LineString',
+            coordinates: route
+          }
+        };
+        // if the route already exists on the map, reset it using setData
+        if (mymap.getSource('route'))
+        {
+          mymap.getSource('route').setData(geojson);
+        }
+        else
+        { // otherwise, make a new request
+          mymap.addLayer({
+            id: 'route',
+            type: 'line',
+            source: {
+              type: 'geojson',
+              data: {
+                type: 'Feature',
+                properties: {},
+                geometry: {
+                  type: 'LineString',
+                  coordinates: geojson
+                }
+              }
+            },
+            layout: {
+              'line-join': 'round',
+              'line-cap': 'round'
+            },
+            paint: {
+              'line-color': '#3887be',
+              'line-width': 10,
+              'line-opacity': 1
+            }
+          });
+        }
+
+        mymap.flyTo({
+            center: route[0]
+        });
+
+    }
+
+</script>
 </body>
+
 </html>

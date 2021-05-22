@@ -3,15 +3,15 @@ var request=require('request');
 
 module.exports = function (req, res, next) {
 
-
-async.waterfall([
+    async.waterfall([
 
         function (wcb) {
             var wdatas= {
 
-                ville_id: req.param.id,
+                ville_id: req.params.id,
                 url_fuseki_update: "http://localhost:3030/cinemaTP",
-                genre: req.body.genre || "all"
+                genre: req.query.genre || "all",
+                token_mapbox: "pk.eyJ1Ijoic2tyYWxsa2FnZ2VuIiwiYSI6ImNrb3pqMzRuMjBreWoyd254YjdyMmJ6ZG8ifQ.Z0Efmarj4fYhEhA4fYSl-w"
 
             };
 
@@ -20,6 +20,9 @@ async.waterfall([
 
         call_db,
         format_list_film,
+        format_list_adresse,
+        get_geocoding_values,
+        get_directions
 
     ],
     function(error,result){
@@ -32,7 +35,7 @@ async.waterfall([
 
         }else{
 
-        	return res.status(200).json({list_film: tab_film, description_ville: description_ville});
+            return res.status(200).json({list_film: result.list_film, description_ville: result.description_ville, directions: result.directions});
 
         }
 
@@ -77,7 +80,6 @@ var call_db = function(wdatas, wcb)
         }
         else
         {
-            console.log(body.results.bindings)
             var list_film = body.results.bindings;
             wdatas.list_film = list_film; 
             return wcb(null, wdatas);
@@ -94,7 +96,7 @@ var format_list_film = function(wdatas, wcb)
     var tab_film = [];
     var genre = wdatas.genre;
 
-    var description_ville = list_film[0]["description_ville"]["value"];
+    var description_ville = list_film[0]["ville_description"]["value"];
     wdatas.description_ville = description_ville;
 
     list_film.map(function(elt){
@@ -151,4 +153,109 @@ var format_list_film = function(wdatas, wcb)
     wdatas.tab_film = tab_film.slice(0,4);
     return wcb(null, wdatas);
 
+}
+
+var format_list_adresse = function(wdatas, wcb)
+{
+    console.log("format_list_adresse")
+    var tab_film = wdatas.tab_film;
+
+    var tab_adresse = [];
+
+    for(var i = 0; i<tab_film.length; i++)
+    {
+        var film = tab_film[i];
+        film["adresse"].map(function(elt){
+            tab_adresse.push(elt+','+film["ville"])
+            return elt;
+        });
+
+    }
+    wdatas.tab_adresse = tab_adresse;
+    return wcb(null, wdatas);
+}
+
+
+var get_geocoding_values = function(wdatas, wcb)
+{
+     console.log("get_geocoding_values")
+    var token_mapbox = wdatas.token_mapbox;
+    var tab_adresse = wdatas.tab_adresse.slice(0,2);
+    var geo_coding_tab_adresse = [];
+    tab_adresse=["4 rue des troubadours, Labège France", "Place du Capitole, Toulouse France"]
+    async.eachLimit(tab_adresse, 1, function(adresse, cb)
+    {
+        var url = "https://api.mapbox.com/geocoding/v5/mapbox.places/"+adresse+".json?limit=5&language=fr&access_token="+token_mapbox;
+        var options = {
+          method: 'GET',
+          url: url,
+          json: true
+        };
+
+        request(options, function (error, response, body) {
+            if (error) {
+                console.log(error)
+                return cb(null, null);
+            }
+            else
+            {
+
+                var data = body.features[0].geometry;
+                geo_coding_tab_adresse.push(data);
+
+                return cb(null, null);
+            }
+        });
+    },
+    function(err, result)
+    {
+        if(err)
+        {
+            console.log(err);
+            return wcb("[get_geocoding_values]"+err, wdatas);
+        }
+        else
+        {
+            wdatas.geo_coding_tab_adresse = geo_coding_tab_adresse;
+            return wcb(null, wdatas);
+        }
+
+    });
+}
+
+var get_directions = function(wdatas, wcb)
+{
+    console.log("get_directions")
+    var geo_coding_tab_adresse = wdatas.geo_coding_tab_adresse;
+    var token_mapbox = wdatas.token_mapbox;
+    var url = "https://api.mapbox.com/directions/v5/mapbox/cycling/"
+    for(var i = 0; i<geo_coding_tab_adresse.length; i++)
+    {
+        url += geo_coding_tab_adresse[i]["coordinates"][0] + "," + geo_coding_tab_adresse[i]["coordinates"][1] + ";"
+    }
+
+    var url = url.substring(0, url.length - 1);
+
+    url += "?access_token="+token_mapbox;
+    url += "&language=fr";
+    url += "&steps=true";
+    url += "&geometries=geojson";
+
+    var options = {
+      method: 'GET',
+      url: url,
+      json: true
+    };
+
+    request(options, function (error, response, body) {
+        if (error) {
+            console.log(error)
+            return wcb("[get_directions]", null);
+        }
+        else
+        {
+            wdatas.directions = body;
+            return wcb(null, wdatas);
+        }
+    });
 }

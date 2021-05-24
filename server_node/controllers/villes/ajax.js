@@ -95,7 +95,6 @@ var format_list_film = function(wdatas, wcb)
     var dictionnary_film = {};
     var tab_film = [];
     var genre = wdatas.genre;
-    console.log(list_film);
     var description_ville = (list_film.length !== 0 ? list_film[0]["ville_description"]["value"] : "");
     wdatas.description_ville = description_ville;
 
@@ -182,7 +181,7 @@ var get_geocoding_values = function(wdatas, wcb)
     var token_mapbox = wdatas.token_mapbox;
     var tab_adresse = wdatas.tab_adresse.slice(0,2);
     var geo_coding_tab_adresse = [];
-    tab_adresse=["4 rue des troubadours, Labège France", "Place du Capitole, Toulouse France"]
+    
     async.eachLimit(tab_adresse, 1, function(adresse, cb)
     {
         var url = "https://api.mapbox.com/geocoding/v5/mapbox.places/"+adresse+".json?limit=5&language=fr&access_token="+token_mapbox;

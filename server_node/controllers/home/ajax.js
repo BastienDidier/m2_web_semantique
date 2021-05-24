@@ -85,7 +85,6 @@ var get_list_ville = function(wdatas, wcb)
 
 var format_list_ville = function(wdatas, wcb)
 {
-
     var list_film = wdatas.list_film;
     var dictionnary_city = {};
     var dictionnary_film = {};
@@ -127,7 +126,6 @@ var format_list_ville = function(wdatas, wcb)
     {
         var film_object = dictionnary_film[film];
         var city = film_object["ville"];
-
         var tmp_object = {
             nom: city,
             nbTotalFilms : 0,
@@ -169,30 +167,35 @@ var format_list_ville = function(wdatas, wcb)
                  dictionnary_city[city]["genres"][genre]["tab_note"].push(film_object["note"]);
                  dictionnary_city[city]["genres"][genre]["nbTotalFilms"] += 1
             }
+
+            
         }
     }
 
     for(var city in dictionnary_city)
     {
+
         var sum = dictionnary_city[city]["tab_note"].reduce((a, b) => {
           return parseInt(a) + parseInt(b);
         });
-        var nb_film = dictionnary_city[city]["nb_film"];
+
+        var nb_film = dictionnary_city[city]["nbTotalFilms"];
         dictionnary_city[city]["note"] = sum / nb_film;
-        delete dictionnary_city[city]["tab_note"]; 
 
         for(var genre_city in dictionnary_city[city]["genres"])
         {
+            
             var sum_genre_test = dictionnary_city[city]["genres"][genre_city]["tab_note"];
+
             if(sum_genre_test !== undefined) {
                 var sum_genre = dictionnary_city[city]["genres"][genre_city]["tab_note"].reduce((a, b) => {
                 return parseInt(a) + parseInt(b);
                 });
-                var nb_film_genre = dictionnary_city[city]["genres"][genre_city]["nb_film"];
+                var nb_film_genre = dictionnary_city[city]["genres"][genre_city]["nbTotalFilms"];
                 dictionnary_city[city]["genres"][genre_city]["note"] = sum_genre / nb_film_genre;
-                delete dictionnary_city[city]["genres"][genre]["tab_note"]; 
             }
         }
+
     }
 
     wdatas.list_genre = list_genre;

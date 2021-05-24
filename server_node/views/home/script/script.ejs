@@ -1,0 +1,212 @@
+<script type="text/javascript">
+	var vPropre = [];
+	var vPropreCurrent = [];
+	var sortMode = "alpha";
+	$(document).ready(function () {
+
+		/* 
+			list_genre: result.list_genre, => tableau de tout les genres disponibles ex ["war", "action", "comedy" ... ]
+			data: les données des villes sous la forme suivante: 
+
+			"Paris": {
+				"nom": "Paris",
+				nbTotalFilms: 10,
+				noteGlobale: 4.5 => sur 10 je peux y mettre sur 100
+				id_ville: "ville0"
+				genres: {
+
+					"horror": {
+						nom: "horror",
+						nbTotalFilms: 2,
+						noteGlobale: 3,
+					}
+				}
+			} 
+		*/
+
+		$.ajax({
+          type: "POST",
+          url: "/home/ajax",
+          success: function(data, textStatus, jqXHR)
+            {
+				
+				let genres = [];
+				let villes = [];
+				// let villes = {};
+				
+				console.log(data);
+
+				// MOCKUP
+				var response = {
+					"list_genre":[
+						"war",
+						"horror"
+					],
+					"data":[
+						{
+							"Zaris":{
+								"nom":"Zaris",
+								"nbTotalFilms":10,
+								"noteGlobale":4.5,
+								"id_ville":"ville0",
+								"genres":{
+								"horror":{
+									"nom":"horror",
+									"nbTotalFilms":5,
+									"note":6,
+									"id_ville":"ville0",
+								}
+								}
+							}
+						},
+						{
+							"Toulouse":{
+								"nom":"Toulouse",
+								"nbTotalFilms":5,
+								"noteGlobale":3,
+								"id_ville":"ville1",
+								"genres":{
+								"horror":{
+									"nom":"horror",
+									"nbTotalFilms":1,
+									"note":7,
+									"id_ville":"ville1",
+								}
+								}
+							}
+						},
+						{
+							"Oskour":{
+								"nom":"Oskour",
+								"nbTotalFilms":5000,
+								"noteGlobale":1,
+								"id_ville":"ville1",
+								"genres":{
+								"horror":{
+									"nom":"horror",
+									"nbTotalFilms":25,
+									"note":5,
+									"id_ville":"ville2",
+								}
+								}
+							}
+						}
+					]
+				};
+
+				// result = response;
+				result = data;
+
+				genres = result.list_genre;
+				// villes = result.data;
+				villes.push(result.data);
+				console.log(villes);
+				villes.forEach( (ville) => {
+					vName = Object.keys(ville)[0];
+					console.log(ville[vName].id_ville);
+
+					vPropre.push({ 
+						vName: vName , 
+						vFilms : ville[vName].nbTotalFilms , 
+						vNote : ville[vName].noteGlobale , 
+						vId: ville[vName].id_ville ,
+						vGenres: ville[vName].genres
+					
+					});
+
+				})
+
+				// Fill table
+				vPropreCurrent = vPropre;
+				sortTable(sortMode);
+
+
+				// Create filter
+				let htmlFiltre = document.getElementById("filtre");
+				let htmlStrFiltre = "<option value=\"last\">Tous genre confondu</option>";
+				for (let i = 0; i < genres.length; i++) {
+					htmlStrFiltre += `<option value="${genres[i]}">${genres[i]}</option>`
+				}
+				htmlFiltre.innerHTML += htmlStrFiltre;
+
+
+
+
+            },
+            error: function (jqXHR, textStatus, errorThrown)
+            {
+                alert("Oskour : " + errorThrown);       
+            },
+          dataType: "json"
+        });
+
+
+
+	});
+
+	function resetAndFillTable() {
+		let htmlTable = document.getElementById("tableList");
+		htmlTable.innerHTML = "";
+		for (let i = 0; i < vPropreCurrent.length; i++) {
+			let htmlStr = `<tr>
+					<td>${i+1}</td>
+					<td>${vPropreCurrent[i].vName}</td>
+					<td>${vPropreCurrent[i].vFilms}</td>
+					<td>${vPropreCurrent[i].vNote}</td>
+					<td><a class="btn btn-secondary" href="/villes/details/${vPropreCurrent[i].vId}" role="button">Détails</a></td>					
+				</tr>`	
+				htmlTable.innerHTML += htmlStr;
+		}
+	}
+	
+	function filterWithThisGenre(genre) {
+		if(genre !== "last") {
+			let vPropreParGenre = [];
+			for( let i = 0; i < vPropre.length; i++) {
+				let info = vPropre[i].vGenres[genre];
+				if(info !== undefined) {
+					vPropreParGenre.push({ 
+								vName: vPropre[i].vName , 
+								vFilms : info.nbTotalFilms , 
+								vNote : info.note , 
+								vId: info.id_ville ,					
+					});
+				}
+			}
+			vPropreCurrent = vPropreParGenre;
+		} else {
+			vPropreCurrent = vPropre;
+		}
+		sortTable(sortMode);
+	}
+
+	function sortTable(mode) {
+		if(mode === "alpha" ) {
+			vPropreCurrent.sort(function(a, b) {
+				var textA = a.vName.toUpperCase();
+				var textB = b.vName.toUpperCase();
+				return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+			});
+
+		}
+
+		if(mode === "note") {
+			vPropreCurrent.sort(function(a, b) {
+				var noteA = a.vNote;
+				var noteB = b.vNote;
+				return (noteA < noteB) ? 1 : (noteA > noteB) ? -1 : 0;
+			});
+		}
+
+		if(mode === "number") {
+			vPropreCurrent.sort(function(a, b) {
+				var nbFilmsA = a.vFilms;
+				var nbFilmsB = b.vFilms;
+				return (nbFilmsA < nbFilmsB) ? 1 : (nbFilmsA > nbFilmsB) ? -1 : 0;
+			});
+		}			
+		sortMode = mode;
+		console.log(vPropreCurrent);
+		resetAndFillTable();
+	}
+</script>

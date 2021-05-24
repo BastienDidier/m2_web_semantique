@@ -183,12 +183,15 @@ var format_list_ville = function(wdatas, wcb)
 
         for(var genre_city in dictionnary_city[city]["genres"])
         {
-            var sum_genre = dictionnary_city[city]["genres"][genre_city]["tab_note"].reduce((a, b) => {
-              return parseInt(a) + parseInt(b);
-            });
-            var nb_film_genre = dictionnary_city[city]["genres"][genre_city]["nb_film"];
-            dictionnary_city[city]["genres"][genre_city]["note"] = sum_genre / nb_film_genre;
-            delete dictionnary_city[city]["genres"][genre]["tab_note"]; 
+            var sum_genre_test = dictionnary_city[city]["genres"][genre_city]["tab_note"];
+            if(sum_genre_test !== undefined) {
+                var sum_genre = dictionnary_city[city]["genres"][genre_city]["tab_note"].reduce((a, b) => {
+                return parseInt(a) + parseInt(b);
+                });
+                var nb_film_genre = dictionnary_city[city]["genres"][genre_city]["nb_film"];
+                dictionnary_city[city]["genres"][genre_city]["note"] = sum_genre / nb_film_genre;
+                delete dictionnary_city[city]["genres"][genre]["tab_note"]; 
+            }
         }
     }
 

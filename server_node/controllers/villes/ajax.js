@@ -95,8 +95,8 @@ var format_list_film = function(wdatas, wcb)
     var dictionnary_film = {};
     var tab_film = [];
     var genre = wdatas.genre;
-
-    var description_ville = list_film[0]["ville_description"]["value"];
+    console.log(list_film);
+    var description_ville = (list_film.length !== 0 ? list_film[0]["ville_description"]["value"] : "");
     wdatas.description_ville = description_ville;
 
     list_film.map(function(elt){

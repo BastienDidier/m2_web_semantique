@@ -1,166 +1,178 @@
 <!doctype html>
 <html lang="fr">
+
 <head>
-  <meta charset="utf-8">
-  <title>Titre de la page</title>
+    <meta charset="utf-8">
+    <title>Titre de la page</title>
 </head>
 <style type="text/css">
+    #header {
+        background-color: rgba(0, 0, 0, 75%);
+        height: 64px;
+    }
 
-#header { 
-    background-color: rgba(0 , 0 , 0 , 75%);
-    height: 64px;
-}
+    #introduction {
+        text-align: center;
+        margin: 32px;
+    }
 
-#introduction {
-    text-align: center;
-    margin: 32px;
-}
+    #preambule {
+        text-align: center;
+        padding-bottom: 64px;
+    }
 
-#preambule { 
-    text-align: center;
-    padding-bottom: 64px;
-}
+    #list {
+        padding: 32px;
+    }
 
-#list { 
-    padding: 32px;
-}
+    #content1 {
+        padding: 32px;
+    }
 
-#content1 {
-    padding: 32px;
-}
+    .txt-info {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
 
-.txt-info {
-    margin-top: 12px;
-    margin-bottom: 12px;
-}
-#map { height: 600px; }
-#instructions { 
-    height: 400px;
-    width: 200px;
-}
+    #map {
+        height: 600px;
+    }
+
+    #instructions {
+        height: 400px;
+        width: 200px;
+    }
 </style>
-<script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.css"crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.css"
+    crossorigin="anonymous">
 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-   crossorigin=""/>
-   <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-   crossorigin=""></script>
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
 <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js'></script>
- <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
+
 <body>
 
     <div id="header">
-            
+
     </div>
     <div class="container">
 
 
         <div id="introduction">
             <div class="panel panel-default">
-                <div class="panel-heading"><h2>Oskour</h2></div>
+                <div class="panel-heading">
+                    <h2>Oskour</h2>
+                </div>
                 <div class="panel-body" id="description_ville"></div>
             </div>
         </div>
 
 
         <div class="row">
-            <div class="panel-heading"><h2>Proposition d'un itinéraire de découvertes des lieu de tournage ( <i class="fa fa-bicycle" aria-hidden="true"></i>
- )</h2></div>
+            <div class="panel-heading">
+                <h2>Proposition d'un itinéraire de découvertes des lieu de tournage ( <i class="fa fa-bicycle"
+                        aria-hidden="true"></i>
+                    )</h2>
+            </div>
             <div id='map' class="col-lg-8"></div>
             <div id="instructions" class="col-lg-4" style="height: 600px; overflow-y: scroll;"></div>
         </div>
 
     </div>
 
-<script type="text/javascript">
-    $(document).ready(function () {
-        mapboxgl.accessToken = 'pk.eyJ1Ijoic2tyYWxsa2FnZ2VuIiwiYSI6ImNrb3pqMzRuMjBreWoyd254YjdyMmJ6ZG8ifQ.Z0Efmarj4fYhEhA4fYSl-w';
-        var mymap = new mapboxgl.Map({
-          container: 'map',
-          style: 'mapbox://styles/mapbox/streets-v10',
-          zoom: 15
+    <script type="text/javascript">
+        $(document).ready(function () {
+            mapboxgl.accessToken = 'pk.eyJ1Ijoic2tyYWxsa2FnZ2VuIiwiYSI6ImNrb3pqMzRuMjBreWoyd254YjdyMmJ6ZG8ifQ.Z0Efmarj4fYhEhA4fYSl-w';
+            var mymap = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/mapbox/streets-v10',
+                zoom: 15
+            });
+
+            var url = "http://localhost:3000/villes/details/ville0/ajax?genre=all"
+
+            $.ajax({
+                type: "GET",
+                url: url,
+                success: function (data, textStatus, jqXHR) {
+                    console.log(data)
+                    var directions = data["directions"];
+                    var description_ville = data["description_ville"];
+                    var list_films = data["list_films"];
+
+                    $("#description_ville").html(description_ville);
+
+                    var route = directions.routes[0].geometry.coordinates;
+                    var geojson = {
+                        type: 'Feature',
+                        properties: {},
+                        geometry: {
+                            type: 'LineString',
+                            coordinates: route
+                        }
+                    };
+
+                    // otherwise, make a new request
+                    mymap.addLayer({
+                        id: 'route',
+                        type: 'line',
+                        source: {
+                            type: 'geojson',
+                            data: geojson
+                        },
+                        layout: {
+                            'line-join': 'round',
+                            'line-cap': 'round'
+                        },
+                        paint: {
+                            'line-color': '#3887be',
+                            'line-width': 5,
+                            'line-opacity': 0.75
+                        }
+                    });
+
+                    mymap.flyTo({
+                        center: route[0]
+                    });
+
+                    add_instructions(directions.routes[0])
+
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    alert("Nombre call api mapbox depassé");
+                },
+                dataType: "json"
+            });
+
         });
 
-        var url = "http://localhost:3000/villes/details/ville0/ajax?genre=all"
+        function add_instructions(data) {
+            var steps = data.legs[0].steps;
+            console.log(steps)
 
-     $.ajax({
-          type: "GET",
-          url: url,
-          success: function(data, textStatus, jqXHR)
-            {
-                console.log(data)
-                var directions = data["directions"];
-                var description_ville = data["description_ville"];
-                var list_films = data["list_films"];
-
-                $("#description_ville").html(description_ville);
-
-                var route = directions.routes[0].geometry.coordinates;
-                var geojson = {
-                  type: 'Feature',
-                  properties: {},
-                  geometry: {
-                    type: 'LineString',
-                    coordinates: route
-                  }
-                };
-
-               // otherwise, make a new request
-                  mymap.addLayer({
-                    id: 'route',
-                    type: 'line',
-                    source: {
-                      type: 'geojson',
-                      data: geojson
-                    },
-                    layout: {
-                      'line-join': 'round',
-                      'line-cap': 'round'
-                    },
-                    paint: {
-                      'line-color': '#3887be',
-                      'line-width': 5,
-                      'line-opacity': 0.75
-                    }
-                  });
-
-                mymap.flyTo({
-                    center: route[0]
-                });
-
-                add_instructions(directions.routes[0])
-
-            },
-            error: function (jqXHR, textStatus, errorThrown)
-            {
-                alert("Nombre call api mapbox depassé");       
-            },
-          dataType: "json"
-        });
-
-    });
-
-    function add_instructions(data)
-    {
-        var steps = data.legs[0].steps;
-        console.log(steps)
-
-        var tripInstructions = [];
-        for (var i = 0; i < steps.length; i++) {
-          tripInstructions.push('<br><li>' + steps[i].maneuver.instruction) + '</li>';
+            var tripInstructions = [];
+            for (var i = 0; i < steps.length; i++) {
+                tripInstructions.push('<br><li>' + steps[i].maneuver.instruction) + '</li>';
+            }
+            $("#instructions").html('<br><span class="duration">Etapes du voyages :  </span>' + tripInstructions);
         }
-        $("#instructions").html('<br><span class="duration">Etapes du voyages :  </span>' + tripInstructions);
-    }
 
-</script>
+    </script>
 </body>
+
 </html>
